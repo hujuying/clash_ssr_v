@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-02 04:32:18
+# 创建时间：2024-07-03 02:07:23
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：57
-# 节点类型：hysteria, trojan, vless, vmess, ss, hysteria2
+# 节点数量：38
+# 节点类型：vless, trojan, vmess, ss, hysteria, hysteria2
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,63 +87,44 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"%25E6%259B%25B4%25E5%25A4%259A%25E5%2585%258D%25E8%25B4%25B9%2520https%3A%2F%2Fgithub.com%2FCry1ngMan%2F1%2520%25E5%2596%259C%25E6%25AC%25A2%25E5%25B0%25B1%25E8%25A6%2581%25E7%2599%25BD%25E5%25AB%2596%25E2%259A%25A1%25EF%25B8%258F%2520%0D","type":"hysteria","server":"62.210.243.131","port":18702,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"dongtaiwang.com","up":55,"down":110}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_1","type":"trojan","server":"38.59.240.180","port":32431,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_2","type":"trojan","server":"185.148.14.231","port":19924,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_3","type":"trojan","server":"43.153.80.208","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
-  - {"name":"更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_1","type":"vless","server":"14.102.228.13","port":2083,"uuid":"775213ac-3976-439a-8977-3277c0e4735d","tls":true,"servername":"fq521.6789.cloudns.be","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"fq521.6789.cloudns.be"}}}
-  - {"name":"更多免费 https://github.com/Cry1ngMan/1 喜欢就要白嫖⚡️ 8\r","type":"trojan","server":"hk.wish.ml","port":2096,"udp":true,"password":"f5abf4d5-90fc-43a4-a29c-3318d89203c4","sni":"cfp.wish.ml","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/proxyIP=jp.cf.zhetengsha.eu.org","headers":{"host":"cfp.wish.ml"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_4","type":"trojan","server":"43.153.103.203","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_5","type":"trojan","server":"185.218.6.209","port":19242,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 18","type":"vless","server":"sg3.speed-mitce.top","port":10013,"udp":true,"uuid":"4DCC281C-484E-41E6-A635-3F40B4BB68E9","tls":true,"servername":"s0.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM","short-id":"01fc5e98a68e5e7b"},"client-fingerprint":"chrome"}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _1","type":"trojan","server":"43.153.103.203","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _2","type":"trojan","server":"43.153.80.208","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
+  - {"name":"更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_1","type":"vless","server":"147.78.140.193","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _3","type":"trojan","server":"185.218.6.209","port":19242,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
   - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 14","type":"vmess","server":"107.148.243.147","port":49998,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.69163438.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.69163438.xyz"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 31\r","type":"ss","server":"5.forlive.live","port":60033,"password":"21e627e4-d856-436d-abd7-5a6f2bd3004f","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 20","type":"vmess","server":"107.148.242.221","port":49998,"cipher":"auto","uuid":"dcca1294-7097-44b7-bd49-5f51c73f532f","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.89294693.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.89294693.xyz"}}}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _4","type":"trojan","server":"211.72.156.10","port":23555,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _5","type":"trojan","server":"60.249.89.74","port":23555,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
   - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 60","type":"vmess","server":"170.178.190.139","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.94054702.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.94054702.xyz"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_6","type":"trojan","server":"60.249.89.74","port":23555,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_7","type":"trojan","server":"211.72.156.17","port":23555,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 11\r","type":"ss","server":"03.forlive.live","port":22233,"password":"978680a2-0568-4fda-997c-3420a7e959a5","cipher":"aes-128-gcm"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 32\r","type":"ss","server":"03.forlive.live","port":22291,"password":"7e5ca263-bf76-463e-bf1a-0c79e7b02eca","cipher":"aes-128-gcm"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_8","type":"ss","server":"yd.cfyun.top","port":10252,"password":"d7fcff5d-e3c6-4d26-aa0a-2af2ab876757","cipher":"aes-128-gcm"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 15","type":"vmess","server":"sui.forlive.live","port":40396,"cipher":"auto","uuid":"c3a5013f-bddd-481b-a9a7-58d262775cb2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_9","type":"trojan","server":"37.123.193.187","port":144,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 2\r","type":"ss","server":"dc3.forlive.live","port":42099,"password":"c165809b-e20b-4663-a6f3-02212d30d50d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 7\r_1","type":"ss","server":"iepl1.forlive.live","port":50101,"password":"144feda1-aee7-36e1-9f09-d857f2af07b3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 13\r","type":"trojan","server":"dc0.forlive.live","port":41010,"udp":true,"password":"4f1b8665-04dc-4245-8a34-8ede02e7813e","sni":"ssl.sbgfw.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_10","type":"trojan","server":"211.72.156.10","port":23555,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_11","type":"ss","server":"yd.cfyun.top","port":10254,"password":"d7fcff5d-e3c6-4d26-aa0a-2af2ab876757","cipher":"aes-128-gcm"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 27\r","type":"ss","server":"03.forlive.live","port":22302,"password":"48301904-6fd5-48a5-b5c4-5e4a3e56eee3","cipher":"aes-128-gcm"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_12","type":"trojan","server":"202.81.235.17","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 24\r","type":"trojan","server":"dc0.forlive.live","port":41003,"udp":true,"password":"f06a6c0a-65e3-40a6-8fcd-a1cb65a37be6","sni":"ssl.sbgfw.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_1","type":"vmess","server":"47.104.186.133","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 23\r","type":"trojan","server":"dc0.forlive.live","port":41024,"udp":true,"password":"b6e12da5-cb82-4c83-b864-a5f63fbf63b9","sni":"ssl.sbgfw.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56_1","type":"vmess","server":"yx1.gyyun.top","port":8880,"cipher":"auto","uuid":"0f03f621-6b62-4438-ab01-655a59c563b7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"doyd1.gyyun.top"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 21\r","type":"ss","server":"04.forlive.live","port":22224,"password":"25751934-2148-45a2-9fab-95aea5c63226","cipher":"aes-128-gcm"}
-  - {"name":"更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_2","type":"vless","server":"154.197.121.13","port":8443,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"mositr.freenods.sbs"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 58","type":"vmess","server":"yx3.gyyun.top","port":8880,"cipher":"auto","uuid":"0f03f621-6b62-4438-ab01-655a59c563b7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"doyd1.gyyun.top"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_13","type":"ss","server":"yd.cfyun.top","port":10253,"password":"d7fcff5d-e3c6-4d26-aa0a-2af2ab876757","cipher":"aes-128-gcm"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 28\r","type":"ss","server":"04.forlive.live","port":22302,"password":"4ec7bd08-88d7-45b6-b207-2181c4085bba","cipher":"aes-128-gcm"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25","type":"vmess","server":"83.142.225.33","port":30000,"cipher":"auto","uuid":"5267ca71-97e6-44c8-8fb5-9fe4afe0954e","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.41825759.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.41825759.xyz"}}}
-  - {"name":"更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_3","type":"vless","server":"147.78.140.193","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 1\r","type":"hysteria2","server":"hk-hy2-1.speed-mitce.top","port":20468,"password":"4DCC281C-484E-41E6-A635-3F40B4BB68E9","sni":"hk-hy2-1.speed-mitce.top","skip-cert-verify":true}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_14","type":"trojan","server":"203.69.248.40","port":27381,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56_2","type":"vmess","server":"134.122.184.63","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.36224588.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.36224588.xyz"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17","type":"vmess","server":"143.92.32.230","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.75068614.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.75068614.xyz"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34","type":"vmess","server":"185.133.40.107","port":443,"cipher":"auto","uuid":"8d78c2a8-acaa-467d-9234-d2606624506d","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.13311625.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.13311625.xyz"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34\r","type":"ss","server":"5.forlive.live","port":60004,"password":"a3b1e9d9-4431-39b8-80fd-35bfbe9bbf97","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16\r","type":"vless","server":"sg1.speed-mitce.top","port":10011,"udp":true,"uuid":"4DCC281C-484E-41E6-A635-3F40B4BB68E9","tls":true,"servername":"s0.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM","short-id":"01fc5e98a68e5e7b"},"client-fingerprint":"chrome"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9\r","type":"vless","server":"jp5.speed-mitce.top","port":10010,"udp":true,"uuid":"4DCC281C-484E-41E6-A635-3F40B4BB68E9","tls":true,"servername":"s0.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM","short-id":"01fc5e98a68e5e7b"},"client-fingerprint":"chrome"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25\r","type":"trojan","server":"dc0.forlive.live","port":61003,"udp":true,"password":"5e86ef21-b4c8-4554-9840-8048364b845d","sni":"ssl.sbgfw.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 7\r_2","type":"vless","server":"jp3.speed-mitce.top","port":10008,"udp":true,"uuid":"4DCC281C-484E-41E6-A635-3F40B4BB68E9","tls":true,"servername":"s0.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM","short-id":"01fc5e98a68e5e7b"},"client-fingerprint":"chrome"}
   - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 52","type":"vmess","server":"107.167.26.10","port":30000,"cipher":"auto","uuid":"b7e0d258-acae-4a1b-8626-49a34706f5bc","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.12594164.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.12594164.xyz"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 3","type":"vmess","server":"144.48.32.10","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.32011779.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.32011779.xyz"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17\r","type":"vless","server":"sg2.speed-mitce.top","port":10012,"udp":true,"uuid":"4DCC281C-484E-41E6-A635-3F40B4BB68E9","tls":true,"servername":"s0.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM","short-id":"01fc5e98a68e5e7b"},"client-fingerprint":"chrome"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 18\r","type":"vless","server":"sg3.speed-mitce.top","port":10013,"udp":true,"uuid":"4DCC281C-484E-41E6-A635-3F40B4BB68E9","tls":true,"servername":"s0.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM","short-id":"01fc5e98a68e5e7b"},"client-fingerprint":"chrome"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 8\r","type":"vless","server":"jp4.speed-mitce.top","port":10009,"udp":true,"uuid":"4DCC281C-484E-41E6-A635-3F40B4BB68E9","tls":true,"servername":"s0.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM","short-id":"01fc5e98a68e5e7b"},"client-fingerprint":"chrome"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_15","type":"trojan","server":"47.57.14.238","port":4328,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 12","type":"vmess","server":"47.92.152.169","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_16","type":"trojan","server":"38.147.188.86","port":8003,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_2","type":"vmess","server":"sui.forlive.live","port":32460,"cipher":"auto","uuid":"cee3b305-3b7e-4e9f-a591-c3389dae50de","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _6","type":"trojan","server":"47.57.14.238","port":4328,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _7","type":"trojan","server":"202.81.235.17","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 19","type":"ss","server":"iepl2.forlive.live","port":50006,"password":"d718e27a-13fb-48b1-9aa3-c3123f96d212","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _8","type":"trojan","server":"aliyun.2096.us.kg","port":2096,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
   - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 40","type":"vmess","server":"148.135.47.53","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.56394545.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.56394545.xyz"}}}
+  - {"name":"%25E6%259B%25B4%25E5%25A4%259A%25E5%2585%258D%25E8%25B4%25B9%2520https%3A%2F%2Fgithub.com%2FCry1ngMan%2F1%2520%25E5%2596%259C%25E6%25AC%25A2%25E5%25B0%25B1%25E8%25A6%2581%25E7%2599%25BD%25E5%25AB%2596%25E2%259A%25A1%25EF%25B8%258F%2520","type":"hysteria","server":"62.210.243.131","port":18702,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"auth_str":"dongtaiwang.com","up":55,"down":110}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_1","type":"vmess","server":"47.104.186.133","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_2","type":"vless","server":"14.102.228.13","port":2083,"uuid":"775213ac-3976-439a-8977-3277c0e4735d","tls":true,"servername":"fq521.6789.cloudns.be","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"fq521.6789.cloudns.be"}}}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25_1","type":"trojan","server":"dc0.forlive.live","port":61003,"udp":true,"password":"5e86ef21-b4c8-4554-9840-8048364b845d","sni":"ssl.sbgfw.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 10","type":"ss","server":"4.forlive.live","port":61002,"password":"415e4e6c-d2ec-4f91-9b5f-87c63ce3805e","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 12","type":"vmess","server":"47.92.152.169","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34_1","type":"vmess","server":"185.133.40.107","port":443,"cipher":"auto","uuid":"8d78c2a8-acaa-467d-9234-d2606624506d","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.13311625.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.13311625.xyz"}}}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 1","type":"hysteria2","server":"hk-hy2-1.speed-mitce.top","port":20468,"password":"4DCC281C-484E-41E6-A635-3F40B4BB68E9","sni":"hk-hy2-1.speed-mitce.top","skip-cert-verify":true}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56","type":"vmess","server":"134.122.184.63","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.36224588.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.36224588.xyz"}}}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9_1","type":"ss","server":"4.forlive.live","port":61001,"password":"9b793587-d4b4-3a0e-8883-0623138f8922","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17_1","type":"vmess","server":"143.92.32.230","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.75068614.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.75068614.xyz"}}}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 31","type":"ss","server":"5.forlive.live","port":60033,"password":"21e627e4-d856-436d-abd7-5a6f2bd3004f","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25_2","type":"vmess","server":"83.142.225.33","port":30000,"cipher":"auto","uuid":"5267ca71-97e6-44c8-8fb5-9fe4afe0954e","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.41825759.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.41825759.xyz"}}}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 21","type":"ss","server":"04.forlive.live","port":22224,"password":"25751934-2148-45a2-9fab-95aea5c63226","cipher":"aes-128-gcm"}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34_2","type":"ss","server":"5.forlive.live","port":60004,"password":"a3b1e9d9-4431-39b8-80fd-35bfbe9bbf97","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 24","type":"trojan","server":"dc0.forlive.live","port":41003,"udp":true,"password":"f06a6c0a-65e3-40a6-8fcd-a1cb65a37be6","sni":"ssl.sbgfw.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 13","type":"trojan","server":"dc0.forlive.live","port":41010,"udp":true,"password":"4f1b8665-04dc-4245-8a34-8ede02e7813e","sni":"ssl.sbgfw.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_3","type":"vless","server":"154.197.121.13","port":8443,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"mositr.freenods.sbs"}}}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_2","type":"vless","server":"sg1.speed-mitce.top","port":10011,"udp":true,"uuid":"4DCC281C-484E-41E6-A635-3F40B4BB68E9","tls":true,"servername":"s0.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM","short-id":"01fc5e98a68e5e7b"},"client-fingerprint":"chrome"}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17_2","type":"vless","server":"sg2.speed-mitce.top","port":10012,"udp":true,"uuid":"4DCC281C-484E-41E6-A635-3F40B4BB68E9","tls":true,"servername":"s0.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM","short-id":"01fc5e98a68e5e7b"},"client-fingerprint":"chrome"}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9_2","type":"vmess","server":"183.240.235.168","port":59003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _9","type":"trojan","server":"211.72.156.17","port":23555,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}},"alpn":["http/1.1"]}
+  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 67","type":"vmess","server":"134.122.135.158","port":48888,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.26741191.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.26741191.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -152,250 +133,174 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      -   %25E6%259B%25B4%25E5%25A4%259A%25E5%2585%258D%25E8%25B4%25B9%2520https%3A%2F%2Fgithub.com%2FCry1ngMan%2F1%2520%25E5%2596%259C%25E6%25AC%25A2%25E5%25B0%25B1%25E8%25A6%2581%25E7%2599%25BD%25E5%25AB%2596%25E2%259A%25A1%25EF%25B8%258F%2520%0D
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_1"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_2"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_3"
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_1"
-      - "更多免费 https://github.com/Cry1ngMan/1 喜欢就要白嫖⚡️ 8\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_4"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_5"
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 18
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _2
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _3
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 14
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 31\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 20
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _4
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _5
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 60
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_6"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_7"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 11\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 32\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_8"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 15
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_9"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 2\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 7\r_1"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 13\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_10"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_11"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 27\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_12"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 24\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_1
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 23\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56_1
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 21\r"
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_2"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 58
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_13"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 28\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_3"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 1\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_14"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56_2
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 7\r_2"
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 52
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 3
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 18\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 8\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_15"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 12
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_16"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _6
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _7
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 19
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _8
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 40
+      -   %25E6%259B%25B4%25E5%25A4%259A%25E5%2585%258D%25E8%25B4%25B9%2520https%3A%2F%2Fgithub.com%2FCry1ngMan%2F1%2520%25E5%2596%259C%25E6%25AC%25A2%25E5%25B0%25B1%25E8%25A6%2581%25E7%2599%25BD%25E5%25AB%2596%25E2%259A%25A1%25EF%25B8%258F%2520
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_1
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 10
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 12
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 31
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 21
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 24
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 13
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_3
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _9
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 67
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      -   %25E6%259B%25B4%25E5%25A4%259A%25E5%2585%258D%25E8%25B4%25B9%2520https%3A%2F%2Fgithub.com%2FCry1ngMan%2F1%2520%25E5%2596%259C%25E6%25AC%25A2%25E5%25B0%25B1%25E8%25A6%2581%25E7%2599%25BD%25E5%25AB%2596%25E2%259A%25A1%25EF%25B8%258F%2520%0D
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_1"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_2"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_3"
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_1"
-      - "更多免费 https://github.com/Cry1ngMan/1 喜欢就要白嫖⚡️ 8\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_4"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_5"
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 18
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _2
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _3
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 14
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 31\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 20
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _4
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _5
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 60
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_6"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_7"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 11\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 32\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_8"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 15
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_9"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 2\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 7\r_1"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 13\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_10"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_11"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 27\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_12"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 24\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_1
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 23\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56_1
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 21\r"
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_2"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 58
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_13"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 28\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_3"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 1\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_14"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56_2
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 7\r_2"
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 52
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 3
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 18\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 8\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_15"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 12
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_16"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _6
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _7
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 19
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _8
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 40
+      -   %25E6%259B%25B4%25E5%25A4%259A%25E5%2585%258D%25E8%25B4%25B9%2520https%3A%2F%2Fgithub.com%2FCry1ngMan%2F1%2520%25E5%2596%259C%25E6%25AC%25A2%25E5%25B0%25B1%25E8%25A6%2581%25E7%2599%25BD%25E5%25AB%2596%25E2%259A%25A1%25EF%25B8%258F%2520
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_1
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 10
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 12
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 31
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 21
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 24
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 13
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_3
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _9
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 67
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      -   %25E6%259B%25B4%25E5%25A4%259A%25E5%2585%258D%25E8%25B4%25B9%2520https%3A%2F%2Fgithub.com%2FCry1ngMan%2F1%2520%25E5%2596%259C%25E6%25AC%25A2%25E5%25B0%25B1%25E8%25A6%2581%25E7%2599%25BD%25E5%25AB%2596%25E2%259A%25A1%25EF%25B8%258F%2520%0D
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_1"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_2"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_3"
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_1"
-      - "更多免费 https://github.com/Cry1ngMan/1 喜欢就要白嫖⚡️ 8\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_4"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_5"
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 18
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _2
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _3
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 14
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 31\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 20
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _4
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _5
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 60
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_6"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_7"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 11\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 32\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_8"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 15
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_9"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 2\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 7\r_1"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 13\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_10"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_11"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 27\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_12"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 24\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_1
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 23\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56_1
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 21\r"
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_2"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 58
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_13"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 28\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_3"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 1\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_14"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56_2
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 7\r_2"
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 52
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 3
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 18\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 8\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_15"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 12
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_16"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _6
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _7
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 19
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _8
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 40
+      -   %25E6%259B%25B4%25E5%25A4%259A%25E5%2585%258D%25E8%25B4%25B9%2520https%3A%2F%2Fgithub.com%2FCry1ngMan%2F1%2520%25E5%2596%259C%25E6%25AC%25A2%25E5%25B0%25B1%25E8%25A6%2581%25E7%2599%25BD%25E5%25AB%2596%25E2%259A%25A1%25EF%25B8%258F%2520
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_1
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 10
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 12
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 31
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 21
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 24
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 13
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_3
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _9
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 67
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      -   %25E6%259B%25B4%25E5%25A4%259A%25E5%2585%258D%25E8%25B4%25B9%2520https%3A%2F%2Fgithub.com%2FCry1ngMan%2F1%2520%25E5%2596%259C%25E6%25AC%25A2%25E5%25B0%25B1%25E8%25A6%2581%25E7%2599%25BD%25E5%25AB%2596%25E2%259A%25A1%25EF%25B8%258F%2520%0D
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_1"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_2"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_3"
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_1"
-      - "更多免费 https://github.com/Cry1ngMan/1 喜欢就要白嫖⚡️ 8\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_4"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_5"
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 18
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _2
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _3
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 14
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 31\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 20
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _4
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _5
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 60
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_6"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_7"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 11\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 32\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_8"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 15
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_9"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 2\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 7\r_1"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 13\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_10"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_11"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 27\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_12"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 24\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_1
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 23\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56_1
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 21\r"
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_2"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 58
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_13"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 28\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_3"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 1\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_14"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56_2
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 7\r_2"
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 52
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 3
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 18\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 8\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_15"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 12
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_16"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _6
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _7
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 19
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _8
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 40
+      -   %25E6%259B%25B4%25E5%25A4%259A%25E5%2585%258D%25E8%25B4%25B9%2520https%3A%2F%2Fgithub.com%2FCry1ngMan%2F1%2520%25E5%2596%259C%25E6%25AC%25A2%25E5%25B0%25B1%25E8%25A6%2581%25E7%2599%25BD%25E5%25AB%2596%25E2%259A%25A1%25EF%25B8%258F%2520
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_1
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 10
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 12
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 31
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 21
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 24
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 13
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_3
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _9
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 67
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -415,63 +320,44 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      -   %25E6%259B%25B4%25E5%25A4%259A%25E5%2585%258D%25E8%25B4%25B9%2520https%3A%2F%2Fgithub.com%2FCry1ngMan%2F1%2520%25E5%2596%259C%25E6%25AC%25A2%25E5%25B0%25B1%25E8%25A6%2581%25E7%2599%25BD%25E5%25AB%2596%25E2%259A%25A1%25EF%25B8%258F%2520%0D
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_1"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_2"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_3"
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_1"
-      - "更多免费 https://github.com/Cry1ngMan/1 喜欢就要白嫖⚡️ 8\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_4"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_5"
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 18
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _2
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _3
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 14
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 31\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 20
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _4
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _5
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 60
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_6"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_7"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 11\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 32\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_8"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 15
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_9"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 2\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 7\r_1"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 13\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_10"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_11"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 27\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_12"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 24\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_1
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 23\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56_1
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 21\r"
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_2"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 58
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_13"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 28\r"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25
-      - "更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+\r_3"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 1\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_14"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56_2
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 7\r_2"
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 52
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 3
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 18\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 8\r"
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_15"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 12
-      - "公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ \r_16"
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _6
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _7
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 19
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _8
       - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 40
+      -   %25E6%259B%25B4%25E5%25A4%259A%25E5%2585%258D%25E8%25B4%25B9%2520https%3A%2F%2Fgithub.com%2FCry1ngMan%2F1%2520%25E5%2596%259C%25E6%25AC%25A2%25E5%25B0%25B1%25E8%25A6%2581%25E7%2599%25BD%25E5%25AB%2596%25E2%259A%25A1%25EF%25B8%258F%2520
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_1
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 10
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 12
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 56
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17_1
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 31
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 25_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 21
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 34_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 24
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 13
+      - 更多免费+https://github.com/Cry1ngMan/1+喜欢就要白嫖⚡️+_3
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 16_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 17_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 9_2
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ _9
+      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 67
 
 rules:
 # 本地/局域网地址
