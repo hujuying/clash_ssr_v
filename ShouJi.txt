@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-02 04:31:24
+# 创建时间：2024-07-03 02:06:23
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：15
+# 节点数量：69
 # 节点类型：vmess, trojan
 ####################################
 mixed-port: 7890
@@ -86,20 +86,74 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Relay_ |45.99Mb","type":"vmess","server":"104.19.45.13","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
-  - {"name":"/海外专用/+日本-TROJAN-01(Trojan+Japan01)\r","type":"trojan","server":"tj-jp01.yiyo2way.xyz","port":9980,"udp":true,"password":"4179ca8a-d210-34c2-9d17-125377a5abd2","sni":"tj-jp01.yiyo2way.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Relay_ |77.31Mb","type":"vmess","server":"23.105.220.235","port":9306,"cipher":"auto","uuid":"33e3f07a-b82b-4629-bd6a-e720da213afd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"vms-us-v6.412500.space","network":"ws","ws-opts":{"path":"/yezhu","headers":{"host":"vms-us-v6.412500.space"}}}
-  - {"name":"Relay_ | 7.00Mb","type":"vmess","server":"104.19.21.63","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
-  - {"name":"Relay_ | 6.64Mb","type":"vmess","server":"104.19.58.175","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_164 |183.99Mb","type":"vmess","server":"104.19.45.90","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
   - {"name":" | 1.74Mb","type":"vmess","server":"47.104.186.133","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay_ |28.90Mb","type":"vmess","server":"104.19.38.88","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip5-4.freegradely.xyz"}}}
   - {"name":" | 3.32Mb","type":"vmess","server":"47.92.152.169","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"Relay_ |245.16Mb","type":"vmess","server":"104.20.17.186","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
+  - {"name":"hkaa0.shop|中国","type":"trojan","server":"223.113.54.154","port":20344,"udp":true,"password":"RmdXQRXg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Relay_ | 7.00Mb","type":"vmess","server":"104.19.21.63","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
   - {"name":" |18.08Mb","type":"vmess","server":"104.19.46.233","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip002-2.dtku47.xyz"}}}
-  - {"name":" | 7.14Mb","type":"vmess","server":"114.55.132.202","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"Relay_ |172.81Mb","type":"vmess","server":"104.19.46.59","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
-  - {"name":"Relay_ |220.28Mb","type":"vmess","server":"104.19.45.35","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
-  - {"name":"hkaa0.shop|中国\r","type":"trojan","server":"223.113.54.154","port":20344,"udp":true,"password":"RmdXQRXg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":" | 7.14Mb","type":"vmess","server":"114.55.132.202","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_155 |249.03Mb","type":"vmess","server":"104.19.45.17","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇬🇮GI_150 |28.09Mb","type":"vmess","server":"104.18.51.238","port":80,"cipher":"auto","uuid":"43ac3b21-2e9b-4a7c-aef6-2e4b8f73ce2f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"127.0.0.1.kleksacademy.克萊克斯學院.aкадемияkлекс.警笛.wonkacapitano.buzz."}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_162 |268.69Mb","type":"vmess","server":"104.18.57.111","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_76 |83.67Mb","type":"vmess","server":"zula.ir","port":443,"cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
+  - {"name":"Relay_🏁ZZ-🇧🇪BE_129 |80.33Mb","type":"vmess","server":"sareikela.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"sareikela.com"}}}
+  - {"name":"Relay_🏁ZZ-🇧🇪BE_117 |33.70Mb","type":"vmess","server":"to.tilebani.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"to.tilebani.com"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_121 |144.84Mb","type":"vmess","server":"hms082.gwdef.sbs","port":443,"cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_156 |184.29Mb","type":"vmess","server":"104.19.45.19","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_105 |190.45Mb","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":8080,"cipher":"auto","uuid":"d22e082c-3742-421f-aabd-2511eec9148c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/f8ZKTGaGoC/","headers":{"host":"us5PhAx6xsj.fzbqfrse.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_112 |266.08Mb","type":"vmess","server":"104.19.45.50","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_148 |226.05Mb","type":"vmess","server":"104.19.38.18","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_141","type":"vmess","server":"cfcdn3.sanfencdn9.com","port":80,"cipher":"auto","uuid":"d22e082c-3742-421f-aabd-2511eec9148c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/X37qXHip","headers":{"host":"6Sn8mFtTjp3.yofnhkfc.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_139 |27.57Mb","type":"vmess","server":"104.19.45.80","port":8443,"cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk01.leleles.us","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.leleles.us"}}}
+  - {"name":"Relay_-🇬🇮GI_06 | 3.06Mb","type":"vmess","server":"kz-v2ray.ipracevpn.com","port":2083,"cipher":"auto","uuid":"d19b7c3b-d183-4bd8-9917-fec99ed81698","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_109","type":"vmess","server":"104.21.94.64","port":443,"cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"linja05.hwcar.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_108 |15.69Mb","type":"vmess","server":"104.19.48.26","port":8443,"cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk01.linkitnow.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.linkitnow.net"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_154 | 7.04Mb","type":"vmess","server":"104.19.46.103","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"🏁ZZ_114 |22.02Mb","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"23.162.200.227","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"23.162.200.227"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_137 |15.77Mb","type":"vmess","server":"104.19.21.73","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_161 |275.49Mb","type":"vmess","server":"104.19.45.31","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_153 |72.44Mb","type":"vmess","server":"104.19.45.47","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_159 |235.86Mb","type":"vmess","server":"104.19.46.39","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_103 |22.78Mb","type":"vmess","server":"104.19.48.23","port":8443,"cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk01.linkitnow.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.linkitnow.net"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_123 |19.72Mb","type":"vmess","server":"104.19.47.54","port":8443,"cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk01.linkitnow.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.linkitnow.net"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_149 |141.59Mb","type":"vmess","server":"104.19.46.36","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"Relay_🇺🇸US-🇨🇦CA_74 |198.34Mb","type":"vmess","server":"172.64.175.213","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_140 |16.79Mb","type":"vmess","server":"104.19.47.59","port":8443,"cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk01.linkitnow.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.linkitnow.net"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_134 |31.60Mb","type":"vmess","server":"104.19.47.194","port":8443,"cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk01.linkitnow.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.linkitnow.net"}}}
+  - {"name":"Relay_🇺🇸US-🇨🇦CA_81 |214.59Mb","type":"vmess","server":"172.64.99.22","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_145 |286.60Mb","type":"vmess","server":"104.19.47.65","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11-2.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_144 |230.20Mb","type":"vmess","server":"104.19.55.49","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_135 |117.49Mb","type":"vmess","server":"104.19.123.11","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇫🇷FR_163","type":"vmess","server":"104.21.8.157","port":2082,"cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_130 |29.13Mb","type":"vmess","server":"cfcdn2.sanfencdn9.com","port":2052,"cipher":"auto","uuid":"d22e082c-3742-421f-aabd-2511eec9148c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/VuDFdktz","headers":{"host":"zifstzamhk1.yofnhkfc.xyz"}}}
+  - {"name":"🏁ZZ_157 |247.80Mb","type":"vmess","server":"104.19.32.46","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip002-3.dtku47.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_142 |248.85Mb","type":"vmess","server":"104.19.46.33","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇧🇪BE_126 |84.14Mb","type":"vmess","server":"104.21.95.165","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sareikela.com","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"sareikela.com"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_124 |14.77Mb","type":"vmess","server":"104.19.21.81","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_102 |31.78Mb","type":"vmess","server":"104.19.47.199","port":8443,"cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk01.linkitnow.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.linkitnow.net"}}}
+  - {"name":"Relay_ |45.99Mb","type":"vmess","server":"104.19.45.13","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_128 |100.41Mb","type":"vmess","server":"104.19.46.17","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_106 |16.94Mb","type":"vmess","server":"104.19.48.0","port":8443,"cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk01.linkitnow.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.linkitnow.net"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_115 |31.59Mb","type":"vmess","server":"104.19.48.11","port":8443,"cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk01.linkitnow.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.linkitnow.net"}}}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_70 |272.98Mb","type":"vmess","server":"172.67.131.108","port":443,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_127 |26.50Mb","type":"vmess","server":"104.19.47.217","port":8443,"cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk01.linkitnow.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.linkitnow.net"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_120 |13.94Mb","type":"vmess","server":"104.19.48.35","port":8443,"cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk01.linkitnow.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.linkitnow.net"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_160 |109.84Mb","type":"vmess","server":"104.19.57.4","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_122 |24.91Mb","type":"vmess","server":"104.19.48.16","port":8443,"cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk01.linkitnow.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.linkitnow.net"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_133 |288.57Mb","type":"vmess","server":"104.19.45.15","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_131 |19.69Mb","type":"vmess","server":"104.19.45.73","port":8443,"cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk01.leleles.us","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.leleles.us"}}}
+  - {"name":"Relay_🇨🇴CO-🇫🇷FR_27","type":"vmess","server":"188.114.97.7","port":443,"cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"linde06.indiavideo.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
+  - {"name":"🇺🇸US_69 |288.20Mb","type":"vmess","server":"107.167.20.178","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/191019072927"}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_116 |21.26Mb","type":"vmess","server":"104.19.46.22","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇦UA_143","type":"vmess","server":"104.17.148.128","port":80,"cipher":"auto","uuid":"2d14e84b-226b-412a-9a3c-ffce70b02bdf","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"127.0.0.1.dl.эврика.mrarsha.尤里卡.醫生.специалист.wonkacapitano.buzz."}}}
+  - {"name":"_04 | 2.20Mb","type":"vmess","server":"46.29.163.158","port":11811,"cipher":"auto","uuid":"0de1ee2b-92d7-4ca8-9f0e-64e89f5e5f6d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US_80 |86.57Mb","type":"vmess","server":"38.95.233.222","port":80,"cipher":"auto","uuid":"41fcf4ae-9266-422f-f730-b1ff57bb0345","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"38.95.233.222"}}}
+  - {"name":"🇨🇳CN_19 |12.36Mb","type":"vmess","server":"120.210.205.82","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳CN_17 | 1.88Mb","type":"vmess","server":"47.116.173.76","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳CN_21 | 2.45Mb","type":"vmess","server":"112.132.212.19","port":50004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":" |24.68Mb","type":"vmess","server":"112.132.215.12","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
@@ -109,20 +163,74 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - Relay_ |45.99Mb
-      - "/海外专用/+日本-TROJAN-01(Trojan+Japan01)\r"
-      - Relay_ |77.31Mb
-      - Relay_ | 7.00Mb
-      - Relay_ | 6.64Mb
+      - Relay_🏁ZZ-🇨🇦CA_164 |183.99Mb
       - ' | 1.74Mb'
-      - Relay_ |28.90Mb
       - ' | 3.32Mb'
       - Relay_ |245.16Mb
+      - hkaa0.shop|中国
+      - Relay_ | 7.00Mb
       - ' |18.08Mb'
-      - ' | 7.14Mb'
       - Relay_ |172.81Mb
-      - Relay_ |220.28Mb
-      - "hkaa0.shop|中国\r"
+      - ' | 7.14Mb'
+      - Relay_🏁ZZ-🇨🇦CA_155 |249.03Mb
+      - Relay_🏁ZZ-🇬🇮GI_150 |28.09Mb
+      - Relay_🏁ZZ-🇨🇦CA_162 |268.69Mb
+      - Relay_🇺🇸US-🇺🇸US_76 |83.67Mb
+      - Relay_🏁ZZ-🇧🇪BE_129 |80.33Mb
+      - Relay_🏁ZZ-🇧🇪BE_117 |33.70Mb
+      - Relay_🏁ZZ-🇺🇸US_121 |144.84Mb
+      - Relay_🏁ZZ-🇨🇦CA_156 |184.29Mb
+      - Relay_🏁ZZ-🇺🇸US_105 |190.45Mb
+      - Relay_🏁ZZ-🇨🇦CA_112 |266.08Mb
+      - Relay_🏁ZZ-🇨🇦CA_148 |226.05Mb
+      - Relay_🏁ZZ-🇺🇸US_141
+      - Relay_🏁ZZ-🇺🇸US_139 |27.57Mb
+      - Relay_-🇬🇮GI_06 | 3.06Mb
+      - Relay_🏁ZZ-🇺🇸US_109
+      - Relay_🏁ZZ-🇺🇸US_108 |15.69Mb
+      - Relay_🏁ZZ-🇨🇦CA_154 | 7.04Mb
+      - 🏁ZZ_114 |22.02Mb
+      - Relay_🏁ZZ-🇨🇦CA_137 |15.77Mb
+      - Relay_🏁ZZ-🇨🇦CA_161 |275.49Mb
+      - Relay_🏁ZZ-🇨🇦CA_153 |72.44Mb
+      - Relay_🏁ZZ-🇨🇦CA_159 |235.86Mb
+      - Relay_🏁ZZ-🇺🇸US_103 |22.78Mb
+      - Relay_🏁ZZ-🇺🇸US_123 |19.72Mb
+      - Relay_🏁ZZ-🇨🇦CA_149 |141.59Mb
+      - Relay_🇺🇸US-🇨🇦CA_74 |198.34Mb
+      - Relay_🏁ZZ-🇺🇸US_140 |16.79Mb
+      - Relay_🏁ZZ-🇺🇸US_134 |31.60Mb
+      - Relay_🇺🇸US-🇨🇦CA_81 |214.59Mb
+      - Relay_🏁ZZ-🇨🇦CA_145 |286.60Mb
+      - Relay_🏁ZZ-🇨🇦CA_144 |230.20Mb
+      - Relay_🏁ZZ-🇨🇦CA_135 |117.49Mb
+      - Relay_🏁ZZ-🇫🇷FR_163
+      - Relay_🏁ZZ-🇺🇸US_130 |29.13Mb
+      - 🏁ZZ_157 |247.80Mb
+      - Relay_🏁ZZ-🇨🇦CA_142 |248.85Mb
+      - Relay_🏁ZZ-🇧🇪BE_126 |84.14Mb
+      - Relay_🏁ZZ-🇨🇦CA_124 |14.77Mb
+      - Relay_🏁ZZ-🇺🇸US_102 |31.78Mb
+      - Relay_ |45.99Mb
+      - Relay_🏁ZZ-🇨🇦CA_128 |100.41Mb
+      - Relay_🏁ZZ-🇺🇸US_106 |16.94Mb
+      - Relay_🏁ZZ-🇺🇸US_115 |31.59Mb
+      - Relay_🇺🇸US-🇺🇸US_70 |272.98Mb
+      - Relay_🏁ZZ-🇺🇸US_127 |26.50Mb
+      - Relay_🏁ZZ-🇺🇸US_120 |13.94Mb
+      - Relay_🏁ZZ-🇨🇦CA_160 |109.84Mb
+      - Relay_🏁ZZ-🇺🇸US_122 |24.91Mb
+      - Relay_🏁ZZ-🇨🇦CA_133 |288.57Mb
+      - Relay_🏁ZZ-🇺🇸US_131 |19.69Mb
+      - Relay_🇨🇴CO-🇫🇷FR_27
+      - 🇺🇸US_69 |288.20Mb
+      - Relay_🏁ZZ-🇨🇦CA_116 |21.26Mb
+      - Relay_🏁ZZ-🇺🇦UA_143
+      - _04 | 2.20Mb
+      - 🇺🇸US_80 |86.57Mb
+      - 🇨🇳CN_19 |12.36Mb
+      - 🇨🇳CN_17 | 1.88Mb
+      - 🇨🇳CN_21 | 2.45Mb
       - ' |24.68Mb'
   - name: ♻️ 自动选择
     type: url-test
@@ -130,60 +238,222 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_ |45.99Mb
-      - "/海外专用/+日本-TROJAN-01(Trojan+Japan01)\r"
-      - Relay_ |77.31Mb
-      - Relay_ | 7.00Mb
-      - Relay_ | 6.64Mb
+      - Relay_🏁ZZ-🇨🇦CA_164 |183.99Mb
       - ' | 1.74Mb'
-      - Relay_ |28.90Mb
       - ' | 3.32Mb'
       - Relay_ |245.16Mb
+      - hkaa0.shop|中国
+      - Relay_ | 7.00Mb
       - ' |18.08Mb'
-      - ' | 7.14Mb'
       - Relay_ |172.81Mb
-      - Relay_ |220.28Mb
-      - "hkaa0.shop|中国\r"
+      - ' | 7.14Mb'
+      - Relay_🏁ZZ-🇨🇦CA_155 |249.03Mb
+      - Relay_🏁ZZ-🇬🇮GI_150 |28.09Mb
+      - Relay_🏁ZZ-🇨🇦CA_162 |268.69Mb
+      - Relay_🇺🇸US-🇺🇸US_76 |83.67Mb
+      - Relay_🏁ZZ-🇧🇪BE_129 |80.33Mb
+      - Relay_🏁ZZ-🇧🇪BE_117 |33.70Mb
+      - Relay_🏁ZZ-🇺🇸US_121 |144.84Mb
+      - Relay_🏁ZZ-🇨🇦CA_156 |184.29Mb
+      - Relay_🏁ZZ-🇺🇸US_105 |190.45Mb
+      - Relay_🏁ZZ-🇨🇦CA_112 |266.08Mb
+      - Relay_🏁ZZ-🇨🇦CA_148 |226.05Mb
+      - Relay_🏁ZZ-🇺🇸US_141
+      - Relay_🏁ZZ-🇺🇸US_139 |27.57Mb
+      - Relay_-🇬🇮GI_06 | 3.06Mb
+      - Relay_🏁ZZ-🇺🇸US_109
+      - Relay_🏁ZZ-🇺🇸US_108 |15.69Mb
+      - Relay_🏁ZZ-🇨🇦CA_154 | 7.04Mb
+      - 🏁ZZ_114 |22.02Mb
+      - Relay_🏁ZZ-🇨🇦CA_137 |15.77Mb
+      - Relay_🏁ZZ-🇨🇦CA_161 |275.49Mb
+      - Relay_🏁ZZ-🇨🇦CA_153 |72.44Mb
+      - Relay_🏁ZZ-🇨🇦CA_159 |235.86Mb
+      - Relay_🏁ZZ-🇺🇸US_103 |22.78Mb
+      - Relay_🏁ZZ-🇺🇸US_123 |19.72Mb
+      - Relay_🏁ZZ-🇨🇦CA_149 |141.59Mb
+      - Relay_🇺🇸US-🇨🇦CA_74 |198.34Mb
+      - Relay_🏁ZZ-🇺🇸US_140 |16.79Mb
+      - Relay_🏁ZZ-🇺🇸US_134 |31.60Mb
+      - Relay_🇺🇸US-🇨🇦CA_81 |214.59Mb
+      - Relay_🏁ZZ-🇨🇦CA_145 |286.60Mb
+      - Relay_🏁ZZ-🇨🇦CA_144 |230.20Mb
+      - Relay_🏁ZZ-🇨🇦CA_135 |117.49Mb
+      - Relay_🏁ZZ-🇫🇷FR_163
+      - Relay_🏁ZZ-🇺🇸US_130 |29.13Mb
+      - 🏁ZZ_157 |247.80Mb
+      - Relay_🏁ZZ-🇨🇦CA_142 |248.85Mb
+      - Relay_🏁ZZ-🇧🇪BE_126 |84.14Mb
+      - Relay_🏁ZZ-🇨🇦CA_124 |14.77Mb
+      - Relay_🏁ZZ-🇺🇸US_102 |31.78Mb
+      - Relay_ |45.99Mb
+      - Relay_🏁ZZ-🇨🇦CA_128 |100.41Mb
+      - Relay_🏁ZZ-🇺🇸US_106 |16.94Mb
+      - Relay_🏁ZZ-🇺🇸US_115 |31.59Mb
+      - Relay_🇺🇸US-🇺🇸US_70 |272.98Mb
+      - Relay_🏁ZZ-🇺🇸US_127 |26.50Mb
+      - Relay_🏁ZZ-🇺🇸US_120 |13.94Mb
+      - Relay_🏁ZZ-🇨🇦CA_160 |109.84Mb
+      - Relay_🏁ZZ-🇺🇸US_122 |24.91Mb
+      - Relay_🏁ZZ-🇨🇦CA_133 |288.57Mb
+      - Relay_🏁ZZ-🇺🇸US_131 |19.69Mb
+      - Relay_🇨🇴CO-🇫🇷FR_27
+      - 🇺🇸US_69 |288.20Mb
+      - Relay_🏁ZZ-🇨🇦CA_116 |21.26Mb
+      - Relay_🏁ZZ-🇺🇦UA_143
+      - _04 | 2.20Mb
+      - 🇺🇸US_80 |86.57Mb
+      - 🇨🇳CN_19 |12.36Mb
+      - 🇨🇳CN_17 | 1.88Mb
+      - 🇨🇳CN_21 | 2.45Mb
       - ' |24.68Mb'
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Relay_ |45.99Mb
-      - "/海外专用/+日本-TROJAN-01(Trojan+Japan01)\r"
-      - Relay_ |77.31Mb
-      - Relay_ | 7.00Mb
-      - Relay_ | 6.64Mb
+      - Relay_🏁ZZ-🇨🇦CA_164 |183.99Mb
       - ' | 1.74Mb'
-      - Relay_ |28.90Mb
       - ' | 3.32Mb'
       - Relay_ |245.16Mb
+      - hkaa0.shop|中国
+      - Relay_ | 7.00Mb
       - ' |18.08Mb'
-      - ' | 7.14Mb'
       - Relay_ |172.81Mb
-      - Relay_ |220.28Mb
-      - "hkaa0.shop|中国\r"
+      - ' | 7.14Mb'
+      - Relay_🏁ZZ-🇨🇦CA_155 |249.03Mb
+      - Relay_🏁ZZ-🇬🇮GI_150 |28.09Mb
+      - Relay_🏁ZZ-🇨🇦CA_162 |268.69Mb
+      - Relay_🇺🇸US-🇺🇸US_76 |83.67Mb
+      - Relay_🏁ZZ-🇧🇪BE_129 |80.33Mb
+      - Relay_🏁ZZ-🇧🇪BE_117 |33.70Mb
+      - Relay_🏁ZZ-🇺🇸US_121 |144.84Mb
+      - Relay_🏁ZZ-🇨🇦CA_156 |184.29Mb
+      - Relay_🏁ZZ-🇺🇸US_105 |190.45Mb
+      - Relay_🏁ZZ-🇨🇦CA_112 |266.08Mb
+      - Relay_🏁ZZ-🇨🇦CA_148 |226.05Mb
+      - Relay_🏁ZZ-🇺🇸US_141
+      - Relay_🏁ZZ-🇺🇸US_139 |27.57Mb
+      - Relay_-🇬🇮GI_06 | 3.06Mb
+      - Relay_🏁ZZ-🇺🇸US_109
+      - Relay_🏁ZZ-🇺🇸US_108 |15.69Mb
+      - Relay_🏁ZZ-🇨🇦CA_154 | 7.04Mb
+      - 🏁ZZ_114 |22.02Mb
+      - Relay_🏁ZZ-🇨🇦CA_137 |15.77Mb
+      - Relay_🏁ZZ-🇨🇦CA_161 |275.49Mb
+      - Relay_🏁ZZ-🇨🇦CA_153 |72.44Mb
+      - Relay_🏁ZZ-🇨🇦CA_159 |235.86Mb
+      - Relay_🏁ZZ-🇺🇸US_103 |22.78Mb
+      - Relay_🏁ZZ-🇺🇸US_123 |19.72Mb
+      - Relay_🏁ZZ-🇨🇦CA_149 |141.59Mb
+      - Relay_🇺🇸US-🇨🇦CA_74 |198.34Mb
+      - Relay_🏁ZZ-🇺🇸US_140 |16.79Mb
+      - Relay_🏁ZZ-🇺🇸US_134 |31.60Mb
+      - Relay_🇺🇸US-🇨🇦CA_81 |214.59Mb
+      - Relay_🏁ZZ-🇨🇦CA_145 |286.60Mb
+      - Relay_🏁ZZ-🇨🇦CA_144 |230.20Mb
+      - Relay_🏁ZZ-🇨🇦CA_135 |117.49Mb
+      - Relay_🏁ZZ-🇫🇷FR_163
+      - Relay_🏁ZZ-🇺🇸US_130 |29.13Mb
+      - 🏁ZZ_157 |247.80Mb
+      - Relay_🏁ZZ-🇨🇦CA_142 |248.85Mb
+      - Relay_🏁ZZ-🇧🇪BE_126 |84.14Mb
+      - Relay_🏁ZZ-🇨🇦CA_124 |14.77Mb
+      - Relay_🏁ZZ-🇺🇸US_102 |31.78Mb
+      - Relay_ |45.99Mb
+      - Relay_🏁ZZ-🇨🇦CA_128 |100.41Mb
+      - Relay_🏁ZZ-🇺🇸US_106 |16.94Mb
+      - Relay_🏁ZZ-🇺🇸US_115 |31.59Mb
+      - Relay_🇺🇸US-🇺🇸US_70 |272.98Mb
+      - Relay_🏁ZZ-🇺🇸US_127 |26.50Mb
+      - Relay_🏁ZZ-🇺🇸US_120 |13.94Mb
+      - Relay_🏁ZZ-🇨🇦CA_160 |109.84Mb
+      - Relay_🏁ZZ-🇺🇸US_122 |24.91Mb
+      - Relay_🏁ZZ-🇨🇦CA_133 |288.57Mb
+      - Relay_🏁ZZ-🇺🇸US_131 |19.69Mb
+      - Relay_🇨🇴CO-🇫🇷FR_27
+      - 🇺🇸US_69 |288.20Mb
+      - Relay_🏁ZZ-🇨🇦CA_116 |21.26Mb
+      - Relay_🏁ZZ-🇺🇦UA_143
+      - _04 | 2.20Mb
+      - 🇺🇸US_80 |86.57Mb
+      - 🇨🇳CN_19 |12.36Mb
+      - 🇨🇳CN_17 | 1.88Mb
+      - 🇨🇳CN_21 | 2.45Mb
       - ' |24.68Mb'
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Relay_ |45.99Mb
-      - "/海外专用/+日本-TROJAN-01(Trojan+Japan01)\r"
-      - Relay_ |77.31Mb
-      - Relay_ | 7.00Mb
-      - Relay_ | 6.64Mb
+      - Relay_🏁ZZ-🇨🇦CA_164 |183.99Mb
       - ' | 1.74Mb'
-      - Relay_ |28.90Mb
       - ' | 3.32Mb'
       - Relay_ |245.16Mb
+      - hkaa0.shop|中国
+      - Relay_ | 7.00Mb
       - ' |18.08Mb'
-      - ' | 7.14Mb'
       - Relay_ |172.81Mb
-      - Relay_ |220.28Mb
-      - "hkaa0.shop|中国\r"
+      - ' | 7.14Mb'
+      - Relay_🏁ZZ-🇨🇦CA_155 |249.03Mb
+      - Relay_🏁ZZ-🇬🇮GI_150 |28.09Mb
+      - Relay_🏁ZZ-🇨🇦CA_162 |268.69Mb
+      - Relay_🇺🇸US-🇺🇸US_76 |83.67Mb
+      - Relay_🏁ZZ-🇧🇪BE_129 |80.33Mb
+      - Relay_🏁ZZ-🇧🇪BE_117 |33.70Mb
+      - Relay_🏁ZZ-🇺🇸US_121 |144.84Mb
+      - Relay_🏁ZZ-🇨🇦CA_156 |184.29Mb
+      - Relay_🏁ZZ-🇺🇸US_105 |190.45Mb
+      - Relay_🏁ZZ-🇨🇦CA_112 |266.08Mb
+      - Relay_🏁ZZ-🇨🇦CA_148 |226.05Mb
+      - Relay_🏁ZZ-🇺🇸US_141
+      - Relay_🏁ZZ-🇺🇸US_139 |27.57Mb
+      - Relay_-🇬🇮GI_06 | 3.06Mb
+      - Relay_🏁ZZ-🇺🇸US_109
+      - Relay_🏁ZZ-🇺🇸US_108 |15.69Mb
+      - Relay_🏁ZZ-🇨🇦CA_154 | 7.04Mb
+      - 🏁ZZ_114 |22.02Mb
+      - Relay_🏁ZZ-🇨🇦CA_137 |15.77Mb
+      - Relay_🏁ZZ-🇨🇦CA_161 |275.49Mb
+      - Relay_🏁ZZ-🇨🇦CA_153 |72.44Mb
+      - Relay_🏁ZZ-🇨🇦CA_159 |235.86Mb
+      - Relay_🏁ZZ-🇺🇸US_103 |22.78Mb
+      - Relay_🏁ZZ-🇺🇸US_123 |19.72Mb
+      - Relay_🏁ZZ-🇨🇦CA_149 |141.59Mb
+      - Relay_🇺🇸US-🇨🇦CA_74 |198.34Mb
+      - Relay_🏁ZZ-🇺🇸US_140 |16.79Mb
+      - Relay_🏁ZZ-🇺🇸US_134 |31.60Mb
+      - Relay_🇺🇸US-🇨🇦CA_81 |214.59Mb
+      - Relay_🏁ZZ-🇨🇦CA_145 |286.60Mb
+      - Relay_🏁ZZ-🇨🇦CA_144 |230.20Mb
+      - Relay_🏁ZZ-🇨🇦CA_135 |117.49Mb
+      - Relay_🏁ZZ-🇫🇷FR_163
+      - Relay_🏁ZZ-🇺🇸US_130 |29.13Mb
+      - 🏁ZZ_157 |247.80Mb
+      - Relay_🏁ZZ-🇨🇦CA_142 |248.85Mb
+      - Relay_🏁ZZ-🇧🇪BE_126 |84.14Mb
+      - Relay_🏁ZZ-🇨🇦CA_124 |14.77Mb
+      - Relay_🏁ZZ-🇺🇸US_102 |31.78Mb
+      - Relay_ |45.99Mb
+      - Relay_🏁ZZ-🇨🇦CA_128 |100.41Mb
+      - Relay_🏁ZZ-🇺🇸US_106 |16.94Mb
+      - Relay_🏁ZZ-🇺🇸US_115 |31.59Mb
+      - Relay_🇺🇸US-🇺🇸US_70 |272.98Mb
+      - Relay_🏁ZZ-🇺🇸US_127 |26.50Mb
+      - Relay_🏁ZZ-🇺🇸US_120 |13.94Mb
+      - Relay_🏁ZZ-🇨🇦CA_160 |109.84Mb
+      - Relay_🏁ZZ-🇺🇸US_122 |24.91Mb
+      - Relay_🏁ZZ-🇨🇦CA_133 |288.57Mb
+      - Relay_🏁ZZ-🇺🇸US_131 |19.69Mb
+      - Relay_🇨🇴CO-🇫🇷FR_27
+      - 🇺🇸US_69 |288.20Mb
+      - Relay_🏁ZZ-🇨🇦CA_116 |21.26Mb
+      - Relay_🏁ZZ-🇺🇦UA_143
+      - _04 | 2.20Mb
+      - 🇺🇸US_80 |86.57Mb
+      - 🇨🇳CN_19 |12.36Mb
+      - 🇨🇳CN_17 | 1.88Mb
+      - 🇨🇳CN_21 | 2.45Mb
       - ' |24.68Mb'
   - name: 🎯 全球直连
     type: select
@@ -204,20 +474,74 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - Relay_ |45.99Mb
-      - "/海外专用/+日本-TROJAN-01(Trojan+Japan01)\r"
-      - Relay_ |77.31Mb
-      - Relay_ | 7.00Mb
-      - Relay_ | 6.64Mb
+      - Relay_🏁ZZ-🇨🇦CA_164 |183.99Mb
       - ' | 1.74Mb'
-      - Relay_ |28.90Mb
       - ' | 3.32Mb'
       - Relay_ |245.16Mb
+      - hkaa0.shop|中国
+      - Relay_ | 7.00Mb
       - ' |18.08Mb'
-      - ' | 7.14Mb'
       - Relay_ |172.81Mb
-      - Relay_ |220.28Mb
-      - "hkaa0.shop|中国\r"
+      - ' | 7.14Mb'
+      - Relay_🏁ZZ-🇨🇦CA_155 |249.03Mb
+      - Relay_🏁ZZ-🇬🇮GI_150 |28.09Mb
+      - Relay_🏁ZZ-🇨🇦CA_162 |268.69Mb
+      - Relay_🇺🇸US-🇺🇸US_76 |83.67Mb
+      - Relay_🏁ZZ-🇧🇪BE_129 |80.33Mb
+      - Relay_🏁ZZ-🇧🇪BE_117 |33.70Mb
+      - Relay_🏁ZZ-🇺🇸US_121 |144.84Mb
+      - Relay_🏁ZZ-🇨🇦CA_156 |184.29Mb
+      - Relay_🏁ZZ-🇺🇸US_105 |190.45Mb
+      - Relay_🏁ZZ-🇨🇦CA_112 |266.08Mb
+      - Relay_🏁ZZ-🇨🇦CA_148 |226.05Mb
+      - Relay_🏁ZZ-🇺🇸US_141
+      - Relay_🏁ZZ-🇺🇸US_139 |27.57Mb
+      - Relay_-🇬🇮GI_06 | 3.06Mb
+      - Relay_🏁ZZ-🇺🇸US_109
+      - Relay_🏁ZZ-🇺🇸US_108 |15.69Mb
+      - Relay_🏁ZZ-🇨🇦CA_154 | 7.04Mb
+      - 🏁ZZ_114 |22.02Mb
+      - Relay_🏁ZZ-🇨🇦CA_137 |15.77Mb
+      - Relay_🏁ZZ-🇨🇦CA_161 |275.49Mb
+      - Relay_🏁ZZ-🇨🇦CA_153 |72.44Mb
+      - Relay_🏁ZZ-🇨🇦CA_159 |235.86Mb
+      - Relay_🏁ZZ-🇺🇸US_103 |22.78Mb
+      - Relay_🏁ZZ-🇺🇸US_123 |19.72Mb
+      - Relay_🏁ZZ-🇨🇦CA_149 |141.59Mb
+      - Relay_🇺🇸US-🇨🇦CA_74 |198.34Mb
+      - Relay_🏁ZZ-🇺🇸US_140 |16.79Mb
+      - Relay_🏁ZZ-🇺🇸US_134 |31.60Mb
+      - Relay_🇺🇸US-🇨🇦CA_81 |214.59Mb
+      - Relay_🏁ZZ-🇨🇦CA_145 |286.60Mb
+      - Relay_🏁ZZ-🇨🇦CA_144 |230.20Mb
+      - Relay_🏁ZZ-🇨🇦CA_135 |117.49Mb
+      - Relay_🏁ZZ-🇫🇷FR_163
+      - Relay_🏁ZZ-🇺🇸US_130 |29.13Mb
+      - 🏁ZZ_157 |247.80Mb
+      - Relay_🏁ZZ-🇨🇦CA_142 |248.85Mb
+      - Relay_🏁ZZ-🇧🇪BE_126 |84.14Mb
+      - Relay_🏁ZZ-🇨🇦CA_124 |14.77Mb
+      - Relay_🏁ZZ-🇺🇸US_102 |31.78Mb
+      - Relay_ |45.99Mb
+      - Relay_🏁ZZ-🇨🇦CA_128 |100.41Mb
+      - Relay_🏁ZZ-🇺🇸US_106 |16.94Mb
+      - Relay_🏁ZZ-🇺🇸US_115 |31.59Mb
+      - Relay_🇺🇸US-🇺🇸US_70 |272.98Mb
+      - Relay_🏁ZZ-🇺🇸US_127 |26.50Mb
+      - Relay_🏁ZZ-🇺🇸US_120 |13.94Mb
+      - Relay_🏁ZZ-🇨🇦CA_160 |109.84Mb
+      - Relay_🏁ZZ-🇺🇸US_122 |24.91Mb
+      - Relay_🏁ZZ-🇨🇦CA_133 |288.57Mb
+      - Relay_🏁ZZ-🇺🇸US_131 |19.69Mb
+      - Relay_🇨🇴CO-🇫🇷FR_27
+      - 🇺🇸US_69 |288.20Mb
+      - Relay_🏁ZZ-🇨🇦CA_116 |21.26Mb
+      - Relay_🏁ZZ-🇺🇦UA_143
+      - _04 | 2.20Mb
+      - 🇺🇸US_80 |86.57Mb
+      - 🇨🇳CN_19 |12.36Mb
+      - 🇨🇳CN_17 | 1.88Mb
+      - 🇨🇳CN_21 | 2.45Mb
       - ' |24.68Mb'
 
 rules:
