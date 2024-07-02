@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-02 04:33:21
+# 创建时间：2024-07-03 02:06:41
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：11
+# 节点数量：5
 # 节点类型：ss, hysteria2
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
@@ -87,17 +87,11 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇺🇸 United States\r","type":"ss","server":"4208.ens3.buzz","port":12390,"password":"56fac09c-9a2a-4f61-ada2-4f7ac30fc286","cipher":"aes-128-gcm"}
-  - {"name":"🇯🇵 Japan 0.1x\r","type":"ss","server":"2a53.ens3.buzz","port":29803,"password":"56fac09c-9a2a-4f61-ada2-4f7ac30fc286","cipher":"aes-128-gcm"}
-  - {"name":"日本1\r","type":"ss","server":"yd.cfyun.top","port":10252,"password":"d7fcff5d-e3c6-4d26-aa0a-2af2ab876757","cipher":"aes-128-gcm"}
-  - {"name":"美国1\r","type":"ss","server":"yd.cfyun.top","port":10254,"password":"d7fcff5d-e3c6-4d26-aa0a-2af2ab876757","cipher":"aes-128-gcm"}
-  - {"name":"🇯🇵JP_212 @wangcai_8\r","type":"hysteria2","server":"139.162.119.212","port":3074,"password":"NDE0MDIwOjEwOTE1NjphMjUxNzE1ZTc2YzY4MjFh=TG%20WangCai2","sni":"TG.@WangCai2","skip-cert-verify":true}
-  - {"name":"🇨🇳 Taiwan\r","type":"ss","server":"79ea.ens3.buzz","port":12837,"password":"56fac09c-9a2a-4f61-ada2-4f7ac30fc286","cipher":"aes-128-gcm"}
-  - {"name":"🇸🇬 Singapore 0.5x\r","type":"ss","server":"1e23.ens3.buzz","port":24803,"password":"56fac09c-9a2a-4f61-ada2-4f7ac30fc286","cipher":"aes-128-gcm"}
-  - {"name":"新加坡1\r","type":"ss","server":"yd.cfyun.top","port":10253,"password":"d7fcff5d-e3c6-4d26-aa0a-2af2ab876757","cipher":"aes-128-gcm"}
-  - {"name":"🇭🇰HK_079 @WangCai_8\r","type":"hysteria2","server":"45.11.104.79","port":3074,"password":"NDE0MDIwOjEwOTE1NjphMjUxNzE1ZTc2YzY4MjFh=TG%20WangCai2","sni":"TG.@WangCai2","skip-cert-verify":true}
-  - {"name":"🇯🇵JP_237 @wangcai_8\r","type":"hysteria2","server":"18.179.58.237","port":3074,"password":"NDE0MDIwOjEwOTE1NjphMjUxNzE1ZTc2YzY4MjFh=TG%20WangCai2","sni":"TG.@WangCai2","skip-cert-verify":true}
-  - {"name":"🇯🇵JP_206 @wangcai_8","type":"hysteria2","server":"52.199.249.206","port":3074,"password":"NDE0MDIwOjEwOTE1NjphMjUxNzE1ZTc2YzY4MjFh=TG%20WangCai2","sni":"TG.@WangCai2","skip-cert-verify":true}
+  - {"name":"🇺🇸 United States","type":"ss","server":"4208.ens3.buzz","port":12390,"password":"56fac09c-9a2a-4f61-ada2-4f7ac30fc286","cipher":"aes-128-gcm"}
+  - {"name":"🇯🇵 Japan 0.1x","type":"ss","server":"2a53.ens3.buzz","port":29803,"password":"56fac09c-9a2a-4f61-ada2-4f7ac30fc286","cipher":"aes-128-gcm"}
+  - {"name":"🇭🇰HK_079 @WangCai_8","type":"hysteria2","server":"45.11.104.79","port":3074,"password":"NDE0MDIwOjEwOTE1NjphMjUxNzE1ZTc2YzY4MjFh=TG%20WangCai2","sni":"TG.@WangCai2","skip-cert-verify":true}
+  - {"name":"🇸🇬 Singapore 0.5x","type":"ss","server":"1e23.ens3.buzz","port":24803,"password":"56fac09c-9a2a-4f61-ada2-4f7ac30fc286","cipher":"aes-128-gcm"}
+  - {"name":"🇯🇵JP_237 @wangcai_8","type":"hysteria2","server":"18.179.58.237","port":3074,"password":"NDE0MDIwOjEwOTE1NjphMjUxNzE1ZTc2YzY4MjFh=TG%20WangCai2","sni":"TG.@WangCai2","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -106,66 +100,42 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - "🇺🇸 United States\r"
-      - "🇯🇵 Japan 0.1x\r"
-      - "日本1\r"
-      - "美国1\r"
-      - "🇯🇵JP_212 @wangcai_8\r"
-      - "🇨🇳 Taiwan\r"
-      - "🇸🇬 Singapore 0.5x\r"
-      - "新加坡1\r"
-      - "🇭🇰HK_079 @WangCai_8\r"
-      - "🇯🇵JP_237 @wangcai_8\r"
-      - 🇯🇵JP_206 @wangcai_8
+      - 🇺🇸 United States
+      - 🇯🇵 Japan 0.1x
+      - 🇭🇰HK_079 @WangCai_8
+      - 🇸🇬 Singapore 0.5x
+      - 🇯🇵JP_237 @wangcai_8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "🇺🇸 United States\r"
-      - "🇯🇵 Japan 0.1x\r"
-      - "日本1\r"
-      - "美国1\r"
-      - "🇯🇵JP_212 @wangcai_8\r"
-      - "🇨🇳 Taiwan\r"
-      - "🇸🇬 Singapore 0.5x\r"
-      - "新加坡1\r"
-      - "🇭🇰HK_079 @WangCai_8\r"
-      - "🇯🇵JP_237 @wangcai_8\r"
-      - 🇯🇵JP_206 @wangcai_8
+      - 🇺🇸 United States
+      - 🇯🇵 Japan 0.1x
+      - 🇭🇰HK_079 @WangCai_8
+      - 🇸🇬 Singapore 0.5x
+      - 🇯🇵JP_237 @wangcai_8
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "🇺🇸 United States\r"
-      - "🇯🇵 Japan 0.1x\r"
-      - "日本1\r"
-      - "美国1\r"
-      - "🇯🇵JP_212 @wangcai_8\r"
-      - "🇨🇳 Taiwan\r"
-      - "🇸🇬 Singapore 0.5x\r"
-      - "新加坡1\r"
-      - "🇭🇰HK_079 @WangCai_8\r"
-      - "🇯🇵JP_237 @wangcai_8\r"
-      - 🇯🇵JP_206 @wangcai_8
+      - 🇺🇸 United States
+      - 🇯🇵 Japan 0.1x
+      - 🇭🇰HK_079 @WangCai_8
+      - 🇸🇬 Singapore 0.5x
+      - 🇯🇵JP_237 @wangcai_8
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "🇺🇸 United States\r"
-      - "🇯🇵 Japan 0.1x\r"
-      - "日本1\r"
-      - "美国1\r"
-      - "🇯🇵JP_212 @wangcai_8\r"
-      - "🇨🇳 Taiwan\r"
-      - "🇸🇬 Singapore 0.5x\r"
-      - "新加坡1\r"
-      - "🇭🇰HK_079 @WangCai_8\r"
-      - "🇯🇵JP_237 @wangcai_8\r"
-      - 🇯🇵JP_206 @wangcai_8
+      - 🇺🇸 United States
+      - 🇯🇵 Japan 0.1x
+      - 🇭🇰HK_079 @WangCai_8
+      - 🇸🇬 Singapore 0.5x
+      - 🇯🇵JP_237 @wangcai_8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -185,17 +155,11 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - "🇺🇸 United States\r"
-      - "🇯🇵 Japan 0.1x\r"
-      - "日本1\r"
-      - "美国1\r"
-      - "🇯🇵JP_212 @wangcai_8\r"
-      - "🇨🇳 Taiwan\r"
-      - "🇸🇬 Singapore 0.5x\r"
-      - "新加坡1\r"
-      - "🇭🇰HK_079 @WangCai_8\r"
-      - "🇯🇵JP_237 @wangcai_8\r"
-      - 🇯🇵JP_206 @wangcai_8
+      - 🇺🇸 United States
+      - 🇯🇵 Japan 0.1x
+      - 🇭🇰HK_079 @WangCai_8
+      - 🇸🇬 Singapore 0.5x
+      - 🇯🇵JP_237 @wangcai_8
 
 rules:
 # 本地/局域网地址
