@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-03 02:06:41
+# 创建时间：2024-07-05 03:34:16
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：5
-# 节点类型：ss, hysteria2
+# 节点数量：38
+# 节点类型：hysteria, hysteria2
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,11 +87,44 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇺🇸 United States","type":"ss","server":"4208.ens3.buzz","port":12390,"password":"56fac09c-9a2a-4f61-ada2-4f7ac30fc286","cipher":"aes-128-gcm"}
-  - {"name":"🇯🇵 Japan 0.1x","type":"ss","server":"2a53.ens3.buzz","port":29803,"password":"56fac09c-9a2a-4f61-ada2-4f7ac30fc286","cipher":"aes-128-gcm"}
-  - {"name":"🇭🇰HK_079 @WangCai_8","type":"hysteria2","server":"45.11.104.79","port":3074,"password":"NDE0MDIwOjEwOTE1NjphMjUxNzE1ZTc2YzY4MjFh=TG%20WangCai2","sni":"TG.@WangCai2","skip-cert-verify":true}
-  - {"name":"🇸🇬 Singapore 0.5x","type":"ss","server":"1e23.ens3.buzz","port":24803,"password":"56fac09c-9a2a-4f61-ada2-4f7ac30fc286","cipher":"aes-128-gcm"}
-  - {"name":"🇯🇵JP_237 @wangcai_8","type":"hysteria2","server":"18.179.58.237","port":3074,"password":"NDE0MDIwOjEwOTE1NjphMjUxNzE1ZTc2YzY4MjFh=TG%20WangCai2","sni":"TG.@WangCai2","skip-cert-verify":true}
+  - {"name":"%25E5%25A2%25A8%25E8%25A5%25BF%25E5%2593%25A51-ChatGPT","type":"hysteria","server":"mx1.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E5%25BE%25B7%25E5%259B%25BD2-ChatGPT","type":"hysteria","server":"de2.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E8%25A5%25BF%25E7%258F%25AD%25E7%2589%25991-ChatGPT","type":"hysteria","server":"es1.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E8%258B%25B1%25E5%259B%25BD1-ChatGPT","type":"hysteria","server":"gb1.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E6%25B3%2595%25E5%259B%25BD2-ChatGPT","type":"hysteria","server":"fr2.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E5%25BE%25B7%25E5%259B%25BD1-ChatGPT","type":"hysteria","server":"de1.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E5%25B7%25B4%25E8%25A5%25BF1-ChatGPT","type":"hysteria","server":"br1.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E5%258D%25B0%25E5%25BA%25A64-ChatGPT","type":"hysteria","server":"ln4.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":40,"down":80}
+  - {"name":"%25E5%258D%25B0%25E5%25BA%25A63-ChatGPT","type":"hysteria","server":"ln3.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E5%258D%25B0%25E5%25BA%25A61-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596","type":"hysteria","server":"ln1.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E9%25A6%2599%25E6%25B8%25AF2-ChatGPT","type":"hysteria","server":"hk2.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"英国1-hy2  协议","type":"hysteria2","server":"gb1.xiaoliyu.cyou","port":24524,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"%25E9%25A6%2599%25E6%25B8%25AF1-ChatGPT","type":"hysteria","server":"hk1.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E5%258D%25B0%25E5%25BA%25A62-ChatGPT","type":"hysteria","server":"ln2.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"印度1-hy2  协议","type":"hysteria2","server":"ln1.xiaoliyu.cyou","port":23143,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"印度3-hy2  协议","type":"hysteria2","server":"ln3.xiaoliyu.cyou","port":25183,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"印度4-hy2  协议","type":"hysteria2","server":"ln4.xiaoliyu.cyou","port":22297,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"墨西哥1-hy2 协议","type":"hysteria2","server":"mx1.xiaoliyu.cyou","port":23296,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"%25E6%25BE%25B3%25E5%25A4%25A7%25E5%2588%25A9%25E4%25BA%259A2-ChatGPT","type":"hysteria","server":"au2.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"德国2-hy2 协议","type":"hysteria2","server":"de2.xiaoliyu.cyou","port":26448,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"印度2-hy2  协议","type":"hysteria2","server":"ln2.xiaoliyu.cyou","port":22244,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"法国2-hy2  协议","type":"hysteria2","server":"fr2.xiaoliyu.cyou","port":23755,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"西班牙1-hy2 协议","type":"hysteria2","server":"es1.xiaoliyu.cyou","port":26689,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"德国1-hy2  协议","type":"hysteria2","server":"de1.xiaoliyu.cyou","port":22747,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"澳大利亚1-hy2 协议","type":"hysteria2","server":"au1.xiaoliyu.cyou","port":23405,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"%25E6%25BE%25B3%25E5%25A4%25A7%25E5%2588%25A9%25E4%25BA%259A1-ChatGPT","type":"hysteria","server":"au1.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A12-ChatGPT","type":"hysteria","server":"sg2.xiaoliyu.cyou","port":18301,"skip-cert-verify":true,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"香港2-hy2  协议","type":"hysteria2","server":"hk2.xiaoliyu.cyou","port":25327,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"%25E6%25B3%2595%25E5%259B%25BD3-ChatGPT","type":"hysteria","server":"fr3.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"香港1-hy2  协议","type":"hysteria2","server":"hk1.xiaoliyu.cyou","port":22393,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"澳大利亚2-hy2 协议","type":"hysteria2","server":"au2.xiaoliyu.cyou","port":25360,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"法国3-hy2  协议","type":"hysteria2","server":"fr3.xiaoliyu.cyou","port":26024,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
+  - {"name":"%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A14-ChatGPT","type":"hysteria","server":"sg4.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A13-ChatGPT","type":"hysteria","server":"sg3.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A15-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596","type":"hysteria","server":"sg5.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E9%259F%25A9%25E5%259B%25BD3-ChatGPT","type":"hysteria","server":"kr3.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A16-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596","type":"hysteria","server":"sg6.xiaoliyu.cyou","port":18301,"alpn":["h3"],"auth_str":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","up":30,"down":70}
+  - {"name":"韩国3-hy2  协议","type":"hysteria2","server":"kr3.xiaoliyu.cyou","port":23173,"password":"7d6f8b38-a1aa-4c50-b6ac-6c02c9190deb","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -100,42 +133,174 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇺🇸 United States
-      - 🇯🇵 Japan 0.1x
-      - 🇭🇰HK_079 @WangCai_8
-      - 🇸🇬 Singapore 0.5x
-      - 🇯🇵JP_237 @wangcai_8
+      - '%25E5%25A2%25A8%25E8%25A5%25BF%25E5%2593%25A51-ChatGPT'
+      - '%25E5%25BE%25B7%25E5%259B%25BD2-ChatGPT'
+      - '%25E8%25A5%25BF%25E7%258F%25AD%25E7%2589%25991-ChatGPT'
+      - '%25E8%258B%25B1%25E5%259B%25BD1-ChatGPT'
+      - '%25E6%25B3%2595%25E5%259B%25BD2-ChatGPT'
+      - '%25E5%25BE%25B7%25E5%259B%25BD1-ChatGPT'
+      - '%25E5%25B7%25B4%25E8%25A5%25BF1-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A64-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A63-ChatGPT'
+      -   %25E5%258D%25B0%25E5%25BA%25A61-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - '%25E9%25A6%2599%25E6%25B8%25AF2-ChatGPT'
+      - 英国1-hy2  协议
+      - '%25E9%25A6%2599%25E6%25B8%25AF1-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A62-ChatGPT'
+      - 印度1-hy2  协议
+      - 印度3-hy2  协议
+      - 印度4-hy2  协议
+      - 墨西哥1-hy2 协议
+      - '%25E6%25BE%25B3%25E5%25A4%25A7%25E5%2588%25A9%25E4%25BA%259A2-ChatGPT'
+      - 德国2-hy2 协议
+      - 印度2-hy2  协议
+      - 法国2-hy2  协议
+      - 西班牙1-hy2 协议
+      - 德国1-hy2  协议
+      - 澳大利亚1-hy2 协议
+      - '%25E6%25BE%25B3%25E5%25A4%25A7%25E5%2588%25A9%25E4%25BA%259A1-ChatGPT'
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A12-ChatGPT'
+      - 香港2-hy2  协议
+      - '%25E6%25B3%2595%25E5%259B%25BD3-ChatGPT'
+      - 香港1-hy2  协议
+      - 澳大利亚2-hy2 协议
+      - 法国3-hy2  协议
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A14-ChatGPT'
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A13-ChatGPT'
+      -   %25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A15-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - '%25E9%259F%25A9%25E5%259B%25BD3-ChatGPT'
+      -   %25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A16-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - 韩国3-hy2  协议
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 United States
-      - 🇯🇵 Japan 0.1x
-      - 🇭🇰HK_079 @WangCai_8
-      - 🇸🇬 Singapore 0.5x
-      - 🇯🇵JP_237 @wangcai_8
+      - '%25E5%25A2%25A8%25E8%25A5%25BF%25E5%2593%25A51-ChatGPT'
+      - '%25E5%25BE%25B7%25E5%259B%25BD2-ChatGPT'
+      - '%25E8%25A5%25BF%25E7%258F%25AD%25E7%2589%25991-ChatGPT'
+      - '%25E8%258B%25B1%25E5%259B%25BD1-ChatGPT'
+      - '%25E6%25B3%2595%25E5%259B%25BD2-ChatGPT'
+      - '%25E5%25BE%25B7%25E5%259B%25BD1-ChatGPT'
+      - '%25E5%25B7%25B4%25E8%25A5%25BF1-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A64-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A63-ChatGPT'
+      -   %25E5%258D%25B0%25E5%25BA%25A61-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - '%25E9%25A6%2599%25E6%25B8%25AF2-ChatGPT'
+      - 英国1-hy2  协议
+      - '%25E9%25A6%2599%25E6%25B8%25AF1-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A62-ChatGPT'
+      - 印度1-hy2  协议
+      - 印度3-hy2  协议
+      - 印度4-hy2  协议
+      - 墨西哥1-hy2 协议
+      - '%25E6%25BE%25B3%25E5%25A4%25A7%25E5%2588%25A9%25E4%25BA%259A2-ChatGPT'
+      - 德国2-hy2 协议
+      - 印度2-hy2  协议
+      - 法国2-hy2  协议
+      - 西班牙1-hy2 协议
+      - 德国1-hy2  协议
+      - 澳大利亚1-hy2 协议
+      - '%25E6%25BE%25B3%25E5%25A4%25A7%25E5%2588%25A9%25E4%25BA%259A1-ChatGPT'
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A12-ChatGPT'
+      - 香港2-hy2  协议
+      - '%25E6%25B3%2595%25E5%259B%25BD3-ChatGPT'
+      - 香港1-hy2  协议
+      - 澳大利亚2-hy2 协议
+      - 法国3-hy2  协议
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A14-ChatGPT'
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A13-ChatGPT'
+      -   %25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A15-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - '%25E9%259F%25A9%25E5%259B%25BD3-ChatGPT'
+      -   %25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A16-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - 韩国3-hy2  协议
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇸 United States
-      - 🇯🇵 Japan 0.1x
-      - 🇭🇰HK_079 @WangCai_8
-      - 🇸🇬 Singapore 0.5x
-      - 🇯🇵JP_237 @wangcai_8
+      - '%25E5%25A2%25A8%25E8%25A5%25BF%25E5%2593%25A51-ChatGPT'
+      - '%25E5%25BE%25B7%25E5%259B%25BD2-ChatGPT'
+      - '%25E8%25A5%25BF%25E7%258F%25AD%25E7%2589%25991-ChatGPT'
+      - '%25E8%258B%25B1%25E5%259B%25BD1-ChatGPT'
+      - '%25E6%25B3%2595%25E5%259B%25BD2-ChatGPT'
+      - '%25E5%25BE%25B7%25E5%259B%25BD1-ChatGPT'
+      - '%25E5%25B7%25B4%25E8%25A5%25BF1-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A64-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A63-ChatGPT'
+      -   %25E5%258D%25B0%25E5%25BA%25A61-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - '%25E9%25A6%2599%25E6%25B8%25AF2-ChatGPT'
+      - 英国1-hy2  协议
+      - '%25E9%25A6%2599%25E6%25B8%25AF1-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A62-ChatGPT'
+      - 印度1-hy2  协议
+      - 印度3-hy2  协议
+      - 印度4-hy2  协议
+      - 墨西哥1-hy2 协议
+      - '%25E6%25BE%25B3%25E5%25A4%25A7%25E5%2588%25A9%25E4%25BA%259A2-ChatGPT'
+      - 德国2-hy2 协议
+      - 印度2-hy2  协议
+      - 法国2-hy2  协议
+      - 西班牙1-hy2 协议
+      - 德国1-hy2  协议
+      - 澳大利亚1-hy2 协议
+      - '%25E6%25BE%25B3%25E5%25A4%25A7%25E5%2588%25A9%25E4%25BA%259A1-ChatGPT'
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A12-ChatGPT'
+      - 香港2-hy2  协议
+      - '%25E6%25B3%2595%25E5%259B%25BD3-ChatGPT'
+      - 香港1-hy2  协议
+      - 澳大利亚2-hy2 协议
+      - 法国3-hy2  协议
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A14-ChatGPT'
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A13-ChatGPT'
+      -   %25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A15-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - '%25E9%259F%25A9%25E5%259B%25BD3-ChatGPT'
+      -   %25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A16-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - 韩国3-hy2  协议
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇸 United States
-      - 🇯🇵 Japan 0.1x
-      - 🇭🇰HK_079 @WangCai_8
-      - 🇸🇬 Singapore 0.5x
-      - 🇯🇵JP_237 @wangcai_8
+      - '%25E5%25A2%25A8%25E8%25A5%25BF%25E5%2593%25A51-ChatGPT'
+      - '%25E5%25BE%25B7%25E5%259B%25BD2-ChatGPT'
+      - '%25E8%25A5%25BF%25E7%258F%25AD%25E7%2589%25991-ChatGPT'
+      - '%25E8%258B%25B1%25E5%259B%25BD1-ChatGPT'
+      - '%25E6%25B3%2595%25E5%259B%25BD2-ChatGPT'
+      - '%25E5%25BE%25B7%25E5%259B%25BD1-ChatGPT'
+      - '%25E5%25B7%25B4%25E8%25A5%25BF1-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A64-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A63-ChatGPT'
+      -   %25E5%258D%25B0%25E5%25BA%25A61-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - '%25E9%25A6%2599%25E6%25B8%25AF2-ChatGPT'
+      - 英国1-hy2  协议
+      - '%25E9%25A6%2599%25E6%25B8%25AF1-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A62-ChatGPT'
+      - 印度1-hy2  协议
+      - 印度3-hy2  协议
+      - 印度4-hy2  协议
+      - 墨西哥1-hy2 协议
+      - '%25E6%25BE%25B3%25E5%25A4%25A7%25E5%2588%25A9%25E4%25BA%259A2-ChatGPT'
+      - 德国2-hy2 协议
+      - 印度2-hy2  协议
+      - 法国2-hy2  协议
+      - 西班牙1-hy2 协议
+      - 德国1-hy2  协议
+      - 澳大利亚1-hy2 协议
+      - '%25E6%25BE%25B3%25E5%25A4%25A7%25E5%2588%25A9%25E4%25BA%259A1-ChatGPT'
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A12-ChatGPT'
+      - 香港2-hy2  协议
+      - '%25E6%25B3%2595%25E5%259B%25BD3-ChatGPT'
+      - 香港1-hy2  协议
+      - 澳大利亚2-hy2 协议
+      - 法国3-hy2  协议
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A14-ChatGPT'
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A13-ChatGPT'
+      -   %25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A15-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - '%25E9%259F%25A9%25E5%259B%25BD3-ChatGPT'
+      -   %25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A16-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - 韩国3-hy2  协议
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -155,11 +320,44 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇺🇸 United States
-      - 🇯🇵 Japan 0.1x
-      - 🇭🇰HK_079 @WangCai_8
-      - 🇸🇬 Singapore 0.5x
-      - 🇯🇵JP_237 @wangcai_8
+      - '%25E5%25A2%25A8%25E8%25A5%25BF%25E5%2593%25A51-ChatGPT'
+      - '%25E5%25BE%25B7%25E5%259B%25BD2-ChatGPT'
+      - '%25E8%25A5%25BF%25E7%258F%25AD%25E7%2589%25991-ChatGPT'
+      - '%25E8%258B%25B1%25E5%259B%25BD1-ChatGPT'
+      - '%25E6%25B3%2595%25E5%259B%25BD2-ChatGPT'
+      - '%25E5%25BE%25B7%25E5%259B%25BD1-ChatGPT'
+      - '%25E5%25B7%25B4%25E8%25A5%25BF1-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A64-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A63-ChatGPT'
+      -   %25E5%258D%25B0%25E5%25BA%25A61-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - '%25E9%25A6%2599%25E6%25B8%25AF2-ChatGPT'
+      - 英国1-hy2  协议
+      - '%25E9%25A6%2599%25E6%25B8%25AF1-ChatGPT'
+      - '%25E5%258D%25B0%25E5%25BA%25A62-ChatGPT'
+      - 印度1-hy2  协议
+      - 印度3-hy2  协议
+      - 印度4-hy2  协议
+      - 墨西哥1-hy2 协议
+      - '%25E6%25BE%25B3%25E5%25A4%25A7%25E5%2588%25A9%25E4%25BA%259A2-ChatGPT'
+      - 德国2-hy2 协议
+      - 印度2-hy2  协议
+      - 法国2-hy2  协议
+      - 西班牙1-hy2 协议
+      - 德国1-hy2  协议
+      - 澳大利亚1-hy2 协议
+      - '%25E6%25BE%25B3%25E5%25A4%25A7%25E5%2588%25A9%25E4%25BA%259A1-ChatGPT'
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A12-ChatGPT'
+      - 香港2-hy2  协议
+      - '%25E6%25B3%2595%25E5%259B%25BD3-ChatGPT'
+      - 香港1-hy2  协议
+      - 澳大利亚2-hy2 协议
+      - 法国3-hy2  协议
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A14-ChatGPT'
+      - '%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A13-ChatGPT'
+      -   %25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A15-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - '%25E9%259F%25A9%25E5%259B%25BD3-ChatGPT'
+      -   %25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A16-%25E4%25B8%2589%25E7%25BD%2591%25E4%25BC%2598%25E5%258C%2596
+      - 韩国3-hy2  协议
 
 rules:
 # 本地/局域网地址
