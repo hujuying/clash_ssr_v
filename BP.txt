@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-06 04:47:41
+# 创建时间：2024-07-07 02:40:23
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：74
+# 节点数量：66
 # 节点类型：vless
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
@@ -87,80 +87,72 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇯🇵+TG@ZDYZ2+-JP-Tokyo7","type":"vless","server":"116.206.92.12","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇯🇵+TG@ZDYZ2+-JP-Tokyo3","type":"vless","server":"3.112.21.102","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇯🇵+TG@ZDYZ2+-JP-Tokyo1","type":"vless","server":"103.232.213.110","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇿🇦+TG@ZDYZ2+-南非🇿🇦","type":"vless","server":"185.238.228.212","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong7","type":"vless","server":"47.76.98.98","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong19","type":"vless","server":"38.147.191.47","port":25053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong14","type":"vless","server":"156.251.180.176","port":21698,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore6","type":"vless","server":"18.140.5.21","port":993,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"TG@ZDYZ2+-KR13","type":"vless","server":"61.77.9.219","port":12487,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇯🇵+TG@ZDYZ2+-JP-Tokyo2","type":"vless","server":"64.110.83.231","port":23022,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore11","type":"vless","server":"185.148.105.23","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇺🇸+TG@ZDYZ2+-US-New+York","type":"vless","server":"38.207.129.143","port":39966,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇯🇵+TG@ZDYZ2+-JP-Tokyo4","type":"vless","server":"13.208.164.103","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+36","type":"vless","server":"45.159.218.149","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+30","type":"vless","server":"205.233.181.108","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+21","type":"vless","server":"45.159.218.181","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+31","type":"vless","server":"205.233.181.83","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"🇯🇵+TG@ZDYZ2+-JP-Tokyo6","type":"vless","server":"147.78.243.70","port":21832,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10","type":"vless","server":"103.30.77.65","port":16443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong12","type":"vless","server":"13.229.90.43","port":2086,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇷🇺+TG@ZDYZ2+-俄罗斯🇷🇺","type":"vless","server":"45.133.247.151","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"TG@ZDYZ2+禁止爬取本订阅节点","type":"vless","server":"104.20.6.94","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore12","type":"vless","server":"47.236.80.110","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong4","type":"vless","server":"103.149.144.19","port":25716,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"TG@ZDYZ2+关注TG频道获取更多免费节点","type":"vless","server":"104.19.63.94","port":2083,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore14","type":"vless","server":"47.236.202.91","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CT+5","type":"vless","server":"205.233.181.222","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CMCC+5","type":"vless","server":"104.17.211.195","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"TG@ZDYZ2+-KR6","type":"vless","server":"132.226.22.106","port":34237,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇮🇪+TG@ZDYZ2+-都柏林🇮🇪","type":"vless","server":"52.49.41.80","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇳🇱+TG@ZDYZ2+-荷兰🇳🇱","type":"vless","server":"185.186.244.184","port":81,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore9","type":"vless","server":"47.236.202.91","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"TG@ZDYZ2+-KR11","type":"vless","server":"222.113.18.206","port":38961,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore10","type":"vless","server":"152.69.212.227","port":34237,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CMCC+6","type":"vless","server":"104.17.221.150","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇫🇷+TG@ZDYZ2+-法国🇫🇷","type":"vless","server":"194.24.161.146","port":4090,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CT+6","type":"vless","server":"103.169.142.25","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"TG@ZDYZ2+-KR7","type":"vless","server":"112.187.240.245","port":33185,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore1","type":"vless","server":"140.99.233.156","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore8","type":"vless","server":"167.172.90.142","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CT+4","type":"vless","server":"45.159.218.39","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"TG@ZDYZ2","type":"vless","server":"188.42.88.66","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇺🇸+TG@ZDYZ2+-US-Washington.D.C","type":"vless","server":"99.83.209.185","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"TG@ZDYZ2+2","type":"vless","server":"205.233.181.36","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CMCC+2","type":"vless","server":"104.17.217.158","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+10","type":"vless","server":"103.169.142.25","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+38","type":"vless","server":"103.169.142.236","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"🇹🇼+TG@ZDYZ2+-TW-Taipei4","type":"vless","server":"89.116.161.250","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+14","type":"vless","server":"45.159.218.8","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+25","type":"vless","server":"103.169.142.252","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10","type":"vless","server":"103.30.77.65","port":16443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong19","type":"vless","server":"38.147.191.47","port":25053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇺🇸+TG@ZDYZ2+-US-New+York","type":"vless","server":"38.207.129.143","port":39966,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"🇺🇸+TG@ZDYZ2+-US-California","type":"vless","server":"38.207.129.229","port":56513,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CT+3","type":"vless","server":"45.159.218.167","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CT+8","type":"vless","server":"45.159.218.188","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇨🇦+TG@ZDYZ2+-加拿大🇨🇦","type":"vless","server":"51.222.136.86","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CMCC+3","type":"vless","server":"104.17.218.116","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CMCC+4","type":"vless","server":"104.17.220.102","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇹🇼+TG@ZDYZ2+-TW-Taipei9","type":"vless","server":"203.69.248.40","port":27381,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇦🇹+TG@ZDYZ2+-奥地利🇦🇹","type":"vless","server":"94.177.8.26","port":130,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong3","type":"vless","server":"38.180.150.193","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇯🇵+TG@ZDYZ2+-JP-Tokyo10","type":"vless","server":"172.84.92.193","port":34237,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CMCC+8","type":"vless","server":"104.17.215.201","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+19","type":"vless","server":"103.169.142.210","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+24","type":"vless","server":"103.169.142.73","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪","type":"vless","server":"38.180.10.150","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong6","type":"vless","server":"154.21.203.49","port":47961,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇬🇧+TG@ZDYZ2+-英国🇬🇧","type":"vless","server":"51.38.69.149","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪2","type":"vless","server":"38.180.45.222","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CMCC+7","type":"vless","server":"104.16.200.215","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇯🇵+TG@ZDYZ2+-JP-Tokyo8","type":"vless","server":"172.84.92.33","port":34280,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇳🇱+TG@ZDYZ2+-荷兰🇳🇱2","type":"vless","server":"104.40.244.228","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong21","type":"vless","server":"161.81.85.153","port":13502,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+22","type":"vless","server":"45.159.218.76","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+15","type":"vless","server":"45.159.218.39","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"TG@ZDYZ2+-KR6","type":"vless","server":"132.226.22.106","port":34237,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+12","type":"vless","server":"205.233.181.0","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇯🇵+TG@ZDYZ2+-JP-Tokyo7","type":"vless","server":"116.206.92.12","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"TG@ZDYZ2+-KR4","type":"vless","server":"222.113.18.205","port":38749,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+4","type":"vless","server":"103.169.142.187","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore14","type":"vless","server":"47.236.202.91","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore11","type":"vless","server":"185.148.105.23","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore13","type":"vless","server":"47.236.180.51","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+16","type":"vless","server":"205.233.181.250","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+28","type":"vless","server":"45.159.218.99","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇪🇸+TG@ZDYZ2+-西班牙🇪🇸","type":"vless","server":"185.114.72.67","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+13","type":"vless","server":"45.159.218.36","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+2","type":"vless","server":"103.169.142.192","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"TG@ZDYZ2+-KR7","type":"vless","server":"112.187.240.245","port":33185,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇳🇱+TG@ZDYZ2+-荷兰🇳🇱","type":"vless","server":"185.186.244.184","port":81,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"TG@ZDYZ2+-KR10","type":"vless","server":"59.3.87.55","port":39109,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇯🇵+TG@ZDYZ2+-JP-Tokyo2","type":"vless","server":"64.110.83.231","port":23022,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+18","type":"vless","server":"45.159.218.167","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"TG@ZDYZ2+-KR1","type":"vless","server":"132.226.229.248","port":34237,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"🇹🇼+TG@ZDYZ2+-TW-Taipei7","type":"vless","server":"35.229.179.98","port":25775,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CT+2","type":"vless","server":"103.169.142.99","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇦🇺+TG@ZDYZ2+-澳大利亚🇦🇺","type":"vless","server":"192.9.165.253","port":20001,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇯🇵+TG@ZDYZ2+-JP-Tokyo13","type":"vless","server":"123.108.70.125","port":30896,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore9","type":"vless","server":"47.236.202.91","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong7","type":"vless","server":"47.76.98.98","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"TG@ZDYZ2+-KR13","type":"vless","server":"61.77.9.219","port":12487,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"TG@ZDYZ2+-KR11","type":"vless","server":"222.113.18.206","port":38961,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong3","type":"vless","server":"38.180.150.193","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+6","type":"vless","server":"45.159.218.46","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore12","type":"vless","server":"47.236.80.110","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+5","type":"vless","server":"205.233.181.222","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇯🇵+TG@ZDYZ2+-JP-Tokyo8","type":"vless","server":"172.84.92.33","port":34280,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"TG@ZDYZ2","type":"vless","server":"188.42.88.66","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇦🇹+TG@ZDYZ2+-奥地利🇦🇹","type":"vless","server":"94.177.8.26","port":130,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇨🇦+TG@ZDYZ2+-加拿大🇨🇦","type":"vless","server":"51.222.136.86","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇳🇱+TG@ZDYZ2+-荷兰🇳🇱2","type":"vless","server":"104.40.244.228","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong4","type":"vless","server":"103.149.144.19","port":25716,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"TG@ZDYZ2+-KR2","type":"vless","server":"115.95.134.179","port":30021,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇿🇦+TG@ZDYZ2+-南非🇿🇦","type":"vless","server":"185.238.228.212","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore10","type":"vless","server":"152.69.212.227","port":34237,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇫🇷+TG@ZDYZ2+-法国🇫🇷","type":"vless","server":"194.24.161.146","port":4090,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇬🇧+TG@ZDYZ2+-英国🇬🇧","type":"vless","server":"51.38.69.149","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+17","type":"vless","server":"45.159.218.188","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪2","type":"vless","server":"38.180.45.222","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong14","type":"vless","server":"156.251.180.176","port":21698,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"TG@ZDYZ2+-KR3","type":"vless","server":"125.135.115.85","port":18038,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇪🇸+TG@ZDYZ2+-西班牙🇪🇸","type":"vless","server":"185.114.72.67","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"TG@ZDYZ2+-KR4","type":"vless","server":"222.113.18.205","port":38749,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore4","type":"vless","server":"185.217.5.3","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇹🇼+TG@ZDYZ2+-TW-Taipei3","type":"vless","server":"61.220.41.143","port":36633,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CMCC","type":"vless","server":"104.19.125.225","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇭🇰+TG@ZDYZ2+-HK-Hong+Kong22","type":"vless","server":"161.81.211.37","port":15213,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇸🇬+TG@ZDYZ2+-SG-Singapore1","type":"vless","server":"140.99.233.156","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"TG@ZDYZ2+-KR12","type":"vless","server":"125.129.129.66","port":12245,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT+23","type":"vless","server":"45.159.218.213","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -169,318 +161,286 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo7
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo3
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo1
-      - 🇿🇦+TG@ZDYZ2+-南非🇿🇦
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong7
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong19
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong14
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore6
-      - TG@ZDYZ2+-KR13
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo2
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore11
-      - 🇺🇸+TG@ZDYZ2+-US-New+York
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo4
+      - CT+36
+      - CT+30
+      - CT+21
+      - CT+31
       - 🇯🇵+TG@ZDYZ2+-JP-Tokyo6
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong12
-      - 🇷🇺+TG@ZDYZ2+-俄罗斯🇷🇺
-      - TG@ZDYZ2+禁止爬取本订阅节点
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore12
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong4
-      - TG@ZDYZ2+关注TG频道获取更多免费节点
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore14
-      - CT+5
-      - CMCC+5
-      - TG@ZDYZ2+-KR6
-      - 🇮🇪+TG@ZDYZ2+-都柏林🇮🇪
-      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore9
-      - TG@ZDYZ2+-KR11
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore10
-      - CMCC+6
-      - 🇫🇷+TG@ZDYZ2+-法国🇫🇷
-      - CT+6
-      - TG@ZDYZ2+-KR7
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore1
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore8
-      - CT+4
-      - TG@ZDYZ2
-      - 🇺🇸+TG@ZDYZ2+-US-Washington.D.C
-      - TG@ZDYZ2+2
-      - CMCC+2
+      - CT+10
+      - CT+38
       - 🇹🇼+TG@ZDYZ2+-TW-Taipei4
+      - CT+14
+      - CT+25
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong19
+      - 🇺🇸+TG@ZDYZ2+-US-New+York
       - 🇺🇸+TG@ZDYZ2+-US-California
-      - CT+3
-      - CT+8
-      - 🇨🇦+TG@ZDYZ2+-加拿大🇨🇦
-      - CMCC+3
-      - CMCC+4
-      - 🇹🇼+TG@ZDYZ2+-TW-Taipei9
-      - 🇦🇹+TG@ZDYZ2+-奥地利🇦🇹
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong3
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo10
-      - CMCC+8
+      - CT+19
+      - CT+24
       - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong6
-      - 🇬🇧+TG@ZDYZ2+-英国🇬🇧
-      - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪2
-      - CMCC+7
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo8
-      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱2
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong21
+      - CT+22
+      - CT+15
+      - TG@ZDYZ2+-KR6
+      - CT+12
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo7
+      - TG@ZDYZ2+-KR4
+      - CT+4
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore14
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore11
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore13
+      - CT+16
+      - CT+28
+      - 🇪🇸+TG@ZDYZ2+-西班牙🇪🇸
+      - CT+13
+      - CT+2
+      - TG@ZDYZ2+-KR7
+      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱
+      - TG@ZDYZ2+-KR10
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo2
+      - CT+18
       - TG@ZDYZ2+-KR1
       - 🇹🇼+TG@ZDYZ2+-TW-Taipei7
-      - CT+2
-      - 🇦🇺+TG@ZDYZ2+-澳大利亚🇦🇺
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo13
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore9
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong7
+      - TG@ZDYZ2+-KR13
+      - TG@ZDYZ2+-KR11
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong3
+      - CT+6
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore12
+      - CT+5
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo8
+      - TG@ZDYZ2
+      - 🇦🇹+TG@ZDYZ2+-奥地利🇦🇹
+      - 🇨🇦+TG@ZDYZ2+-加拿大🇨🇦
+      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱2
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong4
       - TG@ZDYZ2+-KR2
+      - 🇿🇦+TG@ZDYZ2+-南非🇿🇦
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore10
+      - 🇫🇷+TG@ZDYZ2+-法国🇫🇷
+      - 🇬🇧+TG@ZDYZ2+-英国🇬🇧
+      - CT+17
+      - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪2
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong14
       - TG@ZDYZ2+-KR3
-      - 🇪🇸+TG@ZDYZ2+-西班牙🇪🇸
-      - TG@ZDYZ2+-KR4
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore4
-      - 🇹🇼+TG@ZDYZ2+-TW-Taipei3
-      - CMCC
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong22
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore1
       - TG@ZDYZ2+-KR12
+      - CT+23
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo7
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo3
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo1
-      - 🇿🇦+TG@ZDYZ2+-南非🇿🇦
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong7
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong19
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong14
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore6
-      - TG@ZDYZ2+-KR13
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo2
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore11
-      - 🇺🇸+TG@ZDYZ2+-US-New+York
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo4
+      - CT+36
+      - CT+30
+      - CT+21
+      - CT+31
       - 🇯🇵+TG@ZDYZ2+-JP-Tokyo6
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong12
-      - 🇷🇺+TG@ZDYZ2+-俄罗斯🇷🇺
-      - TG@ZDYZ2+禁止爬取本订阅节点
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore12
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong4
-      - TG@ZDYZ2+关注TG频道获取更多免费节点
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore14
-      - CT+5
-      - CMCC+5
-      - TG@ZDYZ2+-KR6
-      - 🇮🇪+TG@ZDYZ2+-都柏林🇮🇪
-      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore9
-      - TG@ZDYZ2+-KR11
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore10
-      - CMCC+6
-      - 🇫🇷+TG@ZDYZ2+-法国🇫🇷
-      - CT+6
-      - TG@ZDYZ2+-KR7
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore1
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore8
-      - CT+4
-      - TG@ZDYZ2
-      - 🇺🇸+TG@ZDYZ2+-US-Washington.D.C
-      - TG@ZDYZ2+2
-      - CMCC+2
+      - CT+10
+      - CT+38
       - 🇹🇼+TG@ZDYZ2+-TW-Taipei4
+      - CT+14
+      - CT+25
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong19
+      - 🇺🇸+TG@ZDYZ2+-US-New+York
       - 🇺🇸+TG@ZDYZ2+-US-California
-      - CT+3
-      - CT+8
-      - 🇨🇦+TG@ZDYZ2+-加拿大🇨🇦
-      - CMCC+3
-      - CMCC+4
-      - 🇹🇼+TG@ZDYZ2+-TW-Taipei9
-      - 🇦🇹+TG@ZDYZ2+-奥地利🇦🇹
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong3
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo10
-      - CMCC+8
+      - CT+19
+      - CT+24
       - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong6
-      - 🇬🇧+TG@ZDYZ2+-英国🇬🇧
-      - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪2
-      - CMCC+7
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo8
-      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱2
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong21
+      - CT+22
+      - CT+15
+      - TG@ZDYZ2+-KR6
+      - CT+12
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo7
+      - TG@ZDYZ2+-KR4
+      - CT+4
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore14
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore11
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore13
+      - CT+16
+      - CT+28
+      - 🇪🇸+TG@ZDYZ2+-西班牙🇪🇸
+      - CT+13
+      - CT+2
+      - TG@ZDYZ2+-KR7
+      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱
+      - TG@ZDYZ2+-KR10
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo2
+      - CT+18
       - TG@ZDYZ2+-KR1
       - 🇹🇼+TG@ZDYZ2+-TW-Taipei7
-      - CT+2
-      - 🇦🇺+TG@ZDYZ2+-澳大利亚🇦🇺
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo13
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore9
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong7
+      - TG@ZDYZ2+-KR13
+      - TG@ZDYZ2+-KR11
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong3
+      - CT+6
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore12
+      - CT+5
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo8
+      - TG@ZDYZ2
+      - 🇦🇹+TG@ZDYZ2+-奥地利🇦🇹
+      - 🇨🇦+TG@ZDYZ2+-加拿大🇨🇦
+      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱2
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong4
       - TG@ZDYZ2+-KR2
+      - 🇿🇦+TG@ZDYZ2+-南非🇿🇦
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore10
+      - 🇫🇷+TG@ZDYZ2+-法国🇫🇷
+      - 🇬🇧+TG@ZDYZ2+-英国🇬🇧
+      - CT+17
+      - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪2
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong14
       - TG@ZDYZ2+-KR3
-      - 🇪🇸+TG@ZDYZ2+-西班牙🇪🇸
-      - TG@ZDYZ2+-KR4
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore4
-      - 🇹🇼+TG@ZDYZ2+-TW-Taipei3
-      - CMCC
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong22
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore1
       - TG@ZDYZ2+-KR12
+      - CT+23
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo7
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo3
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo1
-      - 🇿🇦+TG@ZDYZ2+-南非🇿🇦
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong7
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong19
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong14
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore6
-      - TG@ZDYZ2+-KR13
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo2
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore11
-      - 🇺🇸+TG@ZDYZ2+-US-New+York
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo4
+      - CT+36
+      - CT+30
+      - CT+21
+      - CT+31
       - 🇯🇵+TG@ZDYZ2+-JP-Tokyo6
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong12
-      - 🇷🇺+TG@ZDYZ2+-俄罗斯🇷🇺
-      - TG@ZDYZ2+禁止爬取本订阅节点
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore12
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong4
-      - TG@ZDYZ2+关注TG频道获取更多免费节点
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore14
-      - CT+5
-      - CMCC+5
-      - TG@ZDYZ2+-KR6
-      - 🇮🇪+TG@ZDYZ2+-都柏林🇮🇪
-      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore9
-      - TG@ZDYZ2+-KR11
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore10
-      - CMCC+6
-      - 🇫🇷+TG@ZDYZ2+-法国🇫🇷
-      - CT+6
-      - TG@ZDYZ2+-KR7
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore1
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore8
-      - CT+4
-      - TG@ZDYZ2
-      - 🇺🇸+TG@ZDYZ2+-US-Washington.D.C
-      - TG@ZDYZ2+2
-      - CMCC+2
+      - CT+10
+      - CT+38
       - 🇹🇼+TG@ZDYZ2+-TW-Taipei4
+      - CT+14
+      - CT+25
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong19
+      - 🇺🇸+TG@ZDYZ2+-US-New+York
       - 🇺🇸+TG@ZDYZ2+-US-California
-      - CT+3
-      - CT+8
-      - 🇨🇦+TG@ZDYZ2+-加拿大🇨🇦
-      - CMCC+3
-      - CMCC+4
-      - 🇹🇼+TG@ZDYZ2+-TW-Taipei9
-      - 🇦🇹+TG@ZDYZ2+-奥地利🇦🇹
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong3
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo10
-      - CMCC+8
+      - CT+19
+      - CT+24
       - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong6
-      - 🇬🇧+TG@ZDYZ2+-英国🇬🇧
-      - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪2
-      - CMCC+7
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo8
-      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱2
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong21
+      - CT+22
+      - CT+15
+      - TG@ZDYZ2+-KR6
+      - CT+12
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo7
+      - TG@ZDYZ2+-KR4
+      - CT+4
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore14
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore11
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore13
+      - CT+16
+      - CT+28
+      - 🇪🇸+TG@ZDYZ2+-西班牙🇪🇸
+      - CT+13
+      - CT+2
+      - TG@ZDYZ2+-KR7
+      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱
+      - TG@ZDYZ2+-KR10
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo2
+      - CT+18
       - TG@ZDYZ2+-KR1
       - 🇹🇼+TG@ZDYZ2+-TW-Taipei7
-      - CT+2
-      - 🇦🇺+TG@ZDYZ2+-澳大利亚🇦🇺
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo13
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore9
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong7
+      - TG@ZDYZ2+-KR13
+      - TG@ZDYZ2+-KR11
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong3
+      - CT+6
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore12
+      - CT+5
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo8
+      - TG@ZDYZ2
+      - 🇦🇹+TG@ZDYZ2+-奥地利🇦🇹
+      - 🇨🇦+TG@ZDYZ2+-加拿大🇨🇦
+      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱2
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong4
       - TG@ZDYZ2+-KR2
+      - 🇿🇦+TG@ZDYZ2+-南非🇿🇦
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore10
+      - 🇫🇷+TG@ZDYZ2+-法国🇫🇷
+      - 🇬🇧+TG@ZDYZ2+-英国🇬🇧
+      - CT+17
+      - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪2
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong14
       - TG@ZDYZ2+-KR3
-      - 🇪🇸+TG@ZDYZ2+-西班牙🇪🇸
-      - TG@ZDYZ2+-KR4
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore4
-      - 🇹🇼+TG@ZDYZ2+-TW-Taipei3
-      - CMCC
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong22
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore1
       - TG@ZDYZ2+-KR12
+      - CT+23
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo7
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo3
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo1
-      - 🇿🇦+TG@ZDYZ2+-南非🇿🇦
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong7
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong19
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong14
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore6
-      - TG@ZDYZ2+-KR13
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo2
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore11
-      - 🇺🇸+TG@ZDYZ2+-US-New+York
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo4
+      - CT+36
+      - CT+30
+      - CT+21
+      - CT+31
       - 🇯🇵+TG@ZDYZ2+-JP-Tokyo6
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong12
-      - 🇷🇺+TG@ZDYZ2+-俄罗斯🇷🇺
-      - TG@ZDYZ2+禁止爬取本订阅节点
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore12
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong4
-      - TG@ZDYZ2+关注TG频道获取更多免费节点
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore14
-      - CT+5
-      - CMCC+5
-      - TG@ZDYZ2+-KR6
-      - 🇮🇪+TG@ZDYZ2+-都柏林🇮🇪
-      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore9
-      - TG@ZDYZ2+-KR11
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore10
-      - CMCC+6
-      - 🇫🇷+TG@ZDYZ2+-法国🇫🇷
-      - CT+6
-      - TG@ZDYZ2+-KR7
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore1
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore8
-      - CT+4
-      - TG@ZDYZ2
-      - 🇺🇸+TG@ZDYZ2+-US-Washington.D.C
-      - TG@ZDYZ2+2
-      - CMCC+2
+      - CT+10
+      - CT+38
       - 🇹🇼+TG@ZDYZ2+-TW-Taipei4
+      - CT+14
+      - CT+25
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong19
+      - 🇺🇸+TG@ZDYZ2+-US-New+York
       - 🇺🇸+TG@ZDYZ2+-US-California
-      - CT+3
-      - CT+8
-      - 🇨🇦+TG@ZDYZ2+-加拿大🇨🇦
-      - CMCC+3
-      - CMCC+4
-      - 🇹🇼+TG@ZDYZ2+-TW-Taipei9
-      - 🇦🇹+TG@ZDYZ2+-奥地利🇦🇹
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong3
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo10
-      - CMCC+8
+      - CT+19
+      - CT+24
       - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong6
-      - 🇬🇧+TG@ZDYZ2+-英国🇬🇧
-      - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪2
-      - CMCC+7
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo8
-      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱2
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong21
+      - CT+22
+      - CT+15
+      - TG@ZDYZ2+-KR6
+      - CT+12
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo7
+      - TG@ZDYZ2+-KR4
+      - CT+4
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore14
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore11
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore13
+      - CT+16
+      - CT+28
+      - 🇪🇸+TG@ZDYZ2+-西班牙🇪🇸
+      - CT+13
+      - CT+2
+      - TG@ZDYZ2+-KR7
+      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱
+      - TG@ZDYZ2+-KR10
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo2
+      - CT+18
       - TG@ZDYZ2+-KR1
       - 🇹🇼+TG@ZDYZ2+-TW-Taipei7
-      - CT+2
-      - 🇦🇺+TG@ZDYZ2+-澳大利亚🇦🇺
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo13
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore9
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong7
+      - TG@ZDYZ2+-KR13
+      - TG@ZDYZ2+-KR11
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong3
+      - CT+6
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore12
+      - CT+5
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo8
+      - TG@ZDYZ2
+      - 🇦🇹+TG@ZDYZ2+-奥地利🇦🇹
+      - 🇨🇦+TG@ZDYZ2+-加拿大🇨🇦
+      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱2
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong4
       - TG@ZDYZ2+-KR2
+      - 🇿🇦+TG@ZDYZ2+-南非🇿🇦
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore10
+      - 🇫🇷+TG@ZDYZ2+-法国🇫🇷
+      - 🇬🇧+TG@ZDYZ2+-英国🇬🇧
+      - CT+17
+      - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪2
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong14
       - TG@ZDYZ2+-KR3
-      - 🇪🇸+TG@ZDYZ2+-西班牙🇪🇸
-      - TG@ZDYZ2+-KR4
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore4
-      - 🇹🇼+TG@ZDYZ2+-TW-Taipei3
-      - CMCC
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong22
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore1
       - TG@ZDYZ2+-KR12
+      - CT+23
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -500,80 +460,72 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo7
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo3
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo1
-      - 🇿🇦+TG@ZDYZ2+-南非🇿🇦
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong7
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong19
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong14
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore6
-      - TG@ZDYZ2+-KR13
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo2
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore11
-      - 🇺🇸+TG@ZDYZ2+-US-New+York
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo4
+      - CT+36
+      - CT+30
+      - CT+21
+      - CT+31
       - 🇯🇵+TG@ZDYZ2+-JP-Tokyo6
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong12
-      - 🇷🇺+TG@ZDYZ2+-俄罗斯🇷🇺
-      - TG@ZDYZ2+禁止爬取本订阅节点
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore12
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong4
-      - TG@ZDYZ2+关注TG频道获取更多免费节点
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore14
-      - CT+5
-      - CMCC+5
-      - TG@ZDYZ2+-KR6
-      - 🇮🇪+TG@ZDYZ2+-都柏林🇮🇪
-      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore9
-      - TG@ZDYZ2+-KR11
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore10
-      - CMCC+6
-      - 🇫🇷+TG@ZDYZ2+-法国🇫🇷
-      - CT+6
-      - TG@ZDYZ2+-KR7
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore1
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore8
-      - CT+4
-      - TG@ZDYZ2
-      - 🇺🇸+TG@ZDYZ2+-US-Washington.D.C
-      - TG@ZDYZ2+2
-      - CMCC+2
+      - CT+10
+      - CT+38
       - 🇹🇼+TG@ZDYZ2+-TW-Taipei4
+      - CT+14
+      - CT+25
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong19
+      - 🇺🇸+TG@ZDYZ2+-US-New+York
       - 🇺🇸+TG@ZDYZ2+-US-California
-      - CT+3
-      - CT+8
-      - 🇨🇦+TG@ZDYZ2+-加拿大🇨🇦
-      - CMCC+3
-      - CMCC+4
-      - 🇹🇼+TG@ZDYZ2+-TW-Taipei9
-      - 🇦🇹+TG@ZDYZ2+-奥地利🇦🇹
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong3
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo10
-      - CMCC+8
+      - CT+19
+      - CT+24
       - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong6
-      - 🇬🇧+TG@ZDYZ2+-英国🇬🇧
-      - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪2
-      - CMCC+7
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo8
-      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱2
-      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong21
+      - CT+22
+      - CT+15
+      - TG@ZDYZ2+-KR6
+      - CT+12
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo7
+      - TG@ZDYZ2+-KR4
+      - CT+4
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore14
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore11
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore13
+      - CT+16
+      - CT+28
+      - 🇪🇸+TG@ZDYZ2+-西班牙🇪🇸
+      - CT+13
+      - CT+2
+      - TG@ZDYZ2+-KR7
+      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱
+      - TG@ZDYZ2+-KR10
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo2
+      - CT+18
       - TG@ZDYZ2+-KR1
       - 🇹🇼+TG@ZDYZ2+-TW-Taipei7
-      - CT+2
-      - 🇦🇺+TG@ZDYZ2+-澳大利亚🇦🇺
-      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo13
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore9
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong7
+      - TG@ZDYZ2+-KR13
+      - TG@ZDYZ2+-KR11
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong3
+      - CT+6
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore12
+      - CT+5
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo8
+      - TG@ZDYZ2
+      - 🇦🇹+TG@ZDYZ2+-奥地利🇦🇹
+      - 🇨🇦+TG@ZDYZ2+-加拿大🇨🇦
+      - 🇳🇱+TG@ZDYZ2+-荷兰🇳🇱2
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong4
       - TG@ZDYZ2+-KR2
+      - 🇿🇦+TG@ZDYZ2+-南非🇿🇦
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore10
+      - 🇫🇷+TG@ZDYZ2+-法国🇫🇷
+      - 🇬🇧+TG@ZDYZ2+-英国🇬🇧
+      - CT+17
+      - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪2
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong14
       - TG@ZDYZ2+-KR3
-      - 🇪🇸+TG@ZDYZ2+-西班牙🇪🇸
-      - TG@ZDYZ2+-KR4
-      - 🇸🇬+TG@ZDYZ2+-SG-Singapore4
-      - 🇹🇼+TG@ZDYZ2+-TW-Taipei3
-      - CMCC
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong22
+      - 🇸🇬+TG@ZDYZ2+-SG-Singapore1
       - TG@ZDYZ2+-KR12
+      - CT+23
 
 rules:
 # 本地/局域网地址
