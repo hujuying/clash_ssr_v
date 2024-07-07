@@ -1,10 +1,11 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash
-# 创建时间：2024-07-05 03:34:56
+# 客户端：Clash.Meta
+# 创建时间：2024-07-08 05:12:31
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：58
-# 节点类型：trojan
+# 节点数量：22
+# 节点类型：hysteria2
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -86,64 +87,28 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"United States | 04\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20044,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"United States | 06\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20046,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Italy | 01\r","type":"trojan","server":"cos-ap-beijing.solidigm-nvme.com","port":20058,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"United States | 07\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20047,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Israel | 01\r","type":"trojan","server":"cos-ap-beijing.solidigm-nvme.com","port":20067,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"United States | 03\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20043,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"United States | 08\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20048,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Japan | 05\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20035,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Japan | 01\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20031,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Japan | 06\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20036,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Japan | 07\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20037,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Japan | 04\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20034,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Japan | 08\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20038,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Japan | 03\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20033,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Japan | 02\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20032,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Brazil | 01\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20063,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Germany | 02\r","type":"trojan","server":"cos-ap-beijing.solidigm-nvme.com","port":20055,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Chile | 01\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20064,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"India | 01\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20066,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Hong Kong | 06\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20006,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Taiwan | 06\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20016,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Taiwan | 02\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20012,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Taiwan | 07\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20017,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Hong Kong | 03\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20003,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Taiwan | 01\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20011,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Singapore | 04\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20024,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Hong Kong | 02\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20002,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Hong Kong | 05\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20005,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Singapore | 07\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20027,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Johannesburg | 01\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20071,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Singapore | 05\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20025,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Taiwan | 04\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20014,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Singapore | 02\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20022,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Hong Kong | 07\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20007,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"United Kingdom | 02\r","type":"trojan","server":"cos-ap-beijing.solidigm-nvme.com","port":20053,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Netherlands | 02\r","type":"trojan","server":"cos-ap-beijing.solidigm-nvme.com","port":20057,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Traffic: 80.86 GB | 200 GB\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20001,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Netherlands | 01\r","type":"trojan","server":"cos-ap-beijing.solidigm-nvme.com","port":20056,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Hong Kong | 04\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20004,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"United Kingdom | 01\r","type":"trojan","server":"cos-ap-beijing.solidigm-nvme.com","port":20052,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Singapore | 06\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20026,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Singapore | 03\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20023,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Taiwan | 03\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20013,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Hong Kong | 08\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20008,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Germany | 01\r","type":"trojan","server":"cos-ap-beijing.solidigm-nvme.com","port":20054,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Taiwan | 05\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20015,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Australia | 01\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20061,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Malaysia | 01\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20070,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Thailand | 01\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20068,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Singapore | 01\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20021,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Singapore | 08\r","type":"trojan","server":"oss-cn-guangzhou.solidigm-nvme.com","port":20028,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Turkey | 01\r","type":"trojan","server":"cos-ap-beijing.solidigm-nvme.com","port":20060,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"United States | 05\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20045,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Argentina | 01\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20062,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Korea | 01\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20065,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"United States | 02\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20042,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Canada | 01\r","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20051,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"United States | 01","type":"trojan","server":"oss-cn-shanghai.solidigm-nvme.com","port":20041,"udp":true,"password":"6EB9BA03-CAD8-AE8B-BD0F-60116B07913E","sni":"mmbiz.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国|United States01","type":"hysteria2","server":"us1.pithecia.com","port":50136,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"U|墨西哥|Mexico","type":"hysteria2","server":"u.pithecia.com","port":30003,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"U|加拿大|Canada","type":"hysteria2","server":"u.pithecia.com","port":30002,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"E|埃及|Egypt","type":"hysteria2","server":"e.pithecia.com","port":20008,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"俄罗斯|🇷ussia01","type":"hysteria2","server":"ru1.pithecia.com","port":50236,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"日本|Japan05","type":"hysteria2","server":"jp5.pithecia.com","port":50082,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"日本|Japan01","type":"hysteria2","server":"jp1.pithecia.com","port":50049,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"美国|United States02","type":"hysteria2","server":"us2.pithecia.com","port":50366,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"香港A|HongKong02","type":"hysteria2","server":"jphk1.pithecia.com","port":30352,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"U|巴西|Brazil","type":"hysteria2","server":"u.pithecia.com","port":30001,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"泰国|Thailand","type":"hysteria2","server":"jphk1.pithecia.com","port":443,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"日本|Japan02","type":"hysteria2","server":"jp2.pithecia.com","port":50334,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"U|阿根廷|Argentina","type":"hysteria2","server":"u.pithecia.com","port":30000,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"新加坡|Singapore02","type":"hysteria2","server":"sg2.pithecia.com","port":50000,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"马来西亚|Malaysia","type":"hysteria2","server":"jp2.pithecia.com","port":443,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"套餐到期：2025-01-07","type":"hysteria2","server":"hk3.pithecia.com","port":20048,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"香港|HongKong08","type":"hysteria2","server":"hk8.pithecia.com","port":50000,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"香港A|HongKong01","type":"hysteria2","server":"jphk1.pithecia.com","port":20340,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"剩余流量：778.92 GB","type":"hysteria2","server":"hk3.pithecia.com","port":20048,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"官网pithecia.com","type":"hysteria2","server":"hk3.pithecia.com","port":20048,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"距离下次重置剩余：23 天","type":"hysteria2","server":"hk3.pithecia.com","port":20048,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"新加坡|Singapore01","type":"hysteria2","server":"sg1.pithecia.com","port":50000,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -152,254 +117,110 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - "United States | 04\r"
-      - "United States | 06\r"
-      - "Italy | 01\r"
-      - "United States | 07\r"
-      - "Israel | 01\r"
-      - "United States | 03\r"
-      - "United States | 08\r"
-      - "Japan | 05\r"
-      - "Japan | 01\r"
-      - "Japan | 06\r"
-      - "Japan | 07\r"
-      - "Japan | 04\r"
-      - "Japan | 08\r"
-      - "Japan | 03\r"
-      - "Japan | 02\r"
-      - "Brazil | 01\r"
-      - "Germany | 02\r"
-      - "Chile | 01\r"
-      - "India | 01\r"
-      - "Hong Kong | 06\r"
-      - "Taiwan | 06\r"
-      - "Taiwan | 02\r"
-      - "Taiwan | 07\r"
-      - "Hong Kong | 03\r"
-      - "Taiwan | 01\r"
-      - "Singapore | 04\r"
-      - "Hong Kong | 02\r"
-      - "Hong Kong | 05\r"
-      - "Singapore | 07\r"
-      - "Johannesburg | 01\r"
-      - "Singapore | 05\r"
-      - "Taiwan | 04\r"
-      - "Singapore | 02\r"
-      - "Hong Kong | 07\r"
-      - "United Kingdom | 02\r"
-      - "Netherlands | 02\r"
-      - "Traffic: 80.86 GB | 200 GB\r"
-      - "Netherlands | 01\r"
-      - "Hong Kong | 04\r"
-      - "United Kingdom | 01\r"
-      - "Singapore | 06\r"
-      - "Singapore | 03\r"
-      - "Taiwan | 03\r"
-      - "Hong Kong | 08\r"
-      - "Germany | 01\r"
-      - "Taiwan | 05\r"
-      - "Australia | 01\r"
-      - "Malaysia | 01\r"
-      - "Thailand | 01\r"
-      - "Singapore | 01\r"
-      - "Singapore | 08\r"
-      - "Turkey | 01\r"
-      - "United States | 05\r"
-      - "Argentina | 01\r"
-      - "Korea | 01\r"
-      - "United States | 02\r"
-      - "Canada | 01\r"
-      - United States | 01
+      - 美国|United States01
+      - U|墨西哥|Mexico
+      - U|加拿大|Canada
+      - E|埃及|Egypt
+      - 俄罗斯|🇷ussia01
+      - 日本|Japan05
+      - 日本|Japan01
+      - 美国|United States02
+      - 香港A|HongKong02
+      - U|巴西|Brazil
+      - 泰国|Thailand
+      - 日本|Japan02
+      - U|阿根廷|Argentina
+      - 新加坡|Singapore02
+      - 马来西亚|Malaysia
+      - 套餐到期：2025-01-07
+      - 香港|HongKong08
+      - 香港A|HongKong01
+      - 剩余流量：778.92 GB
+      - 官网pithecia.com
+      - 距离下次重置剩余：23 天
+      - 新加坡|Singapore01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "United States | 04\r"
-      - "United States | 06\r"
-      - "Italy | 01\r"
-      - "United States | 07\r"
-      - "Israel | 01\r"
-      - "United States | 03\r"
-      - "United States | 08\r"
-      - "Japan | 05\r"
-      - "Japan | 01\r"
-      - "Japan | 06\r"
-      - "Japan | 07\r"
-      - "Japan | 04\r"
-      - "Japan | 08\r"
-      - "Japan | 03\r"
-      - "Japan | 02\r"
-      - "Brazil | 01\r"
-      - "Germany | 02\r"
-      - "Chile | 01\r"
-      - "India | 01\r"
-      - "Hong Kong | 06\r"
-      - "Taiwan | 06\r"
-      - "Taiwan | 02\r"
-      - "Taiwan | 07\r"
-      - "Hong Kong | 03\r"
-      - "Taiwan | 01\r"
-      - "Singapore | 04\r"
-      - "Hong Kong | 02\r"
-      - "Hong Kong | 05\r"
-      - "Singapore | 07\r"
-      - "Johannesburg | 01\r"
-      - "Singapore | 05\r"
-      - "Taiwan | 04\r"
-      - "Singapore | 02\r"
-      - "Hong Kong | 07\r"
-      - "United Kingdom | 02\r"
-      - "Netherlands | 02\r"
-      - "Traffic: 80.86 GB | 200 GB\r"
-      - "Netherlands | 01\r"
-      - "Hong Kong | 04\r"
-      - "United Kingdom | 01\r"
-      - "Singapore | 06\r"
-      - "Singapore | 03\r"
-      - "Taiwan | 03\r"
-      - "Hong Kong | 08\r"
-      - "Germany | 01\r"
-      - "Taiwan | 05\r"
-      - "Australia | 01\r"
-      - "Malaysia | 01\r"
-      - "Thailand | 01\r"
-      - "Singapore | 01\r"
-      - "Singapore | 08\r"
-      - "Turkey | 01\r"
-      - "United States | 05\r"
-      - "Argentina | 01\r"
-      - "Korea | 01\r"
-      - "United States | 02\r"
-      - "Canada | 01\r"
-      - United States | 01
+      - 美国|United States01
+      - U|墨西哥|Mexico
+      - U|加拿大|Canada
+      - E|埃及|Egypt
+      - 俄罗斯|🇷ussia01
+      - 日本|Japan05
+      - 日本|Japan01
+      - 美国|United States02
+      - 香港A|HongKong02
+      - U|巴西|Brazil
+      - 泰国|Thailand
+      - 日本|Japan02
+      - U|阿根廷|Argentina
+      - 新加坡|Singapore02
+      - 马来西亚|Malaysia
+      - 套餐到期：2025-01-07
+      - 香港|HongKong08
+      - 香港A|HongKong01
+      - 剩余流量：778.92 GB
+      - 官网pithecia.com
+      - 距离下次重置剩余：23 天
+      - 新加坡|Singapore01
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "United States | 04\r"
-      - "United States | 06\r"
-      - "Italy | 01\r"
-      - "United States | 07\r"
-      - "Israel | 01\r"
-      - "United States | 03\r"
-      - "United States | 08\r"
-      - "Japan | 05\r"
-      - "Japan | 01\r"
-      - "Japan | 06\r"
-      - "Japan | 07\r"
-      - "Japan | 04\r"
-      - "Japan | 08\r"
-      - "Japan | 03\r"
-      - "Japan | 02\r"
-      - "Brazil | 01\r"
-      - "Germany | 02\r"
-      - "Chile | 01\r"
-      - "India | 01\r"
-      - "Hong Kong | 06\r"
-      - "Taiwan | 06\r"
-      - "Taiwan | 02\r"
-      - "Taiwan | 07\r"
-      - "Hong Kong | 03\r"
-      - "Taiwan | 01\r"
-      - "Singapore | 04\r"
-      - "Hong Kong | 02\r"
-      - "Hong Kong | 05\r"
-      - "Singapore | 07\r"
-      - "Johannesburg | 01\r"
-      - "Singapore | 05\r"
-      - "Taiwan | 04\r"
-      - "Singapore | 02\r"
-      - "Hong Kong | 07\r"
-      - "United Kingdom | 02\r"
-      - "Netherlands | 02\r"
-      - "Traffic: 80.86 GB | 200 GB\r"
-      - "Netherlands | 01\r"
-      - "Hong Kong | 04\r"
-      - "United Kingdom | 01\r"
-      - "Singapore | 06\r"
-      - "Singapore | 03\r"
-      - "Taiwan | 03\r"
-      - "Hong Kong | 08\r"
-      - "Germany | 01\r"
-      - "Taiwan | 05\r"
-      - "Australia | 01\r"
-      - "Malaysia | 01\r"
-      - "Thailand | 01\r"
-      - "Singapore | 01\r"
-      - "Singapore | 08\r"
-      - "Turkey | 01\r"
-      - "United States | 05\r"
-      - "Argentina | 01\r"
-      - "Korea | 01\r"
-      - "United States | 02\r"
-      - "Canada | 01\r"
-      - United States | 01
+      - 美国|United States01
+      - U|墨西哥|Mexico
+      - U|加拿大|Canada
+      - E|埃及|Egypt
+      - 俄罗斯|🇷ussia01
+      - 日本|Japan05
+      - 日本|Japan01
+      - 美国|United States02
+      - 香港A|HongKong02
+      - U|巴西|Brazil
+      - 泰国|Thailand
+      - 日本|Japan02
+      - U|阿根廷|Argentina
+      - 新加坡|Singapore02
+      - 马来西亚|Malaysia
+      - 套餐到期：2025-01-07
+      - 香港|HongKong08
+      - 香港A|HongKong01
+      - 剩余流量：778.92 GB
+      - 官网pithecia.com
+      - 距离下次重置剩余：23 天
+      - 新加坡|Singapore01
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "United States | 04\r"
-      - "United States | 06\r"
-      - "Italy | 01\r"
-      - "United States | 07\r"
-      - "Israel | 01\r"
-      - "United States | 03\r"
-      - "United States | 08\r"
-      - "Japan | 05\r"
-      - "Japan | 01\r"
-      - "Japan | 06\r"
-      - "Japan | 07\r"
-      - "Japan | 04\r"
-      - "Japan | 08\r"
-      - "Japan | 03\r"
-      - "Japan | 02\r"
-      - "Brazil | 01\r"
-      - "Germany | 02\r"
-      - "Chile | 01\r"
-      - "India | 01\r"
-      - "Hong Kong | 06\r"
-      - "Taiwan | 06\r"
-      - "Taiwan | 02\r"
-      - "Taiwan | 07\r"
-      - "Hong Kong | 03\r"
-      - "Taiwan | 01\r"
-      - "Singapore | 04\r"
-      - "Hong Kong | 02\r"
-      - "Hong Kong | 05\r"
-      - "Singapore | 07\r"
-      - "Johannesburg | 01\r"
-      - "Singapore | 05\r"
-      - "Taiwan | 04\r"
-      - "Singapore | 02\r"
-      - "Hong Kong | 07\r"
-      - "United Kingdom | 02\r"
-      - "Netherlands | 02\r"
-      - "Traffic: 80.86 GB | 200 GB\r"
-      - "Netherlands | 01\r"
-      - "Hong Kong | 04\r"
-      - "United Kingdom | 01\r"
-      - "Singapore | 06\r"
-      - "Singapore | 03\r"
-      - "Taiwan | 03\r"
-      - "Hong Kong | 08\r"
-      - "Germany | 01\r"
-      - "Taiwan | 05\r"
-      - "Australia | 01\r"
-      - "Malaysia | 01\r"
-      - "Thailand | 01\r"
-      - "Singapore | 01\r"
-      - "Singapore | 08\r"
-      - "Turkey | 01\r"
-      - "United States | 05\r"
-      - "Argentina | 01\r"
-      - "Korea | 01\r"
-      - "United States | 02\r"
-      - "Canada | 01\r"
-      - United States | 01
+      - 美国|United States01
+      - U|墨西哥|Mexico
+      - U|加拿大|Canada
+      - E|埃及|Egypt
+      - 俄罗斯|🇷ussia01
+      - 日本|Japan05
+      - 日本|Japan01
+      - 美国|United States02
+      - 香港A|HongKong02
+      - U|巴西|Brazil
+      - 泰国|Thailand
+      - 日本|Japan02
+      - U|阿根廷|Argentina
+      - 新加坡|Singapore02
+      - 马来西亚|Malaysia
+      - 套餐到期：2025-01-07
+      - 香港|HongKong08
+      - 香港A|HongKong01
+      - 剩余流量：778.92 GB
+      - 官网pithecia.com
+      - 距离下次重置剩余：23 天
+      - 新加坡|Singapore01
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -419,64 +240,28 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - "United States | 04\r"
-      - "United States | 06\r"
-      - "Italy | 01\r"
-      - "United States | 07\r"
-      - "Israel | 01\r"
-      - "United States | 03\r"
-      - "United States | 08\r"
-      - "Japan | 05\r"
-      - "Japan | 01\r"
-      - "Japan | 06\r"
-      - "Japan | 07\r"
-      - "Japan | 04\r"
-      - "Japan | 08\r"
-      - "Japan | 03\r"
-      - "Japan | 02\r"
-      - "Brazil | 01\r"
-      - "Germany | 02\r"
-      - "Chile | 01\r"
-      - "India | 01\r"
-      - "Hong Kong | 06\r"
-      - "Taiwan | 06\r"
-      - "Taiwan | 02\r"
-      - "Taiwan | 07\r"
-      - "Hong Kong | 03\r"
-      - "Taiwan | 01\r"
-      - "Singapore | 04\r"
-      - "Hong Kong | 02\r"
-      - "Hong Kong | 05\r"
-      - "Singapore | 07\r"
-      - "Johannesburg | 01\r"
-      - "Singapore | 05\r"
-      - "Taiwan | 04\r"
-      - "Singapore | 02\r"
-      - "Hong Kong | 07\r"
-      - "United Kingdom | 02\r"
-      - "Netherlands | 02\r"
-      - "Traffic: 80.86 GB | 200 GB\r"
-      - "Netherlands | 01\r"
-      - "Hong Kong | 04\r"
-      - "United Kingdom | 01\r"
-      - "Singapore | 06\r"
-      - "Singapore | 03\r"
-      - "Taiwan | 03\r"
-      - "Hong Kong | 08\r"
-      - "Germany | 01\r"
-      - "Taiwan | 05\r"
-      - "Australia | 01\r"
-      - "Malaysia | 01\r"
-      - "Thailand | 01\r"
-      - "Singapore | 01\r"
-      - "Singapore | 08\r"
-      - "Turkey | 01\r"
-      - "United States | 05\r"
-      - "Argentina | 01\r"
-      - "Korea | 01\r"
-      - "United States | 02\r"
-      - "Canada | 01\r"
-      - United States | 01
+      - 美国|United States01
+      - U|墨西哥|Mexico
+      - U|加拿大|Canada
+      - E|埃及|Egypt
+      - 俄罗斯|🇷ussia01
+      - 日本|Japan05
+      - 日本|Japan01
+      - 美国|United States02
+      - 香港A|HongKong02
+      - U|巴西|Brazil
+      - 泰国|Thailand
+      - 日本|Japan02
+      - U|阿根廷|Argentina
+      - 新加坡|Singapore02
+      - 马来西亚|Malaysia
+      - 套餐到期：2025-01-07
+      - 香港|HongKong08
+      - 香港A|HongKong01
+      - 剩余流量：778.92 GB
+      - 官网pithecia.com
+      - 距离下次重置剩余：23 天
+      - 新加坡|Singapore01
 
 rules:
 # 本地/局域网地址
