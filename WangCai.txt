@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-07 05:56:51
+# 创建时间：2024-07-08 05:12:14
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：101
-# 节点类型：trojan, vmess, vless, ss
+# 节点数量：93
+# 节点类型：hysteria2, vmess, trojan, vless, ss
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,107 +87,99 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"[1倍]+美国02+T","type":"trojan","server":"nc.cn1.xiaomi-api.xyz","port":19562,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"PRO+|+美国洛杉矶3+|+1倍+OpenAI","type":"trojan","server":"ecu.zarelay.com","port":46882,"udp":true,"password":"a4d4dd16-c1fc-36b9-881d-8d4d73091e48","sni":"us-lala2.zodport.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"424","type":"vmess","server":"38.95.115.176","port":16424,"cipher":"auto","uuid":"9eedb0d4-27fb-47e6-b3b5-301712337ecf","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"defaultName_1","type":"vless","server":"38.95.120.55","port":33445,"uuid":"b6011094-a647-4ccb-f97f-362b11aaf690","network":"ws","ws-opts":{"path":"/b6011094"}}
-  - {"name":"523","type":"vmess","server":"38.95.120.190","port":47523,"cipher":"auto","uuid":"61f588ae-5a12-48b9-e42e-20a17050697b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"89","type":"vmess","server":"38.95.120.190","port":47989,"cipher":"auto","uuid":"3b7f64b6-7a4f-4071-8614-6053a566a50c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"defaultName_2","type":"vless","server":"154.21.194.213","port":27284,"uuid":"20fb0928-15d6-400c-ade8-9b8b4ea3f169","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"defaultName_3","type":"vless","server":"38.95.120.54","port":46951,"uuid":"8009576f-3e88-4693-a3e9-f37409aa2037","network":"ws","ws-opts":{"path":"/8009576f"}}
-  - {"name":"105","type":"vmess","server":"154.21.194.210","port":18105,"cipher":"auto","uuid":"cf908e7a-6240-4549-b35d-6ab25fcb2f04","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"83","type":"vmess","server":"45.32.78.218","port":53983,"cipher":"auto","uuid":"01998b9d-751a-49d4-e9eb-61693143f8e2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"557","type":"vmess","server":"154.21.194.193","port":40557,"cipher":"auto","uuid":"47c00ab6-84af-497e-c208-f40193d10a2f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"776","type":"vmess","server":"38.46.4.182","port":57776,"cipher":"auto","uuid":"52900720-0479-48cc-b2d8-9e8adbf5ab47","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/52900720"}}
-  - {"name":"155","type":"vmess","server":"154.64.233.91","port":33581,"cipher":"auto","uuid":"42656a28-c8fe-471b-c705-49f11b25c319","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"defaultName_4","type":"vless","server":"38.95.120.190","port":42455,"uuid":"a92bacbe-0bf9-4dd8-afb8-da0d097a7e1b","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"116","type":"vmess","server":"45.128.153.28","port":58116,"cipher":"auto","uuid":"957d375f-a3ac-4ed0-9001-7abbce012521","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"defaultName_5","type":"vless","server":"185.132.54.61","port":48745,"uuid":"a438807e-c952-4a69-eb05-b7a8abbc9b95","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"134","type":"vmess","server":"154.64.232.177","port":19134,"cipher":"auto","uuid":"d9650c23-8cd1-4fe0-b272-1fa9caaa4b9f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"defaultName_6","type":"vless","server":"154.64.232.189","port":13020,"uuid":"43b51a38-d4cf-4c44-e30a-df1f3c48f237","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"[1倍]+香港01+T","type":"trojan","server":"nc.cm.xiaomi-api.xyz","port":19512,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"defaultName_7","type":"vless","server":"154.64.232.162","port":57174,"uuid":"cf059ac6-287a-411e-8bac-28571ac0d5de","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"defaultName_8","type":"vless","server":"154.64.232.167","port":53506,"uuid":"83a3b500-dea7-4009-9553-d81718f26dec","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"24","type":"vmess","server":"154.21.194.213","port":16024,"cipher":"auto","uuid":"29b6d6fc-72af-456e-9b6c-3573958e6fb7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"[vless]🇯🇵日本-东京-2500M","type":"vless","server":"2500m.tokyo.node.yljc.online","port":443,"uuid":"8df48fe3-a609-44f2-98b8-9f4cb0672427","tls":true,"servername":"tokyo1.nodes.yljc.online","network":"grpc","grpc-opts":{"grpc-service-name":"aabbcc"}}
-  - {"name":"535","type":"vmess","server":"38.95.113.182","port":17535,"cipher":"auto","uuid":"2abde38c-286c-4fe5-afc9-4e7735ca7fd6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/2abde38c"}}
-  - {"name":"815","type":"vmess","server":"38.150.3.99","port":28815,"cipher":"auto","uuid":"3c1832e6-8e59-41ba-b9f1-fc171125e601","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"38","type":"vmess","server":"38.95.113.124","port":12538,"cipher":"auto","uuid":"afb8346d-9d1d-46c3-896d-111c9856f8ac","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"237","type":"vmess","server":"154.21.194.210","port":22477,"cipher":"auto","uuid":"3202822c-2ed1-42ca-8b82-7e2d05b38b25","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"413","type":"vmess","server":"154.21.194.216","port":45043,"cipher":"auto","uuid":"37d0ef7f-4bc1-4756-f313-cc3578f80dcb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"defaultName_9","type":"vless","server":"154.64.232.196","port":39671,"uuid":"cd8d6d8d-7ccb-423f-e52d-602993a45029","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"324","type":"vmess","server":"216.173.64.129","port":33434,"cipher":"auto","uuid":"6fc74190-b4e0-46a7-d228-653912939d8c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"42","type":"vmess","server":"154.64.233.91","port":21794,"cipher":"auto","uuid":"a23b263b-6632-40e1-90ff-17aae139687f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"defaultName_10","type":"vless","server":"154.64.232.182","port":42980,"uuid":"92eae32a-aa2b-4474-f376-44110831d857","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"329","type":"vmess","server":"38.150.3.99","port":35039,"cipher":"auto","uuid":"2aaed2d5-5874-4b10-d6cb-3bb4b16c023b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"defaultName_11","type":"vless","server":"154.64.232.115","port":12902,"uuid":"2ad89371-b50a-4d8a-cfe8-5e760895a1fd","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"defaultName_12","type":"vless","server":"154.64.232.215","port":10835,"uuid":"494fb3d5-061b-479c-e5ac-a6446f1914df","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"444","type":"vmess","server":"154.64.232.196","port":45444,"cipher":"auto","uuid":"dfcb04d2-9357-4858-ef28-fac0b36941f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"798","type":"vmess","server":"154.64.232.40","port":47798,"cipher":"auto","uuid":"77f613e0-b57a-492d-ba09-7ffd34db8fcb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"defaultName_13","type":"vless","server":"154.64.232.166","port":34446,"uuid":"f806bb20-fe45-4d24-9408-bef2c3de90a6","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"defaultName_14","type":"vless","server":"167.71.70.204","port":37584,"uuid":"ef190c63-81bf-4ff6-cd64-f5133b4cb43a","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"[vless]🇰🇷韩国-首尔-2500M-1","type":"vless","server":"seoul1-2500m.yljc.online","port":443,"uuid":"8df48fe3-a609-44f2-98b8-9f4cb0672427","tls":true,"servername":"kor1.nodes.yljc.online","network":"grpc","grpc-opts":{"grpc-service-name":"aabbcc"}}
-  - {"name":"defaultName_15","type":"vless","server":"154.64.232.159","port":17770,"uuid":"2eff8cc5-9bf7-47ee-b77a-7b5e71ebc4f3","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"499","type":"vmess","server":"138.128.220.123","port":26499,"cipher":"auto","uuid":"0f4da44b-3bed-4f50-edda-64284b0b4175","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"297","type":"vmess","server":"154.21.194.210","port":35297,"cipher":"auto","uuid":"99e1bbe8-cc30-4647-ca26-6794b75623ec","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"defaultName_16","type":"vless","server":"154.64.232.99","port":34981,"uuid":"afbaeebd-0419-479a-9b91-4eb861e41dbf","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"436","type":"vmess","server":"154.21.194.216","port":19436,"cipher":"auto","uuid":"f0a09995-d83b-4110-847e-6fbd252dbfd3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"400","type":"vmess","server":"154.21.194.210","port":44400,"cipher":"auto","uuid":"f97b0aa5-3147-4bf7-c1e7-2a2800d0fedb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"defaultName_17","type":"vless","server":"154.21.194.210","port":49761,"uuid":"27f93f33-b044-4d83-a49d-0a9e3d7a8a13","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"defaultName_18","type":"vless","server":"23.27.164.246","port":48596,"uuid":"4987858e-035c-4ad3-d2bf-1285696b38b6","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"[1倍]+香港03+T","type":"trojan","server":"nc.ct.xiaomi-api.xyz","port":19512,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"defaultName_19","type":"vless","server":"154.64.232.187","port":38319,"uuid":"478774d5-6d6c-441c-c7d6-9923d8ca7719","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"defaultName_20","type":"vless","server":"154.64.232.124","port":15349,"uuid":"f8affa6d-26ce-462f-c425-4502c9da855f","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"459","type":"vmess","server":"154.64.232.199","port":23949,"cipher":"auto","uuid":"9462f12a-4c77-473d-925e-1b2f6123dd10","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"defaultName_21","type":"vless","server":"154.64.232.242","port":47130,"uuid":"72738d5a-adc8-4e0e-fd5d-fe022ab2e0fd","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"defaultName_22","type":"vless","server":"154.64.232.177","port":20901,"uuid":"1ad65e52-26c8-40ba-e21b-9ccbc71ff9a8","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"defaultName_23","type":"vless","server":"154.64.232.199","port":47137,"uuid":"5ab20880-2c9f-40f2-ac59-8b424f6e18c3","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"defaultName_24","type":"vless","server":"154.64.232.105","port":40885,"uuid":"f38f640b-0177-41a5-83d9-4f12fd954c18","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"V1-巴黎+IEPL+1-1倍率","type":"ss","server":"speedtest-api.xtspx.xyz","port":37050,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"defaultName_25","type":"vless","server":"154.64.232.156","port":58748,"uuid":"9485b07d-1d36-4764-af7e-5d5345e0a443","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"defaultName_26","type":"vless","server":"154.64.232.241","port":22878,"uuid":"30d47102-fabf-4f55-d9f8-13d87380910b","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"[1倍]+加拿大01+T","type":"trojan","server":"nc.cm.xiaomi-api.xyz","port":19576,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"defaultName_27","type":"ss","server":"192.248.174.180","port":46985,"password":"Gz1CMzQlt5","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_28","type":"vless","server":"154.21.194.216","port":24627,"uuid":"e564422b-ace8-4601-c9c1-076e57dff4d1","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"117","type":"vmess","server":"167.71.70.204","port":49117,"cipher":"auto","uuid":"4fbdcaa7-a12f-441f-ce67-ccf40d1f2bc2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"778","type":"vmess","server":"154.64.232.124","port":33878,"cipher":"auto","uuid":"680726bd-f683-4664-fdcd-e47170921014","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"defaultName_29","type":"vless","server":"154.64.232.68","port":14840,"uuid":"91900185-9ab6-44d0-8825-f6fc50a5b1b3","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"defaultName_30","type":"vless","server":"154.64.232.97","port":28639,"uuid":"e4cdb4a2-4cc7-4a23-d3f5-df5d2607df1d","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"defaultName_31","type":"vless","server":"154.64.232.161","port":15644,"uuid":"e859b8b1-cb73-4234-8893-cd47dc7bb1d5","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"V2-香港+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37001,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"defaultName_32","type":"vless","server":"154.64.232.253","port":17581,"uuid":"8ebea541-3703-434d-d1d5-971dca802182","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"[1倍]+韩国03+T","type":"trojan","server":"nc.ct.xiaomi-api.xyz","port":19552,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"358","type":"vmess","server":"141.98.18.19","port":44358,"cipher":"auto","uuid":"257fd582-322b-499c-8136-2ef349af797a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"defaultName_33","type":"vless","server":"154.64.232.40","port":53386,"uuid":"6efc00dc-893e-4b55-b9c9-e0d8eb833b49","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"[1倍]+印度01+T","type":"trojan","server":"nc.cm.xiaomi-api.xyz","port":19571,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"35","type":"vmess","server":"38.95.119.239","port":52008,"cipher":"auto","uuid":"874a5313-4333-4e80-9ec3-630089e9a7fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"473","type":"vmess","server":"38.95.119.247","port":43947,"cipher":"auto","uuid":"68b8c62f-5e7a-4e3a-b313-0700a7f2e38b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"19","type":"vmess","server":"38.95.119.246","port":52008,"cipher":"auto","uuid":"83b231a3-94e1-44d9-c7e6-2e88d38a5934","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"[vless]🇸🇬新加坡-2500M","type":"vless","server":"singapore1-2500m.yljc.online","port":443,"uuid":"8df48fe3-a609-44f2-98b8-9f4cb0672427","tls":true,"servername":"sg1.nodes.yljc.online","network":"grpc","grpc-opts":{"grpc-service-name":"aabbcc"}}
-  - {"name":"18","type":"vmess","server":"38.95.119.243","port":52008,"cipher":"auto","uuid":"5d7acc8e-f539-44e0-d255-41fc14cfc877","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"[1倍]+韩国01+T","type":"trojan","server":"nc.cm.xiaomi-api.xyz","port":19552,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"defaultName_34","type":"vless","server":"141.98.18.19","port":45630,"uuid":"40e4e2b9-3795-4a2f-9e11-5623482e6548","network":"tcp"}
-  - {"name":"V2-新加坡+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37011,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP_6193+@WangCai_8","type":"ss","server":"18.176.215.63","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"[1倍]+日本03+T","type":"trojan","server":"nc.ct.xiaomi-api.xyz","port":19532,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"defaultName_35","type":"vless","server":"154.21.194.199","port":38838,"uuid":"49486def-eafa-42ca-b484-308925394ad0","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"121","type":"vmess","server":"43.135.185.161","port":13411,"cipher":"auto","uuid":"b66d2493-c144-443a-cd6b-bcedb7b3f816","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"[1倍]+越南01+T","type":"trojan","server":"nc.cm.xiaomi-api.xyz","port":19574,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"defaultName_36","type":"ss","server":"154.64.233.91","port":34691,"password":"1P7gdVT9bG","cipher":"aes-256-gcm"}
-  - {"name":"[1倍]+韩国02+T","type":"trojan","server":"nc.cn1.xiaomi-api.xyz","port":19552,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"352","type":"vmess","server":"103.75.187.178","port":80,"cipher":"auto","uuid":"9c1d4b35-955b-4b90-da34-d7db18b7f6d6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"巴黎-2","type":"hysteria2","server":"fr2.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"fr2.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"迪拜-2","type":"hysteria2","server":"ae1.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"ae1.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"美国LL","type":"vmess","server":"usll1.ludou.us.kg","port":80,"cipher":"auto","uuid":"f916a698-3022-4d02-b5cc-c858900b70cc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usll.ludou.us.kg"}}}
+  - {"name":"美国WA","type":"vmess","server":"uswa1.ludou.us.kg","port":80,"cipher":"auto","uuid":"f916a698-3022-4d02-b5cc-c858900b70cc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"uswa.ludou.us.kg"}}}
+  - {"name":"巴黎-1","type":"hysteria2","server":"fr1.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"fr1.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"吉达","type":"hysteria2","server":"dj.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"dj.eyujichang.xyz","skip-cert-verify":true}
   - {"name":"[1倍]+美国03+T","type":"trojan","server":"nc.ct.xiaomi-api.xyz","port":19562,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"V2-日本+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37021,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"圣保罗-1","type":"hysteria2","server":"sbl1.eyujichang.xyz","port":2025,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"sbl1.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"德国","type":"vmess","server":"a6.ludou.us.kg","port":80,"cipher":"auto","uuid":"f916a698-3022-4d02-b5cc-c858900b70cc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b6.ludou.us.kg"}}}
+  - {"name":"春川","type":"hysteria2","server":"kr3.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"kr3.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"迪拜-1","type":"hysteria2","server":"ae.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"ae.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"PRO+|+美国洛杉矶3+|+1倍+OpenAI","type":"trojan","server":"ecu.zarelay.com","port":46882,"udp":true,"password":"a4d4dd16-c1fc-36b9-881d-8d4d73091e48","sni":"us-lala2.zodport.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"776","type":"vmess","server":"38.46.4.182","port":57776,"cipher":"auto","uuid":"52900720-0479-48cc-b2d8-9e8adbf5ab47","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/52900720"}}
+  - {"name":"523","type":"vmess","server":"38.95.120.190","port":47523,"cipher":"auto","uuid":"61f588ae-5a12-48b9-e42e-20a17050697b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"535","type":"vmess","server":"38.95.113.182","port":17535,"cipher":"auto","uuid":"2abde38c-286c-4fe5-afc9-4e7735ca7fd6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/2abde38c"}}
+  - {"name":"[1倍]+加拿大01+T","type":"trojan","server":"nc.cm.xiaomi-api.xyz","port":19576,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"defaultName_1","type":"vless","server":"38.95.120.55","port":33445,"uuid":"b6011094-a647-4ccb-f97f-362b11aaf690","network":"ws","ws-opts":{"path":"/b6011094"}}
+  - {"name":"38","type":"vmess","server":"38.95.113.124","port":12538,"cipher":"auto","uuid":"afb8346d-9d1d-46c3-896d-111c9856f8ac","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
   - {"name":"V2-美国+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37041,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"[1倍]+新加坡03+T","type":"trojan","server":"nc.ct.xiaomi-api.xyz","port":19542,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"[1倍]+阿根廷01+T","type":"trojan","server":"nc.cm.xiaomi-api.xyz","port":19578,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"东京2","type":"vmess","server":"jp254111.ludou.us.kg","port":80,"cipher":"auto","uuid":"f916a698-3022-4d02-b5cc-c858900b70cc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"jduarwtq.ludounow.tech"}}}
+  - {"name":"defaultName_2","type":"vless","server":"38.95.120.190","port":42455,"uuid":"a92bacbe-0bf9-4dd8-afb8-da0d097a7e1b","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"defaultName_3","type":"vless","server":"38.95.120.54","port":46951,"uuid":"8009576f-3e88-4693-a3e9-f37409aa2037","network":"ws","ws-opts":{"path":"/8009576f"}}
+  - {"name":"defaultName_4","type":"ss","server":"192.248.174.180","port":46985,"password":"Gz1CMzQlt5","cipher":"aes-256-gcm"}
+  - {"name":"[vless]🇯🇵日本-东京-2500M","type":"vless","server":"2500m.tokyo.node.yljc.online","port":443,"uuid":"8df48fe3-a609-44f2-98b8-9f4cb0672427","tls":true,"servername":"tokyo1.nodes.yljc.online","network":"grpc","grpc-opts":{"grpc-service-name":"aabbcc"}}
+  - {"name":"defaultName_5","type":"vless","server":"154.64.232.189","port":13020,"uuid":"43b51a38-d4cf-4c44-e30a-df1f3c48f237","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"首尔-1","type":"hysteria2","server":"kr1.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"kr1.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"Telegram🇨🇳+@WangCai_8_1","type":"vless","server":"8.218.52.115","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"defaultName_6","type":"vless","server":"154.64.232.182","port":42980,"uuid":"92eae32a-aa2b-4474-f376-44110831d857","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"Telegram🇨🇳+@WangCai_8_2","type":"vless","server":"8.217.251.62","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"defaultName_7","type":"vless","server":"185.132.54.61","port":48745,"uuid":"a438807e-c952-4a69-eb05-b7a8abbc9b95","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"defaultName_8","type":"vless","server":"154.64.232.166","port":34446,"uuid":"f806bb20-fe45-4d24-9408-bef2c3de90a6","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"[vless]🇰🇷韩国-首尔-2500M-1","type":"vless","server":"seoul1-2500m.yljc.online","port":443,"uuid":"8df48fe3-a609-44f2-98b8-9f4cb0672427","tls":true,"servername":"kor1.nodes.yljc.online","network":"grpc","grpc-opts":{"grpc-service-name":"aabbcc"}}
+  - {"name":"defaultName_9","type":"vless","server":"154.64.232.215","port":10835,"uuid":"494fb3d5-061b-479c-e5ac-a6446f1914df","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"defaultName_10","type":"vless","server":"154.64.232.242","port":47130,"uuid":"72738d5a-adc8-4e0e-fd5d-fe022ab2e0fd","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"[1倍]+韩国03+T","type":"trojan","server":"nc.ct.xiaomi-api.xyz","port":19552,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[1倍]+印度01+T","type":"trojan","server":"nc.cm.xiaomi-api.xyz","port":19571,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Telegram🇨🇳+@WangCai_8_3","type":"vless","server":"8.219.209.14","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"defaultName_11","type":"vless","server":"154.64.232.97","port":28639,"uuid":"e4cdb4a2-4cc7-4a23-d3f5-df5d2607df1d","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"defaultName_12","type":"vless","server":"154.64.232.156","port":58748,"uuid":"9485b07d-1d36-4764-af7e-5d5345e0a443","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"89","type":"vmess","server":"38.95.120.190","port":47989,"cipher":"auto","uuid":"3b7f64b6-7a4f-4071-8614-6053a566a50c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"defaultName_13","type":"vless","server":"154.64.232.253","port":17581,"uuid":"8ebea541-3703-434d-d1d5-971dca802182","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"海得拉巴1","type":"hysteria2","server":"ln2.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"ln2.eyujichang.xyz","skip-cert-verify":true}
   - {"name":"150","type":"vmess","server":"154.21.194.199","port":53510,"cipher":"auto","uuid":"12cc5587-b1c5-4efd-b7e0-cc681481e86f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"189","type":"vmess","server":"38.54.68.199","port":57189,"cipher":"auto","uuid":"35656094-4aa6-4d4f-aa03-7cb20ca7e42c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"V2-巴黎+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37051,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"058","type":"vmess","server":"38.95.119.247","port":52008,"cipher":"auto","uuid":"55883ca1-b9e9-4624-dd73-58b50cee022c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"397","type":"vmess","server":"38.54.68.199","port":8637,"cipher":"auto","uuid":"8d40d68f-70dd-4afc-e360-e7e6e6ab7783","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"615","type":"vmess","server":"154.64.232.40","port":35661,"cipher":"auto","uuid":"15705f6f-9c7a-4702-9348-6a4b007d2b09","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"defaultName_14","type":"vless","server":"154.64.232.99","port":34981,"uuid":"afbaeebd-0419-479a-9b91-4eb861e41dbf","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"defaultName_15","type":"vless","server":"154.64.232.162","port":57174,"uuid":"cf059ac6-287a-411e-8bac-28571ac0d5de","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"首尔-2","type":"hysteria2","server":"kr2.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"kr2.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"法兰克福-全网优化(hy2)","type":"hysteria2","server":"cdn.dukadi.one","port":40700,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"de1.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"孟买","type":"hysteria2","server":"ln3.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"ln3.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"东京-2","type":"hysteria2","server":"zp2.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"zp2.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"Telegram🇨🇳+@WangCai_8_4","type":"vless","server":"8.219.177.205","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"Telegram🇨🇳+@WangCai_8_5","type":"vless","server":"47.76.37.57","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"Telegram🇨🇳+@WangCai_8_6","type":"vless","server":"8.219.191.40","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"Telegram🇨🇳+@WangCai_8_7","type":"vless","server":"8.219.170.232","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"defaultName_16","type":"vless","server":"154.64.232.241","port":22878,"uuid":"30d47102-fabf-4f55-d9f8-13d87380910b","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"新加坡2","type":"vmess","server":"sg0214551.ludou.us.kg","port":80,"cipher":"auto","uuid":"f916a698-3022-4d02-b5cc-c858900b70cc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg002afa.ludou.us.kg"}}}
+  - {"name":"Telegram🇨🇳+@WangCai_8_8","type":"vless","server":"8.219.142.191","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"defaultName_17","type":"vless","server":"167.71.70.204","port":37584,"uuid":"ef190c63-81bf-4ff6-cd64-f5133b4cb43a","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"defaultName_18","type":"vless","server":"154.64.232.161","port":15644,"uuid":"e859b8b1-cb73-4234-8893-cd47dc7bb1d5","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"117","type":"vmess","server":"167.71.70.204","port":49117,"cipher":"auto","uuid":"4fbdcaa7-a12f-441f-ce67-ccf40d1f2bc2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"18","type":"vmess","server":"38.95.119.243","port":52008,"cipher":"auto","uuid":"5d7acc8e-f539-44e0-d255-41fc14cfc877","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"Telegram🇨🇳+@WangCai_8_9","type":"vless","server":"8.217.250.5","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"defaultName_19","type":"vless","server":"154.64.232.124","port":15349,"uuid":"f8affa6d-26ce-462f-c425-4502c9da855f","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"[1倍]+阿根廷01+T","type":"trojan","server":"nc.cm.xiaomi-api.xyz","port":19578,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡-2","type":"hysteria2","server":"sg2.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"sg2.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"358","type":"vmess","server":"141.98.18.19","port":44358,"cipher":"auto","uuid":"257fd582-322b-499c-8136-2ef349af797a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"defaultName_20","type":"vless","server":"154.64.232.115","port":12902,"uuid":"2ad89371-b50a-4d8a-cfe8-5e760895a1fd","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"[vless]🇸🇬新加坡-2500M","type":"vless","server":"singapore1-2500m.yljc.online","port":443,"uuid":"8df48fe3-a609-44f2-98b8-9f4cb0672427","tls":true,"servername":"sg1.nodes.yljc.online","network":"grpc","grpc-opts":{"grpc-service-name":"aabbcc"}}
+  - {"name":"🇺🇸美国01-NF🇨🇦","type":"hysteria2","server":"us1.album.icu","port":22203,"password":"3bbaa6c3-142d-42b2-ab91-f1da87af2ead","sni":"us1.album.icu","skip-cert-verify":true}
+  - {"name":"🇯🇵JP_6193+@WangCai_8","type":"ss","server":"18.176.215.63","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"defaultName_21","type":"vless","server":"154.64.232.167","port":53506,"uuid":"83a3b500-dea7-4009-9553-d81718f26dec","network":"ws","ws-opts":{"path":"/"}}
   - {"name":"106","type":"vmess","server":"89.116.247.84","port":10106,"cipher":"auto","uuid":"992107e7-7238-45cb-9a67-cacf4d7719f5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸美国04","type":"hysteria2","server":"mf-s4-usa.playddt.com","port":22203,"password":"3bbaa6c3-142d-42b2-ab91-f1da87af2ead","sni":"mf-s4-usa.playddt.com","skip-cert-verify":true}
+  - {"name":"新加坡-1","type":"hysteria2","server":"sg1.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"sg1.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"[1倍]+新加坡03+T","type":"trojan","server":"nc.ct.xiaomi-api.xyz","port":19542,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"778","type":"vmess","server":"154.64.232.124","port":33878,"cipher":"auto","uuid":"680726bd-f683-4664-fdcd-e47170921014","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸美国02-NF🇨🇦","type":"hysteria2","server":"us1.album.icu","port":22203,"password":"3bbaa6c3-142d-42b2-ab91-f1da87af2ead","sni":"us1.album.icu","skip-cert-verify":true}
+  - {"name":"V2-日本+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37021,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"[1倍]+越南01+T","type":"trojan","server":"nc.cm.xiaomi-api.xyz","port":19574,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"东京-1","type":"hysteria2","server":"zp1.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"zp1.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"V1-巴黎+IEPL+1-1倍率","type":"ss","server":"speedtest-api.xtspx.xyz","port":37050,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"defaultName_22","type":"vless","server":"154.21.194.213","port":27284,"uuid":"20fb0928-15d6-400c-ade8-9b8b4ea3f169","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"V2-巴黎+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37051,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"阿什本","type":"hysteria2","server":"us1.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"us1.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"美国","type":"hysteria2","server":"us3.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"us3.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"伦敦","type":"hysteria2","server":"gb.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"gb.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"19","type":"vmess","server":"38.95.119.246","port":52008,"cipher":"auto","uuid":"83b231a3-94e1-44d9-c7e6-2e88d38a5934","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"新加坡-3","type":"hysteria2","server":"sg3.eyujichang.xyz","port":2052,"password":"af7911e7-fb22-41b0-8006-a5f2be3495f1","sni":"sg3.eyujichang.xyz","skip-cert-verify":true}
+  - {"name":"defaultName_23","type":"vless","server":"154.21.194.199","port":38838,"uuid":"49486def-eafa-42ca-b484-308925394ad0","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"defaultName_24","type":"vless","server":"141.98.18.19","port":45630,"uuid":"40e4e2b9-3795-4a2f-9e11-5623482e6548","network":"tcp"}
+  - {"name":"V2-新加坡+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37011,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"[1倍]+日本03+T","type":"trojan","server":"nc.ct.xiaomi-api.xyz","port":19532,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[1倍]+香港03+T","type":"trojan","server":"nc.ct.xiaomi-api.xyz","port":19512,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"[1倍]+韩国02+T","type":"trojan","server":"nc.cn1.xiaomi-api.xyz","port":19552,"udp":true,"password":"506c67cb-0c75-4c60-9d49-b13e73b4c9aa","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -196,426 +188,394 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - '[1倍]+美国02+T'
+      - 巴黎-2
+      - 迪拜-2
+      - 美国LL
+      - 美国WA
+      - 巴黎-1
+      - 吉达
+      - '[1倍]+美国03+T'
+      - 圣保罗-1
+      - 德国
+      - 春川
+      - 迪拜-1
       - PRO+|+美国洛杉矶3+|+1倍+OpenAI
-      - '424'
-      - defaultName_1
+      - '776'
       - '523'
-      - '89'
+      - '535'
+      - '[1倍]+加拿大01+T'
+      - defaultName_1
+      - '38'
+      - V2-美国+PATHX+1-1倍率
+      - 东京2
       - defaultName_2
       - defaultName_3
-      - '105'
-      - '83'
-      - '557'
-      - '776'
-      - '155'
       - defaultName_4
-      - '116'
+      - '[vless]🇯🇵日本-东京-2500M'
       - defaultName_5
-      - '134'
+      - 首尔-1
+      - Telegram🇨🇳+@WangCai_8_1
       - defaultName_6
-      - '[1倍]+香港01+T'
+      - Telegram🇨🇳+@WangCai_8_2
       - defaultName_7
       - defaultName_8
-      - '24'
-      - '[vless]🇯🇵日本-东京-2500M'
-      - '535'
-      - '815'
-      - '38'
-      - '237'
-      - '413'
+      - '[vless]🇰🇷韩国-首尔-2500M-1'
       - defaultName_9
-      - '324'
-      - '42'
       - defaultName_10
-      - '329'
+      - '[1倍]+韩国03+T'
+      - '[1倍]+印度01+T'
+      - Telegram🇨🇳+@WangCai_8_3
       - defaultName_11
       - defaultName_12
-      - '444'
-      - '798'
+      - '89'
       - defaultName_13
+      - 海得拉巴1
+      - '150'
       - defaultName_14
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
       - defaultName_15
-      - '499'
-      - '297'
+      - 首尔-2
+      - 法兰克福-全网优化(hy2)
+      - 孟买
+      - 东京-2
+      - Telegram🇨🇳+@WangCai_8_4
+      - Telegram🇨🇳+@WangCai_8_5
+      - Telegram🇨🇳+@WangCai_8_6
+      - Telegram🇨🇳+@WangCai_8_7
       - defaultName_16
-      - '436'
-      - '400'
+      - 新加坡2
+      - Telegram🇨🇳+@WangCai_8_8
       - defaultName_17
       - defaultName_18
-      - '[1倍]+香港03+T'
+      - '117'
+      - '18'
+      - Telegram🇨🇳+@WangCai_8_9
       - defaultName_19
+      - '[1倍]+阿根廷01+T'
+      - 新加坡-2
+      - '358'
       - defaultName_20
-      - '459'
+      - '[vless]🇸🇬新加坡-2500M'
+      - 🇺🇸美国01-NF🇨🇦
+      - 🇯🇵JP_6193+@WangCai_8
       - defaultName_21
+      - '106'
+      - 🇺🇸美国04
+      - 新加坡-1
+      - '[1倍]+新加坡03+T'
+      - '778'
+      - 🇺🇸美国02-NF🇨🇦
+      - V2-日本+PATHX+1-1倍率
+      - '[1倍]+越南01+T'
+      - 东京-1
+      - V1-巴黎+IEPL+1-1倍率
       - defaultName_22
+      - V2-巴黎+PATHX+1-1倍率
+      - 阿什本
+      - 美国
+      - 伦敦
+      - '19'
+      - 新加坡-3
       - defaultName_23
       - defaultName_24
-      - V1-巴黎+IEPL+1-1倍率
-      - defaultName_25
-      - defaultName_26
-      - '[1倍]+加拿大01+T'
-      - defaultName_27
-      - defaultName_28
-      - '117'
-      - '778'
-      - defaultName_29
-      - defaultName_30
-      - defaultName_31
-      - V2-香港+PATHX+1-1倍率
-      - defaultName_32
-      - '[1倍]+韩国03+T'
-      - '358'
-      - defaultName_33
-      - '[1倍]+印度01+T'
-      - '35'
-      - '473'
-      - '19'
-      - '[vless]🇸🇬新加坡-2500M'
-      - '18'
-      - '[1倍]+韩国01+T'
-      - defaultName_34
       - V2-新加坡+PATHX+1-1倍率
-      - 🇯🇵JP_6193+@WangCai_8
       - '[1倍]+日本03+T'
-      - defaultName_35
-      - '121'
-      - '[1倍]+越南01+T'
-      - defaultName_36
+      - '[1倍]+香港03+T'
       - '[1倍]+韩国02+T'
-      - '352'
-      - '[1倍]+美国03+T'
-      - V2-日本+PATHX+1-1倍率
-      - V2-美国+PATHX+1-1倍率
-      - '[1倍]+新加坡03+T'
-      - '[1倍]+阿根廷01+T'
-      - '150'
-      - '189'
-      - V2-巴黎+PATHX+1-1倍率
-      - '058'
-      - '397'
-      - '615'
-      - '106'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - '[1倍]+美国02+T'
+      - 巴黎-2
+      - 迪拜-2
+      - 美国LL
+      - 美国WA
+      - 巴黎-1
+      - 吉达
+      - '[1倍]+美国03+T'
+      - 圣保罗-1
+      - 德国
+      - 春川
+      - 迪拜-1
       - PRO+|+美国洛杉矶3+|+1倍+OpenAI
-      - '424'
-      - defaultName_1
+      - '776'
       - '523'
-      - '89'
+      - '535'
+      - '[1倍]+加拿大01+T'
+      - defaultName_1
+      - '38'
+      - V2-美国+PATHX+1-1倍率
+      - 东京2
       - defaultName_2
       - defaultName_3
-      - '105'
-      - '83'
-      - '557'
-      - '776'
-      - '155'
       - defaultName_4
-      - '116'
+      - '[vless]🇯🇵日本-东京-2500M'
       - defaultName_5
-      - '134'
+      - 首尔-1
+      - Telegram🇨🇳+@WangCai_8_1
       - defaultName_6
-      - '[1倍]+香港01+T'
+      - Telegram🇨🇳+@WangCai_8_2
       - defaultName_7
       - defaultName_8
-      - '24'
-      - '[vless]🇯🇵日本-东京-2500M'
-      - '535'
-      - '815'
-      - '38'
-      - '237'
-      - '413'
+      - '[vless]🇰🇷韩国-首尔-2500M-1'
       - defaultName_9
-      - '324'
-      - '42'
       - defaultName_10
-      - '329'
+      - '[1倍]+韩国03+T'
+      - '[1倍]+印度01+T'
+      - Telegram🇨🇳+@WangCai_8_3
       - defaultName_11
       - defaultName_12
-      - '444'
-      - '798'
+      - '89'
       - defaultName_13
+      - 海得拉巴1
+      - '150'
       - defaultName_14
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
       - defaultName_15
-      - '499'
-      - '297'
+      - 首尔-2
+      - 法兰克福-全网优化(hy2)
+      - 孟买
+      - 东京-2
+      - Telegram🇨🇳+@WangCai_8_4
+      - Telegram🇨🇳+@WangCai_8_5
+      - Telegram🇨🇳+@WangCai_8_6
+      - Telegram🇨🇳+@WangCai_8_7
       - defaultName_16
-      - '436'
-      - '400'
+      - 新加坡2
+      - Telegram🇨🇳+@WangCai_8_8
       - defaultName_17
       - defaultName_18
-      - '[1倍]+香港03+T'
+      - '117'
+      - '18'
+      - Telegram🇨🇳+@WangCai_8_9
       - defaultName_19
+      - '[1倍]+阿根廷01+T'
+      - 新加坡-2
+      - '358'
       - defaultName_20
-      - '459'
+      - '[vless]🇸🇬新加坡-2500M'
+      - 🇺🇸美国01-NF🇨🇦
+      - 🇯🇵JP_6193+@WangCai_8
       - defaultName_21
+      - '106'
+      - 🇺🇸美国04
+      - 新加坡-1
+      - '[1倍]+新加坡03+T'
+      - '778'
+      - 🇺🇸美国02-NF🇨🇦
+      - V2-日本+PATHX+1-1倍率
+      - '[1倍]+越南01+T'
+      - 东京-1
+      - V1-巴黎+IEPL+1-1倍率
       - defaultName_22
+      - V2-巴黎+PATHX+1-1倍率
+      - 阿什本
+      - 美国
+      - 伦敦
+      - '19'
+      - 新加坡-3
       - defaultName_23
       - defaultName_24
-      - V1-巴黎+IEPL+1-1倍率
-      - defaultName_25
-      - defaultName_26
-      - '[1倍]+加拿大01+T'
-      - defaultName_27
-      - defaultName_28
-      - '117'
-      - '778'
-      - defaultName_29
-      - defaultName_30
-      - defaultName_31
-      - V2-香港+PATHX+1-1倍率
-      - defaultName_32
-      - '[1倍]+韩国03+T'
-      - '358'
-      - defaultName_33
-      - '[1倍]+印度01+T'
-      - '35'
-      - '473'
-      - '19'
-      - '[vless]🇸🇬新加坡-2500M'
-      - '18'
-      - '[1倍]+韩国01+T'
-      - defaultName_34
       - V2-新加坡+PATHX+1-1倍率
-      - 🇯🇵JP_6193+@WangCai_8
       - '[1倍]+日本03+T'
-      - defaultName_35
-      - '121'
-      - '[1倍]+越南01+T'
-      - defaultName_36
+      - '[1倍]+香港03+T'
       - '[1倍]+韩国02+T'
-      - '352'
-      - '[1倍]+美国03+T'
-      - V2-日本+PATHX+1-1倍率
-      - V2-美国+PATHX+1-1倍率
-      - '[1倍]+新加坡03+T'
-      - '[1倍]+阿根廷01+T'
-      - '150'
-      - '189'
-      - V2-巴黎+PATHX+1-1倍率
-      - '058'
-      - '397'
-      - '615'
-      - '106'
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - '[1倍]+美国02+T'
+      - 巴黎-2
+      - 迪拜-2
+      - 美国LL
+      - 美国WA
+      - 巴黎-1
+      - 吉达
+      - '[1倍]+美国03+T'
+      - 圣保罗-1
+      - 德国
+      - 春川
+      - 迪拜-1
       - PRO+|+美国洛杉矶3+|+1倍+OpenAI
-      - '424'
-      - defaultName_1
+      - '776'
       - '523'
-      - '89'
+      - '535'
+      - '[1倍]+加拿大01+T'
+      - defaultName_1
+      - '38'
+      - V2-美国+PATHX+1-1倍率
+      - 东京2
       - defaultName_2
       - defaultName_3
-      - '105'
-      - '83'
-      - '557'
-      - '776'
-      - '155'
       - defaultName_4
-      - '116'
+      - '[vless]🇯🇵日本-东京-2500M'
       - defaultName_5
-      - '134'
+      - 首尔-1
+      - Telegram🇨🇳+@WangCai_8_1
       - defaultName_6
-      - '[1倍]+香港01+T'
+      - Telegram🇨🇳+@WangCai_8_2
       - defaultName_7
       - defaultName_8
-      - '24'
-      - '[vless]🇯🇵日本-东京-2500M'
-      - '535'
-      - '815'
-      - '38'
-      - '237'
-      - '413'
+      - '[vless]🇰🇷韩国-首尔-2500M-1'
       - defaultName_9
-      - '324'
-      - '42'
       - defaultName_10
-      - '329'
+      - '[1倍]+韩国03+T'
+      - '[1倍]+印度01+T'
+      - Telegram🇨🇳+@WangCai_8_3
       - defaultName_11
       - defaultName_12
-      - '444'
-      - '798'
+      - '89'
       - defaultName_13
+      - 海得拉巴1
+      - '150'
       - defaultName_14
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
       - defaultName_15
-      - '499'
-      - '297'
+      - 首尔-2
+      - 法兰克福-全网优化(hy2)
+      - 孟买
+      - 东京-2
+      - Telegram🇨🇳+@WangCai_8_4
+      - Telegram🇨🇳+@WangCai_8_5
+      - Telegram🇨🇳+@WangCai_8_6
+      - Telegram🇨🇳+@WangCai_8_7
       - defaultName_16
-      - '436'
-      - '400'
+      - 新加坡2
+      - Telegram🇨🇳+@WangCai_8_8
       - defaultName_17
       - defaultName_18
-      - '[1倍]+香港03+T'
+      - '117'
+      - '18'
+      - Telegram🇨🇳+@WangCai_8_9
       - defaultName_19
+      - '[1倍]+阿根廷01+T'
+      - 新加坡-2
+      - '358'
       - defaultName_20
-      - '459'
+      - '[vless]🇸🇬新加坡-2500M'
+      - 🇺🇸美国01-NF🇨🇦
+      - 🇯🇵JP_6193+@WangCai_8
       - defaultName_21
+      - '106'
+      - 🇺🇸美国04
+      - 新加坡-1
+      - '[1倍]+新加坡03+T'
+      - '778'
+      - 🇺🇸美国02-NF🇨🇦
+      - V2-日本+PATHX+1-1倍率
+      - '[1倍]+越南01+T'
+      - 东京-1
+      - V1-巴黎+IEPL+1-1倍率
       - defaultName_22
+      - V2-巴黎+PATHX+1-1倍率
+      - 阿什本
+      - 美国
+      - 伦敦
+      - '19'
+      - 新加坡-3
       - defaultName_23
       - defaultName_24
-      - V1-巴黎+IEPL+1-1倍率
-      - defaultName_25
-      - defaultName_26
-      - '[1倍]+加拿大01+T'
-      - defaultName_27
-      - defaultName_28
-      - '117'
-      - '778'
-      - defaultName_29
-      - defaultName_30
-      - defaultName_31
-      - V2-香港+PATHX+1-1倍率
-      - defaultName_32
-      - '[1倍]+韩国03+T'
-      - '358'
-      - defaultName_33
-      - '[1倍]+印度01+T'
-      - '35'
-      - '473'
-      - '19'
-      - '[vless]🇸🇬新加坡-2500M'
-      - '18'
-      - '[1倍]+韩国01+T'
-      - defaultName_34
       - V2-新加坡+PATHX+1-1倍率
-      - 🇯🇵JP_6193+@WangCai_8
       - '[1倍]+日本03+T'
-      - defaultName_35
-      - '121'
-      - '[1倍]+越南01+T'
-      - defaultName_36
+      - '[1倍]+香港03+T'
       - '[1倍]+韩国02+T'
-      - '352'
-      - '[1倍]+美国03+T'
-      - V2-日本+PATHX+1-1倍率
-      - V2-美国+PATHX+1-1倍率
-      - '[1倍]+新加坡03+T'
-      - '[1倍]+阿根廷01+T'
-      - '150'
-      - '189'
-      - V2-巴黎+PATHX+1-1倍率
-      - '058'
-      - '397'
-      - '615'
-      - '106'
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - '[1倍]+美国02+T'
+      - 巴黎-2
+      - 迪拜-2
+      - 美国LL
+      - 美国WA
+      - 巴黎-1
+      - 吉达
+      - '[1倍]+美国03+T'
+      - 圣保罗-1
+      - 德国
+      - 春川
+      - 迪拜-1
       - PRO+|+美国洛杉矶3+|+1倍+OpenAI
-      - '424'
-      - defaultName_1
+      - '776'
       - '523'
-      - '89'
+      - '535'
+      - '[1倍]+加拿大01+T'
+      - defaultName_1
+      - '38'
+      - V2-美国+PATHX+1-1倍率
+      - 东京2
       - defaultName_2
       - defaultName_3
-      - '105'
-      - '83'
-      - '557'
-      - '776'
-      - '155'
       - defaultName_4
-      - '116'
+      - '[vless]🇯🇵日本-东京-2500M'
       - defaultName_5
-      - '134'
+      - 首尔-1
+      - Telegram🇨🇳+@WangCai_8_1
       - defaultName_6
-      - '[1倍]+香港01+T'
+      - Telegram🇨🇳+@WangCai_8_2
       - defaultName_7
       - defaultName_8
-      - '24'
-      - '[vless]🇯🇵日本-东京-2500M'
-      - '535'
-      - '815'
-      - '38'
-      - '237'
-      - '413'
+      - '[vless]🇰🇷韩国-首尔-2500M-1'
       - defaultName_9
-      - '324'
-      - '42'
       - defaultName_10
-      - '329'
+      - '[1倍]+韩国03+T'
+      - '[1倍]+印度01+T'
+      - Telegram🇨🇳+@WangCai_8_3
       - defaultName_11
       - defaultName_12
-      - '444'
-      - '798'
+      - '89'
       - defaultName_13
+      - 海得拉巴1
+      - '150'
       - defaultName_14
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
       - defaultName_15
-      - '499'
-      - '297'
+      - 首尔-2
+      - 法兰克福-全网优化(hy2)
+      - 孟买
+      - 东京-2
+      - Telegram🇨🇳+@WangCai_8_4
+      - Telegram🇨🇳+@WangCai_8_5
+      - Telegram🇨🇳+@WangCai_8_6
+      - Telegram🇨🇳+@WangCai_8_7
       - defaultName_16
-      - '436'
-      - '400'
+      - 新加坡2
+      - Telegram🇨🇳+@WangCai_8_8
       - defaultName_17
       - defaultName_18
-      - '[1倍]+香港03+T'
+      - '117'
+      - '18'
+      - Telegram🇨🇳+@WangCai_8_9
       - defaultName_19
+      - '[1倍]+阿根廷01+T'
+      - 新加坡-2
+      - '358'
       - defaultName_20
-      - '459'
+      - '[vless]🇸🇬新加坡-2500M'
+      - 🇺🇸美国01-NF🇨🇦
+      - 🇯🇵JP_6193+@WangCai_8
       - defaultName_21
+      - '106'
+      - 🇺🇸美国04
+      - 新加坡-1
+      - '[1倍]+新加坡03+T'
+      - '778'
+      - 🇺🇸美国02-NF🇨🇦
+      - V2-日本+PATHX+1-1倍率
+      - '[1倍]+越南01+T'
+      - 东京-1
+      - V1-巴黎+IEPL+1-1倍率
       - defaultName_22
+      - V2-巴黎+PATHX+1-1倍率
+      - 阿什本
+      - 美国
+      - 伦敦
+      - '19'
+      - 新加坡-3
       - defaultName_23
       - defaultName_24
-      - V1-巴黎+IEPL+1-1倍率
-      - defaultName_25
-      - defaultName_26
-      - '[1倍]+加拿大01+T'
-      - defaultName_27
-      - defaultName_28
-      - '117'
-      - '778'
-      - defaultName_29
-      - defaultName_30
-      - defaultName_31
-      - V2-香港+PATHX+1-1倍率
-      - defaultName_32
-      - '[1倍]+韩国03+T'
-      - '358'
-      - defaultName_33
-      - '[1倍]+印度01+T'
-      - '35'
-      - '473'
-      - '19'
-      - '[vless]🇸🇬新加坡-2500M'
-      - '18'
-      - '[1倍]+韩国01+T'
-      - defaultName_34
       - V2-新加坡+PATHX+1-1倍率
-      - 🇯🇵JP_6193+@WangCai_8
       - '[1倍]+日本03+T'
-      - defaultName_35
-      - '121'
-      - '[1倍]+越南01+T'
-      - defaultName_36
+      - '[1倍]+香港03+T'
       - '[1倍]+韩国02+T'
-      - '352'
-      - '[1倍]+美国03+T'
-      - V2-日本+PATHX+1-1倍率
-      - V2-美国+PATHX+1-1倍率
-      - '[1倍]+新加坡03+T'
-      - '[1倍]+阿根廷01+T'
-      - '150'
-      - '189'
-      - V2-巴黎+PATHX+1-1倍率
-      - '058'
-      - '397'
-      - '615'
-      - '106'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -635,107 +595,99 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - '[1倍]+美国02+T'
+      - 巴黎-2
+      - 迪拜-2
+      - 美国LL
+      - 美国WA
+      - 巴黎-1
+      - 吉达
+      - '[1倍]+美国03+T'
+      - 圣保罗-1
+      - 德国
+      - 春川
+      - 迪拜-1
       - PRO+|+美国洛杉矶3+|+1倍+OpenAI
-      - '424'
-      - defaultName_1
+      - '776'
       - '523'
-      - '89'
+      - '535'
+      - '[1倍]+加拿大01+T'
+      - defaultName_1
+      - '38'
+      - V2-美国+PATHX+1-1倍率
+      - 东京2
       - defaultName_2
       - defaultName_3
-      - '105'
-      - '83'
-      - '557'
-      - '776'
-      - '155'
       - defaultName_4
-      - '116'
+      - '[vless]🇯🇵日本-东京-2500M'
       - defaultName_5
-      - '134'
+      - 首尔-1
+      - Telegram🇨🇳+@WangCai_8_1
       - defaultName_6
-      - '[1倍]+香港01+T'
+      - Telegram🇨🇳+@WangCai_8_2
       - defaultName_7
       - defaultName_8
-      - '24'
-      - '[vless]🇯🇵日本-东京-2500M'
-      - '535'
-      - '815'
-      - '38'
-      - '237'
-      - '413'
+      - '[vless]🇰🇷韩国-首尔-2500M-1'
       - defaultName_9
-      - '324'
-      - '42'
       - defaultName_10
-      - '329'
+      - '[1倍]+韩国03+T'
+      - '[1倍]+印度01+T'
+      - Telegram🇨🇳+@WangCai_8_3
       - defaultName_11
       - defaultName_12
-      - '444'
-      - '798'
+      - '89'
       - defaultName_13
+      - 海得拉巴1
+      - '150'
       - defaultName_14
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
       - defaultName_15
-      - '499'
-      - '297'
+      - 首尔-2
+      - 法兰克福-全网优化(hy2)
+      - 孟买
+      - 东京-2
+      - Telegram🇨🇳+@WangCai_8_4
+      - Telegram🇨🇳+@WangCai_8_5
+      - Telegram🇨🇳+@WangCai_8_6
+      - Telegram🇨🇳+@WangCai_8_7
       - defaultName_16
-      - '436'
-      - '400'
+      - 新加坡2
+      - Telegram🇨🇳+@WangCai_8_8
       - defaultName_17
       - defaultName_18
-      - '[1倍]+香港03+T'
+      - '117'
+      - '18'
+      - Telegram🇨🇳+@WangCai_8_9
       - defaultName_19
+      - '[1倍]+阿根廷01+T'
+      - 新加坡-2
+      - '358'
       - defaultName_20
-      - '459'
+      - '[vless]🇸🇬新加坡-2500M'
+      - 🇺🇸美国01-NF🇨🇦
+      - 🇯🇵JP_6193+@WangCai_8
       - defaultName_21
+      - '106'
+      - 🇺🇸美国04
+      - 新加坡-1
+      - '[1倍]+新加坡03+T'
+      - '778'
+      - 🇺🇸美国02-NF🇨🇦
+      - V2-日本+PATHX+1-1倍率
+      - '[1倍]+越南01+T'
+      - 东京-1
+      - V1-巴黎+IEPL+1-1倍率
       - defaultName_22
+      - V2-巴黎+PATHX+1-1倍率
+      - 阿什本
+      - 美国
+      - 伦敦
+      - '19'
+      - 新加坡-3
       - defaultName_23
       - defaultName_24
-      - V1-巴黎+IEPL+1-1倍率
-      - defaultName_25
-      - defaultName_26
-      - '[1倍]+加拿大01+T'
-      - defaultName_27
-      - defaultName_28
-      - '117'
-      - '778'
-      - defaultName_29
-      - defaultName_30
-      - defaultName_31
-      - V2-香港+PATHX+1-1倍率
-      - defaultName_32
-      - '[1倍]+韩国03+T'
-      - '358'
-      - defaultName_33
-      - '[1倍]+印度01+T'
-      - '35'
-      - '473'
-      - '19'
-      - '[vless]🇸🇬新加坡-2500M'
-      - '18'
-      - '[1倍]+韩国01+T'
-      - defaultName_34
       - V2-新加坡+PATHX+1-1倍率
-      - 🇯🇵JP_6193+@WangCai_8
       - '[1倍]+日本03+T'
-      - defaultName_35
-      - '121'
-      - '[1倍]+越南01+T'
-      - defaultName_36
+      - '[1倍]+香港03+T'
       - '[1倍]+韩国02+T'
-      - '352'
-      - '[1倍]+美国03+T'
-      - V2-日本+PATHX+1-1倍率
-      - V2-美国+PATHX+1-1倍率
-      - '[1倍]+新加坡03+T'
-      - '[1倍]+阿根廷01+T'
-      - '150'
-      - '189'
-      - V2-巴黎+PATHX+1-1倍率
-      - '058'
-      - '397'
-      - '615'
-      - '106'
 
 rules:
 # 本地/局域网地址
