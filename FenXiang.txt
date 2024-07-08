@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-08 05:12:31
+# 创建时间：2024-07-09 04:20:04
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：22
+# 节点数量：17
 # 节点类型：hysteria2
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
@@ -87,28 +87,23 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"美国|United States01","type":"hysteria2","server":"us1.pithecia.com","port":50136,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
   - {"name":"U|墨西哥|Mexico","type":"hysteria2","server":"u.pithecia.com","port":30003,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
   - {"name":"U|加拿大|Canada","type":"hysteria2","server":"u.pithecia.com","port":30002,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
-  - {"name":"E|埃及|Egypt","type":"hysteria2","server":"e.pithecia.com","port":20008,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
-  - {"name":"俄罗斯|🇷ussia01","type":"hysteria2","server":"ru1.pithecia.com","port":50236,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"U|阿根廷|Argentina","type":"hysteria2","server":"u.pithecia.com","port":30000,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
   - {"name":"日本|Japan05","type":"hysteria2","server":"jp5.pithecia.com","port":50082,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
   - {"name":"日本|Japan01","type":"hysteria2","server":"jp1.pithecia.com","port":50049,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
-  - {"name":"美国|United States02","type":"hysteria2","server":"us2.pithecia.com","port":50366,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
-  - {"name":"香港A|HongKong02","type":"hysteria2","server":"jphk1.pithecia.com","port":30352,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
-  - {"name":"U|巴西|Brazil","type":"hysteria2","server":"u.pithecia.com","port":30001,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
-  - {"name":"泰国|Thailand","type":"hysteria2","server":"jphk1.pithecia.com","port":443,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
-  - {"name":"日本|Japan02","type":"hysteria2","server":"jp2.pithecia.com","port":50334,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
-  - {"name":"U|阿根廷|Argentina","type":"hysteria2","server":"u.pithecia.com","port":30000,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
-  - {"name":"新加坡|Singapore02","type":"hysteria2","server":"sg2.pithecia.com","port":50000,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
-  - {"name":"马来西亚|Malaysia","type":"hysteria2","server":"jp2.pithecia.com","port":443,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
   - {"name":"套餐到期：2025-01-07","type":"hysteria2","server":"hk3.pithecia.com","port":20048,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
-  - {"name":"香港|HongKong08","type":"hysteria2","server":"hk8.pithecia.com","port":50000,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
-  - {"name":"香港A|HongKong01","type":"hysteria2","server":"jphk1.pithecia.com","port":20340,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"香港A|HongKong02","type":"hysteria2","server":"jphk1.pithecia.com","port":30352,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"距离下次重置剩余：23 天","type":"hysteria2","server":"hk3.pithecia.com","port":20048,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"泰国|Thailand","type":"hysteria2","server":"jphk1.pithecia.com","port":443,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"E|埃及|Egypt","type":"hysteria2","server":"e.pithecia.com","port":20008,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
   - {"name":"剩余流量：778.92 GB","type":"hysteria2","server":"hk3.pithecia.com","port":20048,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
   - {"name":"官网pithecia.com","type":"hysteria2","server":"hk3.pithecia.com","port":20048,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
-  - {"name":"距离下次重置剩余：23 天","type":"hysteria2","server":"hk3.pithecia.com","port":20048,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"马来西亚|Malaysia","type":"hysteria2","server":"jp2.pithecia.com","port":443,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"日本|Japan02","type":"hysteria2","server":"jp2.pithecia.com","port":50334,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"香港A|HongKong01","type":"hysteria2","server":"jphk1.pithecia.com","port":20340,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
   - {"name":"新加坡|Singapore01","type":"hysteria2","server":"sg1.pithecia.com","port":50000,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
+  - {"name":"香港|HongKong08","type":"hysteria2","server":"hk8.pithecia.com","port":50000,"password":"4165c205-af85-4c87-8e63-0447648048e3","sni":"hk1.pithecia.com","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -117,110 +112,90 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 美国|United States01
       - U|墨西哥|Mexico
       - U|加拿大|Canada
-      - E|埃及|Egypt
-      - 俄罗斯|🇷ussia01
+      - U|阿根廷|Argentina
       - 日本|Japan05
       - 日本|Japan01
-      - 美国|United States02
-      - 香港A|HongKong02
-      - U|巴西|Brazil
-      - 泰国|Thailand
-      - 日本|Japan02
-      - U|阿根廷|Argentina
-      - 新加坡|Singapore02
-      - 马来西亚|Malaysia
       - 套餐到期：2025-01-07
-      - 香港|HongKong08
-      - 香港A|HongKong01
+      - 香港A|HongKong02
+      - 距离下次重置剩余：23 天
+      - 泰国|Thailand
+      - E|埃及|Egypt
       - 剩余流量：778.92 GB
       - 官网pithecia.com
-      - 距离下次重置剩余：23 天
+      - 马来西亚|Malaysia
+      - 日本|Japan02
+      - 香港A|HongKong01
       - 新加坡|Singapore01
+      - 香港|HongKong08
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国|United States01
       - U|墨西哥|Mexico
       - U|加拿大|Canada
-      - E|埃及|Egypt
-      - 俄罗斯|🇷ussia01
+      - U|阿根廷|Argentina
       - 日本|Japan05
       - 日本|Japan01
-      - 美国|United States02
-      - 香港A|HongKong02
-      - U|巴西|Brazil
-      - 泰国|Thailand
-      - 日本|Japan02
-      - U|阿根廷|Argentina
-      - 新加坡|Singapore02
-      - 马来西亚|Malaysia
       - 套餐到期：2025-01-07
-      - 香港|HongKong08
-      - 香港A|HongKong01
+      - 香港A|HongKong02
+      - 距离下次重置剩余：23 天
+      - 泰国|Thailand
+      - E|埃及|Egypt
       - 剩余流量：778.92 GB
       - 官网pithecia.com
-      - 距离下次重置剩余：23 天
+      - 马来西亚|Malaysia
+      - 日本|Japan02
+      - 香港A|HongKong01
       - 新加坡|Singapore01
+      - 香港|HongKong08
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 美国|United States01
       - U|墨西哥|Mexico
       - U|加拿大|Canada
-      - E|埃及|Egypt
-      - 俄罗斯|🇷ussia01
+      - U|阿根廷|Argentina
       - 日本|Japan05
       - 日本|Japan01
-      - 美国|United States02
-      - 香港A|HongKong02
-      - U|巴西|Brazil
-      - 泰国|Thailand
-      - 日本|Japan02
-      - U|阿根廷|Argentina
-      - 新加坡|Singapore02
-      - 马来西亚|Malaysia
       - 套餐到期：2025-01-07
-      - 香港|HongKong08
-      - 香港A|HongKong01
+      - 香港A|HongKong02
+      - 距离下次重置剩余：23 天
+      - 泰国|Thailand
+      - E|埃及|Egypt
       - 剩余流量：778.92 GB
       - 官网pithecia.com
-      - 距离下次重置剩余：23 天
+      - 马来西亚|Malaysia
+      - 日本|Japan02
+      - 香港A|HongKong01
       - 新加坡|Singapore01
+      - 香港|HongKong08
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 美国|United States01
       - U|墨西哥|Mexico
       - U|加拿大|Canada
-      - E|埃及|Egypt
-      - 俄罗斯|🇷ussia01
+      - U|阿根廷|Argentina
       - 日本|Japan05
       - 日本|Japan01
-      - 美国|United States02
-      - 香港A|HongKong02
-      - U|巴西|Brazil
-      - 泰国|Thailand
-      - 日本|Japan02
-      - U|阿根廷|Argentina
-      - 新加坡|Singapore02
-      - 马来西亚|Malaysia
       - 套餐到期：2025-01-07
-      - 香港|HongKong08
-      - 香港A|HongKong01
+      - 香港A|HongKong02
+      - 距离下次重置剩余：23 天
+      - 泰国|Thailand
+      - E|埃及|Egypt
       - 剩余流量：778.92 GB
       - 官网pithecia.com
-      - 距离下次重置剩余：23 天
+      - 马来西亚|Malaysia
+      - 日本|Japan02
+      - 香港A|HongKong01
       - 新加坡|Singapore01
+      - 香港|HongKong08
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -240,28 +215,23 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 美国|United States01
       - U|墨西哥|Mexico
       - U|加拿大|Canada
-      - E|埃及|Egypt
-      - 俄罗斯|🇷ussia01
+      - U|阿根廷|Argentina
       - 日本|Japan05
       - 日本|Japan01
-      - 美国|United States02
-      - 香港A|HongKong02
-      - U|巴西|Brazil
-      - 泰国|Thailand
-      - 日本|Japan02
-      - U|阿根廷|Argentina
-      - 新加坡|Singapore02
-      - 马来西亚|Malaysia
       - 套餐到期：2025-01-07
-      - 香港|HongKong08
-      - 香港A|HongKong01
+      - 香港A|HongKong02
+      - 距离下次重置剩余：23 天
+      - 泰国|Thailand
+      - E|埃及|Egypt
       - 剩余流量：778.92 GB
       - 官网pithecia.com
-      - 距离下次重置剩余：23 天
+      - 马来西亚|Malaysia
+      - 日本|Japan02
+      - 香港A|HongKong01
       - 新加坡|Singapore01
+      - 香港|HongKong08
 
 rules:
 # 本地/局域网地址
