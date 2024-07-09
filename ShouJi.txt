@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-09 04:19:00
+# 创建时间：2024-07-10 04:42:24
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：18
+# 节点数量：7
 # 节点类型：vmess
 ####################################
 mixed-port: 7890
@@ -86,24 +86,13 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Relay_🇺🇸US |189.94Mb","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":2052,"cipher":"auto","uuid":"8b03c864-31e3-4cfb-949a-2e7eb13f698d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/GQ2qE5Us9g","headers":{"host":"tw1bQiWSE4x.fzbqfrse.xyz"}}}
-  - {"name":"Relay_🏁ZZ |88.92Mb","type":"vmess","server":"104.19.38.88","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip5-4.freegradely.xyz"}}}
-  - {"name":"Relay_ |48.09Mb","type":"vmess","server":"104.19.45.11","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
+  - {"name":"Relay_🇺🇸US |28.59Mb","type":"vmess","server":"mankadmu.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"mankadmu.com"}}}
+  - {"name":"Relay_🇺🇸US |56.56Mb","type":"vmess","server":"tilebani.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"tilebani.com"}}}
+  - {"name":"Relay_🇷🇺RU |11.55Mb","type":"vmess","server":"eedp257bubu2wefy3.lovebaipiao.net","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/iphone","headers":{"host":"www.apple.com"}}}
+  - {"name":"Relay_🇺🇸US |253.55Mb","type":"vmess","server":"denc36.xtooltech.cfd","port":443,"cipher":"auto","uuid":"b321fd5d-e6ec-4293-a644-164e3885f52e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc36v.xtooltech.cfd"}}}
   - {"name":"🇨🇳CN_64 |12.73Mb","type":"vmess","server":"47.104.186.133","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay_🏁ZZ-🇺🇸US_190 |25.95Mb","type":"vmess","server":"104.19.47.21","port":8443,"cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk01.linkitnow.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.linkitnow.net"}}}
-  - {"name":"Relay_🏁ZZ-🇺🇸US_531","type":"vmess","server":"lin0502.hwcar.sbs","port":443,"cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
-  - {"name":"Pool_🏁ZZ_181 |27.31Mb","type":"vmess","server":"23.166.88.101","port":22324,"cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇨🇳CN_61 | 3.94Mb","type":"vmess","server":"47.92.152.169","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_402 |282.45Mb","type":"vmess","server":"104.18.57.111","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
-  - {"name":"🇨🇴CO |23.15Mb","type":"vmess","server":"188.114.96.221","port":80,"cipher":"auto","uuid":"310fabb7-2abc-4301-b302-22aa49c954fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"dl2.127.0.0.1.pикерл.里克爾.kлексaкадемия.kl3ksacad3my.克萊克斯學院.wonkacapitano.buzz."}}}
-  - {"name":"🇨🇳CN_65 |19.11Mb","type":"vmess","server":"183.240.235.168","port":59003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay_🏁ZZ |490.22Mb","type":"vmess","server":"104.19.123.11","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
-  - {"name":"Relay_🇺🇸US-🇹🇼TW_240 |24.63Mb","type":"vmess","server":"172.67.185.9","port":8080,"cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
-  - {"name":"Relay_🇺🇸US-🇵🇦PA_151","type":"vmess","server":"m2-fr1.m2network.icu","port":80,"cipher":"auto","uuid":"106df21e-e02e-4a0e-b01e-aa203d393fc7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws?ed=2560","headers":{"host":"m2-fr1.m2network.icu"}}}
-  - {"name":"🇸🇬SG_117 |10.64Mb","type":"vmess","server":"5.34.176.111","port":57614,"cipher":"auto","uuid":"4e55ce40-9f8e-417d-f8ae-aa6af97a7097","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay_🏁ZZ |159.40Mb","type":"vmess","server":"104.19.123.11","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
-  - {"name":"Relay_🇺🇸US |13.70Mb","type":"vmess","server":"172.64.233.32","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"Relay_🏁ZZ |311.49Mb","type":"vmess","server":"104.19.47.65","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇺🇸US_531","type":"vmess","server":"lin0502.hwcar.sbs","port":443,"cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,94 +101,50 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - Relay_🇺🇸US |189.94Mb
-      - Relay_🏁ZZ |88.92Mb
-      - Relay_ |48.09Mb
+      - Relay_🇺🇸US |28.59Mb
+      - Relay_🇺🇸US |56.56Mb
+      - Relay_🇷🇺RU |11.55Mb
+      - Relay_🇺🇸US |253.55Mb
       - 🇨🇳CN_64 |12.73Mb
-      - Relay_🏁ZZ-🇺🇸US_190 |25.95Mb
-      - Relay_🏁ZZ-🇺🇸US_531
-      - Pool_🏁ZZ_181 |27.31Mb
       - 🇨🇳CN_61 | 3.94Mb
-      - Relay_🏁ZZ-🇨🇦CA_402 |282.45Mb
-      - 🇨🇴CO |23.15Mb
-      - 🇨🇳CN_65 |19.11Mb
-      - Relay_🏁ZZ |490.22Mb
-      - Relay_🇺🇸US-🇹🇼TW_240 |24.63Mb
-      - Relay_🇺🇸US-🇵🇦PA_151
-      - 🇸🇬SG_117 |10.64Mb
-      - Relay_🏁ZZ |159.40Mb
-      - Relay_🇺🇸US |13.70Mb
-      - Relay_🏁ZZ |311.49Mb
+      - Relay_🏁ZZ-🇺🇸US_531
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇺🇸US |189.94Mb
-      - Relay_🏁ZZ |88.92Mb
-      - Relay_ |48.09Mb
+      - Relay_🇺🇸US |28.59Mb
+      - Relay_🇺🇸US |56.56Mb
+      - Relay_🇷🇺RU |11.55Mb
+      - Relay_🇺🇸US |253.55Mb
       - 🇨🇳CN_64 |12.73Mb
-      - Relay_🏁ZZ-🇺🇸US_190 |25.95Mb
-      - Relay_🏁ZZ-🇺🇸US_531
-      - Pool_🏁ZZ_181 |27.31Mb
       - 🇨🇳CN_61 | 3.94Mb
-      - Relay_🏁ZZ-🇨🇦CA_402 |282.45Mb
-      - 🇨🇴CO |23.15Mb
-      - 🇨🇳CN_65 |19.11Mb
-      - Relay_🏁ZZ |490.22Mb
-      - Relay_🇺🇸US-🇹🇼TW_240 |24.63Mb
-      - Relay_🇺🇸US-🇵🇦PA_151
-      - 🇸🇬SG_117 |10.64Mb
-      - Relay_🏁ZZ |159.40Mb
-      - Relay_🇺🇸US |13.70Mb
-      - Relay_🏁ZZ |311.49Mb
+      - Relay_🏁ZZ-🇺🇸US_531
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Relay_🇺🇸US |189.94Mb
-      - Relay_🏁ZZ |88.92Mb
-      - Relay_ |48.09Mb
+      - Relay_🇺🇸US |28.59Mb
+      - Relay_🇺🇸US |56.56Mb
+      - Relay_🇷🇺RU |11.55Mb
+      - Relay_🇺🇸US |253.55Mb
       - 🇨🇳CN_64 |12.73Mb
-      - Relay_🏁ZZ-🇺🇸US_190 |25.95Mb
-      - Relay_🏁ZZ-🇺🇸US_531
-      - Pool_🏁ZZ_181 |27.31Mb
       - 🇨🇳CN_61 | 3.94Mb
-      - Relay_🏁ZZ-🇨🇦CA_402 |282.45Mb
-      - 🇨🇴CO |23.15Mb
-      - 🇨🇳CN_65 |19.11Mb
-      - Relay_🏁ZZ |490.22Mb
-      - Relay_🇺🇸US-🇹🇼TW_240 |24.63Mb
-      - Relay_🇺🇸US-🇵🇦PA_151
-      - 🇸🇬SG_117 |10.64Mb
-      - Relay_🏁ZZ |159.40Mb
-      - Relay_🇺🇸US |13.70Mb
-      - Relay_🏁ZZ |311.49Mb
+      - Relay_🏁ZZ-🇺🇸US_531
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Relay_🇺🇸US |189.94Mb
-      - Relay_🏁ZZ |88.92Mb
-      - Relay_ |48.09Mb
+      - Relay_🇺🇸US |28.59Mb
+      - Relay_🇺🇸US |56.56Mb
+      - Relay_🇷🇺RU |11.55Mb
+      - Relay_🇺🇸US |253.55Mb
       - 🇨🇳CN_64 |12.73Mb
-      - Relay_🏁ZZ-🇺🇸US_190 |25.95Mb
-      - Relay_🏁ZZ-🇺🇸US_531
-      - Pool_🏁ZZ_181 |27.31Mb
       - 🇨🇳CN_61 | 3.94Mb
-      - Relay_🏁ZZ-🇨🇦CA_402 |282.45Mb
-      - 🇨🇴CO |23.15Mb
-      - 🇨🇳CN_65 |19.11Mb
-      - Relay_🏁ZZ |490.22Mb
-      - Relay_🇺🇸US-🇹🇼TW_240 |24.63Mb
-      - Relay_🇺🇸US-🇵🇦PA_151
-      - 🇸🇬SG_117 |10.64Mb
-      - Relay_🏁ZZ |159.40Mb
-      - Relay_🇺🇸US |13.70Mb
-      - Relay_🏁ZZ |311.49Mb
+      - Relay_🏁ZZ-🇺🇸US_531
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -219,24 +164,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - Relay_🇺🇸US |189.94Mb
-      - Relay_🏁ZZ |88.92Mb
-      - Relay_ |48.09Mb
+      - Relay_🇺🇸US |28.59Mb
+      - Relay_🇺🇸US |56.56Mb
+      - Relay_🇷🇺RU |11.55Mb
+      - Relay_🇺🇸US |253.55Mb
       - 🇨🇳CN_64 |12.73Mb
-      - Relay_🏁ZZ-🇺🇸US_190 |25.95Mb
-      - Relay_🏁ZZ-🇺🇸US_531
-      - Pool_🏁ZZ_181 |27.31Mb
       - 🇨🇳CN_61 | 3.94Mb
-      - Relay_🏁ZZ-🇨🇦CA_402 |282.45Mb
-      - 🇨🇴CO |23.15Mb
-      - 🇨🇳CN_65 |19.11Mb
-      - Relay_🏁ZZ |490.22Mb
-      - Relay_🇺🇸US-🇹🇼TW_240 |24.63Mb
-      - Relay_🇺🇸US-🇵🇦PA_151
-      - 🇸🇬SG_117 |10.64Mb
-      - Relay_🏁ZZ |159.40Mb
-      - Relay_🇺🇸US |13.70Mb
-      - Relay_🏁ZZ |311.49Mb
+      - Relay_🏁ZZ-🇺🇸US_531
 
 rules:
 # 本地/局域网地址
