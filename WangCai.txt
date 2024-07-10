@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-10 04:42:39
+# 创建时间：2024-07-11 02:57:47
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：144
-# 节点类型：ss, vmess, vless, trojan
+# 节点数量：20
+# 节点类型：ss, vless
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,150 +87,26 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇺🇸+United+States+05","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10040,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸+United+States+07","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10042,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸+United+States+06","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10041,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸+United+States+04","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10039,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸+United+States+03","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10038,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸+United+States+01","type":"ss","server":"tjsedht.cfprefer1.xyz","port":25818,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"美国TX","type":"vmess","server":"ustx1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ustx.ludou.us.kg"}}}
-  - {"name":"🇺🇸美国2号-0.1倍","type":"vless","server":"89.116.161.168","port":443,"uuid":"135718ae-aa92-4a10-b4d9-8edca3ad23bf","tls":true,"servername":"k6us2.yfjc.sbs","network":"ws","ws-opts":{"path":"/yfjc/kus2","headers":{"host":"k6us2.yfjc.sbs"}}}
-  - {"name":"美国GA","type":"vmess","server":"usga1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usga.ludou.us.kg"}}}
-  - {"name":"美国FL","type":"vmess","server":"usfl1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usfl.ludou.us.kg"}}}
-  - {"name":"🇺🇸+United+States+02","type":"ss","server":"tjsedht.cfprefer1.xyz","port":28287,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇳🇱荷兰+|+BT下载-0.1倍","type":"vless","server":"188.42.145.72","port":443,"uuid":"135718ae-aa92-4a10-b4d9-8edca3ad23bf","tls":true,"servername":"y0nl2.yfjc.sbs","network":"ws","ws-opts":{"path":"/yfjc/knl2","headers":{"host":"y0nl2.yfjc.sbs"}}}
-  - {"name":"🇺🇸美国1号-0.1倍","type":"vless","server":"185.176.24.87","port":443,"uuid":"135718ae-aa92-4a10-b4d9-8edca3ad23bf","tls":true,"servername":"k7us1.yfjc.sbs","network":"ws","ws-opts":{"path":"/yfjc/kus1","headers":{"host":"k7us1.yfjc.sbs"}}}
-  - {"name":"🇯🇵+Japan+04","type":"ss","server":"tjsedht.cfprefer1.xyz","port":12994,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"伦敦","type":"vmess","server":"a1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b1.ludou.us.kg"}}}
-  - {"name":"日本JP04","type":"ss","server":"gy.666666222.shop","port":20005,"password":"a136e79b-cbea-4708-9ce7-c6d55592f236","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵+Japan+02","type":"ss","server":"tjsedht.cfprefer1.xyz","port":43641,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"日本JP05","type":"ss","server":"gy.666666222.shop","port":20007,"password":"a136e79b-cbea-4708-9ce7-c6d55592f236","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"日本JP03","type":"ss","server":"gy.666666222.shop","port":20003,"password":"a136e79b-cbea-4708-9ce7-c6d55592f236","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵+Japan+07","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10021,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇯🇵+Japan+03","type":"ss","server":"tjsedht.cfprefer1.xyz","port":28436,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇯🇵+Japan+08","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10022,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"美国WA","type":"vmess","server":"uswa1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"uswa.ludou.us.kg"}}}
-  - {"name":"🇯🇵+Japan+06","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10020,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇯🇵+Japan+01","type":"ss","server":"tjsedht.cfprefer1.xyz","port":19563,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇯🇵+JP日本-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27251,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵+Japan+05","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10019,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_1","type":"vless","server":"38.95.120.55","port":33445,"uuid":"b6011094-a647-4ccb-f97f-362b11aaf690","network":"ws","ws-opts":{"path":"/b6011094"}}
-  - {"name":"东京","type":"vmess","server":"jpzz.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"jp.ludou.us.kg"}}}
-  - {"name":"[vless]🇰🇷韩国-首尔-2500M-1","type":"vless","server":"seoul1-2500m.yljc.online","port":443,"uuid":"8df48fe3-a609-44f2-98b8-9f4cb0672427","tls":true,"servername":"kor1.nodes.yljc.online","network":"grpc","grpc-opts":{"grpc-service-name":"aabbcc"}}
-  - {"name":"🇭🇰+Hong+Kong+06","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10016,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"中港隧道-澳大利亚","type":"vmess","server":"jzgz.tcity8.monster","port":22237,"cipher":"auto","uuid":"3b33f816-1e79-45cc-9a6c-b88d32074e5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳+Taiwan+|+家宽+3.0x","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10051,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"日本+03+线路1","type":"trojan","server":"v01.gutingting.com","port":30021,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"jp03.6kk.org","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"中港隧道-日本","type":"vmess","server":"jzgz.tcity8.monster","port":22235,"cipher":"auto","uuid":"3b33f816-1e79-45cc-9a6c-b88d32074e5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰+Hong+Kong+05","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10015,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸++USA美国-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27253,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇪+AE迪拜-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27279,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰+Hong+Kong+08","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10018,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"[vless]🇯🇵日本-东京-2500M","type":"vless","server":"2500m.tokyo.node.yljc.online","port":443,"uuid":"8df48fe3-a609-44f2-98b8-9f4cb0672427","tls":true,"servername":"tokyo1.nodes.yljc.online","network":"grpc","grpc-opts":{"grpc-service-name":"aabbcc"}}
-  - {"name":"🇭🇰+HK香港2--移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27263,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国原生NO3","type":"vmess","server":"jzgz.tcity8.monster","port":22002,"cipher":"auto","uuid":"3b33f816-1e79-45cc-9a6c-b88d32074e5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰+Hong+Kong+01","type":"ss","server":"tjsedht.cfprefer1.xyz","port":45611,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇭🇰+HK香港-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27259,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰+Hong+Kong+07","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10017,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇭🇰+Hong+Kong+02","type":"ss","server":"tjsedht.cfprefer1.xyz","port":14149,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇭🇰+Hong+Kong+04","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10001,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸+United+States+|+家宽+3.0x","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10049,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇱🇺+LU卢森堡-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27266,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中港隧道-台湾","type":"vmess","server":"jzgz.tcity8.monster","port":22240,"cipher":"auto","uuid":"3b33f816-1e79-45cc-9a6c-b88d32074e5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇰🇷+KR韩国--移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27262,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"大版1","type":"vmess","server":"jp687744a.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cmi-665441.ludounow.tech"}}}
-  - {"name":"🇸🇬+Singapore+03","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10002,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇸🇬+Singapore+01","type":"ss","server":"tjsedht.cfprefer1.xyz","port":14337,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇸🇬+Singapore+06","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10033,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"中港隧道-印度","type":"vmess","server":"jzgz.tcity8.monster","port":22238,"cipher":"auto","uuid":"3b33f816-1e79-45cc-9a6c-b88d32074e5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰+Hong+Kong+03","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10000,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇸🇬+Singapore+02","type":"ss","server":"tjsedht.cfprefer1.xyz","port":43934,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇳🇱+NL荷兰-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27270,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇷+Turkey+|+冷门","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10005,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"香港F1+01+线路1","type":"trojan","server":"v01.gutingting.com","port":30072,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"sk02.zygbx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬+Singapore+04","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10003,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇸🇬+Singapore+05","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10032,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇸🇬+Singapore+07","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10034,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"V2-日本+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37021,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬+SG新加坡-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27250,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬+Singapore+08","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10035,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"香港+1X","type":"ss","server":"gy.ni8.me","port":39210,"password":"e7b4b1c0-f69e-45f8-b58e-10780e8c81d6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇦+CA加拿大-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27256,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中港隧道-香港1","type":"vmess","server":"jzgz.tcity8.monster","port":22224,"cipher":"auto","uuid":"3b33f816-1e79-45cc-9a6c-b88d32074e5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港HGC+02+线路2","type":"trojan","server":"v02.gutingting.com","port":30038,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"v2hgc03.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"加拿大+1X","type":"ss","server":"gy.ni8.me","port":16943,"password":"e7b4b1c0-f69e-45f8-b58e-10780e8c81d6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧+United+Kingdom+01","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10013,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇭🇰+Hong+Kong+|+家宽+3.0x","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10065,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇳+TW台湾-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27260,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中港隧道-香港3","type":"vmess","server":"jzgz.tcity8.monster","port":22003,"cipher":"auto","uuid":"3b33f816-1e79-45cc-9a6c-b88d32074e5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇮🇳+IN印度-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27252,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国+2","type":"ss","server":"gy.666666222.shop","port":20015,"password":"a136e79b-cbea-4708-9ce7-c6d55592f236","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中港隧道-香港2","type":"vmess","server":"jzgz.tcity8.monster","port":22226,"cipher":"auto","uuid":"3b33f816-1e79-45cc-9a6c-b88d32074e5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇹🇷+TR土耳其-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27267,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬+SG新加坡2-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27261,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺+RU俄罗斯-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27276,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"V2-巴黎+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37051,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"香港+01+线路1","type":"trojan","server":"v01.gutingting.com","port":30017,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"v2hgc01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"V1-巴黎+IEPL+1-1倍率","type":"ss","server":"speedtest-api.xtspx.xyz","port":37050,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"中港隧道-英国","type":"vmess","server":"jzgz.tcity8.monster","port":22229,"cipher":"auto","uuid":"3b33f816-1e79-45cc-9a6c-b88d32074e5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Telegram🇨🇳+@WangCai_8_1","type":"vless","server":"8.217.250.5","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
-  - {"name":"日本+01+线路1","type":"trojan","server":"v01.gutingting.com","port":30009,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"jp03.6kk.org","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国原生NO1","type":"vmess","server":"jzgz.tcity8.monster","port":22000,"cipher":"auto","uuid":"3b33f816-1e79-45cc-9a6c-b88d32074e5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇬🇧+United+Kingdom+02","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10014,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"中港隧道-加拿大","type":"vmess","server":"jzgz.tcity8.monster","port":22236,"cipher":"auto","uuid":"3b33f816-1e79-45cc-9a6c-b88d32074e5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇰🇷 Korea B - Unlocked","type":"vmess","server":"kr02.elizabethgilbert.buzz","port":80,"cipher":"auto","uuid":"195e6df1-1934-44a2-af70-b68a0e32391e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"kr02.elizabethgilbert.buzz"}}}
-  - {"name":"V2-新加坡+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37011,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"东京1","type":"vmess","server":"jp6665444.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"jpaaddda5dd.ludou.us.kg"}}}
-  - {"name":"🇳🇱荷兰Eygelshoven+|+BT下载-0.1倍","type":"vless","server":"77.37.33.136","port":443,"uuid":"135718ae-aa92-4a10-b4d9-8edca3ad23bf","tls":true,"servername":"k7nl1.yfjc.sbs","network":"ws","ws-opts":{"path":"/yfjc/knl1","headers":{"host":"k7nl1.yfjc.sbs"}}}
-  - {"name":"Telegram🇨🇳+@WangCai_8_2","type":"vless","server":"8.217.251.62","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
-  - {"name":"Telegram🇨🇳+@WangCai_8_3","type":"vless","server":"8.219.170.232","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
-  - {"name":"🇳🇮+NI阿根廷-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27271,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧+UK英国-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27255,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇶+Antarctica+|+冷门","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10030,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇮🇸+Iceland+|+冷门","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10031,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"新加坡+03+线路2","type":"trojan","server":"v02.gutingting.com","port":30049,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"v2sg02.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"中港隧道-新加坡","type":"vmess","server":"jzgz.tcity8.monster","port":22231,"cipher":"auto","uuid":"3b33f816-1e79-45cc-9a6c-b88d32074e5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"加拿大","type":"vmess","server":"a2.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b2.ludou.us.kg"}}}
-  - {"name":"澳大利亚","type":"vmess","server":"a4.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b4.ludou.us.kg"}}}
-  - {"name":"美国+02+线路1","type":"trojan","server":"v01.gutingting.com","port":20225,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"v2usa01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇰🇵+North+Korea+|+冷门","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10029,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"新加坡+1X","type":"ss","server":"gy.ni8.me","port":42729,"password":"e7b4b1c0-f69e-45f8-b58e-10780e8c81d6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港HK01","type":"ss","server":"gy.666666222.shop","port":56701,"password":"a136e79b-cbea-4708-9ce7-c6d55592f236","cipher":"aes-128-gcm"}
-  - {"name":"🇰🇷+South+Korea+|+家宽+3.0x","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10053,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"🇦🇺+AU澳大利亚-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27254,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇵🇰+Pakistan+|+家宽+3.0x","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10059,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"[vless]🇸🇬新加坡-2500M","type":"vless","server":"singapore1-2500m.yljc.online","port":443,"uuid":"8df48fe3-a609-44f2-98b8-9f4cb0672427","tls":true,"servername":"sg1.nodes.yljc.online","network":"grpc","grpc-opts":{"grpc-service-name":"aabbcc"}}
-  - {"name":"日本+02+线路2","type":"trojan","server":"v02.gutingting.com","port":30044,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"v1jp01.6kk.org","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"印度","type":"vmess","server":"a3.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b3.ludou.us.kg"}}}
-  - {"name":"新加坡SG","type":"vmess","server":"sg1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sg.ludou.us.kg"}}}
-  - {"name":"日本+1X","type":"ss","server":"gy.ni8.me","port":22225,"password":"e7b4b1c0-f69e-45f8-b58e-10780e8c81d6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"日本+04+线路2","type":"trojan","server":"v02.gutingting.com","port":30045,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"v1jp01.6kk.org","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港+03+线路1","type":"trojan","server":"v01.gutingting.com","port":30007,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"hktn2.6kk.org","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾HINET+04+线路1","type":"trojan","server":"v01.gutingting.com","port":30003,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"v2tw01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"02+限+30+MBS","type":"trojan","server":"v01.gutingting.com","port":30061,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"gpt02.6kk.org","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港HGC+01+线路2","type":"trojan","server":"v02.gutingting.com","port":30006,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"v2hgc03.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸+United+States+08","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10043,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
-  - {"name":"马来西亚+01+线路1","type":"trojan","server":"v01.gutingting.com","port":40005,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"malayisia.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港F1+03+线路1","type":"trojan","server":"v01.gutingting.com","port":30074,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"sk06.zygbx.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港+02+线路2","type":"trojan","server":"v02.gutingting.com","port":30005,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"v2hgc01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"defaultName_2","type":"vless","server":"154.64.232.241","port":22878,"uuid":"30d47102-fabf-4f55-d9f8-13d87380910b","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"美国LL","type":"vmess","server":"usll1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usll.ludou.us.kg"}}}
-  - {"name":"01+限+30+MBS","type":"trojan","server":"v01.gutingting.com","port":30060,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"gpt01.6kk.org","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国LA","type":"vmess","server":"usla1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usla.ludou.us.kg"}}}
-  - {"name":"中港隧道-德国","type":"vmess","server":"jzgz.tcity8.monster","port":22230,"cipher":"auto","uuid":"3b33f816-1e79-45cc-9a6c-b88d32074e5d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"纽约","type":"vmess","server":"03.bitaiyun.tech","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aghagh","headers":{"host":"04.bitaiyun.tech"}}}
-  - {"name":"日本+05+线路2","type":"trojan","server":"v02.gutingting.com","port":30054,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"v1jp01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"韩国+01+线路2","type":"trojan","server":"v02.gutingting.com","port":30056,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"v1kr01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港+04+线路2","type":"trojan","server":"v02.gutingting.com","port":30008,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"hktn2.6kk.org","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 新加坡1","type":"vmess","server":"sg-1-pzz03vm5.2819v2rhzb56.download","port":80,"cipher":"auto","uuid":"0d792958-3ded-407e-b1b0-57e624da91a6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"🇸🇬 新加坡2","type":"vmess","server":"sg-2-pzz03vm5.2819v2rhzb56.download","port":80,"cipher":"auto","uuid":"0d792958-3ded-407e-b1b0-57e624da91a6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":""}}
-  - {"name":"美国CA","type":"vmess","server":"usca1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usca.ludou.us.kg"}}}
-  - {"name":"荷兰","type":"vmess","server":"a5.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b5.ludou.us.kg"}}}
-  - {"name":"🇩🇪++DE德国-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27257,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"台湾HINET+03+线路2","type":"trojan","server":"v02.gutingting.com","port":30002,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"v2tw01.fuqiangren.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇳🇬+Nigeria+|+冷门","type":"ss","server":"tjsedht.cfprefer1.xyz","port":10037,"password":"3ce72168-730e-4020-baf8-620ee14634ac","cipher":"aes-256-gcm"}
   - {"name":"🇯🇵+JP日本2-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27264,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国+03+线路1","type":"trojan","server":"v01.gutingting.com","port":30048,"udp":true,"password":"8dfe5806-e67d-4271-9691-91a0dabc1b57","sni":"v1usa01.6kk.org","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷+KR韩国--移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27262,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName_1","type":"vless","server":"38.95.120.55","port":33445,"uuid":"b6011094-a647-4ccb-f97f-362b11aaf690","network":"ws","ws-opts":{"path":"/b6011094"}}
+  - {"name":"🇯🇵+JP日本-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27251,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰+HK香港-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27259,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪++DE德国-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27257,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪+AE迪拜-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27279,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧+UK英国-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27255,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦+CA加拿大-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27256,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"Telegram🇨🇳+@WangCai_8","type":"vless","server":"8.219.170.232","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"🇱🇺+LU卢森堡-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27266,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺+RU俄罗斯-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27276,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱+NL荷兰-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27270,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇷+TR土耳其-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27267,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬+SG新加坡-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27250,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰+HK香港2--移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27263,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇮+NI阿根廷-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27271,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName_2","type":"vless","server":"154.64.232.241","port":22878,"uuid":"30d47102-fabf-4f55-d9f8-13d87380910b","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸++USA美国-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27253,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"V2-日本+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37021,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -239,598 +115,102 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇺🇸+United+States+05
-      - 🇺🇸+United+States+07
-      - 🇺🇸+United+States+06
-      - 🇺🇸+United+States+04
-      - 🇺🇸+United+States+03
-      - 🇺🇸+United+States+01
-      - 美国TX
-      - 🇺🇸美国2号-0.1倍
-      - 美国GA
-      - 美国FL
-      - 🇺🇸+United+States+02
-      - 🇳🇱荷兰+|+BT下载-0.1倍
-      - 🇺🇸美国1号-0.1倍
-      - 🇯🇵+Japan+04
-      - 伦敦
-      - 日本JP04
-      - 🇯🇵+Japan+02
-      - 日本JP05
-      - 日本JP03
-      - 🇯🇵+Japan+07
-      - 🇯🇵+Japan+03
-      - 🇯🇵+Japan+08
-      - 美国WA
-      - 🇯🇵+Japan+06
-      - 🇯🇵+Japan+01
-      - 🇯🇵+JP日本-移动优化
-      - 🇯🇵+Japan+05
-      - defaultName_1
-      - 东京
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
-      - 🇭🇰+Hong+Kong+06
-      - 中港隧道-澳大利亚
-      - 🇨🇳+Taiwan+|+家宽+3.0x
-      - 日本+03+线路1
-      - 中港隧道-日本
-      - 🇭🇰+Hong+Kong+05
-      - 🇺🇸++USA美国-移动优化
-      - 🇦🇪+AE迪拜-移动优化
-      - 🇭🇰+Hong+Kong+08
-      - '[vless]🇯🇵日本-东京-2500M'
-      - 🇭🇰+HK香港2--移动优化
-      - 美国原生NO3
-      - 🇭🇰+Hong+Kong+01
-      - 🇭🇰+HK香港-移动优化
-      - 🇭🇰+Hong+Kong+07
-      - 🇭🇰+Hong+Kong+02
-      - 🇭🇰+Hong+Kong+04
-      - 🇺🇸+United+States+|+家宽+3.0x
-      - 🇱🇺+LU卢森堡-移动优化
-      - 中港隧道-台湾
-      - 🇰🇷+KR韩国--移动优化
-      - 大版1
-      - 🇸🇬+Singapore+03
-      - 🇸🇬+Singapore+01
-      - 🇸🇬+Singapore+06
-      - 中港隧道-印度
-      - 🇭🇰+Hong+Kong+03
-      - 🇸🇬+Singapore+02
-      - 🇳🇱+NL荷兰-移动优化
-      - 🇹🇷+Turkey+|+冷门
-      - 香港F1+01+线路1
-      - 🇸🇬+Singapore+04
-      - 🇸🇬+Singapore+05
-      - 🇸🇬+Singapore+07
-      - V2-日本+PATHX+1-1倍率
-      - 🇸🇬+SG新加坡-移动优化
-      - 🇸🇬+Singapore+08
-      - 香港+1X
-      - 🇨🇦+CA加拿大-移动优化
-      - 中港隧道-香港1
-      - 香港HGC+02+线路2
-      - 加拿大+1X
-      - 🇬🇧+United+Kingdom+01
-      - 🇭🇰+Hong+Kong+|+家宽+3.0x
-      - 🇨🇳+TW台湾-移动优化
-      - 中港隧道-香港3
-      - 🇮🇳+IN印度-移动优化
-      - 美国+2
-      - 中港隧道-香港2
-      - 🇹🇷+TR土耳其-移动优化
-      - 🇸🇬+SG新加坡2-移动优化
-      - 🇷🇺+RU俄罗斯-移动优化
-      - V2-巴黎+PATHX+1-1倍率
-      - 香港+01+线路1
-      - V1-巴黎+IEPL+1-1倍率
-      - 中港隧道-英国
-      - Telegram🇨🇳+@WangCai_8_1
-      - 日本+01+线路1
-      - 美国原生NO1
-      - 🇬🇧+United+Kingdom+02
-      - 中港隧道-加拿大
-      - 🇰🇷 Korea B - Unlocked
-      - V2-新加坡+PATHX+1-1倍率
-      - 东京1
-      - 🇳🇱荷兰Eygelshoven+|+BT下载-0.1倍
-      - Telegram🇨🇳+@WangCai_8_2
-      - Telegram🇨🇳+@WangCai_8_3
-      - 🇳🇮+NI阿根廷-移动优化
-      - 🇬🇧+UK英国-移动优化
-      - 🇦🇶+Antarctica+|+冷门
-      - 🇮🇸+Iceland+|+冷门
-      - 新加坡+03+线路2
-      - 中港隧道-新加坡
-      - 加拿大
-      - 澳大利亚
-      - 美国+02+线路1
-      - 🇰🇵+North+Korea+|+冷门
-      - 新加坡+1X
-      - 香港HK01
-      - 🇰🇷+South+Korea+|+家宽+3.0x
-      - 🇦🇺+AU澳大利亚-移动优化
-      - 🇵🇰+Pakistan+|+家宽+3.0x
-      - '[vless]🇸🇬新加坡-2500M'
-      - 日本+02+线路2
-      - 印度
-      - 新加坡SG
-      - 日本+1X
-      - 日本+04+线路2
-      - 香港+03+线路1
-      - 台湾HINET+04+线路1
-      - 02+限+30+MBS
-      - 香港HGC+01+线路2
-      - 🇺🇸+United+States+08
-      - 马来西亚+01+线路1
-      - 香港F1+03+线路1
-      - 香港+02+线路2
-      - defaultName_2
-      - 美国LL
-      - 01+限+30+MBS
-      - 美国LA
-      - 中港隧道-德国
-      - 纽约
-      - 日本+05+线路2
-      - 韩国+01+线路2
-      - 香港+04+线路2
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 美国CA
-      - 荷兰
-      - 🇩🇪++DE德国-移动优化
-      - 台湾HINET+03+线路2
-      - 🇳🇬+Nigeria+|+冷门
       - 🇯🇵+JP日本2-移动优化
-      - 美国+03+线路1
+      - 🇰🇷+KR韩国--移动优化
+      - defaultName_1
+      - 🇯🇵+JP日本-移动优化
+      - 🇭🇰+HK香港-移动优化
+      - 🇩🇪++DE德国-移动优化
+      - 🇦🇪+AE迪拜-移动优化
+      - 🇬🇧+UK英国-移动优化
+      - 🇨🇦+CA加拿大-移动优化
+      - Telegram🇨🇳+@WangCai_8
+      - 🇱🇺+LU卢森堡-移动优化
+      - 🇷🇺+RU俄罗斯-移动优化
+      - 🇳🇱+NL荷兰-移动优化
+      - 🇹🇷+TR土耳其-移动优化
+      - 🇸🇬+SG新加坡-移动优化
+      - 🇭🇰+HK香港2--移动优化
+      - 🇳🇮+NI阿根廷-移动优化
+      - defaultName_2
+      - 🇺🇸++USA美国-移动优化
+      - V2-日本+PATHX+1-1倍率
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸+United+States+05
-      - 🇺🇸+United+States+07
-      - 🇺🇸+United+States+06
-      - 🇺🇸+United+States+04
-      - 🇺🇸+United+States+03
-      - 🇺🇸+United+States+01
-      - 美国TX
-      - 🇺🇸美国2号-0.1倍
-      - 美国GA
-      - 美国FL
-      - 🇺🇸+United+States+02
-      - 🇳🇱荷兰+|+BT下载-0.1倍
-      - 🇺🇸美国1号-0.1倍
-      - 🇯🇵+Japan+04
-      - 伦敦
-      - 日本JP04
-      - 🇯🇵+Japan+02
-      - 日本JP05
-      - 日本JP03
-      - 🇯🇵+Japan+07
-      - 🇯🇵+Japan+03
-      - 🇯🇵+Japan+08
-      - 美国WA
-      - 🇯🇵+Japan+06
-      - 🇯🇵+Japan+01
-      - 🇯🇵+JP日本-移动优化
-      - 🇯🇵+Japan+05
-      - defaultName_1
-      - 东京
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
-      - 🇭🇰+Hong+Kong+06
-      - 中港隧道-澳大利亚
-      - 🇨🇳+Taiwan+|+家宽+3.0x
-      - 日本+03+线路1
-      - 中港隧道-日本
-      - 🇭🇰+Hong+Kong+05
-      - 🇺🇸++USA美国-移动优化
-      - 🇦🇪+AE迪拜-移动优化
-      - 🇭🇰+Hong+Kong+08
-      - '[vless]🇯🇵日本-东京-2500M'
-      - 🇭🇰+HK香港2--移动优化
-      - 美国原生NO3
-      - 🇭🇰+Hong+Kong+01
-      - 🇭🇰+HK香港-移动优化
-      - 🇭🇰+Hong+Kong+07
-      - 🇭🇰+Hong+Kong+02
-      - 🇭🇰+Hong+Kong+04
-      - 🇺🇸+United+States+|+家宽+3.0x
-      - 🇱🇺+LU卢森堡-移动优化
-      - 中港隧道-台湾
-      - 🇰🇷+KR韩国--移动优化
-      - 大版1
-      - 🇸🇬+Singapore+03
-      - 🇸🇬+Singapore+01
-      - 🇸🇬+Singapore+06
-      - 中港隧道-印度
-      - 🇭🇰+Hong+Kong+03
-      - 🇸🇬+Singapore+02
-      - 🇳🇱+NL荷兰-移动优化
-      - 🇹🇷+Turkey+|+冷门
-      - 香港F1+01+线路1
-      - 🇸🇬+Singapore+04
-      - 🇸🇬+Singapore+05
-      - 🇸🇬+Singapore+07
-      - V2-日本+PATHX+1-1倍率
-      - 🇸🇬+SG新加坡-移动优化
-      - 🇸🇬+Singapore+08
-      - 香港+1X
-      - 🇨🇦+CA加拿大-移动优化
-      - 中港隧道-香港1
-      - 香港HGC+02+线路2
-      - 加拿大+1X
-      - 🇬🇧+United+Kingdom+01
-      - 🇭🇰+Hong+Kong+|+家宽+3.0x
-      - 🇨🇳+TW台湾-移动优化
-      - 中港隧道-香港3
-      - 🇮🇳+IN印度-移动优化
-      - 美国+2
-      - 中港隧道-香港2
-      - 🇹🇷+TR土耳其-移动优化
-      - 🇸🇬+SG新加坡2-移动优化
-      - 🇷🇺+RU俄罗斯-移动优化
-      - V2-巴黎+PATHX+1-1倍率
-      - 香港+01+线路1
-      - V1-巴黎+IEPL+1-1倍率
-      - 中港隧道-英国
-      - Telegram🇨🇳+@WangCai_8_1
-      - 日本+01+线路1
-      - 美国原生NO1
-      - 🇬🇧+United+Kingdom+02
-      - 中港隧道-加拿大
-      - 🇰🇷 Korea B - Unlocked
-      - V2-新加坡+PATHX+1-1倍率
-      - 东京1
-      - 🇳🇱荷兰Eygelshoven+|+BT下载-0.1倍
-      - Telegram🇨🇳+@WangCai_8_2
-      - Telegram🇨🇳+@WangCai_8_3
-      - 🇳🇮+NI阿根廷-移动优化
-      - 🇬🇧+UK英国-移动优化
-      - 🇦🇶+Antarctica+|+冷门
-      - 🇮🇸+Iceland+|+冷门
-      - 新加坡+03+线路2
-      - 中港隧道-新加坡
-      - 加拿大
-      - 澳大利亚
-      - 美国+02+线路1
-      - 🇰🇵+North+Korea+|+冷门
-      - 新加坡+1X
-      - 香港HK01
-      - 🇰🇷+South+Korea+|+家宽+3.0x
-      - 🇦🇺+AU澳大利亚-移动优化
-      - 🇵🇰+Pakistan+|+家宽+3.0x
-      - '[vless]🇸🇬新加坡-2500M'
-      - 日本+02+线路2
-      - 印度
-      - 新加坡SG
-      - 日本+1X
-      - 日本+04+线路2
-      - 香港+03+线路1
-      - 台湾HINET+04+线路1
-      - 02+限+30+MBS
-      - 香港HGC+01+线路2
-      - 🇺🇸+United+States+08
-      - 马来西亚+01+线路1
-      - 香港F1+03+线路1
-      - 香港+02+线路2
-      - defaultName_2
-      - 美国LL
-      - 01+限+30+MBS
-      - 美国LA
-      - 中港隧道-德国
-      - 纽约
-      - 日本+05+线路2
-      - 韩国+01+线路2
-      - 香港+04+线路2
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 美国CA
-      - 荷兰
-      - 🇩🇪++DE德国-移动优化
-      - 台湾HINET+03+线路2
-      - 🇳🇬+Nigeria+|+冷门
       - 🇯🇵+JP日本2-移动优化
-      - 美国+03+线路1
+      - 🇰🇷+KR韩国--移动优化
+      - defaultName_1
+      - 🇯🇵+JP日本-移动优化
+      - 🇭🇰+HK香港-移动优化
+      - 🇩🇪++DE德国-移动优化
+      - 🇦🇪+AE迪拜-移动优化
+      - 🇬🇧+UK英国-移动优化
+      - 🇨🇦+CA加拿大-移动优化
+      - Telegram🇨🇳+@WangCai_8
+      - 🇱🇺+LU卢森堡-移动优化
+      - 🇷🇺+RU俄罗斯-移动优化
+      - 🇳🇱+NL荷兰-移动优化
+      - 🇹🇷+TR土耳其-移动优化
+      - 🇸🇬+SG新加坡-移动优化
+      - 🇭🇰+HK香港2--移动优化
+      - 🇳🇮+NI阿根廷-移动优化
+      - defaultName_2
+      - 🇺🇸++USA美国-移动优化
+      - V2-日本+PATHX+1-1倍率
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇸+United+States+05
-      - 🇺🇸+United+States+07
-      - 🇺🇸+United+States+06
-      - 🇺🇸+United+States+04
-      - 🇺🇸+United+States+03
-      - 🇺🇸+United+States+01
-      - 美国TX
-      - 🇺🇸美国2号-0.1倍
-      - 美国GA
-      - 美国FL
-      - 🇺🇸+United+States+02
-      - 🇳🇱荷兰+|+BT下载-0.1倍
-      - 🇺🇸美国1号-0.1倍
-      - 🇯🇵+Japan+04
-      - 伦敦
-      - 日本JP04
-      - 🇯🇵+Japan+02
-      - 日本JP05
-      - 日本JP03
-      - 🇯🇵+Japan+07
-      - 🇯🇵+Japan+03
-      - 🇯🇵+Japan+08
-      - 美国WA
-      - 🇯🇵+Japan+06
-      - 🇯🇵+Japan+01
-      - 🇯🇵+JP日本-移动优化
-      - 🇯🇵+Japan+05
-      - defaultName_1
-      - 东京
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
-      - 🇭🇰+Hong+Kong+06
-      - 中港隧道-澳大利亚
-      - 🇨🇳+Taiwan+|+家宽+3.0x
-      - 日本+03+线路1
-      - 中港隧道-日本
-      - 🇭🇰+Hong+Kong+05
-      - 🇺🇸++USA美国-移动优化
-      - 🇦🇪+AE迪拜-移动优化
-      - 🇭🇰+Hong+Kong+08
-      - '[vless]🇯🇵日本-东京-2500M'
-      - 🇭🇰+HK香港2--移动优化
-      - 美国原生NO3
-      - 🇭🇰+Hong+Kong+01
-      - 🇭🇰+HK香港-移动优化
-      - 🇭🇰+Hong+Kong+07
-      - 🇭🇰+Hong+Kong+02
-      - 🇭🇰+Hong+Kong+04
-      - 🇺🇸+United+States+|+家宽+3.0x
-      - 🇱🇺+LU卢森堡-移动优化
-      - 中港隧道-台湾
-      - 🇰🇷+KR韩国--移动优化
-      - 大版1
-      - 🇸🇬+Singapore+03
-      - 🇸🇬+Singapore+01
-      - 🇸🇬+Singapore+06
-      - 中港隧道-印度
-      - 🇭🇰+Hong+Kong+03
-      - 🇸🇬+Singapore+02
-      - 🇳🇱+NL荷兰-移动优化
-      - 🇹🇷+Turkey+|+冷门
-      - 香港F1+01+线路1
-      - 🇸🇬+Singapore+04
-      - 🇸🇬+Singapore+05
-      - 🇸🇬+Singapore+07
-      - V2-日本+PATHX+1-1倍率
-      - 🇸🇬+SG新加坡-移动优化
-      - 🇸🇬+Singapore+08
-      - 香港+1X
-      - 🇨🇦+CA加拿大-移动优化
-      - 中港隧道-香港1
-      - 香港HGC+02+线路2
-      - 加拿大+1X
-      - 🇬🇧+United+Kingdom+01
-      - 🇭🇰+Hong+Kong+|+家宽+3.0x
-      - 🇨🇳+TW台湾-移动优化
-      - 中港隧道-香港3
-      - 🇮🇳+IN印度-移动优化
-      - 美国+2
-      - 中港隧道-香港2
-      - 🇹🇷+TR土耳其-移动优化
-      - 🇸🇬+SG新加坡2-移动优化
-      - 🇷🇺+RU俄罗斯-移动优化
-      - V2-巴黎+PATHX+1-1倍率
-      - 香港+01+线路1
-      - V1-巴黎+IEPL+1-1倍率
-      - 中港隧道-英国
-      - Telegram🇨🇳+@WangCai_8_1
-      - 日本+01+线路1
-      - 美国原生NO1
-      - 🇬🇧+United+Kingdom+02
-      - 中港隧道-加拿大
-      - 🇰🇷 Korea B - Unlocked
-      - V2-新加坡+PATHX+1-1倍率
-      - 东京1
-      - 🇳🇱荷兰Eygelshoven+|+BT下载-0.1倍
-      - Telegram🇨🇳+@WangCai_8_2
-      - Telegram🇨🇳+@WangCai_8_3
-      - 🇳🇮+NI阿根廷-移动优化
-      - 🇬🇧+UK英国-移动优化
-      - 🇦🇶+Antarctica+|+冷门
-      - 🇮🇸+Iceland+|+冷门
-      - 新加坡+03+线路2
-      - 中港隧道-新加坡
-      - 加拿大
-      - 澳大利亚
-      - 美国+02+线路1
-      - 🇰🇵+North+Korea+|+冷门
-      - 新加坡+1X
-      - 香港HK01
-      - 🇰🇷+South+Korea+|+家宽+3.0x
-      - 🇦🇺+AU澳大利亚-移动优化
-      - 🇵🇰+Pakistan+|+家宽+3.0x
-      - '[vless]🇸🇬新加坡-2500M'
-      - 日本+02+线路2
-      - 印度
-      - 新加坡SG
-      - 日本+1X
-      - 日本+04+线路2
-      - 香港+03+线路1
-      - 台湾HINET+04+线路1
-      - 02+限+30+MBS
-      - 香港HGC+01+线路2
-      - 🇺🇸+United+States+08
-      - 马来西亚+01+线路1
-      - 香港F1+03+线路1
-      - 香港+02+线路2
-      - defaultName_2
-      - 美国LL
-      - 01+限+30+MBS
-      - 美国LA
-      - 中港隧道-德国
-      - 纽约
-      - 日本+05+线路2
-      - 韩国+01+线路2
-      - 香港+04+线路2
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 美国CA
-      - 荷兰
-      - 🇩🇪++DE德国-移动优化
-      - 台湾HINET+03+线路2
-      - 🇳🇬+Nigeria+|+冷门
       - 🇯🇵+JP日本2-移动优化
-      - 美国+03+线路1
+      - 🇰🇷+KR韩国--移动优化
+      - defaultName_1
+      - 🇯🇵+JP日本-移动优化
+      - 🇭🇰+HK香港-移动优化
+      - 🇩🇪++DE德国-移动优化
+      - 🇦🇪+AE迪拜-移动优化
+      - 🇬🇧+UK英国-移动优化
+      - 🇨🇦+CA加拿大-移动优化
+      - Telegram🇨🇳+@WangCai_8
+      - 🇱🇺+LU卢森堡-移动优化
+      - 🇷🇺+RU俄罗斯-移动优化
+      - 🇳🇱+NL荷兰-移动优化
+      - 🇹🇷+TR土耳其-移动优化
+      - 🇸🇬+SG新加坡-移动优化
+      - 🇭🇰+HK香港2--移动优化
+      - 🇳🇮+NI阿根廷-移动优化
+      - defaultName_2
+      - 🇺🇸++USA美国-移动优化
+      - V2-日本+PATHX+1-1倍率
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇸+United+States+05
-      - 🇺🇸+United+States+07
-      - 🇺🇸+United+States+06
-      - 🇺🇸+United+States+04
-      - 🇺🇸+United+States+03
-      - 🇺🇸+United+States+01
-      - 美国TX
-      - 🇺🇸美国2号-0.1倍
-      - 美国GA
-      - 美国FL
-      - 🇺🇸+United+States+02
-      - 🇳🇱荷兰+|+BT下载-0.1倍
-      - 🇺🇸美国1号-0.1倍
-      - 🇯🇵+Japan+04
-      - 伦敦
-      - 日本JP04
-      - 🇯🇵+Japan+02
-      - 日本JP05
-      - 日本JP03
-      - 🇯🇵+Japan+07
-      - 🇯🇵+Japan+03
-      - 🇯🇵+Japan+08
-      - 美国WA
-      - 🇯🇵+Japan+06
-      - 🇯🇵+Japan+01
-      - 🇯🇵+JP日本-移动优化
-      - 🇯🇵+Japan+05
-      - defaultName_1
-      - 东京
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
-      - 🇭🇰+Hong+Kong+06
-      - 中港隧道-澳大利亚
-      - 🇨🇳+Taiwan+|+家宽+3.0x
-      - 日本+03+线路1
-      - 中港隧道-日本
-      - 🇭🇰+Hong+Kong+05
-      - 🇺🇸++USA美国-移动优化
-      - 🇦🇪+AE迪拜-移动优化
-      - 🇭🇰+Hong+Kong+08
-      - '[vless]🇯🇵日本-东京-2500M'
-      - 🇭🇰+HK香港2--移动优化
-      - 美国原生NO3
-      - 🇭🇰+Hong+Kong+01
-      - 🇭🇰+HK香港-移动优化
-      - 🇭🇰+Hong+Kong+07
-      - 🇭🇰+Hong+Kong+02
-      - 🇭🇰+Hong+Kong+04
-      - 🇺🇸+United+States+|+家宽+3.0x
-      - 🇱🇺+LU卢森堡-移动优化
-      - 中港隧道-台湾
-      - 🇰🇷+KR韩国--移动优化
-      - 大版1
-      - 🇸🇬+Singapore+03
-      - 🇸🇬+Singapore+01
-      - 🇸🇬+Singapore+06
-      - 中港隧道-印度
-      - 🇭🇰+Hong+Kong+03
-      - 🇸🇬+Singapore+02
-      - 🇳🇱+NL荷兰-移动优化
-      - 🇹🇷+Turkey+|+冷门
-      - 香港F1+01+线路1
-      - 🇸🇬+Singapore+04
-      - 🇸🇬+Singapore+05
-      - 🇸🇬+Singapore+07
-      - V2-日本+PATHX+1-1倍率
-      - 🇸🇬+SG新加坡-移动优化
-      - 🇸🇬+Singapore+08
-      - 香港+1X
-      - 🇨🇦+CA加拿大-移动优化
-      - 中港隧道-香港1
-      - 香港HGC+02+线路2
-      - 加拿大+1X
-      - 🇬🇧+United+Kingdom+01
-      - 🇭🇰+Hong+Kong+|+家宽+3.0x
-      - 🇨🇳+TW台湾-移动优化
-      - 中港隧道-香港3
-      - 🇮🇳+IN印度-移动优化
-      - 美国+2
-      - 中港隧道-香港2
-      - 🇹🇷+TR土耳其-移动优化
-      - 🇸🇬+SG新加坡2-移动优化
-      - 🇷🇺+RU俄罗斯-移动优化
-      - V2-巴黎+PATHX+1-1倍率
-      - 香港+01+线路1
-      - V1-巴黎+IEPL+1-1倍率
-      - 中港隧道-英国
-      - Telegram🇨🇳+@WangCai_8_1
-      - 日本+01+线路1
-      - 美国原生NO1
-      - 🇬🇧+United+Kingdom+02
-      - 中港隧道-加拿大
-      - 🇰🇷 Korea B - Unlocked
-      - V2-新加坡+PATHX+1-1倍率
-      - 东京1
-      - 🇳🇱荷兰Eygelshoven+|+BT下载-0.1倍
-      - Telegram🇨🇳+@WangCai_8_2
-      - Telegram🇨🇳+@WangCai_8_3
-      - 🇳🇮+NI阿根廷-移动优化
-      - 🇬🇧+UK英国-移动优化
-      - 🇦🇶+Antarctica+|+冷门
-      - 🇮🇸+Iceland+|+冷门
-      - 新加坡+03+线路2
-      - 中港隧道-新加坡
-      - 加拿大
-      - 澳大利亚
-      - 美国+02+线路1
-      - 🇰🇵+North+Korea+|+冷门
-      - 新加坡+1X
-      - 香港HK01
-      - 🇰🇷+South+Korea+|+家宽+3.0x
-      - 🇦🇺+AU澳大利亚-移动优化
-      - 🇵🇰+Pakistan+|+家宽+3.0x
-      - '[vless]🇸🇬新加坡-2500M'
-      - 日本+02+线路2
-      - 印度
-      - 新加坡SG
-      - 日本+1X
-      - 日本+04+线路2
-      - 香港+03+线路1
-      - 台湾HINET+04+线路1
-      - 02+限+30+MBS
-      - 香港HGC+01+线路2
-      - 🇺🇸+United+States+08
-      - 马来西亚+01+线路1
-      - 香港F1+03+线路1
-      - 香港+02+线路2
-      - defaultName_2
-      - 美国LL
-      - 01+限+30+MBS
-      - 美国LA
-      - 中港隧道-德国
-      - 纽约
-      - 日本+05+线路2
-      - 韩国+01+线路2
-      - 香港+04+线路2
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 美国CA
-      - 荷兰
-      - 🇩🇪++DE德国-移动优化
-      - 台湾HINET+03+线路2
-      - 🇳🇬+Nigeria+|+冷门
       - 🇯🇵+JP日本2-移动优化
-      - 美国+03+线路1
+      - 🇰🇷+KR韩国--移动优化
+      - defaultName_1
+      - 🇯🇵+JP日本-移动优化
+      - 🇭🇰+HK香港-移动优化
+      - 🇩🇪++DE德国-移动优化
+      - 🇦🇪+AE迪拜-移动优化
+      - 🇬🇧+UK英国-移动优化
+      - 🇨🇦+CA加拿大-移动优化
+      - Telegram🇨🇳+@WangCai_8
+      - 🇱🇺+LU卢森堡-移动优化
+      - 🇷🇺+RU俄罗斯-移动优化
+      - 🇳🇱+NL荷兰-移动优化
+      - 🇹🇷+TR土耳其-移动优化
+      - 🇸🇬+SG新加坡-移动优化
+      - 🇭🇰+HK香港2--移动优化
+      - 🇳🇮+NI阿根廷-移动优化
+      - defaultName_2
+      - 🇺🇸++USA美国-移动优化
+      - V2-日本+PATHX+1-1倍率
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -850,150 +230,26 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇺🇸+United+States+05
-      - 🇺🇸+United+States+07
-      - 🇺🇸+United+States+06
-      - 🇺🇸+United+States+04
-      - 🇺🇸+United+States+03
-      - 🇺🇸+United+States+01
-      - 美国TX
-      - 🇺🇸美国2号-0.1倍
-      - 美国GA
-      - 美国FL
-      - 🇺🇸+United+States+02
-      - 🇳🇱荷兰+|+BT下载-0.1倍
-      - 🇺🇸美国1号-0.1倍
-      - 🇯🇵+Japan+04
-      - 伦敦
-      - 日本JP04
-      - 🇯🇵+Japan+02
-      - 日本JP05
-      - 日本JP03
-      - 🇯🇵+Japan+07
-      - 🇯🇵+Japan+03
-      - 🇯🇵+Japan+08
-      - 美国WA
-      - 🇯🇵+Japan+06
-      - 🇯🇵+Japan+01
-      - 🇯🇵+JP日本-移动优化
-      - 🇯🇵+Japan+05
-      - defaultName_1
-      - 东京
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
-      - 🇭🇰+Hong+Kong+06
-      - 中港隧道-澳大利亚
-      - 🇨🇳+Taiwan+|+家宽+3.0x
-      - 日本+03+线路1
-      - 中港隧道-日本
-      - 🇭🇰+Hong+Kong+05
-      - 🇺🇸++USA美国-移动优化
-      - 🇦🇪+AE迪拜-移动优化
-      - 🇭🇰+Hong+Kong+08
-      - '[vless]🇯🇵日本-东京-2500M'
-      - 🇭🇰+HK香港2--移动优化
-      - 美国原生NO3
-      - 🇭🇰+Hong+Kong+01
-      - 🇭🇰+HK香港-移动优化
-      - 🇭🇰+Hong+Kong+07
-      - 🇭🇰+Hong+Kong+02
-      - 🇭🇰+Hong+Kong+04
-      - 🇺🇸+United+States+|+家宽+3.0x
-      - 🇱🇺+LU卢森堡-移动优化
-      - 中港隧道-台湾
-      - 🇰🇷+KR韩国--移动优化
-      - 大版1
-      - 🇸🇬+Singapore+03
-      - 🇸🇬+Singapore+01
-      - 🇸🇬+Singapore+06
-      - 中港隧道-印度
-      - 🇭🇰+Hong+Kong+03
-      - 🇸🇬+Singapore+02
-      - 🇳🇱+NL荷兰-移动优化
-      - 🇹🇷+Turkey+|+冷门
-      - 香港F1+01+线路1
-      - 🇸🇬+Singapore+04
-      - 🇸🇬+Singapore+05
-      - 🇸🇬+Singapore+07
-      - V2-日本+PATHX+1-1倍率
-      - 🇸🇬+SG新加坡-移动优化
-      - 🇸🇬+Singapore+08
-      - 香港+1X
-      - 🇨🇦+CA加拿大-移动优化
-      - 中港隧道-香港1
-      - 香港HGC+02+线路2
-      - 加拿大+1X
-      - 🇬🇧+United+Kingdom+01
-      - 🇭🇰+Hong+Kong+|+家宽+3.0x
-      - 🇨🇳+TW台湾-移动优化
-      - 中港隧道-香港3
-      - 🇮🇳+IN印度-移动优化
-      - 美国+2
-      - 中港隧道-香港2
-      - 🇹🇷+TR土耳其-移动优化
-      - 🇸🇬+SG新加坡2-移动优化
-      - 🇷🇺+RU俄罗斯-移动优化
-      - V2-巴黎+PATHX+1-1倍率
-      - 香港+01+线路1
-      - V1-巴黎+IEPL+1-1倍率
-      - 中港隧道-英国
-      - Telegram🇨🇳+@WangCai_8_1
-      - 日本+01+线路1
-      - 美国原生NO1
-      - 🇬🇧+United+Kingdom+02
-      - 中港隧道-加拿大
-      - 🇰🇷 Korea B - Unlocked
-      - V2-新加坡+PATHX+1-1倍率
-      - 东京1
-      - 🇳🇱荷兰Eygelshoven+|+BT下载-0.1倍
-      - Telegram🇨🇳+@WangCai_8_2
-      - Telegram🇨🇳+@WangCai_8_3
-      - 🇳🇮+NI阿根廷-移动优化
-      - 🇬🇧+UK英国-移动优化
-      - 🇦🇶+Antarctica+|+冷门
-      - 🇮🇸+Iceland+|+冷门
-      - 新加坡+03+线路2
-      - 中港隧道-新加坡
-      - 加拿大
-      - 澳大利亚
-      - 美国+02+线路1
-      - 🇰🇵+North+Korea+|+冷门
-      - 新加坡+1X
-      - 香港HK01
-      - 🇰🇷+South+Korea+|+家宽+3.0x
-      - 🇦🇺+AU澳大利亚-移动优化
-      - 🇵🇰+Pakistan+|+家宽+3.0x
-      - '[vless]🇸🇬新加坡-2500M'
-      - 日本+02+线路2
-      - 印度
-      - 新加坡SG
-      - 日本+1X
-      - 日本+04+线路2
-      - 香港+03+线路1
-      - 台湾HINET+04+线路1
-      - 02+限+30+MBS
-      - 香港HGC+01+线路2
-      - 🇺🇸+United+States+08
-      - 马来西亚+01+线路1
-      - 香港F1+03+线路1
-      - 香港+02+线路2
-      - defaultName_2
-      - 美国LL
-      - 01+限+30+MBS
-      - 美国LA
-      - 中港隧道-德国
-      - 纽约
-      - 日本+05+线路2
-      - 韩国+01+线路2
-      - 香港+04+线路2
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 美国CA
-      - 荷兰
-      - 🇩🇪++DE德国-移动优化
-      - 台湾HINET+03+线路2
-      - 🇳🇬+Nigeria+|+冷门
       - 🇯🇵+JP日本2-移动优化
-      - 美国+03+线路1
+      - 🇰🇷+KR韩国--移动优化
+      - defaultName_1
+      - 🇯🇵+JP日本-移动优化
+      - 🇭🇰+HK香港-移动优化
+      - 🇩🇪++DE德国-移动优化
+      - 🇦🇪+AE迪拜-移动优化
+      - 🇬🇧+UK英国-移动优化
+      - 🇨🇦+CA加拿大-移动优化
+      - Telegram🇨🇳+@WangCai_8
+      - 🇱🇺+LU卢森堡-移动优化
+      - 🇷🇺+RU俄罗斯-移动优化
+      - 🇳🇱+NL荷兰-移动优化
+      - 🇹🇷+TR土耳其-移动优化
+      - 🇸🇬+SG新加坡-移动优化
+      - 🇭🇰+HK香港2--移动优化
+      - 🇳🇮+NI阿根廷-移动优化
+      - defaultName_2
+      - 🇺🇸++USA美国-移动优化
+      - V2-日本+PATHX+1-1倍率
 
 rules:
 # 本地/局域网地址
