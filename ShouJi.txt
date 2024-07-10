@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-10 04:42:24
+# 创建时间：2024-07-11 02:58:04
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：7
+# 节点数量：5
 # 节点类型：vmess
 ####################################
 mixed-port: 7890
@@ -86,13 +86,11 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Relay_🇺🇸US |28.59Mb","type":"vmess","server":"mankadmu.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"mankadmu.com"}}}
-  - {"name":"Relay_🇺🇸US |56.56Mb","type":"vmess","server":"tilebani.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"tilebani.com"}}}
-  - {"name":"Relay_🇷🇺RU |11.55Mb","type":"vmess","server":"eedp257bubu2wefy3.lovebaipiao.net","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/iphone","headers":{"host":"www.apple.com"}}}
   - {"name":"Relay_🇺🇸US |253.55Mb","type":"vmess","server":"denc36.xtooltech.cfd","port":443,"cipher":"auto","uuid":"b321fd5d-e6ec-4293-a644-164e3885f52e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc36v.xtooltech.cfd"}}}
-  - {"name":"🇨🇳CN_64 |12.73Mb","type":"vmess","server":"47.104.186.133","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳CN_61 | 3.94Mb","type":"vmess","server":"47.92.152.169","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay_🏁ZZ-🇺🇸US_531","type":"vmess","server":"lin0502.hwcar.sbs","port":443,"cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_143","type":"vmess","server":"hms082.gwdef.sbs","port":443,"cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
+  - {"name":"Relay_🇷🇺RU |11.55Mb","type":"vmess","server":"eedp257bubu2wefy3.lovebaipiao.net","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/iphone","headers":{"host":"www.apple.com"}}}
+  - {"name":"🇨🇳CN_60 | 2.61Mb","type":"vmess","server":"183.240.235.168","port":59003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay_🇺🇸US |56.56Mb","type":"vmess","server":"tilebani.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"tilebani.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -101,50 +99,42 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - Relay_🇺🇸US |28.59Mb
-      - Relay_🇺🇸US |56.56Mb
-      - Relay_🇷🇺RU |11.55Mb
       - Relay_🇺🇸US |253.55Mb
-      - 🇨🇳CN_64 |12.73Mb
-      - 🇨🇳CN_61 | 3.94Mb
-      - Relay_🏁ZZ-🇺🇸US_531
+      - Relay_🇺🇸US-🇺🇸US_143
+      - Relay_🇷🇺RU |11.55Mb
+      - 🇨🇳CN_60 | 2.61Mb
+      - Relay_🇺🇸US |56.56Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇺🇸US |28.59Mb
-      - Relay_🇺🇸US |56.56Mb
-      - Relay_🇷🇺RU |11.55Mb
       - Relay_🇺🇸US |253.55Mb
-      - 🇨🇳CN_64 |12.73Mb
-      - 🇨🇳CN_61 | 3.94Mb
-      - Relay_🏁ZZ-🇺🇸US_531
+      - Relay_🇺🇸US-🇺🇸US_143
+      - Relay_🇷🇺RU |11.55Mb
+      - 🇨🇳CN_60 | 2.61Mb
+      - Relay_🇺🇸US |56.56Mb
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Relay_🇺🇸US |28.59Mb
-      - Relay_🇺🇸US |56.56Mb
-      - Relay_🇷🇺RU |11.55Mb
       - Relay_🇺🇸US |253.55Mb
-      - 🇨🇳CN_64 |12.73Mb
-      - 🇨🇳CN_61 | 3.94Mb
-      - Relay_🏁ZZ-🇺🇸US_531
+      - Relay_🇺🇸US-🇺🇸US_143
+      - Relay_🇷🇺RU |11.55Mb
+      - 🇨🇳CN_60 | 2.61Mb
+      - Relay_🇺🇸US |56.56Mb
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Relay_🇺🇸US |28.59Mb
-      - Relay_🇺🇸US |56.56Mb
-      - Relay_🇷🇺RU |11.55Mb
       - Relay_🇺🇸US |253.55Mb
-      - 🇨🇳CN_64 |12.73Mb
-      - 🇨🇳CN_61 | 3.94Mb
-      - Relay_🏁ZZ-🇺🇸US_531
+      - Relay_🇺🇸US-🇺🇸US_143
+      - Relay_🇷🇺RU |11.55Mb
+      - 🇨🇳CN_60 | 2.61Mb
+      - Relay_🇺🇸US |56.56Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -164,13 +154,11 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - Relay_🇺🇸US |28.59Mb
-      - Relay_🇺🇸US |56.56Mb
-      - Relay_🇷🇺RU |11.55Mb
       - Relay_🇺🇸US |253.55Mb
-      - 🇨🇳CN_64 |12.73Mb
-      - 🇨🇳CN_61 | 3.94Mb
-      - Relay_🏁ZZ-🇺🇸US_531
+      - Relay_🇺🇸US-🇺🇸US_143
+      - Relay_🇷🇺RU |11.55Mb
+      - 🇨🇳CN_60 | 2.61Mb
+      - Relay_🇺🇸US |56.56Mb
 
 rules:
 # 本地/局域网地址
