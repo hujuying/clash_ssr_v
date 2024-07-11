@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-11 02:58:04
+# 创建时间：2024-07-12 04:21:35
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：5
+# 节点数量：25
 # 节点类型：vmess
 ####################################
 mixed-port: 7890
@@ -87,10 +87,30 @@ dns:
 
 proxies:
   - {"name":"Relay_🇺🇸US |253.55Mb","type":"vmess","server":"denc36.xtooltech.cfd","port":443,"cipher":"auto","uuid":"b321fd5d-e6ec-4293-a644-164e3885f52e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc36v.xtooltech.cfd"}}}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_190 | 6.70Mb","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":2052,"cipher":"auto","uuid":"c712c725-149f-414a-a684-1e17d137fe4f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/DDC4btA8wc/","headers":{"host":"us2jdgv5GC7.fzbqfrse.xyz"}}}
   - {"name":"Relay_🇺🇸US-🇺🇸US_143","type":"vmess","server":"hms082.gwdef.sbs","port":443,"cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
-  - {"name":"Relay_🇷🇺RU |11.55Mb","type":"vmess","server":"eedp257bubu2wefy3.lovebaipiao.net","port":80,"cipher":"auto","uuid":"c8f92a11-9760-4574-96f4-d0c5165fef96","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/iphone","headers":{"host":"www.apple.com"}}}
-  - {"name":"🇨🇳CN_60 | 2.61Mb","type":"vmess","server":"183.240.235.168","port":59003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay_🇺🇸US |56.56Mb","type":"vmess","server":"tilebani.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"tilebani.com"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_293 |37.13Mb","type":"vmess","server":"104.18.57.121","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_237 |84.58Mb","type":"vmess","server":"104.19.46.103","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"关注TG频道@TG_2345 每天更新免费","type":"vmess","server":"166.1.18.86","port":58891,"cipher":"auto","uuid":"8ce28514-04b4-45e9-b224-0488cca16888","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/8ce28514"}}
+  - {"name":"Relay_-🇨🇦CA_20 |337.70Mb","type":"vmess","server":"23.227.38.13","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
+  - {"name":"🇨🇳CN_77 | 3.09Mb","type":"vmess","server":"47.104.186.133","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳CN_82 |10.77Mb","type":"vmess","server":"47.116.173.76","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳CN_79 | 6.56Mb","type":"vmess","server":"47.92.152.169","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳CN_81 | 7.31Mb","type":"vmess","server":"114.55.132.202","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Pool_🇺🇸US_203 |222.17Mb","type":"vmess","server":"107.167.20.182","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.15314695.xyz","network":"ws","ws-opts":{"path":"/path/191019072927","headers":{"host":"www.15314695.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_225 |278.38Mb","type":"vmess","server":"104.19.21.73","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_273 |60.52Mb","type":"vmess","server":"104.19.38.12","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"Relay_🇺🇸US-🇨🇦CA_177 |495.02Mb","type":"vmess","server":"172.64.175.223","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}}}
+  - {"name":"🏁ZZ_251 | 7.24Mb","type":"vmess","server":"198.41.193.181","port":80,"cipher":"auto","uuid":"92791642-1471-4b93-980a-81030985f3ce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"127.0.0.1.mrarsha.kомната0.房間騎自行車的人.bелосипедисты.bikeriders.wonkacapitano.buzz."}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_234 |326.32Mb","type":"vmess","server":"104.19.57.24","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_239 |50.12Mb","type":"vmess","server":"104.19.55.49","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇱🇻LV_231 | 4.00Mb","type":"vmess","server":"104.20.239.88","port":80,"cipher":"auto","uuid":"9ac947aa-de86-41c3-9a60-4c061c7c95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"dl3.plot.cценарий.劇情голов0рез.fir3brand.煽動者追逐雷恩.погонезаpейн.wonkacapitano.buzz."}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_268 |332.60Mb","type":"vmess","server":"104.19.32.226","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}}}
+  - {"name":"🇸🇬SG_130 | 2.61Mb","type":"vmess","server":"5.34.176.111","port":57614,"cipher":"auto","uuid":"4e55ce40-9f8e-417d-f8ae-aa6af97a7097","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_194 | 2.27Mb","type":"vmess","server":"172.64.166.16","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_284 |397.40Mb","type":"vmess","server":"104.19.123.31","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_267 |760.19Mb","type":"vmess","server":"104.19.57.4","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"🇨🇴CO_84 | 7.17Mb","type":"vmess","server":"188.114.96.221","port":80,"cipher":"auto","uuid":"310fabb7-2abc-4301-b302-22aa49c954fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"dl2.127.0.0.1.pикерл.里克爾.kлексaкадемия.kl3ksacad3my.克萊克斯學院.wonkacapitano.buzz."}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -100,10 +120,30 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - Relay_🇺🇸US |253.55Mb
+      - Relay_🇺🇸US-🇺🇸US_190 | 6.70Mb
       - Relay_🇺🇸US-🇺🇸US_143
-      - Relay_🇷🇺RU |11.55Mb
-      - 🇨🇳CN_60 | 2.61Mb
-      - Relay_🇺🇸US |56.56Mb
+      - Relay_🏁ZZ-🇨🇦CA_293 |37.13Mb
+      - Relay_🏁ZZ-🇨🇦CA_237 |84.58Mb
+      - 关注TG频道@TG_2345 每天更新免费
+      - Relay_-🇨🇦CA_20 |337.70Mb
+      - 🇨🇳CN_77 | 3.09Mb
+      - 🇨🇳CN_82 |10.77Mb
+      - 🇨🇳CN_79 | 6.56Mb
+      - 🇨🇳CN_81 | 7.31Mb
+      - Pool_🇺🇸US_203 |222.17Mb
+      - Relay_🏁ZZ-🇨🇦CA_225 |278.38Mb
+      - Relay_🏁ZZ-🇨🇦CA_273 |60.52Mb
+      - Relay_🇺🇸US-🇨🇦CA_177 |495.02Mb
+      - 🏁ZZ_251 | 7.24Mb
+      - Relay_🏁ZZ-🇨🇦CA_234 |326.32Mb
+      - Relay_🏁ZZ-🇨🇦CA_239 |50.12Mb
+      - Relay_🏁ZZ-🇱🇻LV_231 | 4.00Mb
+      - Relay_🏁ZZ-🇨🇦CA_268 |332.60Mb
+      - 🇸🇬SG_130 | 2.61Mb
+      - Relay_🇺🇸US-🇺🇸US_194 | 2.27Mb
+      - Relay_🏁ZZ-🇨🇦CA_284 |397.40Mb
+      - Relay_🏁ZZ-🇨🇦CA_267 |760.19Mb
+      - 🇨🇴CO_84 | 7.17Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -111,30 +151,90 @@ proxy-groups:
     tolerance: 50
     proxies:
       - Relay_🇺🇸US |253.55Mb
+      - Relay_🇺🇸US-🇺🇸US_190 | 6.70Mb
       - Relay_🇺🇸US-🇺🇸US_143
-      - Relay_🇷🇺RU |11.55Mb
-      - 🇨🇳CN_60 | 2.61Mb
-      - Relay_🇺🇸US |56.56Mb
+      - Relay_🏁ZZ-🇨🇦CA_293 |37.13Mb
+      - Relay_🏁ZZ-🇨🇦CA_237 |84.58Mb
+      - 关注TG频道@TG_2345 每天更新免费
+      - Relay_-🇨🇦CA_20 |337.70Mb
+      - 🇨🇳CN_77 | 3.09Mb
+      - 🇨🇳CN_82 |10.77Mb
+      - 🇨🇳CN_79 | 6.56Mb
+      - 🇨🇳CN_81 | 7.31Mb
+      - Pool_🇺🇸US_203 |222.17Mb
+      - Relay_🏁ZZ-🇨🇦CA_225 |278.38Mb
+      - Relay_🏁ZZ-🇨🇦CA_273 |60.52Mb
+      - Relay_🇺🇸US-🇨🇦CA_177 |495.02Mb
+      - 🏁ZZ_251 | 7.24Mb
+      - Relay_🏁ZZ-🇨🇦CA_234 |326.32Mb
+      - Relay_🏁ZZ-🇨🇦CA_239 |50.12Mb
+      - Relay_🏁ZZ-🇱🇻LV_231 | 4.00Mb
+      - Relay_🏁ZZ-🇨🇦CA_268 |332.60Mb
+      - 🇸🇬SG_130 | 2.61Mb
+      - Relay_🇺🇸US-🇺🇸US_194 | 2.27Mb
+      - Relay_🏁ZZ-🇨🇦CA_284 |397.40Mb
+      - Relay_🏁ZZ-🇨🇦CA_267 |760.19Mb
+      - 🇨🇴CO_84 | 7.17Mb
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - Relay_🇺🇸US |253.55Mb
+      - Relay_🇺🇸US-🇺🇸US_190 | 6.70Mb
       - Relay_🇺🇸US-🇺🇸US_143
-      - Relay_🇷🇺RU |11.55Mb
-      - 🇨🇳CN_60 | 2.61Mb
-      - Relay_🇺🇸US |56.56Mb
+      - Relay_🏁ZZ-🇨🇦CA_293 |37.13Mb
+      - Relay_🏁ZZ-🇨🇦CA_237 |84.58Mb
+      - 关注TG频道@TG_2345 每天更新免费
+      - Relay_-🇨🇦CA_20 |337.70Mb
+      - 🇨🇳CN_77 | 3.09Mb
+      - 🇨🇳CN_82 |10.77Mb
+      - 🇨🇳CN_79 | 6.56Mb
+      - 🇨🇳CN_81 | 7.31Mb
+      - Pool_🇺🇸US_203 |222.17Mb
+      - Relay_🏁ZZ-🇨🇦CA_225 |278.38Mb
+      - Relay_🏁ZZ-🇨🇦CA_273 |60.52Mb
+      - Relay_🇺🇸US-🇨🇦CA_177 |495.02Mb
+      - 🏁ZZ_251 | 7.24Mb
+      - Relay_🏁ZZ-🇨🇦CA_234 |326.32Mb
+      - Relay_🏁ZZ-🇨🇦CA_239 |50.12Mb
+      - Relay_🏁ZZ-🇱🇻LV_231 | 4.00Mb
+      - Relay_🏁ZZ-🇨🇦CA_268 |332.60Mb
+      - 🇸🇬SG_130 | 2.61Mb
+      - Relay_🇺🇸US-🇺🇸US_194 | 2.27Mb
+      - Relay_🏁ZZ-🇨🇦CA_284 |397.40Mb
+      - Relay_🏁ZZ-🇨🇦CA_267 |760.19Mb
+      - 🇨🇴CO_84 | 7.17Mb
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - Relay_🇺🇸US |253.55Mb
+      - Relay_🇺🇸US-🇺🇸US_190 | 6.70Mb
       - Relay_🇺🇸US-🇺🇸US_143
-      - Relay_🇷🇺RU |11.55Mb
-      - 🇨🇳CN_60 | 2.61Mb
-      - Relay_🇺🇸US |56.56Mb
+      - Relay_🏁ZZ-🇨🇦CA_293 |37.13Mb
+      - Relay_🏁ZZ-🇨🇦CA_237 |84.58Mb
+      - 关注TG频道@TG_2345 每天更新免费
+      - Relay_-🇨🇦CA_20 |337.70Mb
+      - 🇨🇳CN_77 | 3.09Mb
+      - 🇨🇳CN_82 |10.77Mb
+      - 🇨🇳CN_79 | 6.56Mb
+      - 🇨🇳CN_81 | 7.31Mb
+      - Pool_🇺🇸US_203 |222.17Mb
+      - Relay_🏁ZZ-🇨🇦CA_225 |278.38Mb
+      - Relay_🏁ZZ-🇨🇦CA_273 |60.52Mb
+      - Relay_🇺🇸US-🇨🇦CA_177 |495.02Mb
+      - 🏁ZZ_251 | 7.24Mb
+      - Relay_🏁ZZ-🇨🇦CA_234 |326.32Mb
+      - Relay_🏁ZZ-🇨🇦CA_239 |50.12Mb
+      - Relay_🏁ZZ-🇱🇻LV_231 | 4.00Mb
+      - Relay_🏁ZZ-🇨🇦CA_268 |332.60Mb
+      - 🇸🇬SG_130 | 2.61Mb
+      - Relay_🇺🇸US-🇺🇸US_194 | 2.27Mb
+      - Relay_🏁ZZ-🇨🇦CA_284 |397.40Mb
+      - Relay_🏁ZZ-🇨🇦CA_267 |760.19Mb
+      - 🇨🇴CO_84 | 7.17Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -155,10 +255,30 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - Relay_🇺🇸US |253.55Mb
+      - Relay_🇺🇸US-🇺🇸US_190 | 6.70Mb
       - Relay_🇺🇸US-🇺🇸US_143
-      - Relay_🇷🇺RU |11.55Mb
-      - 🇨🇳CN_60 | 2.61Mb
-      - Relay_🇺🇸US |56.56Mb
+      - Relay_🏁ZZ-🇨🇦CA_293 |37.13Mb
+      - Relay_🏁ZZ-🇨🇦CA_237 |84.58Mb
+      - 关注TG频道@TG_2345 每天更新免费
+      - Relay_-🇨🇦CA_20 |337.70Mb
+      - 🇨🇳CN_77 | 3.09Mb
+      - 🇨🇳CN_82 |10.77Mb
+      - 🇨🇳CN_79 | 6.56Mb
+      - 🇨🇳CN_81 | 7.31Mb
+      - Pool_🇺🇸US_203 |222.17Mb
+      - Relay_🏁ZZ-🇨🇦CA_225 |278.38Mb
+      - Relay_🏁ZZ-🇨🇦CA_273 |60.52Mb
+      - Relay_🇺🇸US-🇨🇦CA_177 |495.02Mb
+      - 🏁ZZ_251 | 7.24Mb
+      - Relay_🏁ZZ-🇨🇦CA_234 |326.32Mb
+      - Relay_🏁ZZ-🇨🇦CA_239 |50.12Mb
+      - Relay_🏁ZZ-🇱🇻LV_231 | 4.00Mb
+      - Relay_🏁ZZ-🇨🇦CA_268 |332.60Mb
+      - 🇸🇬SG_130 | 2.61Mb
+      - Relay_🇺🇸US-🇺🇸US_194 | 2.27Mb
+      - Relay_🏁ZZ-🇨🇦CA_284 |397.40Mb
+      - Relay_🏁ZZ-🇨🇦CA_267 |760.19Mb
+      - 🇨🇴CO_84 | 7.17Mb
 
 rules:
 # 本地/局域网地址
