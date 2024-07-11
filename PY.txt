@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-11 03:08:35
+# 创建时间：2024-07-11 21:04:39
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：3
+# 节点数量：8
 # 节点类型：hysteria2
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
@@ -87,9 +87,14 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"美国-hy2-04\r","type":"hysteria2","server":"us.xn--wtq35pfyd55o.club","port":30209,"password":"830732c9-92ea-4384-b7ce-298bcb06653e","sni":"1231231.1234567890spcloud.com","skip-cert-verify":true}
-  - {"name":"美国-hy2-03\r","type":"hysteria2","server":"us.xn--wtq35pfyd55o.club","port":30009,"password":"830732c9-92ea-4384-b7ce-298bcb06653e","sni":"1231231.1234567890spcloud.com","skip-cert-verify":true}
-  - {"name":"美国-hy2-05","type":"hysteria2","server":"us.xn--wtq35pfyd55o.club","port":30219,"password":"830732c9-92ea-4384-b7ce-298bcb06653e","sni":"1231231.1234567890spcloud.com","skip-cert-verify":true}
+  - {"name":"美国-hy2-04_1","type":"hysteria2","server":"us.xn--wtq35pfyd55o.club","port":30209,"password":"830732c9-92ea-4384-b7ce-298bcb06653e","sni":"1231231.1234567890spcloud.com","skip-cert-verify":true}
+  - {"name":"美国-hy2-01","type":"hysteria2","server":"us.xn--wtq35pfyd55o.club","port":20001,"password":"830732c9-92ea-4384-b7ce-298bcb06653e","sni":"1231231.1234567890spcloud.com","skip-cert-verify":true}
+  - {"name":"美国-hy2-02_1","type":"hysteria2","server":"us.xn--wtq35pfyd55o.club","port":20009,"password":"830732c9-92ea-4384-b7ce-298bcb06653e","sni":"1231231.1234567890spcloud.com","skip-cert-verify":true}
+  - {"name":"美国-hy2-05_1","type":"hysteria2","server":"us.xn--wtq35pfyd55o.club","port":30219,"password":"830732c9-92ea-4384-b7ce-298bcb06653e","sni":"1231231.1234567890spcloud.com","skip-cert-verify":true}
+  - {"name":"美国-hy2-04_2","type":"hysteria2","server":"us.xn--wtq35pfyd55o.club","port":30209,"password":"830732c9-92ea-4384-b7ce-298bcb06653e","sni":"1231231.1234567890spcloud.com","skip-cert-verify":true}
+  - {"name":"美国-hy2-02_2","type":"hysteria2","server":"us.xn--wtq35pfyd55o.club","port":20009,"password":"830732c9-92ea-4384-b7ce-298bcb06653e","sni":"1231231.1234567890spcloud.com","skip-cert-verify":true}
+  - {"name":"美国-hy2-05_2","type":"hysteria2","server":"us.xn--wtq35pfyd55o.club","port":30219,"password":"830732c9-92ea-4384-b7ce-298bcb06653e","sni":"1231231.1234567890spcloud.com","skip-cert-verify":true}
+  - {"name":"美国-hy2-03","type":"hysteria2","server":"us.xn--wtq35pfyd55o.club","port":30009,"password":"830732c9-92ea-4384-b7ce-298bcb06653e","sni":"1231231.1234567890spcloud.com","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -98,34 +103,54 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - "美国-hy2-04\r"
-      - "美国-hy2-03\r"
-      - 美国-hy2-05
+      - 美国-hy2-04_1
+      - 美国-hy2-01
+      - 美国-hy2-02_1
+      - 美国-hy2-05_1
+      - 美国-hy2-04_2
+      - 美国-hy2-02_2
+      - 美国-hy2-05_2
+      - 美国-hy2-03
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "美国-hy2-04\r"
-      - "美国-hy2-03\r"
-      - 美国-hy2-05
+      - 美国-hy2-04_1
+      - 美国-hy2-01
+      - 美国-hy2-02_1
+      - 美国-hy2-05_1
+      - 美国-hy2-04_2
+      - 美国-hy2-02_2
+      - 美国-hy2-05_2
+      - 美国-hy2-03
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "美国-hy2-04\r"
-      - "美国-hy2-03\r"
-      - 美国-hy2-05
+      - 美国-hy2-04_1
+      - 美国-hy2-01
+      - 美国-hy2-02_1
+      - 美国-hy2-05_1
+      - 美国-hy2-04_2
+      - 美国-hy2-02_2
+      - 美国-hy2-05_2
+      - 美国-hy2-03
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "美国-hy2-04\r"
-      - "美国-hy2-03\r"
-      - 美国-hy2-05
+      - 美国-hy2-04_1
+      - 美国-hy2-01
+      - 美国-hy2-02_1
+      - 美国-hy2-05_1
+      - 美国-hy2-04_2
+      - 美国-hy2-02_2
+      - 美国-hy2-05_2
+      - 美国-hy2-03
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -145,9 +170,14 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - "美国-hy2-04\r"
-      - "美国-hy2-03\r"
-      - 美国-hy2-05
+      - 美国-hy2-04_1
+      - 美国-hy2-01
+      - 美国-hy2-02_1
+      - 美国-hy2-05_1
+      - 美国-hy2-04_2
+      - 美国-hy2-02_2
+      - 美国-hy2-05_2
+      - 美国-hy2-03
 
 rules:
 # 本地/局域网地址
