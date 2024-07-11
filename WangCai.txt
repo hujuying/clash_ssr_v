@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-11 02:57:47
+# 创建时间：2024-07-12 06:07:21
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：20
-# 节点类型：ss, vless
+# 节点数量：5
+# 节点类型：vless, ss
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,25 +87,10 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇯🇵+JP日本2-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27264,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇰🇷+KR韩国--移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27262,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"defaultName_1","type":"vless","server":"38.95.120.55","port":33445,"uuid":"b6011094-a647-4ccb-f97f-362b11aaf690","network":"ws","ws-opts":{"path":"/b6011094"}}
-  - {"name":"🇯🇵+JP日本-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27251,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰+HK香港-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27259,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪++DE德国-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27257,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇪+AE迪拜-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27279,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧+UK英国-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27255,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇦+CA加拿大-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27256,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Telegram🇨🇳+@WangCai_8","type":"vless","server":"8.219.170.232","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
-  - {"name":"🇱🇺+LU卢森堡-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27266,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺+RU俄罗斯-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27276,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱+NL荷兰-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27270,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇷+TR土耳其-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27267,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬+SG新加坡-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27250,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰+HK香港2--移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27263,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇮+NI阿根廷-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27271,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"defaultName_2","type":"vless","server":"154.64.232.241","port":22878,"uuid":"30d47102-fabf-4f55-d9f8-13d87380910b","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸++USA美国-移动优化","type":"ss","server":"gtm1.ktmwan.com","port":27253,"password":"3f1a3b4d-73f0-4e02-a457-0228337b5462","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"defaultName","type":"vless","server":"38.95.120.55","port":33445,"uuid":"b6011094-a647-4ccb-f97f-362b11aaf690","network":"ws","ws-opts":{"path":"/b6011094"}}
+  - {"name":"Telegram🇨🇳+@WangCai_8_1","type":"vless","server":"8.210.21.65","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"Telegram🇨🇳+@WangCai_8_2","type":"vless","server":"47.76.37.57","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"Telegram🇨🇳+@WangCai_8_3","type":"vless","server":"8.217.66.3","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
   - {"name":"V2-日本+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37021,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
 proxy-groups:
   - name: 🚀 节点选择
@@ -115,25 +100,10 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇯🇵+JP日本2-移动优化
-      - 🇰🇷+KR韩国--移动优化
-      - defaultName_1
-      - 🇯🇵+JP日本-移动优化
-      - 🇭🇰+HK香港-移动优化
-      - 🇩🇪++DE德国-移动优化
-      - 🇦🇪+AE迪拜-移动优化
-      - 🇬🇧+UK英国-移动优化
-      - 🇨🇦+CA加拿大-移动优化
-      - Telegram🇨🇳+@WangCai_8
-      - 🇱🇺+LU卢森堡-移动优化
-      - 🇷🇺+RU俄罗斯-移动优化
-      - 🇳🇱+NL荷兰-移动优化
-      - 🇹🇷+TR土耳其-移动优化
-      - 🇸🇬+SG新加坡-移动优化
-      - 🇭🇰+HK香港2--移动优化
-      - 🇳🇮+NI阿根廷-移动优化
-      - defaultName_2
-      - 🇺🇸++USA美国-移动优化
+      - defaultName
+      - Telegram🇨🇳+@WangCai_8_1
+      - Telegram🇨🇳+@WangCai_8_2
+      - Telegram🇨🇳+@WangCai_8_3
       - V2-日本+PATHX+1-1倍率
   - name: ♻️ 自动选择
     type: url-test
@@ -141,75 +111,30 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵+JP日本2-移动优化
-      - 🇰🇷+KR韩国--移动优化
-      - defaultName_1
-      - 🇯🇵+JP日本-移动优化
-      - 🇭🇰+HK香港-移动优化
-      - 🇩🇪++DE德国-移动优化
-      - 🇦🇪+AE迪拜-移动优化
-      - 🇬🇧+UK英国-移动优化
-      - 🇨🇦+CA加拿大-移动优化
-      - Telegram🇨🇳+@WangCai_8
-      - 🇱🇺+LU卢森堡-移动优化
-      - 🇷🇺+RU俄罗斯-移动优化
-      - 🇳🇱+NL荷兰-移动优化
-      - 🇹🇷+TR土耳其-移动优化
-      - 🇸🇬+SG新加坡-移动优化
-      - 🇭🇰+HK香港2--移动优化
-      - 🇳🇮+NI阿根廷-移动优化
-      - defaultName_2
-      - 🇺🇸++USA美国-移动优化
+      - defaultName
+      - Telegram🇨🇳+@WangCai_8_1
+      - Telegram🇨🇳+@WangCai_8_2
+      - Telegram🇨🇳+@WangCai_8_3
       - V2-日本+PATHX+1-1倍率
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇯🇵+JP日本2-移动优化
-      - 🇰🇷+KR韩国--移动优化
-      - defaultName_1
-      - 🇯🇵+JP日本-移动优化
-      - 🇭🇰+HK香港-移动优化
-      - 🇩🇪++DE德国-移动优化
-      - 🇦🇪+AE迪拜-移动优化
-      - 🇬🇧+UK英国-移动优化
-      - 🇨🇦+CA加拿大-移动优化
-      - Telegram🇨🇳+@WangCai_8
-      - 🇱🇺+LU卢森堡-移动优化
-      - 🇷🇺+RU俄罗斯-移动优化
-      - 🇳🇱+NL荷兰-移动优化
-      - 🇹🇷+TR土耳其-移动优化
-      - 🇸🇬+SG新加坡-移动优化
-      - 🇭🇰+HK香港2--移动优化
-      - 🇳🇮+NI阿根廷-移动优化
-      - defaultName_2
-      - 🇺🇸++USA美国-移动优化
+      - defaultName
+      - Telegram🇨🇳+@WangCai_8_1
+      - Telegram🇨🇳+@WangCai_8_2
+      - Telegram🇨🇳+@WangCai_8_3
       - V2-日本+PATHX+1-1倍率
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇯🇵+JP日本2-移动优化
-      - 🇰🇷+KR韩国--移动优化
-      - defaultName_1
-      - 🇯🇵+JP日本-移动优化
-      - 🇭🇰+HK香港-移动优化
-      - 🇩🇪++DE德国-移动优化
-      - 🇦🇪+AE迪拜-移动优化
-      - 🇬🇧+UK英国-移动优化
-      - 🇨🇦+CA加拿大-移动优化
-      - Telegram🇨🇳+@WangCai_8
-      - 🇱🇺+LU卢森堡-移动优化
-      - 🇷🇺+RU俄罗斯-移动优化
-      - 🇳🇱+NL荷兰-移动优化
-      - 🇹🇷+TR土耳其-移动优化
-      - 🇸🇬+SG新加坡-移动优化
-      - 🇭🇰+HK香港2--移动优化
-      - 🇳🇮+NI阿根廷-移动优化
-      - defaultName_2
-      - 🇺🇸++USA美国-移动优化
+      - defaultName
+      - Telegram🇨🇳+@WangCai_8_1
+      - Telegram🇨🇳+@WangCai_8_2
+      - Telegram🇨🇳+@WangCai_8_3
       - V2-日本+PATHX+1-1倍率
   - name: 🎯 全球直连
     type: select
@@ -230,25 +155,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇯🇵+JP日本2-移动优化
-      - 🇰🇷+KR韩国--移动优化
-      - defaultName_1
-      - 🇯🇵+JP日本-移动优化
-      - 🇭🇰+HK香港-移动优化
-      - 🇩🇪++DE德国-移动优化
-      - 🇦🇪+AE迪拜-移动优化
-      - 🇬🇧+UK英国-移动优化
-      - 🇨🇦+CA加拿大-移动优化
-      - Telegram🇨🇳+@WangCai_8
-      - 🇱🇺+LU卢森堡-移动优化
-      - 🇷🇺+RU俄罗斯-移动优化
-      - 🇳🇱+NL荷兰-移动优化
-      - 🇹🇷+TR土耳其-移动优化
-      - 🇸🇬+SG新加坡-移动优化
-      - 🇭🇰+HK香港2--移动优化
-      - 🇳🇮+NI阿根廷-移动优化
-      - defaultName_2
-      - 🇺🇸++USA美国-移动优化
+      - defaultName
+      - Telegram🇨🇳+@WangCai_8_1
+      - Telegram🇨🇳+@WangCai_8_2
+      - Telegram🇨🇳+@WangCai_8_3
       - V2-日本+PATHX+1-1倍率
 
 rules:
