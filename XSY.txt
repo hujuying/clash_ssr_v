@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-11 03:17:25
+# 创建时间：2024-07-12 02:45:05
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
 # 节点数量：4
 # 节点类型：hysteria2
@@ -87,10 +87,10 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"CN_1\r","type":"hysteria2","server":"hk.cloudlion.me","port":28708,"password":"10ea3b97-426d-46f5-9fcb-65855c8a57b5","skip-cert-verify":true}
-  - {"name":"GB_2\r","type":"hysteria2","server":"kr.cloudlion.me","port":8080,"password":"10ea3b97-426d-46f5-9fcb-65855c8a57b5","skip-cert-verify":true}
-  - {"name":"JP_3\r","type":"hysteria2","server":"jp.cloudlion.me","port":8088,"password":"10ea3b97-426d-46f5-9fcb-65855c8a57b5","skip-cert-verify":true}
-  - {"name":"CN_4","type":"hysteria2","server":"tw.cloudlion.me","port":8088,"password":"10ea3b97-426d-46f5-9fcb-65855c8a57b5","skip-cert-verify":true}
+  - {"name":"GB_1","type":"hysteria2","server":"kr.cloudlion.me","port":8080,"password":"10ea3b97-426d-46f5-9fcb-65855c8a57b5","skip-cert-verify":true}
+  - {"name":"CN_2","type":"hysteria2","server":"hk.cloudlion.me","port":28708,"password":"10ea3b97-426d-46f5-9fcb-65855c8a57b5","skip-cert-verify":true}
+  - {"name":"CN_3","type":"hysteria2","server":"tw.cloudlion.me","port":8088,"password":"10ea3b97-426d-46f5-9fcb-65855c8a57b5","skip-cert-verify":true}
+  - {"name":"JP_4","type":"hysteria2","server":"jp.cloudlion.me","port":8088,"password":"10ea3b97-426d-46f5-9fcb-65855c8a57b5","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -99,38 +99,38 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - "CN_1\r"
-      - "GB_2\r"
-      - "JP_3\r"
-      - CN_4
+      - GB_1
+      - CN_2
+      - CN_3
+      - JP_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "CN_1\r"
-      - "GB_2\r"
-      - "JP_3\r"
-      - CN_4
+      - GB_1
+      - CN_2
+      - CN_3
+      - JP_4
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "CN_1\r"
-      - "GB_2\r"
-      - "JP_3\r"
-      - CN_4
+      - GB_1
+      - CN_2
+      - CN_3
+      - JP_4
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - "CN_1\r"
-      - "GB_2\r"
-      - "JP_3\r"
-      - CN_4
+      - GB_1
+      - CN_2
+      - CN_3
+      - JP_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -150,10 +150,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - "CN_1\r"
-      - "GB_2\r"
-      - "JP_3\r"
-      - CN_4
+      - GB_1
+      - CN_2
+      - CN_3
+      - JP_4
 
 rules:
 # 本地/局域网地址
