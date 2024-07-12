@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-11 02:57:07
+# 创建时间：2024-07-13 03:03:52
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：3
-# 节点类型：vless
+# 节点数量：2
+# 节点类型：hysteria2
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,9 +87,8 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"日本02","type":"vless","server":"jp02.421421.xyz","port":20230,"udp":true,"uuid":"ac590e89-ba43-49a1-a8b2-38ec70dc7907","tls":true,"servername":"api.push.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"gKQ1iax36vjbOYLKLveiSn_OnlBVAf3ecHLpQnrC4jw","short-id":"a7464bff"},"client-fingerprint":"chrome"}
-  - {"name":"新加坡04|流媒体","type":"vless","server":"sg04.421421.xyz","port":20230,"udp":true,"uuid":"ac590e89-ba43-49a1-a8b2-38ec70dc7907","tls":true,"servername":"api.push.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"gKQ1iax36vjbOYLKLveiSn_OnlBVAf3ecHLpQnrC4jw","short-id":"a7464bff"},"client-fingerprint":"chrome"}
-  - {"name":"新加坡03|流媒体","type":"vless","server":"sg03.421421.xyz","port":20230,"udp":true,"uuid":"ac590e89-ba43-49a1-a8b2-38ec70dc7907","tls":true,"servername":"api.push.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"gKQ1iax36vjbOYLKLveiSn_OnlBVAf3ecHLpQnrC4jw","short-id":"a7464bff"},"client-fingerprint":"chrome"}
+  - {"name":"高速澳大利亚悉尼","type":"hysteria2","server":"au.sydney.tg-bplink.xyz","port":20000,"password":"8bfddec0-001a-44c9-a13f-d8d76c1353f4","sni":"au.sydney.tg-bplink.xyz"}
+  - {"name":"高速香港2","type":"hysteria2","server":"hk2.tg-bplink.xyz","port":20000,"password":"8bfddec0-001a-44c9-a13f-d8d76c1353f4","sni":"hk2.tg-bplink.xyz"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -98,34 +97,30 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 日本02
-      - 新加坡04|流媒体
-      - 新加坡03|流媒体
+      - 高速澳大利亚悉尼
+      - 高速香港2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 日本02
-      - 新加坡04|流媒体
-      - 新加坡03|流媒体
+      - 高速澳大利亚悉尼
+      - 高速香港2
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 日本02
-      - 新加坡04|流媒体
-      - 新加坡03|流媒体
+      - 高速澳大利亚悉尼
+      - 高速香港2
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 日本02
-      - 新加坡04|流媒体
-      - 新加坡03|流媒体
+      - 高速澳大利亚悉尼
+      - 高速香港2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -145,9 +140,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 日本02
-      - 新加坡04|流媒体
-      - 新加坡03|流媒体
+      - 高速澳大利亚悉尼
+      - 高速香港2
 
 rules:
 # 本地/局域网地址
