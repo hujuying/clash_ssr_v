@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-12 06:07:21
+# 创建时间：2024-07-13 03:04:09
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：5
-# 节点类型：vless, ss
+# 节点数量：1
+# 节点类型：vless
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -88,10 +88,6 @@ dns:
 
 proxies:
   - {"name":"defaultName","type":"vless","server":"38.95.120.55","port":33445,"uuid":"b6011094-a647-4ccb-f97f-362b11aaf690","network":"ws","ws-opts":{"path":"/b6011094"}}
-  - {"name":"Telegram🇨🇳+@WangCai_8_1","type":"vless","server":"8.210.21.65","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
-  - {"name":"Telegram🇨🇳+@WangCai_8_2","type":"vless","server":"47.76.37.57","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
-  - {"name":"Telegram🇨🇳+@WangCai_8_3","type":"vless","server":"8.217.66.3","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
-  - {"name":"V2-日本+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37021,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -101,10 +97,6 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - defaultName
-      - Telegram🇨🇳+@WangCai_8_1
-      - Telegram🇨🇳+@WangCai_8_2
-      - Telegram🇨🇳+@WangCai_8_3
-      - V2-日本+PATHX+1-1倍率
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -112,30 +104,18 @@ proxy-groups:
     tolerance: 50
     proxies:
       - defaultName
-      - Telegram🇨🇳+@WangCai_8_1
-      - Telegram🇨🇳+@WangCai_8_2
-      - Telegram🇨🇳+@WangCai_8_3
-      - V2-日本+PATHX+1-1倍率
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - defaultName
-      - Telegram🇨🇳+@WangCai_8_1
-      - Telegram🇨🇳+@WangCai_8_2
-      - Telegram🇨🇳+@WangCai_8_3
-      - V2-日本+PATHX+1-1倍率
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - defaultName
-      - Telegram🇨🇳+@WangCai_8_1
-      - Telegram🇨🇳+@WangCai_8_2
-      - Telegram🇨🇳+@WangCai_8_3
-      - V2-日本+PATHX+1-1倍率
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,10 +136,6 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - defaultName
-      - Telegram🇨🇳+@WangCai_8_1
-      - Telegram🇨🇳+@WangCai_8_2
-      - Telegram🇨🇳+@WangCai_8_3
-      - V2-日本+PATHX+1-1倍率
 
 rules:
 # 本地/局域网地址
