@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-13 04:28:40
+# 创建时间：2024-07-14 03:10:38
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：193
-# 节点类型：vless, trojan, ss, vmess
+# 节点数量：154
+# 节点类型：vless, vmess, trojan, ss
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,199 +87,160 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"UA_1","type":"vless","server":"45.94.169.211","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"LT_2","type":"vless","server":"88.216.66.74","port":2053,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"LT_3","type":"vless","server":"185.148.106.93","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"US_4","type":"vless","server":"64.94.86.147","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"US_5","type":"vless","server":"204.93.210.80","port":2096,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"US_6","type":"vless","server":"104.254.140.111","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"FR_7","type":"vless","server":"45.80.110.130","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"ES_8","type":"vless","server":"185.18.250.138","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"NL_9","type":"vless","server":"188.42.145.159","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_10","type":"vless","server":"204.93.210.231","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"GB_11","type":"vless","server":"188.244.122.57","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"US_12","type":"vless","server":"31.12.75.79","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_13","type":"vless","server":"204.93.210.116","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"US_14","type":"vless","server":"93.113.175.66","port":2083,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"ES_15","type":"vless","server":"185.238.228.114","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"FR_16","type":"vless","server":"45.80.110.201","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"RU_17","type":"vless","server":"185.59.218.139","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_18","type":"vless","server":"159.112.235.14","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"IN_19","type":"vless","server":"14.102.228.210","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"NL_20","type":"vless","server":"45.159.218.162","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"AU_21","type":"vless","server":"192.65.217.230","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_22","type":"vless","server":"204.93.210.116","port":2096,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"LT_23","type":"vless","server":"185.148.105.23","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN_24","type":"vless","server":"154.197.121.253","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"LT_25","type":"vless","server":"185.176.24.120","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_26","type":"vless","server":"216.116.134.145","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_27","type":"vless","server":"216.116.134.16","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"FR_28","type":"vless","server":"45.80.110.44","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"FR_29","type":"vless","server":"45.80.110.192","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"FR_30","type":"vless","server":"94.140.0.0","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"FR_31","type":"vless","server":"45.80.110.231","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"UA_32","type":"vless","server":"31.43.179.20","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"NL_33","type":"vless","server":"45.133.247.90","port":2083,"uuid":"9af577f2-0a7a-4448-ae0b-6985c53ea634","tls":true,"servername":"t-netplus1.pages.dev","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"GB_34","type":"vless","server":"164.38.155.63","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_35","type":"vless","server":"31.12.75.46","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"ES_36","type":"vless","server":"185.238.228.212","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"NL_37","type":"vless","server":"188.42.145.159","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"FR_38","type":"vless","server":"94.140.0.186","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"UA_39","type":"vless","server":"45.94.169.235","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"RU_40","type":"vless","server":"193.9.49.80","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"FR_41","type":"vless","server":"45.80.110.184","port":2087,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"NL_42","type":"vless","server":"45.133.247.84","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"LT_43","type":"vless","server":"185.148.106.60","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"RU_44","type":"vless","server":"94.247.142.245","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"CN_45","type":"vless","server":"156.225.72.24","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_46","type":"vless","server":"199.181.197.39","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN_47","type":"vless","server":"154.92.9.60","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"NL_48","type":"vless","server":"45.133.247.14","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_49","type":"vless","server":"170.114.46.46","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"UA_50","type":"vless","server":"31.43.179.22","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"FR_51","type":"vless","server":"45.80.110.200","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"FR_52","type":"vless","server":"45.80.110.161","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"JP_53","type":"vless","server":"91.193.58.119","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"BR_54","type":"vless","server":"181.214.1.190","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"NL_55","type":"vless","server":"188.42.145.160","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"RU_56","type":"vless","server":"94.247.142.245","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"US_57","type":"vless","server":"204.93.210.103","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"US_58","type":"vless","server":"154.85.99.37","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"GR_59","type":"vless","server":"31.22.116.238","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"LT_60","type":"vless","server":"185.176.24.253","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"ES_61","type":"vless","server":"185.18.250.185","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"US_62","type":"vless","server":"204.93.210.218","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"US_63","type":"vless","server":"170.114.45.38","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"NL_64","type":"vless","server":"45.159.217.145","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"FR_65","type":"vless","server":"94.140.0.157","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"US_66","type":"vless","server":"204.93.210.49","port":2096,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"FR_67","type":"vless","server":"45.80.110.46","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"US_68","type":"vless","server":"31.12.75.140","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"CN_69","type":"vless","server":"27.50.49.232","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"US_70","type":"vless","server":"204.93.210.205","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"FR_71","type":"vless","server":"45.80.110.213","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"GB_72","type":"vless","server":"188.244.122.179","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"NL_73","type":"vless","server":"45.159.217.7","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"GR_74","type":"vless","server":"31.22.116.159","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"LT_75","type":"vless","server":"185.148.104.135","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"LT_76","type":"vless","server":"185.148.107.173","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"LT_77","type":"vless","server":"89.116.250.222","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"FR_78","type":"vless","server":"45.80.110.229","port":2053,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"FR_79","type":"vless","server":"45.80.110.175","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"US_80","type":"vless","server":"206.238.236.22","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"US_81","type":"vless","server":"147.185.161.149","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"unKnow_82","type":"vless","server":"103.169.142.199","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"AU_83","type":"vless","server":"192.65.217.86","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_84","type":"vless","server":"216.116.134.43","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"FR_85","type":"vless","server":"45.80.110.84","port":2087,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"US_86","type":"vless","server":"170.114.45.216","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"FR_87","type":"vless","server":"45.80.110.200","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"NL_88","type":"vless","server":"45.159.218.2","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_89","type":"vless","server":"204.93.210.210","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"US_90","type":"vless","server":"204.93.210.184","port":8443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"GB_91","type":"vless","server":"188.244.122.64","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_92","type":"vless","server":"199.181.197.237","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"LU_93","type":"vless","server":"188.42.89.18","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"CA_94","type":"vless","server":"199.212.90.25","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"CN_95","type":"vless","server":"154.197.121.178","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"FR_96","type":"vless","server":"45.80.110.173","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"CA_97","type":"vless","server":"205.233.181.90","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"CA_98","type":"vless","server":"199.212.90.53","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_99","type":"vless","server":"108.165.216.204","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"LT_100","type":"vless","server":"185.176.24.71","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"GR_101","type":"vless","server":"31.22.116.208","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"CN_102","type":"vless","server":"154.197.121.248","port":8443,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"GR_103","type":"vless","server":"31.22.116.134","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"FR_104","type":"vless","server":"45.80.110.13","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"CN_105","type":"vless","server":"154.197.121.254","port":8443,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"NL_106","type":"vless","server":"188.42.145.178","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_107","type":"vless","server":"216.116.134.168","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"US_108","type":"vless","server":"204.93.210.226","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"GB_109","type":"vless","server":"188.244.122.119","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"DE_110","type":"vless","server":"185.135.9.144","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"KR_111","type":"vless","server":"193.122.110.164","port":25800,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"AU_112","type":"vless","server":"192.65.217.41","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"GB_113","type":"vless","server":"217.163.76.59","port":443,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"FR_114","type":"vless","server":"45.80.110.245","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"NL_115","type":"vless","server":"45.159.216.108","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"CA_116","type":"vless","server":"205.233.181.0","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"BG_117","type":"vless","server":"185.176.26.61","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"FR_118","type":"vless","server":"45.80.110.238","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"AU_119","type":"vless","server":"43.153.181.217","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"GB_120","type":"vless","server":"188.244.122.85","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"SE_121","type":"vless","server":"185.146.173.12","port":443,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"FR_122","type":"vless","server":"45.80.110.133","port":2087,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"US_123","type":"vless","server":"216.205.52.109","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"US_124","type":"vless","server":"204.93.210.185","port":8443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"KR_125","type":"vless","server":"140.238.8.194","port":15800,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"LT_126","type":"vless","server":"185.176.24.167","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_127","type":"vless","server":"154.85.99.188","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"JP_128","type":"vless","server":"146.56.171.182","port":11659,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"LT_129","type":"vless","server":"185.176.24.108","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"LT_130","type":"vless","server":"185.148.106.134","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"AU_131","type":"vless","server":"129.154.223.89","port":15800,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"FR_132","type":"vless","server":"45.80.111.38","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"NL_133","type":"vless","server":"45.159.217.21","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"LU_134","type":"vless","server":"188.42.89.60","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"RU_135","type":"vless","server":"94.247.142.245","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"CN_136","type":"vless","server":"27.50.48.108","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
+  - {"name":"Telegram+@djkkdcx -US-New York","type":"vless","server":"43.153.103.203","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"塞舌尔_Telegram+@djkkdcx","type":"vless","server":"45.133.247.151","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"🏁RELAY-104.21.24.170-0760","type":"vmess","server":"denc36.xtooltech.cfd","port":443,"cipher":"auto","uuid":"b321fd5d-e6ec-4293-a644-164e3885f52e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc36v.xtooltech.cfd"}}}
+  - {"name":"俄罗斯联邦_Telegram+@djkkdcx","type":"vless","server":"185.176.24.140","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"新加坡_Telegram+@djkkdcx","type":"vless","server":"27.50.48.222","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"美国_Telegram+@djkkdcx","type":"vless","server":"185.148.105.225","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"Telegram+@djkkdcx -SG-Singapore1","type":"vless","server":"140.99.233.156","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 2","type":"trojan","server":"13.60.149.129","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"日本3","type":"vmess","server":"jd-rb3.yqh168.top","port":45222,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"日本5","type":"vmess","server":"jd-rb5.yqh168.top","port":45224,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"日本4","type":"vmess","server":"jd-rb4.yqh168.top","port":45223,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"Telegram+@djkkdcx -JP-Tokyo12","type":"vless","server":"149.28.22.198","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"日本1","type":"vmess","server":"jd-rb1.yqh168.top","port":45220,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"美国 - 波特蘭 - Amazon.com, Inc. - 286","type":"ss","server":"34.216.76.22","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"美国1","type":"vmess","server":"jd-mg1.yqh168.top","port":45215,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"美国2","type":"vmess","server":"jd-mg2.yqh168.top","port":45216,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
   - {"name":"CN_137","type":"trojan","server":"183.232.139.22","port":40081,"udp":true,"password":"GsKYmYOE","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"CN_138","type":"vless","server":"156.225.72.100","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"GB_139","type":"vless","server":"217.163.76.75","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"ES_140","type":"vless","server":"185.238.228.226","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"CN_141","type":"trojan","server":"183.240.179.191","port":50015,"udp":true,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","sni":"ia2.aaaa.gay","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_142","type":"vless","server":"31.12.75.179","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"FR_143","type":"vless","server":"45.80.111.27","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_144","type":"vless","server":"167.68.11.146","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"ES_145","type":"vless","server":"185.18.250.131","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_146","type":"vless","server":"www.udemy.com","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.yzcjd.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048"},"client-fingerprint":"randomized"}
-  - {"name":"CN_147","type":"vless","server":"27.50.48.250","port":2096,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"LU_148","type":"vless","server":"94.242.231.244","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"FR_149","type":"vless","server":"46.105.170.124","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"CN_150","type":"vless","server":"211.72.156.10","port":23555,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"US_151","type":"vless","server":"34.81.35.248","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"US_152","type":"vless","server":"174.136.206.95","port":57757,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"NL_153","type":"vless","server":"185.186.244.184","port":81,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"CN_154","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37041,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"US_155","type":"vless","server":"47.238.6.58","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"JP_156","type":"vless","server":"146.56.141.168","port":47590,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"CN_157","type":"vmess","server":"in06.dns2024.org","port":63082,"cipher":"auto","uuid":"6cf559be-8e10-3c59-ad8c-7345fa164ab8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_158","type":"trojan","server":"los3.aaaa.gay","port":26520,"udp":true,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","sni":"los3.aaaa.gay","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"NL_159","type":"vless","server":"45.159.218.167","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"GB_160","type":"vless","server":"176.97.73.82","port":2053,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"JP_161","type":"vless","server":"146.56.146.7","port":21713,"uuid":"d7dd3a35-b68b-4992-b319-a85b8a1fc8e5","tls":true,"servername":"dns68.putata.eu.org","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"CN_162","type":"vless","server":"27.50.49.13","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"US_163","type":"vless","server":"152.70.239.134","port":34237,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_164","type":"vless","server":"104.254.140.46","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"AU_165","type":"vless","server":"129.154.206.254","port":59158,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_166","type":"vless","server":"47.76.94.15","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_167","type":"vless","server":"38.180.10.150","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"GR_168","type":"vless","server":"31.22.116.155","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"KR_169","type":"vmess","server":"141.164.37.60","port":8881,"cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_170","type":"vless","server":"47.236.180.51","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"CN_171","type":"trojan","server":"183.240.179.191","port":50001,"udp":true,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","sni":"yuepao.doubledou.icu","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_172","type":"vless","server":"47.236.164.215","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"KR_173","type":"vless","server":"193.122.126.64","port":53777,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"RO_174","type":"vless","server":"94.177.8.26","port":130,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"CN_175","type":"vless","server":"8.222.204.128","port":443,"uuid":"d7dd3a35-b68b-4992-b319-a85b8a1fc8e5","tls":true,"servername":"dns68.putata.eu.org","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"DE_176","type":"vless","server":"194.24.161.146","port":4090,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"KR_177","type":"vless","server":"49.165.150.206","port":18916,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"CN_178","type":"vless","server":"154.197.88.97","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"RU_179","type":"vless","server":"185.114.72.67","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_180","type":"vless","server":"192.9.165.253","port":47580,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_181","type":"vless","server":"204.93.210.191","port":8443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"KR_182","type":"vless","server":"210.222.133.55","port":32412,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"NL_183","type":"vless","server":"132.226.21.116","port":6056,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_184","type":"vless","server":"170.114.45.231","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"LT_185","type":"vless","server":"185.176.24.151","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"GB_186","type":"vless","server":"51.38.69.149","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2"}}
-  - {"name":"JP_187","type":"vless","server":"146.56.166.59","port":46060,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"unKnow_188","type":"vless","server":"103.169.127.242","port":11089,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
-  - {"name":"US_189","type":"vless","server":"155.46.213.100","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes"}}
-  - {"name":"AU_190","type":"vless","server":"43.154.34.74","port":1935,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
+  - {"name":"美国3","type":"vmess","server":"jd-mg3.yqh168.top","port":45217,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"美国4","type":"vmess","server":"jd-mg4.yqh168.top","port":45218,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"日本特殊|@ripaojiedian","type":"ss","server":"3.112.152.101","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"美国 - 西雅圖 - Hostwinds LLC. - 360","type":"vmess","server":"23.254.166.237","port":2086,"cipher":"auto","uuid":"8d0fd618-5d60-40d6-9f23-e503555f496f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"韩国4","type":"vmess","server":"jd-hg4.yqh168.top","port":45233,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"韩国2","type":"vmess","server":"jd-hg2.yqh168.top","port":45231,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"韩国5","type":"vmess","server":"jd-hg5.yqh168.top","port":45234,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"韩国3","type":"vmess","server":"jd-hg3.yqh168.top","port":45232,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"新加坡 - 新加坡 - Akari Networks - 24","type":"vmess","server":"in06.dns2024.org","port":63012,"cipher":"auto","uuid":"6cf559be-8e10-3c59-ad8c-7345fa164ab8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国 - 波特蘭 - Amazon.com, Inc. - 338","type":"ss","server":"54.189.133.244","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"美国5","type":"vmess","server":"jd-mg5.yqh168.top","port":45219,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"新加坡2","type":"vmess","server":"jd-xjp2.yqh168.top","port":45226,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"韩国1","type":"vmess","server":"jd-hg1.yqh168.top","port":45230,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"新加坡1","type":"vmess","server":"jd-xjp1.yqh168.top","port":45225,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"日本2","type":"vmess","server":"jd-rb2.yqh168.top","port":45221,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"香港|@ripaojiedian","type":"ss","server":"123.88.148.9","port":65045,"password":"7514d66e-9bd7-4fd6-91a0-0532aec92f9d","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"Telegram+@djkkdcx -HK-Hong Kong31","type":"vless","server":"38.181.73.64","port":62888,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"新加坡3","type":"vmess","server":"jd-xjp3.yqh168.top","port":45227,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
   - {"name":"CN_191","type":"trojan","server":"183.240.179.191","port":50045,"udp":true,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","sni":"hgc2.aaaa.gay","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"CN_192","type":"ss","server":"59.56.77.178","port":15001,"password":"hGkQ6915tD","cipher":"aes-256-cfb"}
-  - {"name":"US_193","type":"vless","server":"155.46.213.166","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2"}}
+  - {"name":"狮城特殊|@ripaojiedian","type":"ss","server":"54.95.211.49","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"新加坡 - 新加坡 - Amazon Technologies Inc. - 16","type":"ss","server":"13.250.116.168","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"韩国特殊|@ripaojiedian","type":"ss","server":"13.230.162.23","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"新加坡 - 新加坡 - Amazon Technologies Inc. - 19","type":"ss","server":"3.0.19.102","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"Telegram+@djkkdcx -TW-Taipei3","type":"vless","server":"61.220.41.143","port":36633,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"新加坡4","type":"vmess","server":"jd-xjp4.yqh168.top","port":45228,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"新加坡 - 新加坡 - Amazon.com, Inc. - 18","type":"ss","server":"54.251.87.81","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 17","type":"vmess","server":"id1.ubaistore.my.id","port":80,"cipher":"auto","uuid":"7e872fff-2f77-4fa1-813b-70b2f41dd128","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"id1.ubaistore.my.id"}}}
+  - {"name":"新加坡 - 新加坡 - Amazon Technologies Inc. - 20","type":"ss","server":"54.255.232.203","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"新加坡 - 新加坡 - Amazon Technologies Inc. - 17","type":"ss","server":"18.139.110.249","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"印度(+https://www.fuye.fun/+免费节点分享)_1","type":"trojan","server":"ger.aaaa.gay","port":45900,"udp":true,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","sni":"ger.aaaa.gay","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🏁RELAY-104.21.94.64-0717","type":"vmess","server":"lin0502.hwcar.sbs","port":443,"cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
+  - {"name":"Telegram+@djkkdcx -TW-Taipei1","type":"vless","server":"61.220.65.189","port":26832,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"韩国 - 首尔特别市 - Amazon.com, Inc. - 1","type":"ss","server":"3.39.227.28","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"日本|@ripaojiedian","type":"trojan","server":"183.232.139.22","port":36931,"udp":true,"password":"RmdXQRXg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国 - 丹佛 - GTHost - 306","type":"ss","server":"69.50.95.218","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 245","type":"ss","server":"69.50.95.180","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 297","type":"ss","server":"69.50.95.218","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 289","type":"ss","server":"69.50.95.165","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 334","type":"ss","server":"69.50.95.218","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 294","type":"ss","server":"69.50.95.101","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 329","type":"ss","server":"69.50.95.218","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 319","type":"ss","server":"69.50.95.180","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 330","type":"ss","server":"69.50.95.180","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 344","type":"ss","server":"69.50.95.191","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 268","type":"ss","server":"69.50.95.218","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 320","type":"ss","server":"69.50.95.218","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 295","type":"ss","server":"69.50.95.191","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 266","type":"ss","server":"69.50.95.180","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 238","type":"ss","server":"69.50.95.191","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 274","type":"ss","server":"69.50.95.191","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 270","type":"ss","server":"69.50.95.218","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 243","type":"ss","server":"69.50.95.218","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 321","type":"ss","server":"69.50.95.191","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 337","type":"ss","server":"69.50.95.180","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 314","type":"ss","server":"69.50.95.218","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 332","type":"ss","server":"69.50.95.218","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 272","type":"ss","server":"69.50.95.191","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 333","type":"ss","server":"69.50.95.218","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 275","type":"ss","server":"69.50.95.191","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 342","type":"ss","server":"69.50.95.180","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 324","type":"ss","server":"69.50.95.180","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 248","type":"ss","server":"69.50.95.180","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 276","type":"ss","server":"69.50.95.191","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 335","type":"ss","server":"69.50.95.191","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 323","type":"ss","server":"69.50.95.180","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 257","type":"ss","server":"69.50.95.180","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 261","type":"ss","server":"69.50.95.180","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 303","type":"ss","server":"69.50.95.191","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 318","type":"ss","server":"69.50.95.180","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 331","type":"ss","server":"69.50.95.191","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 298","type":"ss","server":"69.50.95.218","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 317","type":"ss","server":"69.50.95.180","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 282","type":"ss","server":"69.50.95.53","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 328","type":"ss","server":"69.50.95.180","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 267","type":"ss","server":"69.50.95.218","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 315","type":"ss","server":"69.50.95.218","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 349","type":"ss","server":"69.50.95.180","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 269","type":"ss","server":"69.50.95.180","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 290","type":"ss","server":"69.50.95.218","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 236","type":"ss","server":"69.50.95.218","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 253","type":"ss","server":"69.50.95.180","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 327","type":"ss","server":"69.50.95.180","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 308","type":"ss","server":"69.50.95.218","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 325","type":"ss","server":"69.50.95.191","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 299","type":"ss","server":"69.50.95.218","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 254","type":"ss","server":"69.50.95.191","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 285","type":"ss","server":"69.50.95.174","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 345","type":"ss","server":"69.50.95.191","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 316","type":"ss","server":"69.50.95.218","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 296","type":"ss","server":"69.50.95.218","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 311","type":"ss","server":"69.50.95.218","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 341","type":"ss","server":"69.50.95.180","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 302","type":"ss","server":"69.50.95.191","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 310","type":"ss","server":"69.50.95.218","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 312","type":"ss","server":"69.50.95.180","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 251","type":"ss","server":"69.50.95.191","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 263","type":"ss","server":"69.50.95.191","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 305","type":"ss","server":"69.50.95.191","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 326","type":"ss","server":"69.50.95.191","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 249","type":"ss","server":"69.50.95.180","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 259","type":"ss","server":"69.50.95.180","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 247","type":"ss","server":"69.50.95.180","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 307","type":"ss","server":"69.50.95.218","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 346","type":"ss","server":"69.50.95.180","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 256","type":"ss","server":"69.50.95.218","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 339","type":"ss","server":"69.50.95.180","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 293","type":"ss","server":"69.50.95.218","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 246","type":"ss","server":"69.50.95.191","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 284","type":"ss","server":"69.50.95.124","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 258","type":"ss","server":"69.50.95.191","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 283","type":"ss","server":"69.50.95.218","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 240","type":"ss","server":"69.50.95.180","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 255","type":"ss","server":"69.50.95.218","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 343","type":"ss","server":"69.50.95.191","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 348","type":"ss","server":"69.50.95.191","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 304","type":"ss","server":"69.50.95.180","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 322","type":"ss","server":"69.50.95.191","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 292","type":"ss","server":"69.50.95.191","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 279","type":"ss","server":"69.50.95.191","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 313","type":"ss","server":"69.50.95.218","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 300","type":"ss","server":"69.50.95.218","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 244","type":"ss","server":"69.50.95.180","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 239","type":"ss","server":"69.50.95.191","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 250","type":"ss","server":"69.50.95.191","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 291","type":"ss","server":"69.50.95.191","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 336","type":"ss","server":"69.50.95.180","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 281","type":"ss","server":"69.50.95.86","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 271","type":"ss","server":"69.50.95.218","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 264","type":"ss","server":"69.50.95.191","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 309","type":"ss","server":"69.50.95.218","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 347","type":"ss","server":"69.50.95.180","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 277","type":"ss","server":"69.50.95.191","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 241","type":"ss","server":"69.50.95.191","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 301","type":"ss","server":"69.50.95.180","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 242","type":"ss","server":"69.50.95.180","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 340","type":"ss","server":"69.50.95.180","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"美国 - 丹佛 - GTHost - 260","type":"ss","server":"69.50.95.180","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -288,794 +249,638 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - UA_1
-      - LT_2
-      - LT_3
-      - US_4
-      - US_5
-      - US_6
-      - FR_7
-      - ES_8
-      - NL_9
-      - US_10
-      - GB_11
-      - US_12
-      - US_13
-      - US_14
-      - ES_15
-      - FR_16
-      - RU_17
-      - US_18
-      - IN_19
-      - NL_20
-      - AU_21
-      - US_22
-      - LT_23
-      - CN_24
-      - LT_25
-      - US_26
-      - US_27
-      - FR_28
-      - FR_29
-      - FR_30
-      - FR_31
-      - UA_32
-      - NL_33
-      - GB_34
-      - US_35
-      - ES_36
-      - NL_37
-      - FR_38
-      - UA_39
-      - RU_40
-      - FR_41
-      - NL_42
-      - LT_43
-      - RU_44
-      - CN_45
-      - US_46
-      - CN_47
-      - NL_48
-      - US_49
-      - UA_50
-      - FR_51
-      - FR_52
-      - JP_53
-      - BR_54
-      - NL_55
-      - RU_56
-      - US_57
-      - US_58
-      - GR_59
-      - LT_60
-      - ES_61
-      - US_62
-      - US_63
-      - NL_64
-      - FR_65
-      - US_66
-      - FR_67
-      - US_68
-      - CN_69
-      - US_70
-      - FR_71
-      - GB_72
-      - NL_73
-      - GR_74
-      - LT_75
-      - LT_76
-      - LT_77
-      - FR_78
-      - FR_79
-      - US_80
-      - US_81
-      - unKnow_82
-      - AU_83
-      - US_84
-      - FR_85
-      - US_86
-      - FR_87
-      - NL_88
-      - US_89
-      - US_90
-      - GB_91
-      - US_92
-      - LU_93
-      - CA_94
-      - CN_95
-      - FR_96
-      - CA_97
-      - CA_98
-      - US_99
-      - LT_100
-      - GR_101
-      - CN_102
-      - GR_103
-      - FR_104
-      - CN_105
-      - NL_106
-      - US_107
-      - US_108
-      - GB_109
-      - DE_110
-      - KR_111
-      - AU_112
-      - GB_113
-      - FR_114
-      - NL_115
-      - CA_116
-      - BG_117
-      - FR_118
-      - AU_119
-      - GB_120
-      - SE_121
-      - FR_122
-      - US_123
-      - US_124
-      - KR_125
-      - LT_126
-      - US_127
-      - JP_128
-      - LT_129
-      - LT_130
-      - AU_131
-      - FR_132
-      - NL_133
-      - LU_134
-      - RU_135
-      - CN_136
+      - Telegram+@djkkdcx -US-New York
+      - 塞舌尔_Telegram+@djkkdcx
+      - 🏁RELAY-104.21.24.170-0760
+      - 俄罗斯联邦_Telegram+@djkkdcx
+      - 新加坡_Telegram+@djkkdcx
+      - 美国_Telegram+@djkkdcx
+      - Telegram+@djkkdcx -SG-Singapore1
+      - 🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 2
+      - 日本3
+      - 日本5
+      - 日本4
+      - Telegram+@djkkdcx -JP-Tokyo12
+      - 日本1
+      - 美国 - 波特蘭 - Amazon.com, Inc. - 286
+      - 美国1
+      - 美国2
       - CN_137
-      - CN_138
-      - GB_139
-      - ES_140
-      - CN_141
-      - US_142
-      - FR_143
-      - US_144
-      - ES_145
-      - US_146
-      - CN_147
-      - LU_148
-      - FR_149
-      - CN_150
-      - US_151
-      - US_152
-      - NL_153
-      - CN_154
-      - US_155
-      - JP_156
-      - CN_157
-      - US_158
-      - NL_159
-      - GB_160
-      - JP_161
-      - CN_162
-      - US_163
-      - US_164
-      - AU_165
-      - US_166
-      - US_167
-      - GR_168
-      - KR_169
-      - US_170
-      - CN_171
-      - US_172
-      - KR_173
-      - RO_174
-      - CN_175
-      - DE_176
-      - KR_177
-      - CN_178
-      - RU_179
-      - US_180
-      - US_181
-      - KR_182
-      - NL_183
-      - US_184
-      - LT_185
-      - GB_186
-      - JP_187
-      - unKnow_188
-      - US_189
-      - AU_190
+      - 美国3
+      - 美国4
+      - 日本特殊|@ripaojiedian
+      - 美国 - 西雅圖 - Hostwinds LLC. - 360
+      - 韩国4
+      - 韩国2
+      - 韩国5
+      - 韩国3
+      - 新加坡 - 新加坡 - Akari Networks - 24
+      - 美国 - 波特蘭 - Amazon.com, Inc. - 338
+      - 美国5
+      - 新加坡2
+      - 韩国1
+      - 新加坡1
+      - 日本2
+      - 香港|@ripaojiedian
+      - Telegram+@djkkdcx -HK-Hong Kong31
+      - 新加坡3
       - CN_191
-      - CN_192
-      - US_193
+      - 狮城特殊|@ripaojiedian
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
+      - 韩国特殊|@ripaojiedian
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
+      - Telegram+@djkkdcx -TW-Taipei3
+      - 新加坡4
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 18
+      - 🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 17
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 17
+      - 印度(+https://www.fuye.fun/+免费节点分享)_1
+      - 🏁RELAY-104.21.94.64-0717
+      - Telegram+@djkkdcx -TW-Taipei1
+      - 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
+      - 日本|@ripaojiedian
+      - 美国 - 丹佛 - GTHost - 306
+      - 美国 - 丹佛 - GTHost - 245
+      - 美国 - 丹佛 - GTHost - 297
+      - 美国 - 丹佛 - GTHost - 289
+      - 美国 - 丹佛 - GTHost - 334
+      - 美国 - 丹佛 - GTHost - 294
+      - 美国 - 丹佛 - GTHost - 329
+      - 美国 - 丹佛 - GTHost - 319
+      - 美国 - 丹佛 - GTHost - 330
+      - 美国 - 丹佛 - GTHost - 344
+      - 美国 - 丹佛 - GTHost - 268
+      - 美国 - 丹佛 - GTHost - 320
+      - 美国 - 丹佛 - GTHost - 295
+      - 美国 - 丹佛 - GTHost - 266
+      - 美国 - 丹佛 - GTHost - 238
+      - 美国 - 丹佛 - GTHost - 274
+      - 美国 - 丹佛 - GTHost - 270
+      - 美国 - 丹佛 - GTHost - 243
+      - 美国 - 丹佛 - GTHost - 321
+      - 美国 - 丹佛 - GTHost - 337
+      - 美国 - 丹佛 - GTHost - 314
+      - 美国 - 丹佛 - GTHost - 332
+      - 美国 - 丹佛 - GTHost - 272
+      - 美国 - 丹佛 - GTHost - 333
+      - 美国 - 丹佛 - GTHost - 275
+      - 美国 - 丹佛 - GTHost - 342
+      - 美国 - 丹佛 - GTHost - 324
+      - 美国 - 丹佛 - GTHost - 248
+      - 美国 - 丹佛 - GTHost - 276
+      - 美国 - 丹佛 - GTHost - 335
+      - 美国 - 丹佛 - GTHost - 323
+      - 美国 - 丹佛 - GTHost - 257
+      - 美国 - 丹佛 - GTHost - 261
+      - 美国 - 丹佛 - GTHost - 303
+      - 美国 - 丹佛 - GTHost - 318
+      - 美国 - 丹佛 - GTHost - 331
+      - 美国 - 丹佛 - GTHost - 298
+      - 美国 - 丹佛 - GTHost - 317
+      - 美国 - 丹佛 - GTHost - 282
+      - 美国 - 丹佛 - GTHost - 328
+      - 美国 - 丹佛 - GTHost - 267
+      - 美国 - 丹佛 - GTHost - 315
+      - 美国 - 丹佛 - GTHost - 349
+      - 美国 - 丹佛 - GTHost - 269
+      - 美国 - 丹佛 - GTHost - 290
+      - 美国 - 丹佛 - GTHost - 236
+      - 美国 - 丹佛 - GTHost - 253
+      - 美国 - 丹佛 - GTHost - 327
+      - 美国 - 丹佛 - GTHost - 308
+      - 美国 - 丹佛 - GTHost - 325
+      - 美国 - 丹佛 - GTHost - 299
+      - 美国 - 丹佛 - GTHost - 254
+      - 美国 - 丹佛 - GTHost - 285
+      - 美国 - 丹佛 - GTHost - 345
+      - 美国 - 丹佛 - GTHost - 316
+      - 美国 - 丹佛 - GTHost - 296
+      - 美国 - 丹佛 - GTHost - 311
+      - 美国 - 丹佛 - GTHost - 341
+      - 美国 - 丹佛 - GTHost - 302
+      - 美国 - 丹佛 - GTHost - 310
+      - 美国 - 丹佛 - GTHost - 312
+      - 美国 - 丹佛 - GTHost - 251
+      - 美国 - 丹佛 - GTHost - 263
+      - 美国 - 丹佛 - GTHost - 305
+      - 美国 - 丹佛 - GTHost - 326
+      - 美国 - 丹佛 - GTHost - 249
+      - 美国 - 丹佛 - GTHost - 259
+      - 美国 - 丹佛 - GTHost - 247
+      - 美国 - 丹佛 - GTHost - 307
+      - 美国 - 丹佛 - GTHost - 346
+      - 美国 - 丹佛 - GTHost - 256
+      - 美国 - 丹佛 - GTHost - 339
+      - 美国 - 丹佛 - GTHost - 293
+      - 美国 - 丹佛 - GTHost - 246
+      - 美国 - 丹佛 - GTHost - 284
+      - 美国 - 丹佛 - GTHost - 258
+      - 美国 - 丹佛 - GTHost - 283
+      - 美国 - 丹佛 - GTHost - 240
+      - 美国 - 丹佛 - GTHost - 255
+      - 美国 - 丹佛 - GTHost - 343
+      - 美国 - 丹佛 - GTHost - 348
+      - 美国 - 丹佛 - GTHost - 304
+      - 美国 - 丹佛 - GTHost - 322
+      - 美国 - 丹佛 - GTHost - 292
+      - 美国 - 丹佛 - GTHost - 279
+      - 美国 - 丹佛 - GTHost - 313
+      - 美国 - 丹佛 - GTHost - 300
+      - 美国 - 丹佛 - GTHost - 244
+      - 美国 - 丹佛 - GTHost - 239
+      - 美国 - 丹佛 - GTHost - 250
+      - 美国 - 丹佛 - GTHost - 291
+      - 美国 - 丹佛 - GTHost - 336
+      - 美国 - 丹佛 - GTHost - 281
+      - 美国 - 丹佛 - GTHost - 271
+      - 美国 - 丹佛 - GTHost - 264
+      - 美国 - 丹佛 - GTHost - 309
+      - 美国 - 丹佛 - GTHost - 347
+      - 美国 - 丹佛 - GTHost - 277
+      - 美国 - 丹佛 - GTHost - 241
+      - 美国 - 丹佛 - GTHost - 301
+      - 美国 - 丹佛 - GTHost - 242
+      - 美国 - 丹佛 - GTHost - 340
+      - 美国 - 丹佛 - GTHost - 260
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - UA_1
-      - LT_2
-      - LT_3
-      - US_4
-      - US_5
-      - US_6
-      - FR_7
-      - ES_8
-      - NL_9
-      - US_10
-      - GB_11
-      - US_12
-      - US_13
-      - US_14
-      - ES_15
-      - FR_16
-      - RU_17
-      - US_18
-      - IN_19
-      - NL_20
-      - AU_21
-      - US_22
-      - LT_23
-      - CN_24
-      - LT_25
-      - US_26
-      - US_27
-      - FR_28
-      - FR_29
-      - FR_30
-      - FR_31
-      - UA_32
-      - NL_33
-      - GB_34
-      - US_35
-      - ES_36
-      - NL_37
-      - FR_38
-      - UA_39
-      - RU_40
-      - FR_41
-      - NL_42
-      - LT_43
-      - RU_44
-      - CN_45
-      - US_46
-      - CN_47
-      - NL_48
-      - US_49
-      - UA_50
-      - FR_51
-      - FR_52
-      - JP_53
-      - BR_54
-      - NL_55
-      - RU_56
-      - US_57
-      - US_58
-      - GR_59
-      - LT_60
-      - ES_61
-      - US_62
-      - US_63
-      - NL_64
-      - FR_65
-      - US_66
-      - FR_67
-      - US_68
-      - CN_69
-      - US_70
-      - FR_71
-      - GB_72
-      - NL_73
-      - GR_74
-      - LT_75
-      - LT_76
-      - LT_77
-      - FR_78
-      - FR_79
-      - US_80
-      - US_81
-      - unKnow_82
-      - AU_83
-      - US_84
-      - FR_85
-      - US_86
-      - FR_87
-      - NL_88
-      - US_89
-      - US_90
-      - GB_91
-      - US_92
-      - LU_93
-      - CA_94
-      - CN_95
-      - FR_96
-      - CA_97
-      - CA_98
-      - US_99
-      - LT_100
-      - GR_101
-      - CN_102
-      - GR_103
-      - FR_104
-      - CN_105
-      - NL_106
-      - US_107
-      - US_108
-      - GB_109
-      - DE_110
-      - KR_111
-      - AU_112
-      - GB_113
-      - FR_114
-      - NL_115
-      - CA_116
-      - BG_117
-      - FR_118
-      - AU_119
-      - GB_120
-      - SE_121
-      - FR_122
-      - US_123
-      - US_124
-      - KR_125
-      - LT_126
-      - US_127
-      - JP_128
-      - LT_129
-      - LT_130
-      - AU_131
-      - FR_132
-      - NL_133
-      - LU_134
-      - RU_135
-      - CN_136
+      - Telegram+@djkkdcx -US-New York
+      - 塞舌尔_Telegram+@djkkdcx
+      - 🏁RELAY-104.21.24.170-0760
+      - 俄罗斯联邦_Telegram+@djkkdcx
+      - 新加坡_Telegram+@djkkdcx
+      - 美国_Telegram+@djkkdcx
+      - Telegram+@djkkdcx -SG-Singapore1
+      - 🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 2
+      - 日本3
+      - 日本5
+      - 日本4
+      - Telegram+@djkkdcx -JP-Tokyo12
+      - 日本1
+      - 美国 - 波特蘭 - Amazon.com, Inc. - 286
+      - 美国1
+      - 美国2
       - CN_137
-      - CN_138
-      - GB_139
-      - ES_140
-      - CN_141
-      - US_142
-      - FR_143
-      - US_144
-      - ES_145
-      - US_146
-      - CN_147
-      - LU_148
-      - FR_149
-      - CN_150
-      - US_151
-      - US_152
-      - NL_153
-      - CN_154
-      - US_155
-      - JP_156
-      - CN_157
-      - US_158
-      - NL_159
-      - GB_160
-      - JP_161
-      - CN_162
-      - US_163
-      - US_164
-      - AU_165
-      - US_166
-      - US_167
-      - GR_168
-      - KR_169
-      - US_170
-      - CN_171
-      - US_172
-      - KR_173
-      - RO_174
-      - CN_175
-      - DE_176
-      - KR_177
-      - CN_178
-      - RU_179
-      - US_180
-      - US_181
-      - KR_182
-      - NL_183
-      - US_184
-      - LT_185
-      - GB_186
-      - JP_187
-      - unKnow_188
-      - US_189
-      - AU_190
+      - 美国3
+      - 美国4
+      - 日本特殊|@ripaojiedian
+      - 美国 - 西雅圖 - Hostwinds LLC. - 360
+      - 韩国4
+      - 韩国2
+      - 韩国5
+      - 韩国3
+      - 新加坡 - 新加坡 - Akari Networks - 24
+      - 美国 - 波特蘭 - Amazon.com, Inc. - 338
+      - 美国5
+      - 新加坡2
+      - 韩国1
+      - 新加坡1
+      - 日本2
+      - 香港|@ripaojiedian
+      - Telegram+@djkkdcx -HK-Hong Kong31
+      - 新加坡3
       - CN_191
-      - CN_192
-      - US_193
+      - 狮城特殊|@ripaojiedian
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
+      - 韩国特殊|@ripaojiedian
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
+      - Telegram+@djkkdcx -TW-Taipei3
+      - 新加坡4
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 18
+      - 🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 17
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 17
+      - 印度(+https://www.fuye.fun/+免费节点分享)_1
+      - 🏁RELAY-104.21.94.64-0717
+      - Telegram+@djkkdcx -TW-Taipei1
+      - 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
+      - 日本|@ripaojiedian
+      - 美国 - 丹佛 - GTHost - 306
+      - 美国 - 丹佛 - GTHost - 245
+      - 美国 - 丹佛 - GTHost - 297
+      - 美国 - 丹佛 - GTHost - 289
+      - 美国 - 丹佛 - GTHost - 334
+      - 美国 - 丹佛 - GTHost - 294
+      - 美国 - 丹佛 - GTHost - 329
+      - 美国 - 丹佛 - GTHost - 319
+      - 美国 - 丹佛 - GTHost - 330
+      - 美国 - 丹佛 - GTHost - 344
+      - 美国 - 丹佛 - GTHost - 268
+      - 美国 - 丹佛 - GTHost - 320
+      - 美国 - 丹佛 - GTHost - 295
+      - 美国 - 丹佛 - GTHost - 266
+      - 美国 - 丹佛 - GTHost - 238
+      - 美国 - 丹佛 - GTHost - 274
+      - 美国 - 丹佛 - GTHost - 270
+      - 美国 - 丹佛 - GTHost - 243
+      - 美国 - 丹佛 - GTHost - 321
+      - 美国 - 丹佛 - GTHost - 337
+      - 美国 - 丹佛 - GTHost - 314
+      - 美国 - 丹佛 - GTHost - 332
+      - 美国 - 丹佛 - GTHost - 272
+      - 美国 - 丹佛 - GTHost - 333
+      - 美国 - 丹佛 - GTHost - 275
+      - 美国 - 丹佛 - GTHost - 342
+      - 美国 - 丹佛 - GTHost - 324
+      - 美国 - 丹佛 - GTHost - 248
+      - 美国 - 丹佛 - GTHost - 276
+      - 美国 - 丹佛 - GTHost - 335
+      - 美国 - 丹佛 - GTHost - 323
+      - 美国 - 丹佛 - GTHost - 257
+      - 美国 - 丹佛 - GTHost - 261
+      - 美国 - 丹佛 - GTHost - 303
+      - 美国 - 丹佛 - GTHost - 318
+      - 美国 - 丹佛 - GTHost - 331
+      - 美国 - 丹佛 - GTHost - 298
+      - 美国 - 丹佛 - GTHost - 317
+      - 美国 - 丹佛 - GTHost - 282
+      - 美国 - 丹佛 - GTHost - 328
+      - 美国 - 丹佛 - GTHost - 267
+      - 美国 - 丹佛 - GTHost - 315
+      - 美国 - 丹佛 - GTHost - 349
+      - 美国 - 丹佛 - GTHost - 269
+      - 美国 - 丹佛 - GTHost - 290
+      - 美国 - 丹佛 - GTHost - 236
+      - 美国 - 丹佛 - GTHost - 253
+      - 美国 - 丹佛 - GTHost - 327
+      - 美国 - 丹佛 - GTHost - 308
+      - 美国 - 丹佛 - GTHost - 325
+      - 美国 - 丹佛 - GTHost - 299
+      - 美国 - 丹佛 - GTHost - 254
+      - 美国 - 丹佛 - GTHost - 285
+      - 美国 - 丹佛 - GTHost - 345
+      - 美国 - 丹佛 - GTHost - 316
+      - 美国 - 丹佛 - GTHost - 296
+      - 美国 - 丹佛 - GTHost - 311
+      - 美国 - 丹佛 - GTHost - 341
+      - 美国 - 丹佛 - GTHost - 302
+      - 美国 - 丹佛 - GTHost - 310
+      - 美国 - 丹佛 - GTHost - 312
+      - 美国 - 丹佛 - GTHost - 251
+      - 美国 - 丹佛 - GTHost - 263
+      - 美国 - 丹佛 - GTHost - 305
+      - 美国 - 丹佛 - GTHost - 326
+      - 美国 - 丹佛 - GTHost - 249
+      - 美国 - 丹佛 - GTHost - 259
+      - 美国 - 丹佛 - GTHost - 247
+      - 美国 - 丹佛 - GTHost - 307
+      - 美国 - 丹佛 - GTHost - 346
+      - 美国 - 丹佛 - GTHost - 256
+      - 美国 - 丹佛 - GTHost - 339
+      - 美国 - 丹佛 - GTHost - 293
+      - 美国 - 丹佛 - GTHost - 246
+      - 美国 - 丹佛 - GTHost - 284
+      - 美国 - 丹佛 - GTHost - 258
+      - 美国 - 丹佛 - GTHost - 283
+      - 美国 - 丹佛 - GTHost - 240
+      - 美国 - 丹佛 - GTHost - 255
+      - 美国 - 丹佛 - GTHost - 343
+      - 美国 - 丹佛 - GTHost - 348
+      - 美国 - 丹佛 - GTHost - 304
+      - 美国 - 丹佛 - GTHost - 322
+      - 美国 - 丹佛 - GTHost - 292
+      - 美国 - 丹佛 - GTHost - 279
+      - 美国 - 丹佛 - GTHost - 313
+      - 美国 - 丹佛 - GTHost - 300
+      - 美国 - 丹佛 - GTHost - 244
+      - 美国 - 丹佛 - GTHost - 239
+      - 美国 - 丹佛 - GTHost - 250
+      - 美国 - 丹佛 - GTHost - 291
+      - 美国 - 丹佛 - GTHost - 336
+      - 美国 - 丹佛 - GTHost - 281
+      - 美国 - 丹佛 - GTHost - 271
+      - 美国 - 丹佛 - GTHost - 264
+      - 美国 - 丹佛 - GTHost - 309
+      - 美国 - 丹佛 - GTHost - 347
+      - 美国 - 丹佛 - GTHost - 277
+      - 美国 - 丹佛 - GTHost - 241
+      - 美国 - 丹佛 - GTHost - 301
+      - 美国 - 丹佛 - GTHost - 242
+      - 美国 - 丹佛 - GTHost - 340
+      - 美国 - 丹佛 - GTHost - 260
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - UA_1
-      - LT_2
-      - LT_3
-      - US_4
-      - US_5
-      - US_6
-      - FR_7
-      - ES_8
-      - NL_9
-      - US_10
-      - GB_11
-      - US_12
-      - US_13
-      - US_14
-      - ES_15
-      - FR_16
-      - RU_17
-      - US_18
-      - IN_19
-      - NL_20
-      - AU_21
-      - US_22
-      - LT_23
-      - CN_24
-      - LT_25
-      - US_26
-      - US_27
-      - FR_28
-      - FR_29
-      - FR_30
-      - FR_31
-      - UA_32
-      - NL_33
-      - GB_34
-      - US_35
-      - ES_36
-      - NL_37
-      - FR_38
-      - UA_39
-      - RU_40
-      - FR_41
-      - NL_42
-      - LT_43
-      - RU_44
-      - CN_45
-      - US_46
-      - CN_47
-      - NL_48
-      - US_49
-      - UA_50
-      - FR_51
-      - FR_52
-      - JP_53
-      - BR_54
-      - NL_55
-      - RU_56
-      - US_57
-      - US_58
-      - GR_59
-      - LT_60
-      - ES_61
-      - US_62
-      - US_63
-      - NL_64
-      - FR_65
-      - US_66
-      - FR_67
-      - US_68
-      - CN_69
-      - US_70
-      - FR_71
-      - GB_72
-      - NL_73
-      - GR_74
-      - LT_75
-      - LT_76
-      - LT_77
-      - FR_78
-      - FR_79
-      - US_80
-      - US_81
-      - unKnow_82
-      - AU_83
-      - US_84
-      - FR_85
-      - US_86
-      - FR_87
-      - NL_88
-      - US_89
-      - US_90
-      - GB_91
-      - US_92
-      - LU_93
-      - CA_94
-      - CN_95
-      - FR_96
-      - CA_97
-      - CA_98
-      - US_99
-      - LT_100
-      - GR_101
-      - CN_102
-      - GR_103
-      - FR_104
-      - CN_105
-      - NL_106
-      - US_107
-      - US_108
-      - GB_109
-      - DE_110
-      - KR_111
-      - AU_112
-      - GB_113
-      - FR_114
-      - NL_115
-      - CA_116
-      - BG_117
-      - FR_118
-      - AU_119
-      - GB_120
-      - SE_121
-      - FR_122
-      - US_123
-      - US_124
-      - KR_125
-      - LT_126
-      - US_127
-      - JP_128
-      - LT_129
-      - LT_130
-      - AU_131
-      - FR_132
-      - NL_133
-      - LU_134
-      - RU_135
-      - CN_136
+      - Telegram+@djkkdcx -US-New York
+      - 塞舌尔_Telegram+@djkkdcx
+      - 🏁RELAY-104.21.24.170-0760
+      - 俄罗斯联邦_Telegram+@djkkdcx
+      - 新加坡_Telegram+@djkkdcx
+      - 美国_Telegram+@djkkdcx
+      - Telegram+@djkkdcx -SG-Singapore1
+      - 🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 2
+      - 日本3
+      - 日本5
+      - 日本4
+      - Telegram+@djkkdcx -JP-Tokyo12
+      - 日本1
+      - 美国 - 波特蘭 - Amazon.com, Inc. - 286
+      - 美国1
+      - 美国2
       - CN_137
-      - CN_138
-      - GB_139
-      - ES_140
-      - CN_141
-      - US_142
-      - FR_143
-      - US_144
-      - ES_145
-      - US_146
-      - CN_147
-      - LU_148
-      - FR_149
-      - CN_150
-      - US_151
-      - US_152
-      - NL_153
-      - CN_154
-      - US_155
-      - JP_156
-      - CN_157
-      - US_158
-      - NL_159
-      - GB_160
-      - JP_161
-      - CN_162
-      - US_163
-      - US_164
-      - AU_165
-      - US_166
-      - US_167
-      - GR_168
-      - KR_169
-      - US_170
-      - CN_171
-      - US_172
-      - KR_173
-      - RO_174
-      - CN_175
-      - DE_176
-      - KR_177
-      - CN_178
-      - RU_179
-      - US_180
-      - US_181
-      - KR_182
-      - NL_183
-      - US_184
-      - LT_185
-      - GB_186
-      - JP_187
-      - unKnow_188
-      - US_189
-      - AU_190
+      - 美国3
+      - 美国4
+      - 日本特殊|@ripaojiedian
+      - 美国 - 西雅圖 - Hostwinds LLC. - 360
+      - 韩国4
+      - 韩国2
+      - 韩国5
+      - 韩国3
+      - 新加坡 - 新加坡 - Akari Networks - 24
+      - 美国 - 波特蘭 - Amazon.com, Inc. - 338
+      - 美国5
+      - 新加坡2
+      - 韩国1
+      - 新加坡1
+      - 日本2
+      - 香港|@ripaojiedian
+      - Telegram+@djkkdcx -HK-Hong Kong31
+      - 新加坡3
       - CN_191
-      - CN_192
-      - US_193
+      - 狮城特殊|@ripaojiedian
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
+      - 韩国特殊|@ripaojiedian
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
+      - Telegram+@djkkdcx -TW-Taipei3
+      - 新加坡4
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 18
+      - 🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 17
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 17
+      - 印度(+https://www.fuye.fun/+免费节点分享)_1
+      - 🏁RELAY-104.21.94.64-0717
+      - Telegram+@djkkdcx -TW-Taipei1
+      - 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
+      - 日本|@ripaojiedian
+      - 美国 - 丹佛 - GTHost - 306
+      - 美国 - 丹佛 - GTHost - 245
+      - 美国 - 丹佛 - GTHost - 297
+      - 美国 - 丹佛 - GTHost - 289
+      - 美国 - 丹佛 - GTHost - 334
+      - 美国 - 丹佛 - GTHost - 294
+      - 美国 - 丹佛 - GTHost - 329
+      - 美国 - 丹佛 - GTHost - 319
+      - 美国 - 丹佛 - GTHost - 330
+      - 美国 - 丹佛 - GTHost - 344
+      - 美国 - 丹佛 - GTHost - 268
+      - 美国 - 丹佛 - GTHost - 320
+      - 美国 - 丹佛 - GTHost - 295
+      - 美国 - 丹佛 - GTHost - 266
+      - 美国 - 丹佛 - GTHost - 238
+      - 美国 - 丹佛 - GTHost - 274
+      - 美国 - 丹佛 - GTHost - 270
+      - 美国 - 丹佛 - GTHost - 243
+      - 美国 - 丹佛 - GTHost - 321
+      - 美国 - 丹佛 - GTHost - 337
+      - 美国 - 丹佛 - GTHost - 314
+      - 美国 - 丹佛 - GTHost - 332
+      - 美国 - 丹佛 - GTHost - 272
+      - 美国 - 丹佛 - GTHost - 333
+      - 美国 - 丹佛 - GTHost - 275
+      - 美国 - 丹佛 - GTHost - 342
+      - 美国 - 丹佛 - GTHost - 324
+      - 美国 - 丹佛 - GTHost - 248
+      - 美国 - 丹佛 - GTHost - 276
+      - 美国 - 丹佛 - GTHost - 335
+      - 美国 - 丹佛 - GTHost - 323
+      - 美国 - 丹佛 - GTHost - 257
+      - 美国 - 丹佛 - GTHost - 261
+      - 美国 - 丹佛 - GTHost - 303
+      - 美国 - 丹佛 - GTHost - 318
+      - 美国 - 丹佛 - GTHost - 331
+      - 美国 - 丹佛 - GTHost - 298
+      - 美国 - 丹佛 - GTHost - 317
+      - 美国 - 丹佛 - GTHost - 282
+      - 美国 - 丹佛 - GTHost - 328
+      - 美国 - 丹佛 - GTHost - 267
+      - 美国 - 丹佛 - GTHost - 315
+      - 美国 - 丹佛 - GTHost - 349
+      - 美国 - 丹佛 - GTHost - 269
+      - 美国 - 丹佛 - GTHost - 290
+      - 美国 - 丹佛 - GTHost - 236
+      - 美国 - 丹佛 - GTHost - 253
+      - 美国 - 丹佛 - GTHost - 327
+      - 美国 - 丹佛 - GTHost - 308
+      - 美国 - 丹佛 - GTHost - 325
+      - 美国 - 丹佛 - GTHost - 299
+      - 美国 - 丹佛 - GTHost - 254
+      - 美国 - 丹佛 - GTHost - 285
+      - 美国 - 丹佛 - GTHost - 345
+      - 美国 - 丹佛 - GTHost - 316
+      - 美国 - 丹佛 - GTHost - 296
+      - 美国 - 丹佛 - GTHost - 311
+      - 美国 - 丹佛 - GTHost - 341
+      - 美国 - 丹佛 - GTHost - 302
+      - 美国 - 丹佛 - GTHost - 310
+      - 美国 - 丹佛 - GTHost - 312
+      - 美国 - 丹佛 - GTHost - 251
+      - 美国 - 丹佛 - GTHost - 263
+      - 美国 - 丹佛 - GTHost - 305
+      - 美国 - 丹佛 - GTHost - 326
+      - 美国 - 丹佛 - GTHost - 249
+      - 美国 - 丹佛 - GTHost - 259
+      - 美国 - 丹佛 - GTHost - 247
+      - 美国 - 丹佛 - GTHost - 307
+      - 美国 - 丹佛 - GTHost - 346
+      - 美国 - 丹佛 - GTHost - 256
+      - 美国 - 丹佛 - GTHost - 339
+      - 美国 - 丹佛 - GTHost - 293
+      - 美国 - 丹佛 - GTHost - 246
+      - 美国 - 丹佛 - GTHost - 284
+      - 美国 - 丹佛 - GTHost - 258
+      - 美国 - 丹佛 - GTHost - 283
+      - 美国 - 丹佛 - GTHost - 240
+      - 美国 - 丹佛 - GTHost - 255
+      - 美国 - 丹佛 - GTHost - 343
+      - 美国 - 丹佛 - GTHost - 348
+      - 美国 - 丹佛 - GTHost - 304
+      - 美国 - 丹佛 - GTHost - 322
+      - 美国 - 丹佛 - GTHost - 292
+      - 美国 - 丹佛 - GTHost - 279
+      - 美国 - 丹佛 - GTHost - 313
+      - 美国 - 丹佛 - GTHost - 300
+      - 美国 - 丹佛 - GTHost - 244
+      - 美国 - 丹佛 - GTHost - 239
+      - 美国 - 丹佛 - GTHost - 250
+      - 美国 - 丹佛 - GTHost - 291
+      - 美国 - 丹佛 - GTHost - 336
+      - 美国 - 丹佛 - GTHost - 281
+      - 美国 - 丹佛 - GTHost - 271
+      - 美国 - 丹佛 - GTHost - 264
+      - 美国 - 丹佛 - GTHost - 309
+      - 美国 - 丹佛 - GTHost - 347
+      - 美国 - 丹佛 - GTHost - 277
+      - 美国 - 丹佛 - GTHost - 241
+      - 美国 - 丹佛 - GTHost - 301
+      - 美国 - 丹佛 - GTHost - 242
+      - 美国 - 丹佛 - GTHost - 340
+      - 美国 - 丹佛 - GTHost - 260
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - UA_1
-      - LT_2
-      - LT_3
-      - US_4
-      - US_5
-      - US_6
-      - FR_7
-      - ES_8
-      - NL_9
-      - US_10
-      - GB_11
-      - US_12
-      - US_13
-      - US_14
-      - ES_15
-      - FR_16
-      - RU_17
-      - US_18
-      - IN_19
-      - NL_20
-      - AU_21
-      - US_22
-      - LT_23
-      - CN_24
-      - LT_25
-      - US_26
-      - US_27
-      - FR_28
-      - FR_29
-      - FR_30
-      - FR_31
-      - UA_32
-      - NL_33
-      - GB_34
-      - US_35
-      - ES_36
-      - NL_37
-      - FR_38
-      - UA_39
-      - RU_40
-      - FR_41
-      - NL_42
-      - LT_43
-      - RU_44
-      - CN_45
-      - US_46
-      - CN_47
-      - NL_48
-      - US_49
-      - UA_50
-      - FR_51
-      - FR_52
-      - JP_53
-      - BR_54
-      - NL_55
-      - RU_56
-      - US_57
-      - US_58
-      - GR_59
-      - LT_60
-      - ES_61
-      - US_62
-      - US_63
-      - NL_64
-      - FR_65
-      - US_66
-      - FR_67
-      - US_68
-      - CN_69
-      - US_70
-      - FR_71
-      - GB_72
-      - NL_73
-      - GR_74
-      - LT_75
-      - LT_76
-      - LT_77
-      - FR_78
-      - FR_79
-      - US_80
-      - US_81
-      - unKnow_82
-      - AU_83
-      - US_84
-      - FR_85
-      - US_86
-      - FR_87
-      - NL_88
-      - US_89
-      - US_90
-      - GB_91
-      - US_92
-      - LU_93
-      - CA_94
-      - CN_95
-      - FR_96
-      - CA_97
-      - CA_98
-      - US_99
-      - LT_100
-      - GR_101
-      - CN_102
-      - GR_103
-      - FR_104
-      - CN_105
-      - NL_106
-      - US_107
-      - US_108
-      - GB_109
-      - DE_110
-      - KR_111
-      - AU_112
-      - GB_113
-      - FR_114
-      - NL_115
-      - CA_116
-      - BG_117
-      - FR_118
-      - AU_119
-      - GB_120
-      - SE_121
-      - FR_122
-      - US_123
-      - US_124
-      - KR_125
-      - LT_126
-      - US_127
-      - JP_128
-      - LT_129
-      - LT_130
-      - AU_131
-      - FR_132
-      - NL_133
-      - LU_134
-      - RU_135
-      - CN_136
+      - Telegram+@djkkdcx -US-New York
+      - 塞舌尔_Telegram+@djkkdcx
+      - 🏁RELAY-104.21.24.170-0760
+      - 俄罗斯联邦_Telegram+@djkkdcx
+      - 新加坡_Telegram+@djkkdcx
+      - 美国_Telegram+@djkkdcx
+      - Telegram+@djkkdcx -SG-Singapore1
+      - 🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 2
+      - 日本3
+      - 日本5
+      - 日本4
+      - Telegram+@djkkdcx -JP-Tokyo12
+      - 日本1
+      - 美国 - 波特蘭 - Amazon.com, Inc. - 286
+      - 美国1
+      - 美国2
       - CN_137
-      - CN_138
-      - GB_139
-      - ES_140
-      - CN_141
-      - US_142
-      - FR_143
-      - US_144
-      - ES_145
-      - US_146
-      - CN_147
-      - LU_148
-      - FR_149
-      - CN_150
-      - US_151
-      - US_152
-      - NL_153
-      - CN_154
-      - US_155
-      - JP_156
-      - CN_157
-      - US_158
-      - NL_159
-      - GB_160
-      - JP_161
-      - CN_162
-      - US_163
-      - US_164
-      - AU_165
-      - US_166
-      - US_167
-      - GR_168
-      - KR_169
-      - US_170
-      - CN_171
-      - US_172
-      - KR_173
-      - RO_174
-      - CN_175
-      - DE_176
-      - KR_177
-      - CN_178
-      - RU_179
-      - US_180
-      - US_181
-      - KR_182
-      - NL_183
-      - US_184
-      - LT_185
-      - GB_186
-      - JP_187
-      - unKnow_188
-      - US_189
-      - AU_190
+      - 美国3
+      - 美国4
+      - 日本特殊|@ripaojiedian
+      - 美国 - 西雅圖 - Hostwinds LLC. - 360
+      - 韩国4
+      - 韩国2
+      - 韩国5
+      - 韩国3
+      - 新加坡 - 新加坡 - Akari Networks - 24
+      - 美国 - 波特蘭 - Amazon.com, Inc. - 338
+      - 美国5
+      - 新加坡2
+      - 韩国1
+      - 新加坡1
+      - 日本2
+      - 香港|@ripaojiedian
+      - Telegram+@djkkdcx -HK-Hong Kong31
+      - 新加坡3
       - CN_191
-      - CN_192
-      - US_193
+      - 狮城特殊|@ripaojiedian
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
+      - 韩国特殊|@ripaojiedian
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
+      - Telegram+@djkkdcx -TW-Taipei3
+      - 新加坡4
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 18
+      - 🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 17
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 17
+      - 印度(+https://www.fuye.fun/+免费节点分享)_1
+      - 🏁RELAY-104.21.94.64-0717
+      - Telegram+@djkkdcx -TW-Taipei1
+      - 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
+      - 日本|@ripaojiedian
+      - 美国 - 丹佛 - GTHost - 306
+      - 美国 - 丹佛 - GTHost - 245
+      - 美国 - 丹佛 - GTHost - 297
+      - 美国 - 丹佛 - GTHost - 289
+      - 美国 - 丹佛 - GTHost - 334
+      - 美国 - 丹佛 - GTHost - 294
+      - 美国 - 丹佛 - GTHost - 329
+      - 美国 - 丹佛 - GTHost - 319
+      - 美国 - 丹佛 - GTHost - 330
+      - 美国 - 丹佛 - GTHost - 344
+      - 美国 - 丹佛 - GTHost - 268
+      - 美国 - 丹佛 - GTHost - 320
+      - 美国 - 丹佛 - GTHost - 295
+      - 美国 - 丹佛 - GTHost - 266
+      - 美国 - 丹佛 - GTHost - 238
+      - 美国 - 丹佛 - GTHost - 274
+      - 美国 - 丹佛 - GTHost - 270
+      - 美国 - 丹佛 - GTHost - 243
+      - 美国 - 丹佛 - GTHost - 321
+      - 美国 - 丹佛 - GTHost - 337
+      - 美国 - 丹佛 - GTHost - 314
+      - 美国 - 丹佛 - GTHost - 332
+      - 美国 - 丹佛 - GTHost - 272
+      - 美国 - 丹佛 - GTHost - 333
+      - 美国 - 丹佛 - GTHost - 275
+      - 美国 - 丹佛 - GTHost - 342
+      - 美国 - 丹佛 - GTHost - 324
+      - 美国 - 丹佛 - GTHost - 248
+      - 美国 - 丹佛 - GTHost - 276
+      - 美国 - 丹佛 - GTHost - 335
+      - 美国 - 丹佛 - GTHost - 323
+      - 美国 - 丹佛 - GTHost - 257
+      - 美国 - 丹佛 - GTHost - 261
+      - 美国 - 丹佛 - GTHost - 303
+      - 美国 - 丹佛 - GTHost - 318
+      - 美国 - 丹佛 - GTHost - 331
+      - 美国 - 丹佛 - GTHost - 298
+      - 美国 - 丹佛 - GTHost - 317
+      - 美国 - 丹佛 - GTHost - 282
+      - 美国 - 丹佛 - GTHost - 328
+      - 美国 - 丹佛 - GTHost - 267
+      - 美国 - 丹佛 - GTHost - 315
+      - 美国 - 丹佛 - GTHost - 349
+      - 美国 - 丹佛 - GTHost - 269
+      - 美国 - 丹佛 - GTHost - 290
+      - 美国 - 丹佛 - GTHost - 236
+      - 美国 - 丹佛 - GTHost - 253
+      - 美国 - 丹佛 - GTHost - 327
+      - 美国 - 丹佛 - GTHost - 308
+      - 美国 - 丹佛 - GTHost - 325
+      - 美国 - 丹佛 - GTHost - 299
+      - 美国 - 丹佛 - GTHost - 254
+      - 美国 - 丹佛 - GTHost - 285
+      - 美国 - 丹佛 - GTHost - 345
+      - 美国 - 丹佛 - GTHost - 316
+      - 美国 - 丹佛 - GTHost - 296
+      - 美国 - 丹佛 - GTHost - 311
+      - 美国 - 丹佛 - GTHost - 341
+      - 美国 - 丹佛 - GTHost - 302
+      - 美国 - 丹佛 - GTHost - 310
+      - 美国 - 丹佛 - GTHost - 312
+      - 美国 - 丹佛 - GTHost - 251
+      - 美国 - 丹佛 - GTHost - 263
+      - 美国 - 丹佛 - GTHost - 305
+      - 美国 - 丹佛 - GTHost - 326
+      - 美国 - 丹佛 - GTHost - 249
+      - 美国 - 丹佛 - GTHost - 259
+      - 美国 - 丹佛 - GTHost - 247
+      - 美国 - 丹佛 - GTHost - 307
+      - 美国 - 丹佛 - GTHost - 346
+      - 美国 - 丹佛 - GTHost - 256
+      - 美国 - 丹佛 - GTHost - 339
+      - 美国 - 丹佛 - GTHost - 293
+      - 美国 - 丹佛 - GTHost - 246
+      - 美国 - 丹佛 - GTHost - 284
+      - 美国 - 丹佛 - GTHost - 258
+      - 美国 - 丹佛 - GTHost - 283
+      - 美国 - 丹佛 - GTHost - 240
+      - 美国 - 丹佛 - GTHost - 255
+      - 美国 - 丹佛 - GTHost - 343
+      - 美国 - 丹佛 - GTHost - 348
+      - 美国 - 丹佛 - GTHost - 304
+      - 美国 - 丹佛 - GTHost - 322
+      - 美国 - 丹佛 - GTHost - 292
+      - 美国 - 丹佛 - GTHost - 279
+      - 美国 - 丹佛 - GTHost - 313
+      - 美国 - 丹佛 - GTHost - 300
+      - 美国 - 丹佛 - GTHost - 244
+      - 美国 - 丹佛 - GTHost - 239
+      - 美国 - 丹佛 - GTHost - 250
+      - 美国 - 丹佛 - GTHost - 291
+      - 美国 - 丹佛 - GTHost - 336
+      - 美国 - 丹佛 - GTHost - 281
+      - 美国 - 丹佛 - GTHost - 271
+      - 美国 - 丹佛 - GTHost - 264
+      - 美国 - 丹佛 - GTHost - 309
+      - 美国 - 丹佛 - GTHost - 347
+      - 美国 - 丹佛 - GTHost - 277
+      - 美国 - 丹佛 - GTHost - 241
+      - 美国 - 丹佛 - GTHost - 301
+      - 美国 - 丹佛 - GTHost - 242
+      - 美国 - 丹佛 - GTHost - 340
+      - 美国 - 丹佛 - GTHost - 260
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1095,199 +900,160 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - UA_1
-      - LT_2
-      - LT_3
-      - US_4
-      - US_5
-      - US_6
-      - FR_7
-      - ES_8
-      - NL_9
-      - US_10
-      - GB_11
-      - US_12
-      - US_13
-      - US_14
-      - ES_15
-      - FR_16
-      - RU_17
-      - US_18
-      - IN_19
-      - NL_20
-      - AU_21
-      - US_22
-      - LT_23
-      - CN_24
-      - LT_25
-      - US_26
-      - US_27
-      - FR_28
-      - FR_29
-      - FR_30
-      - FR_31
-      - UA_32
-      - NL_33
-      - GB_34
-      - US_35
-      - ES_36
-      - NL_37
-      - FR_38
-      - UA_39
-      - RU_40
-      - FR_41
-      - NL_42
-      - LT_43
-      - RU_44
-      - CN_45
-      - US_46
-      - CN_47
-      - NL_48
-      - US_49
-      - UA_50
-      - FR_51
-      - FR_52
-      - JP_53
-      - BR_54
-      - NL_55
-      - RU_56
-      - US_57
-      - US_58
-      - GR_59
-      - LT_60
-      - ES_61
-      - US_62
-      - US_63
-      - NL_64
-      - FR_65
-      - US_66
-      - FR_67
-      - US_68
-      - CN_69
-      - US_70
-      - FR_71
-      - GB_72
-      - NL_73
-      - GR_74
-      - LT_75
-      - LT_76
-      - LT_77
-      - FR_78
-      - FR_79
-      - US_80
-      - US_81
-      - unKnow_82
-      - AU_83
-      - US_84
-      - FR_85
-      - US_86
-      - FR_87
-      - NL_88
-      - US_89
-      - US_90
-      - GB_91
-      - US_92
-      - LU_93
-      - CA_94
-      - CN_95
-      - FR_96
-      - CA_97
-      - CA_98
-      - US_99
-      - LT_100
-      - GR_101
-      - CN_102
-      - GR_103
-      - FR_104
-      - CN_105
-      - NL_106
-      - US_107
-      - US_108
-      - GB_109
-      - DE_110
-      - KR_111
-      - AU_112
-      - GB_113
-      - FR_114
-      - NL_115
-      - CA_116
-      - BG_117
-      - FR_118
-      - AU_119
-      - GB_120
-      - SE_121
-      - FR_122
-      - US_123
-      - US_124
-      - KR_125
-      - LT_126
-      - US_127
-      - JP_128
-      - LT_129
-      - LT_130
-      - AU_131
-      - FR_132
-      - NL_133
-      - LU_134
-      - RU_135
-      - CN_136
+      - Telegram+@djkkdcx -US-New York
+      - 塞舌尔_Telegram+@djkkdcx
+      - 🏁RELAY-104.21.24.170-0760
+      - 俄罗斯联邦_Telegram+@djkkdcx
+      - 新加坡_Telegram+@djkkdcx
+      - 美国_Telegram+@djkkdcx
+      - Telegram+@djkkdcx -SG-Singapore1
+      - 🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 2
+      - 日本3
+      - 日本5
+      - 日本4
+      - Telegram+@djkkdcx -JP-Tokyo12
+      - 日本1
+      - 美国 - 波特蘭 - Amazon.com, Inc. - 286
+      - 美国1
+      - 美国2
       - CN_137
-      - CN_138
-      - GB_139
-      - ES_140
-      - CN_141
-      - US_142
-      - FR_143
-      - US_144
-      - ES_145
-      - US_146
-      - CN_147
-      - LU_148
-      - FR_149
-      - CN_150
-      - US_151
-      - US_152
-      - NL_153
-      - CN_154
-      - US_155
-      - JP_156
-      - CN_157
-      - US_158
-      - NL_159
-      - GB_160
-      - JP_161
-      - CN_162
-      - US_163
-      - US_164
-      - AU_165
-      - US_166
-      - US_167
-      - GR_168
-      - KR_169
-      - US_170
-      - CN_171
-      - US_172
-      - KR_173
-      - RO_174
-      - CN_175
-      - DE_176
-      - KR_177
-      - CN_178
-      - RU_179
-      - US_180
-      - US_181
-      - KR_182
-      - NL_183
-      - US_184
-      - LT_185
-      - GB_186
-      - JP_187
-      - unKnow_188
-      - US_189
-      - AU_190
+      - 美国3
+      - 美国4
+      - 日本特殊|@ripaojiedian
+      - 美国 - 西雅圖 - Hostwinds LLC. - 360
+      - 韩国4
+      - 韩国2
+      - 韩国5
+      - 韩国3
+      - 新加坡 - 新加坡 - Akari Networks - 24
+      - 美国 - 波特蘭 - Amazon.com, Inc. - 338
+      - 美国5
+      - 新加坡2
+      - 韩国1
+      - 新加坡1
+      - 日本2
+      - 香港|@ripaojiedian
+      - Telegram+@djkkdcx -HK-Hong Kong31
+      - 新加坡3
       - CN_191
-      - CN_192
-      - US_193
+      - 狮城特殊|@ripaojiedian
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
+      - 韩国特殊|@ripaojiedian
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
+      - Telegram+@djkkdcx -TW-Taipei3
+      - 新加坡4
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 18
+      - 🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 17
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 17
+      - 印度(+https://www.fuye.fun/+免费节点分享)_1
+      - 🏁RELAY-104.21.94.64-0717
+      - Telegram+@djkkdcx -TW-Taipei1
+      - 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
+      - 日本|@ripaojiedian
+      - 美国 - 丹佛 - GTHost - 306
+      - 美国 - 丹佛 - GTHost - 245
+      - 美国 - 丹佛 - GTHost - 297
+      - 美国 - 丹佛 - GTHost - 289
+      - 美国 - 丹佛 - GTHost - 334
+      - 美国 - 丹佛 - GTHost - 294
+      - 美国 - 丹佛 - GTHost - 329
+      - 美国 - 丹佛 - GTHost - 319
+      - 美国 - 丹佛 - GTHost - 330
+      - 美国 - 丹佛 - GTHost - 344
+      - 美国 - 丹佛 - GTHost - 268
+      - 美国 - 丹佛 - GTHost - 320
+      - 美国 - 丹佛 - GTHost - 295
+      - 美国 - 丹佛 - GTHost - 266
+      - 美国 - 丹佛 - GTHost - 238
+      - 美国 - 丹佛 - GTHost - 274
+      - 美国 - 丹佛 - GTHost - 270
+      - 美国 - 丹佛 - GTHost - 243
+      - 美国 - 丹佛 - GTHost - 321
+      - 美国 - 丹佛 - GTHost - 337
+      - 美国 - 丹佛 - GTHost - 314
+      - 美国 - 丹佛 - GTHost - 332
+      - 美国 - 丹佛 - GTHost - 272
+      - 美国 - 丹佛 - GTHost - 333
+      - 美国 - 丹佛 - GTHost - 275
+      - 美国 - 丹佛 - GTHost - 342
+      - 美国 - 丹佛 - GTHost - 324
+      - 美国 - 丹佛 - GTHost - 248
+      - 美国 - 丹佛 - GTHost - 276
+      - 美国 - 丹佛 - GTHost - 335
+      - 美国 - 丹佛 - GTHost - 323
+      - 美国 - 丹佛 - GTHost - 257
+      - 美国 - 丹佛 - GTHost - 261
+      - 美国 - 丹佛 - GTHost - 303
+      - 美国 - 丹佛 - GTHost - 318
+      - 美国 - 丹佛 - GTHost - 331
+      - 美国 - 丹佛 - GTHost - 298
+      - 美国 - 丹佛 - GTHost - 317
+      - 美国 - 丹佛 - GTHost - 282
+      - 美国 - 丹佛 - GTHost - 328
+      - 美国 - 丹佛 - GTHost - 267
+      - 美国 - 丹佛 - GTHost - 315
+      - 美国 - 丹佛 - GTHost - 349
+      - 美国 - 丹佛 - GTHost - 269
+      - 美国 - 丹佛 - GTHost - 290
+      - 美国 - 丹佛 - GTHost - 236
+      - 美国 - 丹佛 - GTHost - 253
+      - 美国 - 丹佛 - GTHost - 327
+      - 美国 - 丹佛 - GTHost - 308
+      - 美国 - 丹佛 - GTHost - 325
+      - 美国 - 丹佛 - GTHost - 299
+      - 美国 - 丹佛 - GTHost - 254
+      - 美国 - 丹佛 - GTHost - 285
+      - 美国 - 丹佛 - GTHost - 345
+      - 美国 - 丹佛 - GTHost - 316
+      - 美国 - 丹佛 - GTHost - 296
+      - 美国 - 丹佛 - GTHost - 311
+      - 美国 - 丹佛 - GTHost - 341
+      - 美国 - 丹佛 - GTHost - 302
+      - 美国 - 丹佛 - GTHost - 310
+      - 美国 - 丹佛 - GTHost - 312
+      - 美国 - 丹佛 - GTHost - 251
+      - 美国 - 丹佛 - GTHost - 263
+      - 美国 - 丹佛 - GTHost - 305
+      - 美国 - 丹佛 - GTHost - 326
+      - 美国 - 丹佛 - GTHost - 249
+      - 美国 - 丹佛 - GTHost - 259
+      - 美国 - 丹佛 - GTHost - 247
+      - 美国 - 丹佛 - GTHost - 307
+      - 美国 - 丹佛 - GTHost - 346
+      - 美国 - 丹佛 - GTHost - 256
+      - 美国 - 丹佛 - GTHost - 339
+      - 美国 - 丹佛 - GTHost - 293
+      - 美国 - 丹佛 - GTHost - 246
+      - 美国 - 丹佛 - GTHost - 284
+      - 美国 - 丹佛 - GTHost - 258
+      - 美国 - 丹佛 - GTHost - 283
+      - 美国 - 丹佛 - GTHost - 240
+      - 美国 - 丹佛 - GTHost - 255
+      - 美国 - 丹佛 - GTHost - 343
+      - 美国 - 丹佛 - GTHost - 348
+      - 美国 - 丹佛 - GTHost - 304
+      - 美国 - 丹佛 - GTHost - 322
+      - 美国 - 丹佛 - GTHost - 292
+      - 美国 - 丹佛 - GTHost - 279
+      - 美国 - 丹佛 - GTHost - 313
+      - 美国 - 丹佛 - GTHost - 300
+      - 美国 - 丹佛 - GTHost - 244
+      - 美国 - 丹佛 - GTHost - 239
+      - 美国 - 丹佛 - GTHost - 250
+      - 美国 - 丹佛 - GTHost - 291
+      - 美国 - 丹佛 - GTHost - 336
+      - 美国 - 丹佛 - GTHost - 281
+      - 美国 - 丹佛 - GTHost - 271
+      - 美国 - 丹佛 - GTHost - 264
+      - 美国 - 丹佛 - GTHost - 309
+      - 美国 - 丹佛 - GTHost - 347
+      - 美国 - 丹佛 - GTHost - 277
+      - 美国 - 丹佛 - GTHost - 241
+      - 美国 - 丹佛 - GTHost - 301
+      - 美国 - 丹佛 - GTHost - 242
+      - 美国 - 丹佛 - GTHost - 340
+      - 美国 - 丹佛 - GTHost - 260
 
 rules:
 # 本地/局域网地址
