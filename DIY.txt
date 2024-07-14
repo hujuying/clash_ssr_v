@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-14 03:10:38
+# 创建时间：2024-07-15 03:44:40
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：154
-# 节点类型：vless, vmess, trojan, ss
+# 节点数量：56
+# 节点类型：vless, trojan, vmess, ss
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,160 +87,62 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Telegram+@djkkdcx -US-New York","type":"vless","server":"43.153.103.203","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"塞舌尔_Telegram+@djkkdcx","type":"vless","server":"45.133.247.151","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🏁RELAY-104.21.24.170-0760","type":"vmess","server":"denc36.xtooltech.cfd","port":443,"cipher":"auto","uuid":"b321fd5d-e6ec-4293-a644-164e3885f52e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc36v.xtooltech.cfd"}}}
-  - {"name":"俄罗斯联邦_Telegram+@djkkdcx","type":"vless","server":"185.176.24.140","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"新加坡_Telegram+@djkkdcx","type":"vless","server":"27.50.48.222","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"美国_Telegram+@djkkdcx","type":"vless","server":"185.148.105.225","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"Telegram+@djkkdcx -SG-Singapore1","type":"vless","server":"140.99.233.156","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 2","type":"trojan","server":"13.60.149.129","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
-  - {"name":"日本3","type":"vmess","server":"jd-rb3.yqh168.top","port":45222,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"日本5","type":"vmess","server":"jd-rb5.yqh168.top","port":45224,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"日本4","type":"vmess","server":"jd-rb4.yqh168.top","port":45223,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
+  - {"name":"美国_Telegram+@djkkdcx_1","type":"vless","server":"216.205.52.109","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"英国_Telegram+@djkkdcx_1","type":"vless","server":"91.193.58.119","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"Telegram+@djkkdcx -南非🇿🇦","type":"vless","server":"185.238.228.212","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT_1","type":"vless","server":"45.133.247.84","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx -JP-Tokyo5","type":"vless","server":"188.42.145.159","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx -HK-Hong Kong9","type":"vless","server":"104.17.23.9","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT_2","type":"vless","server":"185.176.24.108","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT_3","type":"vless","server":"45.159.217.145","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"美国_Telegram+@djkkdcx_2","type":"vless","server":"185.148.105.225","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"Telegram+@djkkdcx 禁止爬取本订阅节点","type":"vless","server":"104.20.6.94","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx -JP-Tokyo20","type":"vless","server":"45.133.247.14","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"英国_Telegram+@djkkdcx_2","type":"vless","server":"94.247.142.245","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"WK香港 电信优选","type":"vless","server":"www.udemy.com","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.yzcjd.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.yzcjd.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"Telegram+@djkkdcx -US-California","type":"vless","server":"154.197.121.178","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT_4","type":"vless","server":"188.42.89.18","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"新加坡_Telegram+@djkkdcx_1","type":"vless","server":"27.50.49.232","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 2","type":"trojan","server":"51.20.237.232","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"CT_5","type":"vless","server":"199.212.90.53","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx -JP-Tokyo21","type":"vless","server":"193.122.110.164","port":25800,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx -JP-Tokyo17","type":"vless","server":"146.56.171.182","port":11659,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx -JP-Tokyo14","type":"vless","server":"129.154.223.89","port":15800,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇺🇸 美国 CloudFlare节点 75","type":"vmess","server":"Djeferson.digifashop.ir","port":443,"cipher":"auto","uuid":"0d4318b0-b458-416f-9095-a2fdf980a9fb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Peletier.digifashop.ir","network":"ws","ws-opts":{"path":"@RaFaV2ray","headers":{"host":"Djeferson.digifashop.ir"}}}
+  - {"name":"【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Akari Networks - 347","type":"vmess","server":"in06.dns2024.org","port":63016,"cipher":"auto","uuid":"6cf559be-8e10-3c59-ad8c-7345fa164ab8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"Telegram+@djkkdcx -JP-Tokyo12","type":"vless","server":"149.28.22.198","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"日本1","type":"vmess","server":"jd-rb1.yqh168.top","port":45220,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"美国 - 波特蘭 - Amazon.com, Inc. - 286","type":"ss","server":"34.216.76.22","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"美国1","type":"vmess","server":"jd-mg1.yqh168.top","port":45215,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"美国2","type":"vmess","server":"jd-mg2.yqh168.top","port":45216,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"CN_137","type":"trojan","server":"183.232.139.22","port":40081,"udp":true,"password":"GsKYmYOE","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国3","type":"vmess","server":"jd-mg3.yqh168.top","port":45217,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"美国4","type":"vmess","server":"jd-mg4.yqh168.top","port":45218,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"日本特殊|@ripaojiedian","type":"ss","server":"3.112.152.101","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"美国 - 西雅圖 - Hostwinds LLC. - 360","type":"vmess","server":"23.254.166.237","port":2086,"cipher":"auto","uuid":"8d0fd618-5d60-40d6-9f23-e503555f496f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"韩国4","type":"vmess","server":"jd-hg4.yqh168.top","port":45233,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"韩国2","type":"vmess","server":"jd-hg2.yqh168.top","port":45231,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"韩国5","type":"vmess","server":"jd-hg5.yqh168.top","port":45234,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"韩国3","type":"vmess","server":"jd-hg3.yqh168.top","port":45232,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"新加坡 - 新加坡 - Akari Networks - 24","type":"vmess","server":"in06.dns2024.org","port":63012,"cipher":"auto","uuid":"6cf559be-8e10-3c59-ad8c-7345fa164ab8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国 - 波特蘭 - Amazon.com, Inc. - 338","type":"ss","server":"54.189.133.244","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"美国5","type":"vmess","server":"jd-mg5.yqh168.top","port":45219,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"新加坡2","type":"vmess","server":"jd-xjp2.yqh168.top","port":45226,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"韩国1","type":"vmess","server":"jd-hg1.yqh168.top","port":45230,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"新加坡1","type":"vmess","server":"jd-xjp1.yqh168.top","port":45225,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"日本2","type":"vmess","server":"jd-rb2.yqh168.top","port":45221,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"香港|@ripaojiedian","type":"ss","server":"123.88.148.9","port":65045,"password":"7514d66e-9bd7-4fd6-91a0-0532aec92f9d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Telegram+@djkkdcx -HK-Hong Kong31","type":"vless","server":"38.181.73.64","port":62888,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"新加坡3","type":"vmess","server":"jd-xjp3.yqh168.top","port":45227,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"CN_191","type":"trojan","server":"183.240.179.191","port":50045,"udp":true,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","sni":"hgc2.aaaa.gay","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"狮城特殊|@ripaojiedian","type":"ss","server":"54.95.211.49","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"新加坡 - 新加坡 - Amazon Technologies Inc. - 16","type":"ss","server":"13.250.116.168","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"韩国特殊|@ripaojiedian","type":"ss","server":"13.230.162.23","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"新加坡 - 新加坡 - Amazon Technologies Inc. - 19","type":"ss","server":"3.0.19.102","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"Telegram+@djkkdcx -TW-Taipei3","type":"vless","server":"61.220.41.143","port":36633,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"新加坡4","type":"vmess","server":"jd-xjp4.yqh168.top","port":45228,"cipher":"auto","uuid":"45d2fe72-545d-4014-aa48-65d47df93da2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/websitego","headers":{"host":"www.bing.com"}}}
-  - {"name":"新加坡 - 新加坡 - Amazon.com, Inc. - 18","type":"ss","server":"54.251.87.81","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 17","type":"vmess","server":"id1.ubaistore.my.id","port":80,"cipher":"auto","uuid":"7e872fff-2f77-4fa1-813b-70b2f41dd128","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"id1.ubaistore.my.id"}}}
-  - {"name":"新加坡 - 新加坡 - Amazon Technologies Inc. - 20","type":"ss","server":"54.255.232.203","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"新加坡 - 新加坡 - Amazon Technologies Inc. - 17","type":"ss","server":"18.139.110.249","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"印度(+https://www.fuye.fun/+免费节点分享)_1","type":"trojan","server":"ger.aaaa.gay","port":45900,"udp":true,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","sni":"ger.aaaa.gay","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Telegram+@djkkdcx -JP-Tokyo16","type":"vless","server":"140.238.8.194","port":15800,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"🏁RELAY-104.21.94.64-0717","type":"vmess","server":"lin0502.hwcar.sbs","port":443,"cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
+  - {"name":"🇨🇳 台湾|@ripaojiedian","type":"trojan","server":"211.72.156.17","port":23555,"udp":true,"password":"moist","sni":"trojan.freenods.sbs","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"trojan.freenods.sbs"}}}
+  - {"name":"美国 - 洛杉矶 - Global Communication Network Limited - 28","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37041,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"Telegram+@djkkdcx -TW-Taipei11","type":"vless","server":"203.69.248.40","port":27381,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT_6","type":"vless","server":"170.114.45.216","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇸🇬 狮城特殊|@ripaojiedian","type":"ss","server":"13.230.150.119","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"Telegram+@djkkdcx -SG-Singapore3","type":"vless","server":"47.236.93.176","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx -德国🇩🇪","type":"vless","server":"46.105.170.124","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"denc36.xtooltech.cfd","port":443,"cipher":"auto","uuid":"b321fd5d-e6ec-4293-a644-164e3885f52e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc36v.xtooltech.cfd"}}}
+  - {"name":"Telegram+@djkkdcx -JP-Tokyo1","type":"vless","server":"193.122.126.64","port":53777,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx -KR12","type":"vless","server":"152.70.239.134","port":34237,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇨🇳|CN|中国|@wxgqlfx|25","type":"trojan","server":"183.240.179.191","port":50045,"udp":true,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","sni":"hgc2.aaaa.gay","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram+@djkkdcx_2","type":"vless","server":"27.50.48.222","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"Telegram+@djkkdcx -奥地利🇦🇹","type":"vless","server":"94.177.8.26","port":130,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx -HK-Hong Kong24","type":"vless","server":"104.17.23.11","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx -HK-Hong Kong31","type":"vless","server":"38.181.73.64","port":62888,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx -HK-Hong Kong15","type":"vless","server":"104.19.158.7","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"新加坡 - 新加坡 - Amazon Technologies Inc. - 16","type":"ss","server":"13.250.116.168","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"韩国 - 首尔特别市 - Amazon Technologies Inc. - 1","type":"ss","server":"13.124.244.90","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"新加坡 - 新加坡 - Amazon Technologies Inc. - 20","type":"ss","server":"54.255.232.203","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"新加坡 - 新加坡 - Amazon.com, Inc. - 19","type":"ss","server":"52.77.254.168","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"Telegram+@djkkdcx -KR2","type":"vless","server":"146.56.166.59","port":46060,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx -澳大利亚🇦🇺","type":"vless","server":"192.9.165.253","port":47580,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"Telegram+@djkkdcx -TW-Taipei1","type":"vless","server":"61.220.65.189","port":26832,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"韩国 - 首尔特别市 - Amazon.com, Inc. - 1","type":"ss","server":"3.39.227.28","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"日本|@ripaojiedian","type":"trojan","server":"183.232.139.22","port":36931,"udp":true,"password":"RmdXQRXg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国 - 丹佛 - GTHost - 306","type":"ss","server":"69.50.95.218","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 245","type":"ss","server":"69.50.95.180","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 297","type":"ss","server":"69.50.95.218","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 289","type":"ss","server":"69.50.95.165","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 334","type":"ss","server":"69.50.95.218","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 294","type":"ss","server":"69.50.95.101","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 329","type":"ss","server":"69.50.95.218","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 319","type":"ss","server":"69.50.95.180","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 330","type":"ss","server":"69.50.95.180","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 344","type":"ss","server":"69.50.95.191","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 268","type":"ss","server":"69.50.95.218","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 320","type":"ss","server":"69.50.95.218","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 295","type":"ss","server":"69.50.95.191","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 266","type":"ss","server":"69.50.95.180","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 238","type":"ss","server":"69.50.95.191","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 274","type":"ss","server":"69.50.95.191","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 270","type":"ss","server":"69.50.95.218","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 243","type":"ss","server":"69.50.95.218","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 321","type":"ss","server":"69.50.95.191","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 337","type":"ss","server":"69.50.95.180","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 314","type":"ss","server":"69.50.95.218","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 332","type":"ss","server":"69.50.95.218","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 272","type":"ss","server":"69.50.95.191","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 333","type":"ss","server":"69.50.95.218","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 275","type":"ss","server":"69.50.95.191","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 342","type":"ss","server":"69.50.95.180","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 324","type":"ss","server":"69.50.95.180","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 248","type":"ss","server":"69.50.95.180","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 276","type":"ss","server":"69.50.95.191","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 335","type":"ss","server":"69.50.95.191","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 323","type":"ss","server":"69.50.95.180","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 257","type":"ss","server":"69.50.95.180","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 261","type":"ss","server":"69.50.95.180","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 303","type":"ss","server":"69.50.95.191","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 318","type":"ss","server":"69.50.95.180","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 331","type":"ss","server":"69.50.95.191","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 298","type":"ss","server":"69.50.95.218","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 317","type":"ss","server":"69.50.95.180","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 282","type":"ss","server":"69.50.95.53","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 328","type":"ss","server":"69.50.95.180","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 267","type":"ss","server":"69.50.95.218","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 315","type":"ss","server":"69.50.95.218","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 349","type":"ss","server":"69.50.95.180","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 269","type":"ss","server":"69.50.95.180","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 290","type":"ss","server":"69.50.95.218","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 236","type":"ss","server":"69.50.95.218","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 253","type":"ss","server":"69.50.95.180","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 327","type":"ss","server":"69.50.95.180","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 308","type":"ss","server":"69.50.95.218","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 325","type":"ss","server":"69.50.95.191","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 299","type":"ss","server":"69.50.95.218","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 254","type":"ss","server":"69.50.95.191","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 285","type":"ss","server":"69.50.95.174","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 345","type":"ss","server":"69.50.95.191","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 316","type":"ss","server":"69.50.95.218","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 296","type":"ss","server":"69.50.95.218","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 311","type":"ss","server":"69.50.95.218","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 341","type":"ss","server":"69.50.95.180","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 302","type":"ss","server":"69.50.95.191","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 310","type":"ss","server":"69.50.95.218","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 312","type":"ss","server":"69.50.95.180","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 251","type":"ss","server":"69.50.95.191","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 263","type":"ss","server":"69.50.95.191","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 305","type":"ss","server":"69.50.95.191","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 326","type":"ss","server":"69.50.95.191","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 249","type":"ss","server":"69.50.95.180","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 259","type":"ss","server":"69.50.95.180","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 247","type":"ss","server":"69.50.95.180","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 307","type":"ss","server":"69.50.95.218","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 346","type":"ss","server":"69.50.95.180","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 256","type":"ss","server":"69.50.95.218","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 339","type":"ss","server":"69.50.95.180","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 293","type":"ss","server":"69.50.95.218","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 246","type":"ss","server":"69.50.95.191","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 284","type":"ss","server":"69.50.95.124","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 258","type":"ss","server":"69.50.95.191","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 283","type":"ss","server":"69.50.95.218","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 240","type":"ss","server":"69.50.95.180","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 255","type":"ss","server":"69.50.95.218","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 343","type":"ss","server":"69.50.95.191","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 348","type":"ss","server":"69.50.95.191","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 304","type":"ss","server":"69.50.95.180","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 322","type":"ss","server":"69.50.95.191","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 292","type":"ss","server":"69.50.95.191","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 279","type":"ss","server":"69.50.95.191","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 313","type":"ss","server":"69.50.95.218","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 300","type":"ss","server":"69.50.95.218","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 244","type":"ss","server":"69.50.95.180","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 239","type":"ss","server":"69.50.95.191","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 250","type":"ss","server":"69.50.95.191","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 291","type":"ss","server":"69.50.95.191","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 336","type":"ss","server":"69.50.95.180","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 281","type":"ss","server":"69.50.95.86","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 271","type":"ss","server":"69.50.95.218","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 264","type":"ss","server":"69.50.95.191","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 309","type":"ss","server":"69.50.95.218","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 347","type":"ss","server":"69.50.95.180","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 277","type":"ss","server":"69.50.95.191","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 241","type":"ss","server":"69.50.95.191","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 301","type":"ss","server":"69.50.95.180","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 242","type":"ss","server":"69.50.95.180","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 340","type":"ss","server":"69.50.95.180","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"美国 - 丹佛 - GTHost - 260","type":"ss","server":"69.50.95.180","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇩🇪|DE|德国|@wxgqlfx|31","type":"vless","server":"51.75.90.198","port":2096,"uuid":"8daf8455-c3cc-4717-8e5a-f36c82a9eb2a","tls":true,"servername":"moon.norwaylovers.com","network":"ws","ws-opts":{"path":"/moon"}}
+  - {"name":"新加坡 - 新加坡 - Amazon.com, Inc. - 20","type":"ss","server":"54.251.87.81","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🔒 TR-TCP-TLS 🇩🇪 DE-3.73.45.155:22222","type":"trojan","server":"3.73.45.155","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"CT_7","type":"vless","server":"192.65.217.86","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇺🇸 美国 CloudFlare节点","type":"vmess","server":"russia.com","port":80,"cipher":"auto","uuid":"06d65689-a12a-467c-9ff8-0363fe90c0b4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"sssub.v2.001.ssrsub.com"}}}
+  - {"name":"新加坡 - 新加坡 - Amazon Technologies Inc. - 19","type":"ss","server":"3.0.19.102","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"Telegram+@djkkdcx -HK-Hong Kong7","type":"vless","server":"104.17.23.9","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -249,638 +151,246 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - Telegram+@djkkdcx -US-New York
-      - 塞舌尔_Telegram+@djkkdcx
-      - 🏁RELAY-104.21.24.170-0760
-      - 俄罗斯联邦_Telegram+@djkkdcx
-      - 新加坡_Telegram+@djkkdcx
-      - 美国_Telegram+@djkkdcx
-      - Telegram+@djkkdcx -SG-Singapore1
+      - 美国_Telegram+@djkkdcx_1
+      - 英国_Telegram+@djkkdcx_1
+      - Telegram+@djkkdcx -南非🇿🇦
+      - CT_1
+      - Telegram+@djkkdcx -JP-Tokyo5
+      - Telegram+@djkkdcx -HK-Hong Kong9
+      - CT_2
+      - CT_3
+      - 美国_Telegram+@djkkdcx_2
+      - Telegram+@djkkdcx 禁止爬取本订阅节点
+      - Telegram+@djkkdcx -JP-Tokyo20
+      - 英国_Telegram+@djkkdcx_2
+      - WK香港 电信优选
+      - Telegram+@djkkdcx -US-California
+      - CT_4
+      - 新加坡_Telegram+@djkkdcx_1
       - 🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 2
-      - 日本3
-      - 日本5
-      - 日本4
+      - CT_5
+      - Telegram+@djkkdcx -JP-Tokyo21
+      - Telegram+@djkkdcx -JP-Tokyo17
+      - Telegram+@djkkdcx -JP-Tokyo14
+      - 🇺🇸 美国 CloudFlare节点 75
+      - 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Akari Networks - 347
       - Telegram+@djkkdcx -JP-Tokyo12
-      - 日本1
-      - 美国 - 波特蘭 - Amazon.com, Inc. - 286
-      - 美国1
-      - 美国2
-      - CN_137
-      - 美国3
-      - 美国4
-      - 日本特殊|@ripaojiedian
-      - 美国 - 西雅圖 - Hostwinds LLC. - 360
-      - 韩国4
-      - 韩国2
-      - 韩国5
-      - 韩国3
-      - 新加坡 - 新加坡 - Akari Networks - 24
-      - 美国 - 波特蘭 - Amazon.com, Inc. - 338
-      - 美国5
-      - 新加坡2
-      - 韩国1
-      - 新加坡1
-      - 日本2
-      - 香港|@ripaojiedian
-      - Telegram+@djkkdcx -HK-Hong Kong31
-      - 新加坡3
-      - CN_191
-      - 狮城特殊|@ripaojiedian
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
-      - 韩国特殊|@ripaojiedian
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
-      - Telegram+@djkkdcx -TW-Taipei3
-      - 新加坡4
-      - 新加坡 - 新加坡 - Amazon.com, Inc. - 18
-      - 🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 17
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 17
-      - 印度(+https://www.fuye.fun/+免费节点分享)_1
+      - Telegram+@djkkdcx -JP-Tokyo16
       - 🏁RELAY-104.21.94.64-0717
+      - 🇨🇳 台湾|@ripaojiedian
+      - 美国 - 洛杉矶 - Global Communication Network Limited - 28
+      - Telegram+@djkkdcx -TW-Taipei11
+      - CT_6
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - Telegram+@djkkdcx -SG-Singapore3
+      - Telegram+@djkkdcx -德国🇩🇪
+      - 美国 CloudFlare节点
+      - Telegram+@djkkdcx -JP-Tokyo1
+      - Telegram+@djkkdcx -KR12
+      - 🇨🇳|CN|中国|@wxgqlfx|25
+      - 新加坡_Telegram+@djkkdcx_2
+      - Telegram+@djkkdcx -奥地利🇦🇹
+      - Telegram+@djkkdcx -HK-Hong Kong24
+      - Telegram+@djkkdcx -HK-Hong Kong31
+      - Telegram+@djkkdcx -HK-Hong Kong15
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
+      - 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 19
+      - Telegram+@djkkdcx -KR2
+      - Telegram+@djkkdcx -澳大利亚🇦🇺
       - Telegram+@djkkdcx -TW-Taipei1
-      - 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
-      - 日本|@ripaojiedian
-      - 美国 - 丹佛 - GTHost - 306
-      - 美国 - 丹佛 - GTHost - 245
-      - 美国 - 丹佛 - GTHost - 297
-      - 美国 - 丹佛 - GTHost - 289
-      - 美国 - 丹佛 - GTHost - 334
-      - 美国 - 丹佛 - GTHost - 294
-      - 美国 - 丹佛 - GTHost - 329
-      - 美国 - 丹佛 - GTHost - 319
-      - 美国 - 丹佛 - GTHost - 330
-      - 美国 - 丹佛 - GTHost - 344
-      - 美国 - 丹佛 - GTHost - 268
-      - 美国 - 丹佛 - GTHost - 320
-      - 美国 - 丹佛 - GTHost - 295
-      - 美国 - 丹佛 - GTHost - 266
-      - 美国 - 丹佛 - GTHost - 238
-      - 美国 - 丹佛 - GTHost - 274
-      - 美国 - 丹佛 - GTHost - 270
-      - 美国 - 丹佛 - GTHost - 243
-      - 美国 - 丹佛 - GTHost - 321
-      - 美国 - 丹佛 - GTHost - 337
-      - 美国 - 丹佛 - GTHost - 314
-      - 美国 - 丹佛 - GTHost - 332
-      - 美国 - 丹佛 - GTHost - 272
-      - 美国 - 丹佛 - GTHost - 333
-      - 美国 - 丹佛 - GTHost - 275
-      - 美国 - 丹佛 - GTHost - 342
-      - 美国 - 丹佛 - GTHost - 324
-      - 美国 - 丹佛 - GTHost - 248
-      - 美国 - 丹佛 - GTHost - 276
-      - 美国 - 丹佛 - GTHost - 335
-      - 美国 - 丹佛 - GTHost - 323
-      - 美国 - 丹佛 - GTHost - 257
-      - 美国 - 丹佛 - GTHost - 261
-      - 美国 - 丹佛 - GTHost - 303
-      - 美国 - 丹佛 - GTHost - 318
-      - 美国 - 丹佛 - GTHost - 331
-      - 美国 - 丹佛 - GTHost - 298
-      - 美国 - 丹佛 - GTHost - 317
-      - 美国 - 丹佛 - GTHost - 282
-      - 美国 - 丹佛 - GTHost - 328
-      - 美国 - 丹佛 - GTHost - 267
-      - 美国 - 丹佛 - GTHost - 315
-      - 美国 - 丹佛 - GTHost - 349
-      - 美国 - 丹佛 - GTHost - 269
-      - 美国 - 丹佛 - GTHost - 290
-      - 美国 - 丹佛 - GTHost - 236
-      - 美国 - 丹佛 - GTHost - 253
-      - 美国 - 丹佛 - GTHost - 327
-      - 美国 - 丹佛 - GTHost - 308
-      - 美国 - 丹佛 - GTHost - 325
-      - 美国 - 丹佛 - GTHost - 299
-      - 美国 - 丹佛 - GTHost - 254
-      - 美国 - 丹佛 - GTHost - 285
-      - 美国 - 丹佛 - GTHost - 345
-      - 美国 - 丹佛 - GTHost - 316
-      - 美国 - 丹佛 - GTHost - 296
-      - 美国 - 丹佛 - GTHost - 311
-      - 美国 - 丹佛 - GTHost - 341
-      - 美国 - 丹佛 - GTHost - 302
-      - 美国 - 丹佛 - GTHost - 310
-      - 美国 - 丹佛 - GTHost - 312
-      - 美国 - 丹佛 - GTHost - 251
-      - 美国 - 丹佛 - GTHost - 263
-      - 美国 - 丹佛 - GTHost - 305
-      - 美国 - 丹佛 - GTHost - 326
-      - 美国 - 丹佛 - GTHost - 249
-      - 美国 - 丹佛 - GTHost - 259
-      - 美国 - 丹佛 - GTHost - 247
-      - 美国 - 丹佛 - GTHost - 307
-      - 美国 - 丹佛 - GTHost - 346
-      - 美国 - 丹佛 - GTHost - 256
-      - 美国 - 丹佛 - GTHost - 339
-      - 美国 - 丹佛 - GTHost - 293
-      - 美国 - 丹佛 - GTHost - 246
-      - 美国 - 丹佛 - GTHost - 284
-      - 美国 - 丹佛 - GTHost - 258
-      - 美国 - 丹佛 - GTHost - 283
-      - 美国 - 丹佛 - GTHost - 240
-      - 美国 - 丹佛 - GTHost - 255
-      - 美国 - 丹佛 - GTHost - 343
-      - 美国 - 丹佛 - GTHost - 348
-      - 美国 - 丹佛 - GTHost - 304
-      - 美国 - 丹佛 - GTHost - 322
-      - 美国 - 丹佛 - GTHost - 292
-      - 美国 - 丹佛 - GTHost - 279
-      - 美国 - 丹佛 - GTHost - 313
-      - 美国 - 丹佛 - GTHost - 300
-      - 美国 - 丹佛 - GTHost - 244
-      - 美国 - 丹佛 - GTHost - 239
-      - 美国 - 丹佛 - GTHost - 250
-      - 美国 - 丹佛 - GTHost - 291
-      - 美国 - 丹佛 - GTHost - 336
-      - 美国 - 丹佛 - GTHost - 281
-      - 美国 - 丹佛 - GTHost - 271
-      - 美国 - 丹佛 - GTHost - 264
-      - 美国 - 丹佛 - GTHost - 309
-      - 美国 - 丹佛 - GTHost - 347
-      - 美国 - 丹佛 - GTHost - 277
-      - 美国 - 丹佛 - GTHost - 241
-      - 美国 - 丹佛 - GTHost - 301
-      - 美国 - 丹佛 - GTHost - 242
-      - 美国 - 丹佛 - GTHost - 340
-      - 美国 - 丹佛 - GTHost - 260
+      - 🇩🇪|DE|德国|@wxgqlfx|31
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 20
+      - 🔒 TR-TCP-TLS 🇩🇪 DE-3.73.45.155:22222
+      - CT_7
+      - 🇺🇸 美国 CloudFlare节点
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
+      - Telegram+@djkkdcx -HK-Hong Kong7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Telegram+@djkkdcx -US-New York
-      - 塞舌尔_Telegram+@djkkdcx
-      - 🏁RELAY-104.21.24.170-0760
-      - 俄罗斯联邦_Telegram+@djkkdcx
-      - 新加坡_Telegram+@djkkdcx
-      - 美国_Telegram+@djkkdcx
-      - Telegram+@djkkdcx -SG-Singapore1
+      - 美国_Telegram+@djkkdcx_1
+      - 英国_Telegram+@djkkdcx_1
+      - Telegram+@djkkdcx -南非🇿🇦
+      - CT_1
+      - Telegram+@djkkdcx -JP-Tokyo5
+      - Telegram+@djkkdcx -HK-Hong Kong9
+      - CT_2
+      - CT_3
+      - 美国_Telegram+@djkkdcx_2
+      - Telegram+@djkkdcx 禁止爬取本订阅节点
+      - Telegram+@djkkdcx -JP-Tokyo20
+      - 英国_Telegram+@djkkdcx_2
+      - WK香港 电信优选
+      - Telegram+@djkkdcx -US-California
+      - CT_4
+      - 新加坡_Telegram+@djkkdcx_1
       - 🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 2
-      - 日本3
-      - 日本5
-      - 日本4
+      - CT_5
+      - Telegram+@djkkdcx -JP-Tokyo21
+      - Telegram+@djkkdcx -JP-Tokyo17
+      - Telegram+@djkkdcx -JP-Tokyo14
+      - 🇺🇸 美国 CloudFlare节点 75
+      - 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Akari Networks - 347
       - Telegram+@djkkdcx -JP-Tokyo12
-      - 日本1
-      - 美国 - 波特蘭 - Amazon.com, Inc. - 286
-      - 美国1
-      - 美国2
-      - CN_137
-      - 美国3
-      - 美国4
-      - 日本特殊|@ripaojiedian
-      - 美国 - 西雅圖 - Hostwinds LLC. - 360
-      - 韩国4
-      - 韩国2
-      - 韩国5
-      - 韩国3
-      - 新加坡 - 新加坡 - Akari Networks - 24
-      - 美国 - 波特蘭 - Amazon.com, Inc. - 338
-      - 美国5
-      - 新加坡2
-      - 韩国1
-      - 新加坡1
-      - 日本2
-      - 香港|@ripaojiedian
-      - Telegram+@djkkdcx -HK-Hong Kong31
-      - 新加坡3
-      - CN_191
-      - 狮城特殊|@ripaojiedian
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
-      - 韩国特殊|@ripaojiedian
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
-      - Telegram+@djkkdcx -TW-Taipei3
-      - 新加坡4
-      - 新加坡 - 新加坡 - Amazon.com, Inc. - 18
-      - 🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 17
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 17
-      - 印度(+https://www.fuye.fun/+免费节点分享)_1
+      - Telegram+@djkkdcx -JP-Tokyo16
       - 🏁RELAY-104.21.94.64-0717
+      - 🇨🇳 台湾|@ripaojiedian
+      - 美国 - 洛杉矶 - Global Communication Network Limited - 28
+      - Telegram+@djkkdcx -TW-Taipei11
+      - CT_6
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - Telegram+@djkkdcx -SG-Singapore3
+      - Telegram+@djkkdcx -德国🇩🇪
+      - 美国 CloudFlare节点
+      - Telegram+@djkkdcx -JP-Tokyo1
+      - Telegram+@djkkdcx -KR12
+      - 🇨🇳|CN|中国|@wxgqlfx|25
+      - 新加坡_Telegram+@djkkdcx_2
+      - Telegram+@djkkdcx -奥地利🇦🇹
+      - Telegram+@djkkdcx -HK-Hong Kong24
+      - Telegram+@djkkdcx -HK-Hong Kong31
+      - Telegram+@djkkdcx -HK-Hong Kong15
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
+      - 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 19
+      - Telegram+@djkkdcx -KR2
+      - Telegram+@djkkdcx -澳大利亚🇦🇺
       - Telegram+@djkkdcx -TW-Taipei1
-      - 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
-      - 日本|@ripaojiedian
-      - 美国 - 丹佛 - GTHost - 306
-      - 美国 - 丹佛 - GTHost - 245
-      - 美国 - 丹佛 - GTHost - 297
-      - 美国 - 丹佛 - GTHost - 289
-      - 美国 - 丹佛 - GTHost - 334
-      - 美国 - 丹佛 - GTHost - 294
-      - 美国 - 丹佛 - GTHost - 329
-      - 美国 - 丹佛 - GTHost - 319
-      - 美国 - 丹佛 - GTHost - 330
-      - 美国 - 丹佛 - GTHost - 344
-      - 美国 - 丹佛 - GTHost - 268
-      - 美国 - 丹佛 - GTHost - 320
-      - 美国 - 丹佛 - GTHost - 295
-      - 美国 - 丹佛 - GTHost - 266
-      - 美国 - 丹佛 - GTHost - 238
-      - 美国 - 丹佛 - GTHost - 274
-      - 美国 - 丹佛 - GTHost - 270
-      - 美国 - 丹佛 - GTHost - 243
-      - 美国 - 丹佛 - GTHost - 321
-      - 美国 - 丹佛 - GTHost - 337
-      - 美国 - 丹佛 - GTHost - 314
-      - 美国 - 丹佛 - GTHost - 332
-      - 美国 - 丹佛 - GTHost - 272
-      - 美国 - 丹佛 - GTHost - 333
-      - 美国 - 丹佛 - GTHost - 275
-      - 美国 - 丹佛 - GTHost - 342
-      - 美国 - 丹佛 - GTHost - 324
-      - 美国 - 丹佛 - GTHost - 248
-      - 美国 - 丹佛 - GTHost - 276
-      - 美国 - 丹佛 - GTHost - 335
-      - 美国 - 丹佛 - GTHost - 323
-      - 美国 - 丹佛 - GTHost - 257
-      - 美国 - 丹佛 - GTHost - 261
-      - 美国 - 丹佛 - GTHost - 303
-      - 美国 - 丹佛 - GTHost - 318
-      - 美国 - 丹佛 - GTHost - 331
-      - 美国 - 丹佛 - GTHost - 298
-      - 美国 - 丹佛 - GTHost - 317
-      - 美国 - 丹佛 - GTHost - 282
-      - 美国 - 丹佛 - GTHost - 328
-      - 美国 - 丹佛 - GTHost - 267
-      - 美国 - 丹佛 - GTHost - 315
-      - 美国 - 丹佛 - GTHost - 349
-      - 美国 - 丹佛 - GTHost - 269
-      - 美国 - 丹佛 - GTHost - 290
-      - 美国 - 丹佛 - GTHost - 236
-      - 美国 - 丹佛 - GTHost - 253
-      - 美国 - 丹佛 - GTHost - 327
-      - 美国 - 丹佛 - GTHost - 308
-      - 美国 - 丹佛 - GTHost - 325
-      - 美国 - 丹佛 - GTHost - 299
-      - 美国 - 丹佛 - GTHost - 254
-      - 美国 - 丹佛 - GTHost - 285
-      - 美国 - 丹佛 - GTHost - 345
-      - 美国 - 丹佛 - GTHost - 316
-      - 美国 - 丹佛 - GTHost - 296
-      - 美国 - 丹佛 - GTHost - 311
-      - 美国 - 丹佛 - GTHost - 341
-      - 美国 - 丹佛 - GTHost - 302
-      - 美国 - 丹佛 - GTHost - 310
-      - 美国 - 丹佛 - GTHost - 312
-      - 美国 - 丹佛 - GTHost - 251
-      - 美国 - 丹佛 - GTHost - 263
-      - 美国 - 丹佛 - GTHost - 305
-      - 美国 - 丹佛 - GTHost - 326
-      - 美国 - 丹佛 - GTHost - 249
-      - 美国 - 丹佛 - GTHost - 259
-      - 美国 - 丹佛 - GTHost - 247
-      - 美国 - 丹佛 - GTHost - 307
-      - 美国 - 丹佛 - GTHost - 346
-      - 美国 - 丹佛 - GTHost - 256
-      - 美国 - 丹佛 - GTHost - 339
-      - 美国 - 丹佛 - GTHost - 293
-      - 美国 - 丹佛 - GTHost - 246
-      - 美国 - 丹佛 - GTHost - 284
-      - 美国 - 丹佛 - GTHost - 258
-      - 美国 - 丹佛 - GTHost - 283
-      - 美国 - 丹佛 - GTHost - 240
-      - 美国 - 丹佛 - GTHost - 255
-      - 美国 - 丹佛 - GTHost - 343
-      - 美国 - 丹佛 - GTHost - 348
-      - 美国 - 丹佛 - GTHost - 304
-      - 美国 - 丹佛 - GTHost - 322
-      - 美国 - 丹佛 - GTHost - 292
-      - 美国 - 丹佛 - GTHost - 279
-      - 美国 - 丹佛 - GTHost - 313
-      - 美国 - 丹佛 - GTHost - 300
-      - 美国 - 丹佛 - GTHost - 244
-      - 美国 - 丹佛 - GTHost - 239
-      - 美国 - 丹佛 - GTHost - 250
-      - 美国 - 丹佛 - GTHost - 291
-      - 美国 - 丹佛 - GTHost - 336
-      - 美国 - 丹佛 - GTHost - 281
-      - 美国 - 丹佛 - GTHost - 271
-      - 美国 - 丹佛 - GTHost - 264
-      - 美国 - 丹佛 - GTHost - 309
-      - 美国 - 丹佛 - GTHost - 347
-      - 美国 - 丹佛 - GTHost - 277
-      - 美国 - 丹佛 - GTHost - 241
-      - 美国 - 丹佛 - GTHost - 301
-      - 美国 - 丹佛 - GTHost - 242
-      - 美国 - 丹佛 - GTHost - 340
-      - 美国 - 丹佛 - GTHost - 260
+      - 🇩🇪|DE|德国|@wxgqlfx|31
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 20
+      - 🔒 TR-TCP-TLS 🇩🇪 DE-3.73.45.155:22222
+      - CT_7
+      - 🇺🇸 美国 CloudFlare节点
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
+      - Telegram+@djkkdcx -HK-Hong Kong7
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Telegram+@djkkdcx -US-New York
-      - 塞舌尔_Telegram+@djkkdcx
-      - 🏁RELAY-104.21.24.170-0760
-      - 俄罗斯联邦_Telegram+@djkkdcx
-      - 新加坡_Telegram+@djkkdcx
-      - 美国_Telegram+@djkkdcx
-      - Telegram+@djkkdcx -SG-Singapore1
+      - 美国_Telegram+@djkkdcx_1
+      - 英国_Telegram+@djkkdcx_1
+      - Telegram+@djkkdcx -南非🇿🇦
+      - CT_1
+      - Telegram+@djkkdcx -JP-Tokyo5
+      - Telegram+@djkkdcx -HK-Hong Kong9
+      - CT_2
+      - CT_3
+      - 美国_Telegram+@djkkdcx_2
+      - Telegram+@djkkdcx 禁止爬取本订阅节点
+      - Telegram+@djkkdcx -JP-Tokyo20
+      - 英国_Telegram+@djkkdcx_2
+      - WK香港 电信优选
+      - Telegram+@djkkdcx -US-California
+      - CT_4
+      - 新加坡_Telegram+@djkkdcx_1
       - 🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 2
-      - 日本3
-      - 日本5
-      - 日本4
+      - CT_5
+      - Telegram+@djkkdcx -JP-Tokyo21
+      - Telegram+@djkkdcx -JP-Tokyo17
+      - Telegram+@djkkdcx -JP-Tokyo14
+      - 🇺🇸 美国 CloudFlare节点 75
+      - 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Akari Networks - 347
       - Telegram+@djkkdcx -JP-Tokyo12
-      - 日本1
-      - 美国 - 波特蘭 - Amazon.com, Inc. - 286
-      - 美国1
-      - 美国2
-      - CN_137
-      - 美国3
-      - 美国4
-      - 日本特殊|@ripaojiedian
-      - 美国 - 西雅圖 - Hostwinds LLC. - 360
-      - 韩国4
-      - 韩国2
-      - 韩国5
-      - 韩国3
-      - 新加坡 - 新加坡 - Akari Networks - 24
-      - 美国 - 波特蘭 - Amazon.com, Inc. - 338
-      - 美国5
-      - 新加坡2
-      - 韩国1
-      - 新加坡1
-      - 日本2
-      - 香港|@ripaojiedian
-      - Telegram+@djkkdcx -HK-Hong Kong31
-      - 新加坡3
-      - CN_191
-      - 狮城特殊|@ripaojiedian
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
-      - 韩国特殊|@ripaojiedian
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
-      - Telegram+@djkkdcx -TW-Taipei3
-      - 新加坡4
-      - 新加坡 - 新加坡 - Amazon.com, Inc. - 18
-      - 🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 17
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 17
-      - 印度(+https://www.fuye.fun/+免费节点分享)_1
+      - Telegram+@djkkdcx -JP-Tokyo16
       - 🏁RELAY-104.21.94.64-0717
+      - 🇨🇳 台湾|@ripaojiedian
+      - 美国 - 洛杉矶 - Global Communication Network Limited - 28
+      - Telegram+@djkkdcx -TW-Taipei11
+      - CT_6
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - Telegram+@djkkdcx -SG-Singapore3
+      - Telegram+@djkkdcx -德国🇩🇪
+      - 美国 CloudFlare节点
+      - Telegram+@djkkdcx -JP-Tokyo1
+      - Telegram+@djkkdcx -KR12
+      - 🇨🇳|CN|中国|@wxgqlfx|25
+      - 新加坡_Telegram+@djkkdcx_2
+      - Telegram+@djkkdcx -奥地利🇦🇹
+      - Telegram+@djkkdcx -HK-Hong Kong24
+      - Telegram+@djkkdcx -HK-Hong Kong31
+      - Telegram+@djkkdcx -HK-Hong Kong15
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
+      - 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 19
+      - Telegram+@djkkdcx -KR2
+      - Telegram+@djkkdcx -澳大利亚🇦🇺
       - Telegram+@djkkdcx -TW-Taipei1
-      - 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
-      - 日本|@ripaojiedian
-      - 美国 - 丹佛 - GTHost - 306
-      - 美国 - 丹佛 - GTHost - 245
-      - 美国 - 丹佛 - GTHost - 297
-      - 美国 - 丹佛 - GTHost - 289
-      - 美国 - 丹佛 - GTHost - 334
-      - 美国 - 丹佛 - GTHost - 294
-      - 美国 - 丹佛 - GTHost - 329
-      - 美国 - 丹佛 - GTHost - 319
-      - 美国 - 丹佛 - GTHost - 330
-      - 美国 - 丹佛 - GTHost - 344
-      - 美国 - 丹佛 - GTHost - 268
-      - 美国 - 丹佛 - GTHost - 320
-      - 美国 - 丹佛 - GTHost - 295
-      - 美国 - 丹佛 - GTHost - 266
-      - 美国 - 丹佛 - GTHost - 238
-      - 美国 - 丹佛 - GTHost - 274
-      - 美国 - 丹佛 - GTHost - 270
-      - 美国 - 丹佛 - GTHost - 243
-      - 美国 - 丹佛 - GTHost - 321
-      - 美国 - 丹佛 - GTHost - 337
-      - 美国 - 丹佛 - GTHost - 314
-      - 美国 - 丹佛 - GTHost - 332
-      - 美国 - 丹佛 - GTHost - 272
-      - 美国 - 丹佛 - GTHost - 333
-      - 美国 - 丹佛 - GTHost - 275
-      - 美国 - 丹佛 - GTHost - 342
-      - 美国 - 丹佛 - GTHost - 324
-      - 美国 - 丹佛 - GTHost - 248
-      - 美国 - 丹佛 - GTHost - 276
-      - 美国 - 丹佛 - GTHost - 335
-      - 美国 - 丹佛 - GTHost - 323
-      - 美国 - 丹佛 - GTHost - 257
-      - 美国 - 丹佛 - GTHost - 261
-      - 美国 - 丹佛 - GTHost - 303
-      - 美国 - 丹佛 - GTHost - 318
-      - 美国 - 丹佛 - GTHost - 331
-      - 美国 - 丹佛 - GTHost - 298
-      - 美国 - 丹佛 - GTHost - 317
-      - 美国 - 丹佛 - GTHost - 282
-      - 美国 - 丹佛 - GTHost - 328
-      - 美国 - 丹佛 - GTHost - 267
-      - 美国 - 丹佛 - GTHost - 315
-      - 美国 - 丹佛 - GTHost - 349
-      - 美国 - 丹佛 - GTHost - 269
-      - 美国 - 丹佛 - GTHost - 290
-      - 美国 - 丹佛 - GTHost - 236
-      - 美国 - 丹佛 - GTHost - 253
-      - 美国 - 丹佛 - GTHost - 327
-      - 美国 - 丹佛 - GTHost - 308
-      - 美国 - 丹佛 - GTHost - 325
-      - 美国 - 丹佛 - GTHost - 299
-      - 美国 - 丹佛 - GTHost - 254
-      - 美国 - 丹佛 - GTHost - 285
-      - 美国 - 丹佛 - GTHost - 345
-      - 美国 - 丹佛 - GTHost - 316
-      - 美国 - 丹佛 - GTHost - 296
-      - 美国 - 丹佛 - GTHost - 311
-      - 美国 - 丹佛 - GTHost - 341
-      - 美国 - 丹佛 - GTHost - 302
-      - 美国 - 丹佛 - GTHost - 310
-      - 美国 - 丹佛 - GTHost - 312
-      - 美国 - 丹佛 - GTHost - 251
-      - 美国 - 丹佛 - GTHost - 263
-      - 美国 - 丹佛 - GTHost - 305
-      - 美国 - 丹佛 - GTHost - 326
-      - 美国 - 丹佛 - GTHost - 249
-      - 美国 - 丹佛 - GTHost - 259
-      - 美国 - 丹佛 - GTHost - 247
-      - 美国 - 丹佛 - GTHost - 307
-      - 美国 - 丹佛 - GTHost - 346
-      - 美国 - 丹佛 - GTHost - 256
-      - 美国 - 丹佛 - GTHost - 339
-      - 美国 - 丹佛 - GTHost - 293
-      - 美国 - 丹佛 - GTHost - 246
-      - 美国 - 丹佛 - GTHost - 284
-      - 美国 - 丹佛 - GTHost - 258
-      - 美国 - 丹佛 - GTHost - 283
-      - 美国 - 丹佛 - GTHost - 240
-      - 美国 - 丹佛 - GTHost - 255
-      - 美国 - 丹佛 - GTHost - 343
-      - 美国 - 丹佛 - GTHost - 348
-      - 美国 - 丹佛 - GTHost - 304
-      - 美国 - 丹佛 - GTHost - 322
-      - 美国 - 丹佛 - GTHost - 292
-      - 美国 - 丹佛 - GTHost - 279
-      - 美国 - 丹佛 - GTHost - 313
-      - 美国 - 丹佛 - GTHost - 300
-      - 美国 - 丹佛 - GTHost - 244
-      - 美国 - 丹佛 - GTHost - 239
-      - 美国 - 丹佛 - GTHost - 250
-      - 美国 - 丹佛 - GTHost - 291
-      - 美国 - 丹佛 - GTHost - 336
-      - 美国 - 丹佛 - GTHost - 281
-      - 美国 - 丹佛 - GTHost - 271
-      - 美国 - 丹佛 - GTHost - 264
-      - 美国 - 丹佛 - GTHost - 309
-      - 美国 - 丹佛 - GTHost - 347
-      - 美国 - 丹佛 - GTHost - 277
-      - 美国 - 丹佛 - GTHost - 241
-      - 美国 - 丹佛 - GTHost - 301
-      - 美国 - 丹佛 - GTHost - 242
-      - 美国 - 丹佛 - GTHost - 340
-      - 美国 - 丹佛 - GTHost - 260
+      - 🇩🇪|DE|德国|@wxgqlfx|31
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 20
+      - 🔒 TR-TCP-TLS 🇩🇪 DE-3.73.45.155:22222
+      - CT_7
+      - 🇺🇸 美国 CloudFlare节点
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
+      - Telegram+@djkkdcx -HK-Hong Kong7
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Telegram+@djkkdcx -US-New York
-      - 塞舌尔_Telegram+@djkkdcx
-      - 🏁RELAY-104.21.24.170-0760
-      - 俄罗斯联邦_Telegram+@djkkdcx
-      - 新加坡_Telegram+@djkkdcx
-      - 美国_Telegram+@djkkdcx
-      - Telegram+@djkkdcx -SG-Singapore1
+      - 美国_Telegram+@djkkdcx_1
+      - 英国_Telegram+@djkkdcx_1
+      - Telegram+@djkkdcx -南非🇿🇦
+      - CT_1
+      - Telegram+@djkkdcx -JP-Tokyo5
+      - Telegram+@djkkdcx -HK-Hong Kong9
+      - CT_2
+      - CT_3
+      - 美国_Telegram+@djkkdcx_2
+      - Telegram+@djkkdcx 禁止爬取本订阅节点
+      - Telegram+@djkkdcx -JP-Tokyo20
+      - 英国_Telegram+@djkkdcx_2
+      - WK香港 电信优选
+      - Telegram+@djkkdcx -US-California
+      - CT_4
+      - 新加坡_Telegram+@djkkdcx_1
       - 🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 2
-      - 日本3
-      - 日本5
-      - 日本4
+      - CT_5
+      - Telegram+@djkkdcx -JP-Tokyo21
+      - Telegram+@djkkdcx -JP-Tokyo17
+      - Telegram+@djkkdcx -JP-Tokyo14
+      - 🇺🇸 美国 CloudFlare节点 75
+      - 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Akari Networks - 347
       - Telegram+@djkkdcx -JP-Tokyo12
-      - 日本1
-      - 美国 - 波特蘭 - Amazon.com, Inc. - 286
-      - 美国1
-      - 美国2
-      - CN_137
-      - 美国3
-      - 美国4
-      - 日本特殊|@ripaojiedian
-      - 美国 - 西雅圖 - Hostwinds LLC. - 360
-      - 韩国4
-      - 韩国2
-      - 韩国5
-      - 韩国3
-      - 新加坡 - 新加坡 - Akari Networks - 24
-      - 美国 - 波特蘭 - Amazon.com, Inc. - 338
-      - 美国5
-      - 新加坡2
-      - 韩国1
-      - 新加坡1
-      - 日本2
-      - 香港|@ripaojiedian
-      - Telegram+@djkkdcx -HK-Hong Kong31
-      - 新加坡3
-      - CN_191
-      - 狮城特殊|@ripaojiedian
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
-      - 韩国特殊|@ripaojiedian
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
-      - Telegram+@djkkdcx -TW-Taipei3
-      - 新加坡4
-      - 新加坡 - 新加坡 - Amazon.com, Inc. - 18
-      - 🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 17
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 17
-      - 印度(+https://www.fuye.fun/+免费节点分享)_1
+      - Telegram+@djkkdcx -JP-Tokyo16
       - 🏁RELAY-104.21.94.64-0717
+      - 🇨🇳 台湾|@ripaojiedian
+      - 美国 - 洛杉矶 - Global Communication Network Limited - 28
+      - Telegram+@djkkdcx -TW-Taipei11
+      - CT_6
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - Telegram+@djkkdcx -SG-Singapore3
+      - Telegram+@djkkdcx -德国🇩🇪
+      - 美国 CloudFlare节点
+      - Telegram+@djkkdcx -JP-Tokyo1
+      - Telegram+@djkkdcx -KR12
+      - 🇨🇳|CN|中国|@wxgqlfx|25
+      - 新加坡_Telegram+@djkkdcx_2
+      - Telegram+@djkkdcx -奥地利🇦🇹
+      - Telegram+@djkkdcx -HK-Hong Kong24
+      - Telegram+@djkkdcx -HK-Hong Kong31
+      - Telegram+@djkkdcx -HK-Hong Kong15
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
+      - 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 19
+      - Telegram+@djkkdcx -KR2
+      - Telegram+@djkkdcx -澳大利亚🇦🇺
       - Telegram+@djkkdcx -TW-Taipei1
-      - 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
-      - 日本|@ripaojiedian
-      - 美国 - 丹佛 - GTHost - 306
-      - 美国 - 丹佛 - GTHost - 245
-      - 美国 - 丹佛 - GTHost - 297
-      - 美国 - 丹佛 - GTHost - 289
-      - 美国 - 丹佛 - GTHost - 334
-      - 美国 - 丹佛 - GTHost - 294
-      - 美国 - 丹佛 - GTHost - 329
-      - 美国 - 丹佛 - GTHost - 319
-      - 美国 - 丹佛 - GTHost - 330
-      - 美国 - 丹佛 - GTHost - 344
-      - 美国 - 丹佛 - GTHost - 268
-      - 美国 - 丹佛 - GTHost - 320
-      - 美国 - 丹佛 - GTHost - 295
-      - 美国 - 丹佛 - GTHost - 266
-      - 美国 - 丹佛 - GTHost - 238
-      - 美国 - 丹佛 - GTHost - 274
-      - 美国 - 丹佛 - GTHost - 270
-      - 美国 - 丹佛 - GTHost - 243
-      - 美国 - 丹佛 - GTHost - 321
-      - 美国 - 丹佛 - GTHost - 337
-      - 美国 - 丹佛 - GTHost - 314
-      - 美国 - 丹佛 - GTHost - 332
-      - 美国 - 丹佛 - GTHost - 272
-      - 美国 - 丹佛 - GTHost - 333
-      - 美国 - 丹佛 - GTHost - 275
-      - 美国 - 丹佛 - GTHost - 342
-      - 美国 - 丹佛 - GTHost - 324
-      - 美国 - 丹佛 - GTHost - 248
-      - 美国 - 丹佛 - GTHost - 276
-      - 美国 - 丹佛 - GTHost - 335
-      - 美国 - 丹佛 - GTHost - 323
-      - 美国 - 丹佛 - GTHost - 257
-      - 美国 - 丹佛 - GTHost - 261
-      - 美国 - 丹佛 - GTHost - 303
-      - 美国 - 丹佛 - GTHost - 318
-      - 美国 - 丹佛 - GTHost - 331
-      - 美国 - 丹佛 - GTHost - 298
-      - 美国 - 丹佛 - GTHost - 317
-      - 美国 - 丹佛 - GTHost - 282
-      - 美国 - 丹佛 - GTHost - 328
-      - 美国 - 丹佛 - GTHost - 267
-      - 美国 - 丹佛 - GTHost - 315
-      - 美国 - 丹佛 - GTHost - 349
-      - 美国 - 丹佛 - GTHost - 269
-      - 美国 - 丹佛 - GTHost - 290
-      - 美国 - 丹佛 - GTHost - 236
-      - 美国 - 丹佛 - GTHost - 253
-      - 美国 - 丹佛 - GTHost - 327
-      - 美国 - 丹佛 - GTHost - 308
-      - 美国 - 丹佛 - GTHost - 325
-      - 美国 - 丹佛 - GTHost - 299
-      - 美国 - 丹佛 - GTHost - 254
-      - 美国 - 丹佛 - GTHost - 285
-      - 美国 - 丹佛 - GTHost - 345
-      - 美国 - 丹佛 - GTHost - 316
-      - 美国 - 丹佛 - GTHost - 296
-      - 美国 - 丹佛 - GTHost - 311
-      - 美国 - 丹佛 - GTHost - 341
-      - 美国 - 丹佛 - GTHost - 302
-      - 美国 - 丹佛 - GTHost - 310
-      - 美国 - 丹佛 - GTHost - 312
-      - 美国 - 丹佛 - GTHost - 251
-      - 美国 - 丹佛 - GTHost - 263
-      - 美国 - 丹佛 - GTHost - 305
-      - 美国 - 丹佛 - GTHost - 326
-      - 美国 - 丹佛 - GTHost - 249
-      - 美国 - 丹佛 - GTHost - 259
-      - 美国 - 丹佛 - GTHost - 247
-      - 美国 - 丹佛 - GTHost - 307
-      - 美国 - 丹佛 - GTHost - 346
-      - 美国 - 丹佛 - GTHost - 256
-      - 美国 - 丹佛 - GTHost - 339
-      - 美国 - 丹佛 - GTHost - 293
-      - 美国 - 丹佛 - GTHost - 246
-      - 美国 - 丹佛 - GTHost - 284
-      - 美国 - 丹佛 - GTHost - 258
-      - 美国 - 丹佛 - GTHost - 283
-      - 美国 - 丹佛 - GTHost - 240
-      - 美国 - 丹佛 - GTHost - 255
-      - 美国 - 丹佛 - GTHost - 343
-      - 美国 - 丹佛 - GTHost - 348
-      - 美国 - 丹佛 - GTHost - 304
-      - 美国 - 丹佛 - GTHost - 322
-      - 美国 - 丹佛 - GTHost - 292
-      - 美国 - 丹佛 - GTHost - 279
-      - 美国 - 丹佛 - GTHost - 313
-      - 美国 - 丹佛 - GTHost - 300
-      - 美国 - 丹佛 - GTHost - 244
-      - 美国 - 丹佛 - GTHost - 239
-      - 美国 - 丹佛 - GTHost - 250
-      - 美国 - 丹佛 - GTHost - 291
-      - 美国 - 丹佛 - GTHost - 336
-      - 美国 - 丹佛 - GTHost - 281
-      - 美国 - 丹佛 - GTHost - 271
-      - 美国 - 丹佛 - GTHost - 264
-      - 美国 - 丹佛 - GTHost - 309
-      - 美国 - 丹佛 - GTHost - 347
-      - 美国 - 丹佛 - GTHost - 277
-      - 美国 - 丹佛 - GTHost - 241
-      - 美国 - 丹佛 - GTHost - 301
-      - 美国 - 丹佛 - GTHost - 242
-      - 美国 - 丹佛 - GTHost - 340
-      - 美国 - 丹佛 - GTHost - 260
+      - 🇩🇪|DE|德国|@wxgqlfx|31
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 20
+      - 🔒 TR-TCP-TLS 🇩🇪 DE-3.73.45.155:22222
+      - CT_7
+      - 🇺🇸 美国 CloudFlare节点
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
+      - Telegram+@djkkdcx -HK-Hong Kong7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -900,160 +410,62 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - Telegram+@djkkdcx -US-New York
-      - 塞舌尔_Telegram+@djkkdcx
-      - 🏁RELAY-104.21.24.170-0760
-      - 俄罗斯联邦_Telegram+@djkkdcx
-      - 新加坡_Telegram+@djkkdcx
-      - 美国_Telegram+@djkkdcx
-      - Telegram+@djkkdcx -SG-Singapore1
+      - 美国_Telegram+@djkkdcx_1
+      - 英国_Telegram+@djkkdcx_1
+      - Telegram+@djkkdcx -南非🇿🇦
+      - CT_1
+      - Telegram+@djkkdcx -JP-Tokyo5
+      - Telegram+@djkkdcx -HK-Hong Kong9
+      - CT_2
+      - CT_3
+      - 美国_Telegram+@djkkdcx_2
+      - Telegram+@djkkdcx 禁止爬取本订阅节点
+      - Telegram+@djkkdcx -JP-Tokyo20
+      - 英国_Telegram+@djkkdcx_2
+      - WK香港 电信优选
+      - Telegram+@djkkdcx -US-California
+      - CT_4
+      - 新加坡_Telegram+@djkkdcx_1
       - 🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 2
-      - 日本3
-      - 日本5
-      - 日本4
+      - CT_5
+      - Telegram+@djkkdcx -JP-Tokyo21
+      - Telegram+@djkkdcx -JP-Tokyo17
+      - Telegram+@djkkdcx -JP-Tokyo14
+      - 🇺🇸 美国 CloudFlare节点 75
+      - 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Akari Networks - 347
       - Telegram+@djkkdcx -JP-Tokyo12
-      - 日本1
-      - 美国 - 波特蘭 - Amazon.com, Inc. - 286
-      - 美国1
-      - 美国2
-      - CN_137
-      - 美国3
-      - 美国4
-      - 日本特殊|@ripaojiedian
-      - 美国 - 西雅圖 - Hostwinds LLC. - 360
-      - 韩国4
-      - 韩国2
-      - 韩国5
-      - 韩国3
-      - 新加坡 - 新加坡 - Akari Networks - 24
-      - 美国 - 波特蘭 - Amazon.com, Inc. - 338
-      - 美国5
-      - 新加坡2
-      - 韩国1
-      - 新加坡1
-      - 日本2
-      - 香港|@ripaojiedian
-      - Telegram+@djkkdcx -HK-Hong Kong31
-      - 新加坡3
-      - CN_191
-      - 狮城特殊|@ripaojiedian
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
-      - 韩国特殊|@ripaojiedian
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
-      - Telegram+@djkkdcx -TW-Taipei3
-      - 新加坡4
-      - 新加坡 - 新加坡 - Amazon.com, Inc. - 18
-      - 🇮🇩ID | 🟢 | vmess | @ConfigsHUB | 17
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
-      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 17
-      - 印度(+https://www.fuye.fun/+免费节点分享)_1
+      - Telegram+@djkkdcx -JP-Tokyo16
       - 🏁RELAY-104.21.94.64-0717
+      - 🇨🇳 台湾|@ripaojiedian
+      - 美国 - 洛杉矶 - Global Communication Network Limited - 28
+      - Telegram+@djkkdcx -TW-Taipei11
+      - CT_6
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - Telegram+@djkkdcx -SG-Singapore3
+      - Telegram+@djkkdcx -德国🇩🇪
+      - 美国 CloudFlare节点
+      - Telegram+@djkkdcx -JP-Tokyo1
+      - Telegram+@djkkdcx -KR12
+      - 🇨🇳|CN|中国|@wxgqlfx|25
+      - 新加坡_Telegram+@djkkdcx_2
+      - Telegram+@djkkdcx -奥地利🇦🇹
+      - Telegram+@djkkdcx -HK-Hong Kong24
+      - Telegram+@djkkdcx -HK-Hong Kong31
+      - Telegram+@djkkdcx -HK-Hong Kong15
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
+      - 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 20
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 19
+      - Telegram+@djkkdcx -KR2
+      - Telegram+@djkkdcx -澳大利亚🇦🇺
       - Telegram+@djkkdcx -TW-Taipei1
-      - 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
-      - 日本|@ripaojiedian
-      - 美国 - 丹佛 - GTHost - 306
-      - 美国 - 丹佛 - GTHost - 245
-      - 美国 - 丹佛 - GTHost - 297
-      - 美国 - 丹佛 - GTHost - 289
-      - 美国 - 丹佛 - GTHost - 334
-      - 美国 - 丹佛 - GTHost - 294
-      - 美国 - 丹佛 - GTHost - 329
-      - 美国 - 丹佛 - GTHost - 319
-      - 美国 - 丹佛 - GTHost - 330
-      - 美国 - 丹佛 - GTHost - 344
-      - 美国 - 丹佛 - GTHost - 268
-      - 美国 - 丹佛 - GTHost - 320
-      - 美国 - 丹佛 - GTHost - 295
-      - 美国 - 丹佛 - GTHost - 266
-      - 美国 - 丹佛 - GTHost - 238
-      - 美国 - 丹佛 - GTHost - 274
-      - 美国 - 丹佛 - GTHost - 270
-      - 美国 - 丹佛 - GTHost - 243
-      - 美国 - 丹佛 - GTHost - 321
-      - 美国 - 丹佛 - GTHost - 337
-      - 美国 - 丹佛 - GTHost - 314
-      - 美国 - 丹佛 - GTHost - 332
-      - 美国 - 丹佛 - GTHost - 272
-      - 美国 - 丹佛 - GTHost - 333
-      - 美国 - 丹佛 - GTHost - 275
-      - 美国 - 丹佛 - GTHost - 342
-      - 美国 - 丹佛 - GTHost - 324
-      - 美国 - 丹佛 - GTHost - 248
-      - 美国 - 丹佛 - GTHost - 276
-      - 美国 - 丹佛 - GTHost - 335
-      - 美国 - 丹佛 - GTHost - 323
-      - 美国 - 丹佛 - GTHost - 257
-      - 美国 - 丹佛 - GTHost - 261
-      - 美国 - 丹佛 - GTHost - 303
-      - 美国 - 丹佛 - GTHost - 318
-      - 美国 - 丹佛 - GTHost - 331
-      - 美国 - 丹佛 - GTHost - 298
-      - 美国 - 丹佛 - GTHost - 317
-      - 美国 - 丹佛 - GTHost - 282
-      - 美国 - 丹佛 - GTHost - 328
-      - 美国 - 丹佛 - GTHost - 267
-      - 美国 - 丹佛 - GTHost - 315
-      - 美国 - 丹佛 - GTHost - 349
-      - 美国 - 丹佛 - GTHost - 269
-      - 美国 - 丹佛 - GTHost - 290
-      - 美国 - 丹佛 - GTHost - 236
-      - 美国 - 丹佛 - GTHost - 253
-      - 美国 - 丹佛 - GTHost - 327
-      - 美国 - 丹佛 - GTHost - 308
-      - 美国 - 丹佛 - GTHost - 325
-      - 美国 - 丹佛 - GTHost - 299
-      - 美国 - 丹佛 - GTHost - 254
-      - 美国 - 丹佛 - GTHost - 285
-      - 美国 - 丹佛 - GTHost - 345
-      - 美国 - 丹佛 - GTHost - 316
-      - 美国 - 丹佛 - GTHost - 296
-      - 美国 - 丹佛 - GTHost - 311
-      - 美国 - 丹佛 - GTHost - 341
-      - 美国 - 丹佛 - GTHost - 302
-      - 美国 - 丹佛 - GTHost - 310
-      - 美国 - 丹佛 - GTHost - 312
-      - 美国 - 丹佛 - GTHost - 251
-      - 美国 - 丹佛 - GTHost - 263
-      - 美国 - 丹佛 - GTHost - 305
-      - 美国 - 丹佛 - GTHost - 326
-      - 美国 - 丹佛 - GTHost - 249
-      - 美国 - 丹佛 - GTHost - 259
-      - 美国 - 丹佛 - GTHost - 247
-      - 美国 - 丹佛 - GTHost - 307
-      - 美国 - 丹佛 - GTHost - 346
-      - 美国 - 丹佛 - GTHost - 256
-      - 美国 - 丹佛 - GTHost - 339
-      - 美国 - 丹佛 - GTHost - 293
-      - 美国 - 丹佛 - GTHost - 246
-      - 美国 - 丹佛 - GTHost - 284
-      - 美国 - 丹佛 - GTHost - 258
-      - 美国 - 丹佛 - GTHost - 283
-      - 美国 - 丹佛 - GTHost - 240
-      - 美国 - 丹佛 - GTHost - 255
-      - 美国 - 丹佛 - GTHost - 343
-      - 美国 - 丹佛 - GTHost - 348
-      - 美国 - 丹佛 - GTHost - 304
-      - 美国 - 丹佛 - GTHost - 322
-      - 美国 - 丹佛 - GTHost - 292
-      - 美国 - 丹佛 - GTHost - 279
-      - 美国 - 丹佛 - GTHost - 313
-      - 美国 - 丹佛 - GTHost - 300
-      - 美国 - 丹佛 - GTHost - 244
-      - 美国 - 丹佛 - GTHost - 239
-      - 美国 - 丹佛 - GTHost - 250
-      - 美国 - 丹佛 - GTHost - 291
-      - 美国 - 丹佛 - GTHost - 336
-      - 美国 - 丹佛 - GTHost - 281
-      - 美国 - 丹佛 - GTHost - 271
-      - 美国 - 丹佛 - GTHost - 264
-      - 美国 - 丹佛 - GTHost - 309
-      - 美国 - 丹佛 - GTHost - 347
-      - 美国 - 丹佛 - GTHost - 277
-      - 美国 - 丹佛 - GTHost - 241
-      - 美国 - 丹佛 - GTHost - 301
-      - 美国 - 丹佛 - GTHost - 242
-      - 美国 - 丹佛 - GTHost - 340
-      - 美国 - 丹佛 - GTHost - 260
+      - 🇩🇪|DE|德国|@wxgqlfx|31
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 20
+      - 🔒 TR-TCP-TLS 🇩🇪 DE-3.73.45.155:22222
+      - CT_7
+      - 🇺🇸 美国 CloudFlare节点
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 19
+      - Telegram+@djkkdcx -HK-Hong Kong7
 
 rules:
 # 本地/局域网地址
