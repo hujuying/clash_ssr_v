@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-14 03:08:25
+# 创建时间：2024-07-16 04:07:59
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：2
+# 节点数量：1
 # 节点类型：hysteria2
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
@@ -88,7 +88,6 @@ dns:
 
 proxies:
   - {"name":"高速澳大利亚悉尼","type":"hysteria2","server":"au.sydney.tg-bplink.xyz","port":20000,"password":"8bfddec0-001a-44c9-a13f-d8d76c1353f4","sni":"au.sydney.tg-bplink.xyz"}
-  - {"name":"高速香港2","type":"hysteria2","server":"hk2.tg-bplink.xyz","port":20000,"password":"8bfddec0-001a-44c9-a13f-d8d76c1353f4","sni":"hk2.tg-bplink.xyz"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -98,7 +97,6 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - 高速澳大利亚悉尼
-      - 高速香港2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -106,21 +104,18 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 高速澳大利亚悉尼
-      - 高速香港2
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - 高速澳大利亚悉尼
-      - 高速香港2
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - 高速澳大利亚悉尼
-      - 高速香港2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,7 +136,6 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - 高速澳大利亚悉尼
-      - 高速香港2
 
 rules:
 # 本地/局域网地址
