@@ -1,10 +1,11 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash
-# 创建时间：2024-07-16 04:07:13
+# 客户端：Clash.Meta
+# 创建时间：2024-07-17 03:19:50
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：34
-# 节点类型：vmess, ss
+# 节点数量：13
+# 节点类型：vless, vmess
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -86,40 +87,19 @@ dns:
       - 0.0.0.0/32
 
 proxies:
+  - {"name":"TG@ZDYZ2+-JP-Tokyo","type":"vless","server":"13.231.236.95","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}},"client-fingerprint":"random"}
   - {"name":"Relay_🇺🇸US-🇺🇸US_121","type":"vmess","server":"hms082.gwdef.sbs","port":443,"cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_118","type":"vmess","server":"denc36.xtooltech.cfd","port":443,"cipher":"auto","uuid":"b321fd5d-e6ec-4293-a644-164e3885f52e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc36v.xtooltech.cfd"}}}
-  - {"name":"荷兰01|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":46190,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国02|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":21312,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"德国01|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":46222,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"日本01|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":33075,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_142 |16.00Mb","type":"vmess","server":"104.19.123.31","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}}}
-  - {"name":"香港07|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":37623,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国 01|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":33396,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"韩国01|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":22654,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港01|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":30800,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🏁ZZ-🇩🇪DE_153 |10.06Mb","type":"vmess","server":"104.17.148.22","port":2082,"cipher":"auto","uuid":"1368893d-58cb-4a25-9105-a5fa3f6a1a88","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/@config_shahin,@config_shahin,@config_shahin,@config_shahin?ed=80","headers":{"host":"2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou."}}}
-  - {"name":"新加坡 01|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":32948,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"泰国01|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":18848,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港05|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":45395,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国04|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":22832,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_108 |10.15Mb","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":2082,"cipher":"auto","uuid":"a174de4b-6126-4b88-b21e-1388004a2e02","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/CuTy87zAzV/","headers":{"host":"us4Bb5oSgJA.fzbqfrse.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_126 |294.71Mb","type":"vmess","server":"104.19.55.79","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
+  - {"name":"TG@ZDYZ2+-HK-Hong+Kong","type":"vless","server":"46.3.105.157","port":23232,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}},"client-fingerprint":"random"}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_136","type":"vmess","server":"104.19.38.8","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
   - {"name":"🇨🇳CN_77 | 3.09Mb","type":"vmess","server":"47.104.186.133","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"新加坡 02|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":22587,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港04|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":39226,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"续费官网①:xiongmaoo.com","type":"ss","server":"gzyd.hdsfhj.cn","port":39020,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"印度01|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":48874,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🇺🇸US-🇨🇦CA_106 |274.12Mb","type":"vmess","server":"104.26.0.66","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}}}
-  - {"name":"Relay_🇨🇳CN-🇭🇰HK_29 |10.24Mb","type":"vmess","server":"183.236.49.87","port":31778,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"巴西01|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":19577,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港03|⚡高速专线","type":"ss","server":"gzyd.hdsfhj.cn","port":19242,"password":"69cdce18-cc34-43ef-8c20-523f5ac531b4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🇨🇳CN-🇭🇰HK_27 |10.39Mb","type":"vmess","server":"183.236.49.92","port":40002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🏁ZZ_139 |14.36Mb","type":"vmess","server":"104.17.134.46","port":80,"cipher":"auto","uuid":"2d14e84b-226b-412a-9a3c-ffce70b02bdf","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"127.0.0.1.dl.эврика.mrarsha.尤里卡.醫生.специалист.wonkacapitano.buzz."}}}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_230 |282.79Mb","type":"vmess","server":"104.19.21.63","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"🇨🇳CN_53 |13.98Mb","type":"vmess","server":"47.116.173.76","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳CN_54 |16.84Mb","type":"vmess","server":"114.55.132.202","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳CN_52 |11.96Mb","type":"vmess","server":"47.92.152.169","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_142 |16.00Mb","type":"vmess","server":"104.19.123.31","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}}}
+  - {"name":"Relay_🏁ZZ-🇨🇦CA_134","type":"vmess","server":"104.19.47.75","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
+  - {"name":"🇨🇳CN_49 | 5.63Mb","type":"vmess","server":"183.236.51.36","port":59003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"Relay_🏁ZZ-🇨🇦CA_138 |268.79Mb","type":"vmess","server":"104.19.38.22","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}}}
-  - {"name":"Relay_🏁ZZ-🇩🇪DE_155 |12.67Mb","type":"vmess","server":"www.speedtest.net","port":2082,"cipher":"auto","uuid":"1368893d-58cb-4a25-9105-a5fa3f6a1a88","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/@config_shahin,@config_shahin,@config_shahin,@config_shahin?ed=80","headers":{"host":"2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou."}}}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_170 |200.41Mb","type":"vmess","server":"104.19.21.240","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_146 |120.36Mb","type":"vmess","server":"104.19.21.73","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_173 |263.66Mb","type":"vmess","server":"104.20.25.166","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -128,158 +108,74 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
+      - TG@ZDYZ2+-JP-Tokyo
       - Relay_🇺🇸US-🇺🇸US_121
-      - Relay_🇺🇸US-🇺🇸US_118
-      - 荷兰01|⚡高速专线
-      - 美国02|⚡高速专线
-      - 德国01|⚡高速专线
-      - 日本01|⚡高速专线
-      - Relay_🏁ZZ-🇨🇦CA_142 |16.00Mb
-      - 香港07|⚡高速专线
-      - 美国 01|⚡高速专线
-      - 韩国01|⚡高速专线
-      - 香港01|⚡高速专线
-      - Relay_🏁ZZ-🇩🇪DE_153 |10.06Mb
-      - 新加坡 01|⚡高速专线
-      - 泰国01|⚡高速专线
-      - 香港05|⚡高速专线
-      - 美国04|⚡高速专线
-      - Relay_🇺🇸US-🇺🇸US_108 |10.15Mb
+      - Relay_🏁ZZ-🇨🇦CA_126 |294.71Mb
+      - TG@ZDYZ2+-HK-Hong+Kong
+      - Relay_🏁ZZ-🇨🇦CA_136
       - 🇨🇳CN_77 | 3.09Mb
-      - 新加坡 02|⚡高速专线
-      - 香港04|⚡高速专线
-      - 续费官网①:xiongmaoo.com
-      - 印度01|⚡高速专线
-      - Relay_🇺🇸US-🇨🇦CA_106 |274.12Mb
-      - Relay_🇨🇳CN-🇭🇰HK_29 |10.24Mb
-      - 巴西01|⚡高速专线
-      - 香港03|⚡高速专线
-      - Relay_🇨🇳CN-🇭🇰HK_27 |10.39Mb
-      - 🏁ZZ_139 |14.36Mb
-      - Relay_🏁ZZ-🇨🇦CA_230 |282.79Mb
+      - 🇨🇳CN_53 |13.98Mb
+      - 🇨🇳CN_54 |16.84Mb
+      - 🇨🇳CN_52 |11.96Mb
+      - Relay_🏁ZZ-🇨🇦CA_142 |16.00Mb
+      - Relay_🏁ZZ-🇨🇦CA_134
+      - 🇨🇳CN_49 | 5.63Mb
       - Relay_🏁ZZ-🇨🇦CA_138 |268.79Mb
-      - Relay_🏁ZZ-🇩🇪DE_155 |12.67Mb
-      - Relay_🏁ZZ-🇨🇦CA_170 |200.41Mb
-      - Relay_🏁ZZ-🇨🇦CA_146 |120.36Mb
-      - Relay_🏁ZZ-🇨🇦CA_173 |263.66Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - TG@ZDYZ2+-JP-Tokyo
       - Relay_🇺🇸US-🇺🇸US_121
-      - Relay_🇺🇸US-🇺🇸US_118
-      - 荷兰01|⚡高速专线
-      - 美国02|⚡高速专线
-      - 德国01|⚡高速专线
-      - 日本01|⚡高速专线
-      - Relay_🏁ZZ-🇨🇦CA_142 |16.00Mb
-      - 香港07|⚡高速专线
-      - 美国 01|⚡高速专线
-      - 韩国01|⚡高速专线
-      - 香港01|⚡高速专线
-      - Relay_🏁ZZ-🇩🇪DE_153 |10.06Mb
-      - 新加坡 01|⚡高速专线
-      - 泰国01|⚡高速专线
-      - 香港05|⚡高速专线
-      - 美国04|⚡高速专线
-      - Relay_🇺🇸US-🇺🇸US_108 |10.15Mb
+      - Relay_🏁ZZ-🇨🇦CA_126 |294.71Mb
+      - TG@ZDYZ2+-HK-Hong+Kong
+      - Relay_🏁ZZ-🇨🇦CA_136
       - 🇨🇳CN_77 | 3.09Mb
-      - 新加坡 02|⚡高速专线
-      - 香港04|⚡高速专线
-      - 续费官网①:xiongmaoo.com
-      - 印度01|⚡高速专线
-      - Relay_🇺🇸US-🇨🇦CA_106 |274.12Mb
-      - Relay_🇨🇳CN-🇭🇰HK_29 |10.24Mb
-      - 巴西01|⚡高速专线
-      - 香港03|⚡高速专线
-      - Relay_🇨🇳CN-🇭🇰HK_27 |10.39Mb
-      - 🏁ZZ_139 |14.36Mb
-      - Relay_🏁ZZ-🇨🇦CA_230 |282.79Mb
+      - 🇨🇳CN_53 |13.98Mb
+      - 🇨🇳CN_54 |16.84Mb
+      - 🇨🇳CN_52 |11.96Mb
+      - Relay_🏁ZZ-🇨🇦CA_142 |16.00Mb
+      - Relay_🏁ZZ-🇨🇦CA_134
+      - 🇨🇳CN_49 | 5.63Mb
       - Relay_🏁ZZ-🇨🇦CA_138 |268.79Mb
-      - Relay_🏁ZZ-🇩🇪DE_155 |12.67Mb
-      - Relay_🏁ZZ-🇨🇦CA_170 |200.41Mb
-      - Relay_🏁ZZ-🇨🇦CA_146 |120.36Mb
-      - Relay_🏁ZZ-🇨🇦CA_173 |263.66Mb
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - TG@ZDYZ2+-JP-Tokyo
       - Relay_🇺🇸US-🇺🇸US_121
-      - Relay_🇺🇸US-🇺🇸US_118
-      - 荷兰01|⚡高速专线
-      - 美国02|⚡高速专线
-      - 德国01|⚡高速专线
-      - 日本01|⚡高速专线
-      - Relay_🏁ZZ-🇨🇦CA_142 |16.00Mb
-      - 香港07|⚡高速专线
-      - 美国 01|⚡高速专线
-      - 韩国01|⚡高速专线
-      - 香港01|⚡高速专线
-      - Relay_🏁ZZ-🇩🇪DE_153 |10.06Mb
-      - 新加坡 01|⚡高速专线
-      - 泰国01|⚡高速专线
-      - 香港05|⚡高速专线
-      - 美国04|⚡高速专线
-      - Relay_🇺🇸US-🇺🇸US_108 |10.15Mb
+      - Relay_🏁ZZ-🇨🇦CA_126 |294.71Mb
+      - TG@ZDYZ2+-HK-Hong+Kong
+      - Relay_🏁ZZ-🇨🇦CA_136
       - 🇨🇳CN_77 | 3.09Mb
-      - 新加坡 02|⚡高速专线
-      - 香港04|⚡高速专线
-      - 续费官网①:xiongmaoo.com
-      - 印度01|⚡高速专线
-      - Relay_🇺🇸US-🇨🇦CA_106 |274.12Mb
-      - Relay_🇨🇳CN-🇭🇰HK_29 |10.24Mb
-      - 巴西01|⚡高速专线
-      - 香港03|⚡高速专线
-      - Relay_🇨🇳CN-🇭🇰HK_27 |10.39Mb
-      - 🏁ZZ_139 |14.36Mb
-      - Relay_🏁ZZ-🇨🇦CA_230 |282.79Mb
+      - 🇨🇳CN_53 |13.98Mb
+      - 🇨🇳CN_54 |16.84Mb
+      - 🇨🇳CN_52 |11.96Mb
+      - Relay_🏁ZZ-🇨🇦CA_142 |16.00Mb
+      - Relay_🏁ZZ-🇨🇦CA_134
+      - 🇨🇳CN_49 | 5.63Mb
       - Relay_🏁ZZ-🇨🇦CA_138 |268.79Mb
-      - Relay_🏁ZZ-🇩🇪DE_155 |12.67Mb
-      - Relay_🏁ZZ-🇨🇦CA_170 |200.41Mb
-      - Relay_🏁ZZ-🇨🇦CA_146 |120.36Mb
-      - Relay_🏁ZZ-🇨🇦CA_173 |263.66Mb
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - TG@ZDYZ2+-JP-Tokyo
       - Relay_🇺🇸US-🇺🇸US_121
-      - Relay_🇺🇸US-🇺🇸US_118
-      - 荷兰01|⚡高速专线
-      - 美国02|⚡高速专线
-      - 德国01|⚡高速专线
-      - 日本01|⚡高速专线
-      - Relay_🏁ZZ-🇨🇦CA_142 |16.00Mb
-      - 香港07|⚡高速专线
-      - 美国 01|⚡高速专线
-      - 韩国01|⚡高速专线
-      - 香港01|⚡高速专线
-      - Relay_🏁ZZ-🇩🇪DE_153 |10.06Mb
-      - 新加坡 01|⚡高速专线
-      - 泰国01|⚡高速专线
-      - 香港05|⚡高速专线
-      - 美国04|⚡高速专线
-      - Relay_🇺🇸US-🇺🇸US_108 |10.15Mb
+      - Relay_🏁ZZ-🇨🇦CA_126 |294.71Mb
+      - TG@ZDYZ2+-HK-Hong+Kong
+      - Relay_🏁ZZ-🇨🇦CA_136
       - 🇨🇳CN_77 | 3.09Mb
-      - 新加坡 02|⚡高速专线
-      - 香港04|⚡高速专线
-      - 续费官网①:xiongmaoo.com
-      - 印度01|⚡高速专线
-      - Relay_🇺🇸US-🇨🇦CA_106 |274.12Mb
-      - Relay_🇨🇳CN-🇭🇰HK_29 |10.24Mb
-      - 巴西01|⚡高速专线
-      - 香港03|⚡高速专线
-      - Relay_🇨🇳CN-🇭🇰HK_27 |10.39Mb
-      - 🏁ZZ_139 |14.36Mb
-      - Relay_🏁ZZ-🇨🇦CA_230 |282.79Mb
+      - 🇨🇳CN_53 |13.98Mb
+      - 🇨🇳CN_54 |16.84Mb
+      - 🇨🇳CN_52 |11.96Mb
+      - Relay_🏁ZZ-🇨🇦CA_142 |16.00Mb
+      - Relay_🏁ZZ-🇨🇦CA_134
+      - 🇨🇳CN_49 | 5.63Mb
       - Relay_🏁ZZ-🇨🇦CA_138 |268.79Mb
-      - Relay_🏁ZZ-🇩🇪DE_155 |12.67Mb
-      - Relay_🏁ZZ-🇨🇦CA_170 |200.41Mb
-      - Relay_🏁ZZ-🇨🇦CA_146 |120.36Mb
-      - Relay_🏁ZZ-🇨🇦CA_173 |263.66Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -299,40 +195,19 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - TG@ZDYZ2+-JP-Tokyo
       - Relay_🇺🇸US-🇺🇸US_121
-      - Relay_🇺🇸US-🇺🇸US_118
-      - 荷兰01|⚡高速专线
-      - 美国02|⚡高速专线
-      - 德国01|⚡高速专线
-      - 日本01|⚡高速专线
-      - Relay_🏁ZZ-🇨🇦CA_142 |16.00Mb
-      - 香港07|⚡高速专线
-      - 美国 01|⚡高速专线
-      - 韩国01|⚡高速专线
-      - 香港01|⚡高速专线
-      - Relay_🏁ZZ-🇩🇪DE_153 |10.06Mb
-      - 新加坡 01|⚡高速专线
-      - 泰国01|⚡高速专线
-      - 香港05|⚡高速专线
-      - 美国04|⚡高速专线
-      - Relay_🇺🇸US-🇺🇸US_108 |10.15Mb
+      - Relay_🏁ZZ-🇨🇦CA_126 |294.71Mb
+      - TG@ZDYZ2+-HK-Hong+Kong
+      - Relay_🏁ZZ-🇨🇦CA_136
       - 🇨🇳CN_77 | 3.09Mb
-      - 新加坡 02|⚡高速专线
-      - 香港04|⚡高速专线
-      - 续费官网①:xiongmaoo.com
-      - 印度01|⚡高速专线
-      - Relay_🇺🇸US-🇨🇦CA_106 |274.12Mb
-      - Relay_🇨🇳CN-🇭🇰HK_29 |10.24Mb
-      - 巴西01|⚡高速专线
-      - 香港03|⚡高速专线
-      - Relay_🇨🇳CN-🇭🇰HK_27 |10.39Mb
-      - 🏁ZZ_139 |14.36Mb
-      - Relay_🏁ZZ-🇨🇦CA_230 |282.79Mb
+      - 🇨🇳CN_53 |13.98Mb
+      - 🇨🇳CN_54 |16.84Mb
+      - 🇨🇳CN_52 |11.96Mb
+      - Relay_🏁ZZ-🇨🇦CA_142 |16.00Mb
+      - Relay_🏁ZZ-🇨🇦CA_134
+      - 🇨🇳CN_49 | 5.63Mb
       - Relay_🏁ZZ-🇨🇦CA_138 |268.79Mb
-      - Relay_🏁ZZ-🇩🇪DE_155 |12.67Mb
-      - Relay_🏁ZZ-🇨🇦CA_170 |200.41Mb
-      - Relay_🏁ZZ-🇨🇦CA_146 |120.36Mb
-      - Relay_🏁ZZ-🇨🇦CA_173 |263.66Mb
 
 rules:
 # 本地/局域网地址
