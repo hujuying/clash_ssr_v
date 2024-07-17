@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-17 03:19:12
+# 创建时间：2024-07-17 20:15:20
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：24
+# 节点数量：13
 # 节点类型：ss, trojan, vmess, vless, hysteria2
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
@@ -87,30 +87,19 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"US_1","type":"ss","server":"65.75.192.31","port":49679,"password":"GrMkkGuJND","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"JP_4","type":"trojan","server":"172.105.230.133","port":3306,"udp":true,"password":"3febb05ea76a940f","sni":"n2.gladns.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/gateway/connect","headers":{"host":"n2.gladns.com"}}}
-  - {"name":"US_7","type":"vmess","server":"170.178.190.139","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.94054702.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.94054702.xyz"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 610","type":"vless","server":"103.137.62.229","port":443,"udp":true,"uuid":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","tls":true,"servername":"tesla.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"zRZhlkKjUeqtIk9j6yy95aX-2krqQVyWORLv5tQkQGM"},"client-fingerprint":"chrome"}
-  - {"name":"CN_9","type":"trojan","server":"183.240.179.191","port":50005,"udp":true,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","sni":"sydney.aaaa.gay","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"CN_17","type":"vmess","server":"47.104.186.133","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 454","type":"vmess","server":"104.26.0.66","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 43","type":"vmess","server":"47.92.152.169","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US_19","type":"hysteria2","server":"us-01.worldfirst.eu.org","port":44300,"password":"d357239c-eb91-4256-9c6d-82919928a4db","sni":"us-01.worldfirst.eu.org","skip-cert-verify":true}
-  - {"name":"US_3","type":"vmess","server":"107.167.26.10","port":30000,"cipher":"auto","uuid":"b7e0d258-acae-4a1b-8626-49a34706f5bc","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.12594164.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.12594164.xyz"}}}
-  - {"name":"GB_16","type":"vmess","server":"83.142.225.33","port":30000,"cipher":"auto","uuid":"5267ca71-97e6-44c8-8fb5-9fe4afe0954e","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.41825759.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.41825759.xyz"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 552","type":"trojan","server":"183.240.179.191","port":50021,"udp":true,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","sni":"los4.aaaa.gay","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"CN_24","type":"vmess","server":"118.107.244.83","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.90980549.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.90980549.xyz"}}}
-  - {"name":"JP_33","type":"hysteria2","server":"zz.worldfirst.eu.org","port":46610,"password":"d357239c-eb91-4256-9c6d-82919928a4db","sni":"us-01.worldfirst.eu.org","skip-cert-verify":true}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 3","type":"vmess","server":"144.48.32.10","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.32011779.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.32011779.xyz"}}}
-  - {"name":"CN_25","type":"vmess","server":"hn.xn--wlqw1swrj04ju56d.com","port":80,"cipher":"auto","uuid":"f9ddefc5-d121-486f-9e2f-0c2cd1a3decc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"US_37","type":"vmess","server":"104.19.21.71","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
-  - {"name":"US_28","type":"vmess","server":"104.19.58.175","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 563","type":"vmess","server":"104.20.25.146","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 37","type":"vmess","server":"112.132.212.19","port":50004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 38","type":"vmess","server":"120.232.153.37","port":42055,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"CN_31","type":"trojan","server":"hkvip104.qlgq.fun","port":45136,"udp":true,"password":"047723b8-309c-360e-acad-ab62a4297ffc","sni":"hkvip104.qlgq.fun","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"hkvip104"}}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 850","type":"trojan","server":"183.240.179.191","port":50057,"udp":true,"password":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","sni":"ger.aaaa.gay","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 568","type":"vmess","server":"104.19.21.71","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
+  - {"name":"US_美国_1","type":"ss","server":"65.75.192.31","port":49679,"password":"GrMkkGuJND","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"JP_日本_2","type":"trojan","server":"172.105.230.133","port":3306,"udp":true,"password":"3febb05ea76a940f","sni":"n2.gladns.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/gateway/connect","headers":{"host":"n2.gladns.com"}}}
+  - {"name":"US_美国_3","type":"vmess","server":"170.178.190.139","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.94054702.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.94054702.xyz"}}}
+  - {"name":"PK_巴基斯坦_4","type":"vless","server":"103.137.62.229","port":443,"udp":true,"uuid":"7a49ebc8-6235-36b1-b7b4-0864b95bd90a","tls":true,"servername":"tesla.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"zRZhlkKjUeqtIk9j6yy95aX-2krqQVyWORLv5tQkQGM"},"client-fingerprint":"chrome"}
+  - {"name":"US_美国_7","type":"vmess","server":"104.26.0.66","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}}}
+  - {"name":"US_美国_9","type":"hysteria2","server":"us-01.worldfirst.eu.org","port":44300,"password":"d357239c-eb91-4256-9c6d-82919928a4db","sni":"us-01.worldfirst.eu.org","skip-cert-verify":true}
+  - {"name":"US_美国_10","type":"vmess","server":"107.167.26.10","port":30000,"cipher":"auto","uuid":"b7e0d258-acae-4a1b-8626-49a34706f5bc","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.12594164.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.12594164.xyz"}}}
+  - {"name":"GB_英国_11","type":"vmess","server":"83.142.225.33","port":30000,"cipher":"auto","uuid":"5267ca71-97e6-44c8-8fb5-9fe4afe0954e","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.41825759.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.41825759.xyz"}}}
+  - {"name":"KR_韩国_14","type":"hysteria2","server":"zz.worldfirst.eu.org","port":46610,"password":"d357239c-eb91-4256-9c6d-82919928a4db","sni":"us-01.worldfirst.eu.org","skip-cert-verify":true}
+  - {"name":"US_美国_17","type":"vmess","server":"104.19.21.71","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"US_美国_18","type":"vmess","server":"104.19.58.175","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"US_美国_19","type":"vmess","server":"104.20.25.146","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"US_美国_24","type":"vmess","server":"104.19.21.71","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -119,118 +108,74 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - US_1
-      - JP_4
-      - US_7
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 610
-      - CN_9
-      - CN_17
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 454
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 43
-      - US_19
-      - US_3
-      - GB_16
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 552
-      - CN_24
-      - JP_33
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 3
-      - CN_25
-      - US_37
-      - US_28
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 563
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 37
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 38
-      - CN_31
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 850
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 568
+      - US_美国_1
+      - JP_日本_2
+      - US_美国_3
+      - PK_巴基斯坦_4
+      - US_美国_7
+      - US_美国_9
+      - US_美国_10
+      - GB_英国_11
+      - KR_韩国_14
+      - US_美国_17
+      - US_美国_18
+      - US_美国_19
+      - US_美国_24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US_1
-      - JP_4
-      - US_7
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 610
-      - CN_9
-      - CN_17
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 454
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 43
-      - US_19
-      - US_3
-      - GB_16
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 552
-      - CN_24
-      - JP_33
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 3
-      - CN_25
-      - US_37
-      - US_28
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 563
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 37
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 38
-      - CN_31
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 850
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 568
+      - US_美国_1
+      - JP_日本_2
+      - US_美国_3
+      - PK_巴基斯坦_4
+      - US_美国_7
+      - US_美国_9
+      - US_美国_10
+      - GB_英国_11
+      - KR_韩国_14
+      - US_美国_17
+      - US_美国_18
+      - US_美国_19
+      - US_美国_24
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - US_1
-      - JP_4
-      - US_7
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 610
-      - CN_9
-      - CN_17
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 454
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 43
-      - US_19
-      - US_3
-      - GB_16
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 552
-      - CN_24
-      - JP_33
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 3
-      - CN_25
-      - US_37
-      - US_28
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 563
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 37
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 38
-      - CN_31
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 850
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 568
+      - US_美国_1
+      - JP_日本_2
+      - US_美国_3
+      - PK_巴基斯坦_4
+      - US_美国_7
+      - US_美国_9
+      - US_美国_10
+      - GB_英国_11
+      - KR_韩国_14
+      - US_美国_17
+      - US_美国_18
+      - US_美国_19
+      - US_美国_24
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - US_1
-      - JP_4
-      - US_7
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 610
-      - CN_9
-      - CN_17
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 454
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 43
-      - US_19
-      - US_3
-      - GB_16
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 552
-      - CN_24
-      - JP_33
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 3
-      - CN_25
-      - US_37
-      - US_28
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 563
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 37
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 38
-      - CN_31
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 850
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 568
+      - US_美国_1
+      - JP_日本_2
+      - US_美国_3
+      - PK_巴基斯坦_4
+      - US_美国_7
+      - US_美国_9
+      - US_美国_10
+      - GB_英国_11
+      - KR_韩国_14
+      - US_美国_17
+      - US_美国_18
+      - US_美国_19
+      - US_美国_24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -250,30 +195,19 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - US_1
-      - JP_4
-      - US_7
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 610
-      - CN_9
-      - CN_17
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 454
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 43
-      - US_19
-      - US_3
-      - GB_16
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 552
-      - CN_24
-      - JP_33
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 3
-      - CN_25
-      - US_37
-      - US_28
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 563
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 37
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 38
-      - CN_31
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 850
-      - 公益官网 https://github.com/Cry1ngMan/1 获取新订阅⚡️ 568
+      - US_美国_1
+      - JP_日本_2
+      - US_美国_3
+      - PK_巴基斯坦_4
+      - US_美国_7
+      - US_美国_9
+      - US_美国_10
+      - GB_英国_11
+      - KR_韩国_14
+      - US_美国_17
+      - US_美国_18
+      - US_美国_19
+      - US_美国_24
 
 rules:
 # 本地/局域网地址
