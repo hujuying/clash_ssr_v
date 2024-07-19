@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-19 03:11:15
+# 创建时间：2024-07-20 03:59:37
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：10
+# 节点数量：9
 # 节点类型：hysteria2
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
@@ -87,16 +87,15 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"[Hy2]剩余流量：12.66 GB","type":"hysteria2","server":"seoul3-500m.yljc.online","port":24522,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"1.nodes.yljc.online"}
-  - {"name":"[Hy2]距离下次重置剩余：10 天","type":"hysteria2","server":"seoul3-500m.yljc.online","port":24522,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"1.nodes.yljc.online"}
-  - {"name":"[Hy2]套餐到期：2024-07-29","type":"hysteria2","server":"seoul3-500m.yljc.online","port":24522,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"1.nodes.yljc.online"}
-  - {"name":"[Hy2]🇰🇷韩国-首尔3-500M","type":"hysteria2","server":"seoul3-500m.yljc.online","port":24522,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"1.nodes.yljc.online"}
-  - {"name":"[Hy2]🇰🇷韩国-首尔4-500M","type":"hysteria2","server":"seoul4-500m.yljc.online","port":22200,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"1.nodes.yljc.online"}
-  - {"name":"[Hy2]🇯🇵日本-东京-500M-1","type":"hysteria2","server":"tokyo2-500m.yljc.online","port":22529,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"2.nodes.yljc.online"}
-  - {"name":"[Hy2]🇯🇵日本-东京-500M-2","type":"hysteria2","server":"tokyo3-500m.yljc.online","port":21218,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"2.nodes.yljc.online"}
-  - {"name":"[Hy2]🇩🇪德国-法兰克福-2500M","type":"hysteria2","server":"frankfurt1-2500m.yljc.online","port":22519,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"1.nodes.yljc.online"}
-  - {"name":"[Hy2]🇩🇪德国-法兰克福-500M 1","type":"hysteria2","server":"frankfurt2-500m.yljc.online","port":21134,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"199.nodes.yljc.online"}
-  - {"name":"[Hy2]🇩🇪德国-法兰克福-500M 2","type":"hysteria2","server":"frankfurt3-500m.yljc.online","port":21916,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"199.nodes.yljc.online"}
+  - {"name":"[Hy2]剩余流量：12.66 GB","type":"hysteria2","server":"seoul3-500m.yljc.online","port":22063,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"1.nodes.yljc.online"}
+  - {"name":"[Hy2]距离下次重置剩余：9 天","type":"hysteria2","server":"seoul3-500m.yljc.online","port":22063,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"1.nodes.yljc.online"}
+  - {"name":"[Hy2]套餐到期：2024-07-29","type":"hysteria2","server":"seoul3-500m.yljc.online","port":22063,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"1.nodes.yljc.online"}
+  - {"name":"[Hy2]🇰🇷韩国-首尔3-500M","type":"hysteria2","server":"seoul3-500m.yljc.online","port":22063,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"1.nodes.yljc.online"}
+  - {"name":"[Hy2]🇰🇷韩国-首尔4-500M","type":"hysteria2","server":"seoul4-500m.yljc.online","port":24932,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"1.nodes.yljc.online"}
+  - {"name":"[Hy2]🇯🇵日本-东京-500M-1","type":"hysteria2","server":"tokyo2-500m.yljc.online","port":24064,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"2.nodes.yljc.online"}
+  - {"name":"[Hy2]🇯🇵日本-东京-500M-2","type":"hysteria2","server":"tokyo3-500m.yljc.online","port":22211,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"2.nodes.yljc.online"}
+  - {"name":"[Hy2]🇩🇪德国-法兰克福-2500M","type":"hysteria2","server":"frankfurt1-2500m.yljc.online","port":20489,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"1.nodes.yljc.online"}
+  - {"name":"[Hy2]🇩🇪德国-法兰克福-500M 1","type":"hysteria2","server":"frankfurt2-500m.yljc.online","port":21005,"password":"49c99945-a68f-4fa0-abb9-c671ff2b3ceb","sni":"199.nodes.yljc.online"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -106,7 +105,7 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - '[Hy2]剩余流量：12.66 GB'
-      - '[Hy2]距离下次重置剩余：10 天'
+      - '[Hy2]距离下次重置剩余：9 天'
       - '[Hy2]套餐到期：2024-07-29'
       - '[Hy2]🇰🇷韩国-首尔3-500M'
       - '[Hy2]🇰🇷韩国-首尔4-500M'
@@ -114,7 +113,6 @@ proxy-groups:
       - '[Hy2]🇯🇵日本-东京-500M-2'
       - '[Hy2]🇩🇪德国-法兰克福-2500M'
       - '[Hy2]🇩🇪德国-法兰克福-500M 1'
-      - '[Hy2]🇩🇪德国-法兰克福-500M 2'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -122,7 +120,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '[Hy2]剩余流量：12.66 GB'
-      - '[Hy2]距离下次重置剩余：10 天'
+      - '[Hy2]距离下次重置剩余：9 天'
       - '[Hy2]套餐到期：2024-07-29'
       - '[Hy2]🇰🇷韩国-首尔3-500M'
       - '[Hy2]🇰🇷韩国-首尔4-500M'
@@ -130,14 +128,13 @@ proxy-groups:
       - '[Hy2]🇯🇵日本-东京-500M-2'
       - '[Hy2]🇩🇪德国-法兰克福-2500M'
       - '[Hy2]🇩🇪德国-法兰克福-500M 1'
-      - '[Hy2]🇩🇪德国-法兰克福-500M 2'
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - '[Hy2]剩余流量：12.66 GB'
-      - '[Hy2]距离下次重置剩余：10 天'
+      - '[Hy2]距离下次重置剩余：9 天'
       - '[Hy2]套餐到期：2024-07-29'
       - '[Hy2]🇰🇷韩国-首尔3-500M'
       - '[Hy2]🇰🇷韩国-首尔4-500M'
@@ -145,14 +142,13 @@ proxy-groups:
       - '[Hy2]🇯🇵日本-东京-500M-2'
       - '[Hy2]🇩🇪德国-法兰克福-2500M'
       - '[Hy2]🇩🇪德国-法兰克福-500M 1'
-      - '[Hy2]🇩🇪德国-法兰克福-500M 2'
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - '[Hy2]剩余流量：12.66 GB'
-      - '[Hy2]距离下次重置剩余：10 天'
+      - '[Hy2]距离下次重置剩余：9 天'
       - '[Hy2]套餐到期：2024-07-29'
       - '[Hy2]🇰🇷韩国-首尔3-500M'
       - '[Hy2]🇰🇷韩国-首尔4-500M'
@@ -160,7 +156,6 @@ proxy-groups:
       - '[Hy2]🇯🇵日本-东京-500M-2'
       - '[Hy2]🇩🇪德国-法兰克福-2500M'
       - '[Hy2]🇩🇪德国-法兰克福-500M 1'
-      - '[Hy2]🇩🇪德国-法兰克福-500M 2'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -181,7 +176,7 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - '[Hy2]剩余流量：12.66 GB'
-      - '[Hy2]距离下次重置剩余：10 天'
+      - '[Hy2]距离下次重置剩余：9 天'
       - '[Hy2]套餐到期：2024-07-29'
       - '[Hy2]🇰🇷韩国-首尔3-500M'
       - '[Hy2]🇰🇷韩国-首尔4-500M'
@@ -189,7 +184,6 @@ proxy-groups:
       - '[Hy2]🇯🇵日本-东京-500M-2'
       - '[Hy2]🇩🇪德国-法兰克福-2500M'
       - '[Hy2]🇩🇪德国-法兰克福-500M 1'
-      - '[Hy2]🇩🇪德国-法兰克福-500M 2'
 
 rules:
 # 本地/局域网地址
