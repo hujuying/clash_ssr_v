@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-21 02:40:05
+# 创建时间：2024-07-22 02:32:10
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：33
-# 节点类型：vless, ss, hysteria2, vmess
+# 节点数量：16
+# 节点类型：hysteria2, ss, vless, vmess
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,39 +87,22 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"FR_法国_1","type":"vless","server":"146.19.21.118","port":443,"uuid":"98ecadb1-e5b5-4a2f-9a28-d066556e2377","tls":true,"servername":"j1us2.jsjc.sbs","network":"ws","ws-opts":{"path":"/jsjc/us2"},"client-fingerprint":"safari"}
-  - {"name":"CN_中国_2","type":"ss","server":"36.158.206.107","port":61002,"password":"c2ec7513-9d57-4853-9687-43ed5a001683","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CN_中国_3","type":"ss","server":"a1.45s6e224gdr.shop","port":10018,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CN_中国_4","type":"ss","server":"ydthree.9sjd2dkesl2.shop","port":17053,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CN_中国_5","type":"ss","server":"kis7as.9sjd2dkesl2.shop","port":44524,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CN_中国_6","type":"ss","server":"ydthree.9sjd2dkesl2.shop","port":37121,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CN_中国_7","type":"ss","server":"ydthree2.yb59.uk","port":44523,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CN_中国_8","type":"ss","server":"kis7as.9sjd2dkesl2.shop","port":25912,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"US_美国_9","type":"hysteria2","server":"jp01.poke-mon.xyz","port":8088,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"jp01.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"NzI5MTU0YTY0NmJkMDUwNQ=="}
-  - {"name":"US_美国_10","type":"ss","server":"65.75.192.31","port":49679,"password":"GrMkkGuJND","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"KR_韩国_11","type":"vless","server":"59.3.3.161","port":443,"uuid":"bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c","tls":true,"servername":"page-us-qg0.pages.dev","network":"ws","ws-opts":{"path":"juzi"}}
-  - {"name":"CN_中国_12","type":"ss","server":"kis7as.9sjd2dkesl2.shop","port":15433,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CN_中国_13","type":"ss","server":"ydthree2.yb59.uk","port":17871,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CN_中国_14","type":"ss","server":"kis7as.9sjd2dkesl2.shop","port":12895,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"US_美国_15","type":"ss","server":"38.175.201.85","port":40871,"password":"HrfTdWH7Eu","cipher":"aes-256-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"CN_中国_16","type":"ss","server":"yinji1.9sjd2dkesl2.shop","port":41205,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"US_美国_17","type":"hysteria2","server":"us03.poke-mon.xyz","port":8081,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"us03.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"YTIyMGYzN2M1MDllMzEyMA=="}
-  - {"name":"CN_中国_18","type":"vmess","server":"47.104.186.133","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"CN_中国_19","type":"ss","server":"ydthree.9sjd2dkesl2.shop","port":49188,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CN_中国_20","type":"ss","server":"ydthree.9sjd2dkesl2.shop","port":31995,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"DE_德国_21","type":"hysteria2","server":"aodaliya.poke-mon.xyz","port":23223,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"aodaliya.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"Y2M5ZGQyYzc2ZjNhZTlkNA=="}
-  - {"name":"GB_英国_22","type":"hysteria2","server":"uk01.poke-mon.xyz","port":8092,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"uk01.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"YmEzZTFkN2M2MzY5NTViMw=="}
-  - {"name":"US_美国_23","type":"hysteria2","server":"us02.poke-mon.xyz","port":9077,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"us02.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"ZjYwZmViYTA3ZGM1OTc1OA=="}
+  - {"name":"US_美国_5","type":"hysteria2","server":"jp01.poke-mon.xyz","port":8088,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"jp01.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"NzI5MTU0YTY0NmJkMDUwNQ=="}
+  - {"name":"US_美国_6","type":"hysteria2","server":"us03.poke-mon.xyz","port":8081,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"us03.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"YTIyMGYzN2M1MDllMzEyMA=="}
+  - {"name":"US_美国_8","type":"hysteria2","server":"helan.poke-mon.xyz","port":8091,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"helan.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"ZGY3MzJmZmViM2U2NTAzZA=="}
+  - {"name":"GB_英国_10","type":"hysteria2","server":"uk01.poke-mon.xyz","port":8092,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"uk01.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"YmEzZTFkN2M2MzY5NTViMw=="}
+  - {"name":"SG_新加坡_11","type":"hysteria2","server":"sg01.poke-mon.xyz","port":8089,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"sg01.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"MmZiNTNjYmU5NjY2Zjk0YQ=="}
+  - {"name":"US_美国_12","type":"hysteria2","server":"us02.poke-mon.xyz","port":9077,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"us02.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"ZjYwZmViYTA3ZGM1OTc1OA=="}
+  - {"name":"DE_德国_13","type":"hysteria2","server":"aodaliya.poke-mon.xyz","port":23223,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"aodaliya.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"Y2M5ZGQyYzc2ZjNhZTlkNA=="}
   - {"name":"FI_芬兰_24","type":"hysteria2","server":"fenlan.poke-mon.xyz","port":28089,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"fenlan.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"ZDQxZDhjZDk4ZjAwYjIwNA=="}
-  - {"name":"CN_中国_25","type":"vmess","server":"134.122.135.249","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.51335792.xyz"}}}
-  - {"name":"CN_中国_26","type":"vmess","server":"103.123.132.26","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.97254291.xyz"}}}
-  - {"name":"NL_荷兰_27","type":"hysteria2","server":"aodili.poke-mon.xyz","port":29090,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"aodili.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"ZDQxZDhjZDk4ZjAwYjIwNA=="}
-  - {"name":"CN_中国_28","type":"vmess","server":"118.107.244.83","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.90980549.xyz"}}}
-  - {"name":"US_美国_29","type":"hysteria2","server":"helan.poke-mon.xyz","port":8091,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"helan.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"ZGY3MzJmZmViM2U2NTAzZA=="}
-  - {"name":"US_美国_30","type":"hysteria2","server":"baxi01.poke-mon.xyz","port":28087,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"baxi01.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"ZDQxZDhjZDk4ZjAwYjIwNA=="}
-  - {"name":"RU_俄罗斯_31","type":"vmess","server":"185.133.42.144","port":30001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.33189064.xyz"}}}
-  - {"name":"CN_中国_32","type":"vmess","server":"183.236.51.36","port":59003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"CN_中国_33","type":"vmess","server":"183.236.51.23","port":54437,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"NL_荷兰_41","type":"hysteria2","server":"aodili.poke-mon.xyz","port":29090,"password":"334ea788-9f89-40fd-ba2d-55a3a99c4df8","sni":"aodili.poke-mon.xyz","skip-cert-verify":true,"obfs-password":"ZDQxZDhjZDk4ZjAwYjIwNA=="}
+  - {"name":"US_美国_15","type":"ss","server":"38.175.201.85","port":40871,"password":"HrfTdWH7Eu","cipher":"aes-256-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"NL_荷兰_1","type":"vless","server":"45.131.209.202","port":443,"uuid":"98ecadb1-e5b5-4a2f-9a28-d066556e2377","tls":true,"servername":"j1us4.jsjc.sbs","network":"ws","ws-opts":{"path":"/jsjc/us4"},"client-fingerprint":"ios"}
+  - {"name":"GB_英国_2","type":"vless","server":"185.162.228.36","port":443,"uuid":"98ecadb1-e5b5-4a2f-9a28-d066556e2377","tls":true,"servername":"j1us3.jsjc.sbs","network":"ws","ws-opts":{"path":"/jsjc/us3"},"client-fingerprint":"firefox"}
+  - {"name":"US_美国_3","type":"vless","server":"104.19.38.90","port":443,"uuid":"17bd658d-a918-4bd9-90fe-77cc28a8243c","tls":true,"servername":"p8us4.pqjc.buzz","network":"ws","ws-opts":{"path":"/pq/us4"},"client-fingerprint":"firefox"}
+  - {"name":"KR_韩国_9","type":"vless","server":"220.125.55.47","port":45011,"uuid":"e9b9b46b-3a65-4216-be55-4c176be5a277","tls":true,"servername":"xiaoer88602.xiaoer886.dynv6.net","network":"ws","ws-opts":{"path":"/?ed=2560"}}
+  - {"name":"RU_俄罗斯_25","type":"vmess","server":"185.133.42.144","port":30001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.33189064.xyz","network":"ws","ws-opts":{"path":"/path/091615350227","headers":{"host":"www.33189064.xyz"}}}
+  - {"name":"US_美国_39","type":"vmess","server":"104.19.44.174","port":8080,"cipher":"auto","uuid":"3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"amd2.720208.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -128,154 +111,86 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - FR_法国_1
-      - CN_中国_2
-      - CN_中国_3
-      - CN_中国_4
-      - CN_中国_5
-      - CN_中国_6
-      - CN_中国_7
-      - CN_中国_8
-      - US_美国_9
-      - US_美国_10
-      - KR_韩国_11
-      - CN_中国_12
-      - CN_中国_13
-      - CN_中国_14
-      - US_美国_15
-      - CN_中国_16
-      - US_美国_17
-      - CN_中国_18
-      - CN_中国_19
-      - CN_中国_20
-      - DE_德国_21
-      - GB_英国_22
-      - US_美国_23
+      - US_美国_5
+      - US_美国_6
+      - US_美国_8
+      - GB_英国_10
+      - SG_新加坡_11
+      - US_美国_12
+      - DE_德国_13
       - FI_芬兰_24
-      - CN_中国_25
-      - CN_中国_26
-      - NL_荷兰_27
-      - CN_中国_28
-      - US_美国_29
-      - US_美国_30
-      - RU_俄罗斯_31
-      - CN_中国_32
-      - CN_中国_33
+      - NL_荷兰_41
+      - US_美国_15
+      - NL_荷兰_1
+      - GB_英国_2
+      - US_美国_3
+      - KR_韩国_9
+      - RU_俄罗斯_25
+      - US_美国_39
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - FR_法国_1
-      - CN_中国_2
-      - CN_中国_3
-      - CN_中国_4
-      - CN_中国_5
-      - CN_中国_6
-      - CN_中国_7
-      - CN_中国_8
-      - US_美国_9
-      - US_美国_10
-      - KR_韩国_11
-      - CN_中国_12
-      - CN_中国_13
-      - CN_中国_14
-      - US_美国_15
-      - CN_中国_16
-      - US_美国_17
-      - CN_中国_18
-      - CN_中国_19
-      - CN_中国_20
-      - DE_德国_21
-      - GB_英国_22
-      - US_美国_23
+      - US_美国_5
+      - US_美国_6
+      - US_美国_8
+      - GB_英国_10
+      - SG_新加坡_11
+      - US_美国_12
+      - DE_德国_13
       - FI_芬兰_24
-      - CN_中国_25
-      - CN_中国_26
-      - NL_荷兰_27
-      - CN_中国_28
-      - US_美国_29
-      - US_美国_30
-      - RU_俄罗斯_31
-      - CN_中国_32
-      - CN_中国_33
+      - NL_荷兰_41
+      - US_美国_15
+      - NL_荷兰_1
+      - GB_英国_2
+      - US_美国_3
+      - KR_韩国_9
+      - RU_俄罗斯_25
+      - US_美国_39
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - FR_法国_1
-      - CN_中国_2
-      - CN_中国_3
-      - CN_中国_4
-      - CN_中国_5
-      - CN_中国_6
-      - CN_中国_7
-      - CN_中国_8
-      - US_美国_9
-      - US_美国_10
-      - KR_韩国_11
-      - CN_中国_12
-      - CN_中国_13
-      - CN_中国_14
-      - US_美国_15
-      - CN_中国_16
-      - US_美国_17
-      - CN_中国_18
-      - CN_中国_19
-      - CN_中国_20
-      - DE_德国_21
-      - GB_英国_22
-      - US_美国_23
+      - US_美国_5
+      - US_美国_6
+      - US_美国_8
+      - GB_英国_10
+      - SG_新加坡_11
+      - US_美国_12
+      - DE_德国_13
       - FI_芬兰_24
-      - CN_中国_25
-      - CN_中国_26
-      - NL_荷兰_27
-      - CN_中国_28
-      - US_美国_29
-      - US_美国_30
-      - RU_俄罗斯_31
-      - CN_中国_32
-      - CN_中国_33
+      - NL_荷兰_41
+      - US_美国_15
+      - NL_荷兰_1
+      - GB_英国_2
+      - US_美国_3
+      - KR_韩国_9
+      - RU_俄罗斯_25
+      - US_美国_39
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - FR_法国_1
-      - CN_中国_2
-      - CN_中国_3
-      - CN_中国_4
-      - CN_中国_5
-      - CN_中国_6
-      - CN_中国_7
-      - CN_中国_8
-      - US_美国_9
-      - US_美国_10
-      - KR_韩国_11
-      - CN_中国_12
-      - CN_中国_13
-      - CN_中国_14
-      - US_美国_15
-      - CN_中国_16
-      - US_美国_17
-      - CN_中国_18
-      - CN_中国_19
-      - CN_中国_20
-      - DE_德国_21
-      - GB_英国_22
-      - US_美国_23
+      - US_美国_5
+      - US_美国_6
+      - US_美国_8
+      - GB_英国_10
+      - SG_新加坡_11
+      - US_美国_12
+      - DE_德国_13
       - FI_芬兰_24
-      - CN_中国_25
-      - CN_中国_26
-      - NL_荷兰_27
-      - CN_中国_28
-      - US_美国_29
-      - US_美国_30
-      - RU_俄罗斯_31
-      - CN_中国_32
-      - CN_中国_33
+      - NL_荷兰_41
+      - US_美国_15
+      - NL_荷兰_1
+      - GB_英国_2
+      - US_美国_3
+      - KR_韩国_9
+      - RU_俄罗斯_25
+      - US_美国_39
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -295,39 +210,22 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - FR_法国_1
-      - CN_中国_2
-      - CN_中国_3
-      - CN_中国_4
-      - CN_中国_5
-      - CN_中国_6
-      - CN_中国_7
-      - CN_中国_8
-      - US_美国_9
-      - US_美国_10
-      - KR_韩国_11
-      - CN_中国_12
-      - CN_中国_13
-      - CN_中国_14
-      - US_美国_15
-      - CN_中国_16
-      - US_美国_17
-      - CN_中国_18
-      - CN_中国_19
-      - CN_中国_20
-      - DE_德国_21
-      - GB_英国_22
-      - US_美国_23
+      - US_美国_5
+      - US_美国_6
+      - US_美国_8
+      - GB_英国_10
+      - SG_新加坡_11
+      - US_美国_12
+      - DE_德国_13
       - FI_芬兰_24
-      - CN_中国_25
-      - CN_中国_26
-      - NL_荷兰_27
-      - CN_中国_28
-      - US_美国_29
-      - US_美国_30
-      - RU_俄罗斯_31
-      - CN_中国_32
-      - CN_中国_33
+      - NL_荷兰_41
+      - US_美国_15
+      - NL_荷兰_1
+      - GB_英国_2
+      - US_美国_3
+      - KR_韩国_9
+      - RU_俄罗斯_25
+      - US_美国_39
 
 rules:
 # 本地/局域网地址
