@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-22 02:30:55
+# 创建时间：2024-07-23 02:47:00
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：18
-# 节点类型：ss, vmess, vless, trojan
+# 节点数量：21
+# 节点类型：ss, vless, vmess, trojan
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,24 +87,27 @@ dns:
       - 0.0.0.0/32
 
 proxies:
+  - {"name":"美国_Telegram@kxswa+9","type":"ss","server":"34.219.154.160","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"美国_Telegram@kxswa+12","type":"ss","server":"184.170.241.194","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
   - {"name":"荷兰_Telegram@kxswa","type":"ss","server":"109.201.152.181","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
-  - {"name":"澳大利亚_Telegram@kxswa","type":"ss","server":"43.207.118.251","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"美国_Telegram@kxswa_1","type":"vmess","server":"104.19.47.77","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
-  - {"name":"英国_Telegram@kxswa_1","type":"vless","server":"31.22.116.56","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"俄罗斯_Telegram@kxswa","type":"ss","server":"146.185.248.22","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"新加坡_Telegram@kxswa+7","type":"ss","server":"18.142.246.19","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"新加坡_Telegram@kxswa+6","type":"ss","server":"13.229.87.253","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"美国_Telegram@kxswa+5","type":"ss","server":"13.212.14.204","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"香港_Telegram@kxswa+6","type":"ss","server":"59.56.77.178","port":15614,"password":"hGkQ6915tD","cipher":"aes-256-cfb"}
+  - {"name":"新加坡_Telegram@kxswa+2","type":"ss","server":"18.139.110.249","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"乌克兰_Telegram@kxswa","type":"vless","server":"45.80.111.38","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_2","type":"vless","server":"216.205.52.109","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"英国_Telegram@kxswa_2","type":"vless","server":"31.22.116.159","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国_Telegram@kxswa 59","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"23.162.200.227","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"23.162.200.227"}}}
-  - {"name":"美国_Telegram@kxswa_3","type":"vmess","server":"172.64.233.43","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
+  - {"name":"美国_Telegram@kxswa_1","type":"vless","server":"216.205.52.109","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"卢森堡_Telegram@kxswa","type":"vless","server":"188.42.89.60","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"香港_Telegram@kxswa","type":"vless","server":"103.184.44.62","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"卢森堡_Telegram@kxswa_1","type":"vless","server":"188.42.89.60","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"美国_Telegram@kxswa 59","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"23.162.200.227","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"23.162.200.227"}}}
+  - {"name":"香港_Telegram@kxswa+4","type":"trojan","server":"36.151.195.77","port":31666,"udp":true,"password":"MfqALmAJ","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国_Telegram@kxswa_2","type":"vless","server":"192.9.246.112","port":8443,"uuid":"d6b3de64-f0f8-4113-b49f-2660f3c031fb","tls":true,"servername":"159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com","network":"ws","ws-opts":{"path":"/fylink.pages.dev/proxyip=proxyip.aliyun.fxxk.dedyn.io","headers":{"host":"159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com"}}}
+  - {"name":"法国_Telegram@kxswa","type":"vmess","server":"193.160.130.117","port":443,"cipher":"auto","uuid":"9b456c2a-f2c1-45e1-87a9-b7628b04bb24","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"beyonddsz.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"beyonddsz.cfd"}}}
+  - {"name":"香港_Telegram@kxswa+3","type":"trojan","server":"36.151.195.77","port":20819,"udp":true,"password":"MfqALmAJ","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国_Telegram@kxswa_3","type":"trojan","server":"psgp-1.motrix.xyz","port":572,"udp":true,"password":"IozsCbGZbK","sni":"psgp-1.motrix.xyz","skip-cert-verify":true,"network":"tcp"}
   - {"name":"阿联酋_Telegram@kxswa","type":"vless","server":"94.140.0.157","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_4","type":"trojan","server":"psgp-1.motrix.xyz","port":572,"udp":true,"password":"IozsCbGZbK","sni":"psgp-1.motrix.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram@kxswa_5","type":"vless","server":"192.9.246.112","port":8443,"uuid":"d6b3de64-f0f8-4113-b49f-2660f3c031fb","tls":true,"servername":"159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com","network":"ws","ws-opts":{"path":"/fylink.pages.dev/proxyip=proxyip.aliyun.fxxk.dedyn.io","headers":{"host":"159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com"}}}
-  - {"name":"美国_Telegram@kxswa_6","type":"vmess","server":"104.19.44.174","port":8080,"cipher":"auto","uuid":"3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"amd2.720208.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_7","type":"vmess","server":"104.19.44.185","port":8080,"cipher":"auto","uuid":"3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegram🇨🇳 @WangCai_8","headers":{"host":"amd2.720208.xyz"}}}
-  - {"name":"印度_Telegram@kxswa","type":"ss","server":"165.22.208.240","port":4917,"password":"l2zEoLV7XbwU4ZvGN46gyr","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"卢森堡_Telegram@kxswa_2","type":"vless","server":"188.42.145.159","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"香港_Telegram@kxswa+5","type":"trojan","server":"183.232.139.24","port":40081,"udp":true,"password":"MfqALmAJ","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -113,94 +116,106 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
+      - 美国_Telegram@kxswa+9
+      - 美国_Telegram@kxswa+12
       - 荷兰_Telegram@kxswa
-      - 澳大利亚_Telegram@kxswa
-      - 美国_Telegram@kxswa_1
-      - 英国_Telegram@kxswa_1
+      - 俄罗斯_Telegram@kxswa
+      - 新加坡_Telegram@kxswa+7
+      - 新加坡_Telegram@kxswa+6
+      - 美国_Telegram@kxswa+5
+      - 香港_Telegram@kxswa+6
+      - 新加坡_Telegram@kxswa+2
       - 乌克兰_Telegram@kxswa
-      - 美国_Telegram@kxswa_2
-      - 英国_Telegram@kxswa_2
-      - 美国_Telegram@kxswa 59
-      - 美国_Telegram@kxswa_3
+      - 美国_Telegram@kxswa_1
+      - 卢森堡_Telegram@kxswa
       - 香港_Telegram@kxswa
-      - 卢森堡_Telegram@kxswa_1
+      - 美国_Telegram@kxswa 59
+      - 香港_Telegram@kxswa+4
+      - 美国_Telegram@kxswa_2
+      - 法国_Telegram@kxswa
+      - 香港_Telegram@kxswa+3
+      - 美国_Telegram@kxswa_3
       - 阿联酋_Telegram@kxswa
-      - 美国_Telegram@kxswa_4
-      - 美国_Telegram@kxswa_5
-      - 美国_Telegram@kxswa_6
-      - 美国_Telegram@kxswa_7
-      - 印度_Telegram@kxswa
-      - 卢森堡_Telegram@kxswa_2
+      - 香港_Telegram@kxswa+5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 美国_Telegram@kxswa+9
+      - 美国_Telegram@kxswa+12
       - 荷兰_Telegram@kxswa
-      - 澳大利亚_Telegram@kxswa
-      - 美国_Telegram@kxswa_1
-      - 英国_Telegram@kxswa_1
+      - 俄罗斯_Telegram@kxswa
+      - 新加坡_Telegram@kxswa+7
+      - 新加坡_Telegram@kxswa+6
+      - 美国_Telegram@kxswa+5
+      - 香港_Telegram@kxswa+6
+      - 新加坡_Telegram@kxswa+2
       - 乌克兰_Telegram@kxswa
-      - 美国_Telegram@kxswa_2
-      - 英国_Telegram@kxswa_2
-      - 美国_Telegram@kxswa 59
-      - 美国_Telegram@kxswa_3
+      - 美国_Telegram@kxswa_1
+      - 卢森堡_Telegram@kxswa
       - 香港_Telegram@kxswa
-      - 卢森堡_Telegram@kxswa_1
+      - 美国_Telegram@kxswa 59
+      - 香港_Telegram@kxswa+4
+      - 美国_Telegram@kxswa_2
+      - 法国_Telegram@kxswa
+      - 香港_Telegram@kxswa+3
+      - 美国_Telegram@kxswa_3
       - 阿联酋_Telegram@kxswa
-      - 美国_Telegram@kxswa_4
-      - 美国_Telegram@kxswa_5
-      - 美国_Telegram@kxswa_6
-      - 美国_Telegram@kxswa_7
-      - 印度_Telegram@kxswa
-      - 卢森堡_Telegram@kxswa_2
+      - 香港_Telegram@kxswa+5
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 美国_Telegram@kxswa+9
+      - 美国_Telegram@kxswa+12
       - 荷兰_Telegram@kxswa
-      - 澳大利亚_Telegram@kxswa
-      - 美国_Telegram@kxswa_1
-      - 英国_Telegram@kxswa_1
+      - 俄罗斯_Telegram@kxswa
+      - 新加坡_Telegram@kxswa+7
+      - 新加坡_Telegram@kxswa+6
+      - 美国_Telegram@kxswa+5
+      - 香港_Telegram@kxswa+6
+      - 新加坡_Telegram@kxswa+2
       - 乌克兰_Telegram@kxswa
-      - 美国_Telegram@kxswa_2
-      - 英国_Telegram@kxswa_2
-      - 美国_Telegram@kxswa 59
-      - 美国_Telegram@kxswa_3
+      - 美国_Telegram@kxswa_1
+      - 卢森堡_Telegram@kxswa
       - 香港_Telegram@kxswa
-      - 卢森堡_Telegram@kxswa_1
+      - 美国_Telegram@kxswa 59
+      - 香港_Telegram@kxswa+4
+      - 美国_Telegram@kxswa_2
+      - 法国_Telegram@kxswa
+      - 香港_Telegram@kxswa+3
+      - 美国_Telegram@kxswa_3
       - 阿联酋_Telegram@kxswa
-      - 美国_Telegram@kxswa_4
-      - 美国_Telegram@kxswa_5
-      - 美国_Telegram@kxswa_6
-      - 美国_Telegram@kxswa_7
-      - 印度_Telegram@kxswa
-      - 卢森堡_Telegram@kxswa_2
+      - 香港_Telegram@kxswa+5
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 美国_Telegram@kxswa+9
+      - 美国_Telegram@kxswa+12
       - 荷兰_Telegram@kxswa
-      - 澳大利亚_Telegram@kxswa
-      - 美国_Telegram@kxswa_1
-      - 英国_Telegram@kxswa_1
+      - 俄罗斯_Telegram@kxswa
+      - 新加坡_Telegram@kxswa+7
+      - 新加坡_Telegram@kxswa+6
+      - 美国_Telegram@kxswa+5
+      - 香港_Telegram@kxswa+6
+      - 新加坡_Telegram@kxswa+2
       - 乌克兰_Telegram@kxswa
-      - 美国_Telegram@kxswa_2
-      - 英国_Telegram@kxswa_2
-      - 美国_Telegram@kxswa 59
-      - 美国_Telegram@kxswa_3
+      - 美国_Telegram@kxswa_1
+      - 卢森堡_Telegram@kxswa
       - 香港_Telegram@kxswa
-      - 卢森堡_Telegram@kxswa_1
+      - 美国_Telegram@kxswa 59
+      - 香港_Telegram@kxswa+4
+      - 美国_Telegram@kxswa_2
+      - 法国_Telegram@kxswa
+      - 香港_Telegram@kxswa+3
+      - 美国_Telegram@kxswa_3
       - 阿联酋_Telegram@kxswa
-      - 美国_Telegram@kxswa_4
-      - 美国_Telegram@kxswa_5
-      - 美国_Telegram@kxswa_6
-      - 美国_Telegram@kxswa_7
-      - 印度_Telegram@kxswa
-      - 卢森堡_Telegram@kxswa_2
+      - 香港_Telegram@kxswa+5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -220,24 +235,27 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - 美国_Telegram@kxswa+9
+      - 美国_Telegram@kxswa+12
       - 荷兰_Telegram@kxswa
-      - 澳大利亚_Telegram@kxswa
-      - 美国_Telegram@kxswa_1
-      - 英国_Telegram@kxswa_1
+      - 俄罗斯_Telegram@kxswa
+      - 新加坡_Telegram@kxswa+7
+      - 新加坡_Telegram@kxswa+6
+      - 美国_Telegram@kxswa+5
+      - 香港_Telegram@kxswa+6
+      - 新加坡_Telegram@kxswa+2
       - 乌克兰_Telegram@kxswa
-      - 美国_Telegram@kxswa_2
-      - 英国_Telegram@kxswa_2
-      - 美国_Telegram@kxswa 59
-      - 美国_Telegram@kxswa_3
+      - 美国_Telegram@kxswa_1
+      - 卢森堡_Telegram@kxswa
       - 香港_Telegram@kxswa
-      - 卢森堡_Telegram@kxswa_1
+      - 美国_Telegram@kxswa 59
+      - 香港_Telegram@kxswa+4
+      - 美国_Telegram@kxswa_2
+      - 法国_Telegram@kxswa
+      - 香港_Telegram@kxswa+3
+      - 美国_Telegram@kxswa_3
       - 阿联酋_Telegram@kxswa
-      - 美国_Telegram@kxswa_4
-      - 美国_Telegram@kxswa_5
-      - 美国_Telegram@kxswa_6
-      - 美国_Telegram@kxswa_7
-      - 印度_Telegram@kxswa
-      - 卢森堡_Telegram@kxswa_2
+      - 香港_Telegram@kxswa+5
 
 rules:
 # 本地/局域网地址
