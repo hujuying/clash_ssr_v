@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-22 02:31:10
+# 创建时间：2024-07-23 02:47:19
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：75
-# 节点类型：ss, vmess, vless
+# 节点数量：46
+# 节点类型：vless, vmess, ss
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,81 +87,52 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇸🇬新加坡砖线@MFJD666_1","type":"ss","server":"cm1-sg.hutaonode3.top","port":12352,"password":"HuTaoCloud","cipher":"chacha20-ietf","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵日本砖线@MFJD666_1","type":"ss","server":"cm1-jp.hutaonode3.top","port":12058,"password":"HuTaoCloud","cipher":"chacha20-ietf","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇸🇬新加坡砖线@MFJD666_2","type":"ss","server":"cm1-sg.hutaonode3.top","port":12354,"password":"HuTaoCloud","cipher":"chacha20-ietf","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵日本砖线@MFJD666_2","type":"ss","server":"cm1-jp.hutaonode3.top","port":12055,"password":"HuTaoCloud","cipher":"chacha20-ietf","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵日本砖线@MFJD666_3","type":"ss","server":"cm1-jp.hutaonode3.top","port":12056,"password":"HuTaoCloud","cipher":"chacha20-ietf","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇺🇸美国砖线@MFJD666_1","type":"ss","server":"cm1-us.hutaonode3.top","port":12255,"password":"HuTaoCloud","cipher":"chacha20-ietf","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵日本砖线@MFJD666_4","type":"ss","server":"cm1-jp.hutaonode3.top","port":12057,"password":"HuTaoCloud","cipher":"chacha20-ietf","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵日本砖线@MFJD666_5","type":"ss","server":"cm1-jp.hutaonode3.top","port":12053,"password":"HuTaoCloud","cipher":"chacha20-ietf","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_254 |57.89Mb","type":"vmess","server":"m2-us1.m2network.icu","port":80,"cipher":"auto","uuid":"c186d80d-ba97-4622-9e09-128d7065f020","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ws?ed=2560","headers":{"host":"m2-us1.m2network.icu"}}}
-  - {"name":"💦+BPB+-+104.21.53.27","type":"vless","server":"104.21.53.27","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPB.sanMU.Us.kG","network":"ws","ws-opts":{"path":"/Z5jQgx0hwuaMglje?ed=2560","headers":{"host":"bPB.sanMU.Us.kG"}}}
-  - {"name":"💦+BPB+-+Domain_2+:+2053","type":"vless","server":"www.speedtest.net","port":2053,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPBG.168168.US.Kg","network":"ws","ws-opts":{"path":"/lYQQUzbUYR3K8iR1/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bPBG.168168.US.Kg"}}}
-  - {"name":"关注TG-@djkkdcxCMCC09","type":"vless","server":"103.184.44.62","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"💦+BPB+-+Domain_1+:+443","type":"vless","server":"bpbg.168168.us.kg","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpBG.168168.US.KG","network":"ws","ws-opts":{"path":"/hdAvzvjpJdYpdI9Q/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bpBG.168168.US.KG"}}}
-  - {"name":"关注TG-@djkkdcx+US01","type":"vless","server":"94.247.142.245","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"关注TG-@djkkdcxCMCC03","type":"vless","server":"31.22.116.134","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"💦+BPB+-+IPv4_1+:+443","type":"vless","server":"172.67.152.213","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpBG.168168.Us.kg","network":"ws","ws-opts":{"path":"/2JBYS0RA1eQdYEN1/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bpBG.168168.Us.kg"}}}
-  - {"name":"关注TG-@djkkdcx🇭🇰+HK03","type":"vless","server":"130.250.137.196","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"关注TG-@djkkdcxCT01","type":"vless","server":"185.18.250.131","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"💦+BPB+-+Domain_2+:+2096","type":"vless","server":"www.speedtest.net","port":2096,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BpbG.168168.Us.Kg","network":"ws","ws-opts":{"path":"/JSPGhL1r1jZzcBxA/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BpbG.168168.Us.Kg"}}}
-  - {"name":"💦+BPB+-+IPv6_1+:+2053","type":"vless","server":"2606:4700:3030::ac43:98d5","port":2053,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPbg.168168.Us.kG","network":"ws","ws-opts":{"path":"/Gy0nWjGbNkdnohgt/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bPbg.168168.Us.kG"}}}
-  - {"name":"关注TG-@djkkdcx+ZA01","type":"vless","server":"45.159.217.220","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"关注TG-@djkkdcx🇰🇷+KR04","type":"vless","server":"45.80.110.200","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"💦+BPB+-+[2606:4700:3033::ac4...","type":"vless","server":"2606:4700:3033::ac43:d00d","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BPb.sAnMu.us.KG","network":"ws","ws-opts":{"path":"/amJSLYXenmFROEiU?ed=2560","headers":{"host":"BPb.sAnMu.us.KG"}}}
-  - {"name":"💦+BPB+-+www.speedtest.net","type":"vless","server":"www.speedtest.net","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpB.sANMU.us.KG","network":"ws","ws-opts":{"path":"/XBhoN4Je39DfqcOd?ed=2560","headers":{"host":"bpB.sANMU.us.KG"}}}
-  - {"name":"💦+BPB+-+IPv6_2+:+2053","type":"vless","server":"2606:4700:3030::6815:cac","port":2053,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPBg.168168.US.kG","network":"ws","ws-opts":{"path":"/wNbPvYjNj0zrYyK4/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bPBg.168168.US.kG"}}}
-  - {"name":"💦+BPB+-+IPv6_1+:+2096","type":"vless","server":"2606:4700:3030::ac43:98d5","port":2096,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BPbg.168168.us.kg","network":"ws","ws-opts":{"path":"/1A60AXb3RSRsuA9v/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BPbg.168168.us.kg"}}}
-  - {"name":"关注TG-@djkkdcxJP02","type":"vless","server":"185.148.106.60","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🏁ZZ_197 |75.51Mb","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws"}}
-  - {"name":"关注TG-@djkkdcx🇭🇰+HK06","type":"vless","server":"45.80.111.229","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"💦+BPB+-+Domain_2+:+2083","type":"vless","server":"www.speedtest.net","port":2083,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPbG.168168.Us.KG","network":"ws","ws-opts":{"path":"/5ir2ILgaf3Ff0zmr/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bPbG.168168.Us.KG"}}}
-  - {"name":"💦+BPB+-+IPv4_2+:+2053","type":"vless","server":"104.21.12.172","port":2053,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpbg.168168.us.kg","network":"ws","ws-opts":{"path":"/OSC10o4gHsS7uMsF/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bpbg.168168.us.kg"}}}
-  - {"name":"💦+BPB+-+IPv6_1+:+8443","type":"vless","server":"2606:4700:3030::ac43:98d5","port":8443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BPbG.168168.Us.kG","network":"ws","ws-opts":{"path":"/l5f98yvytFVqUp0X/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BPbG.168168.Us.kG"}}}
-  - {"name":"💦+BPB+-+Domain_1+:+2096","type":"vless","server":"bpbg.168168.us.kg","port":2096,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpBg.168168.Us.KG","network":"ws","ws-opts":{"path":"/ifnb74j4dalzm20x/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bpBg.168168.Us.KG"}}}
-  - {"name":"关注TG-@djkkdcx🇹🇼+TW03","type":"vless","server":"104.254.140.145","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"关注TG-@djkkdcxJP01","type":"vless","server":"170.114.46.46","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"💦+BPB+-+IPv6_2+:+2083","type":"vless","server":"2606:4700:3030::6815:cac","port":2083,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"Bpbg.168168.US.Kg","network":"ws","ws-opts":{"path":"/NTbVoUHR4MY89hdY/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"Bpbg.168168.US.Kg"}}}
-  - {"name":"💦+BPB+-+IPv6_2+:+443","type":"vless","server":"2606:4700:3030::6815:cac","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BpBg.168168.US.kG","network":"ws","ws-opts":{"path":"/NPV3FiAWeZjgCQBA/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BpBg.168168.US.kG"}}}
-  - {"name":"💦+BPB+-+IPv6_1+:+2083","type":"vless","server":"2606:4700:3030::ac43:98d5","port":2083,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"Bpbg.168168.US.kG","network":"ws","ws-opts":{"path":"/x58YZovFXQzTrOjD/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"Bpbg.168168.US.kG"}}}
-  - {"name":"💦+BPB+-+Domain_1+:+8443","type":"vless","server":"bpbg.168168.us.kg","port":8443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BPBG.168168.uS.Kg","network":"ws","ws-opts":{"path":"/qbFjtgHYW1CXj2EX/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BPBG.168168.uS.Kg"}}}
-  - {"name":"💦+BPB+-+IPv4_2+:+2096","type":"vless","server":"104.21.12.172","port":2096,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPBG.168168.Us.KG","network":"ws","ws-opts":{"path":"/Lny8xhgmbuW5cNwW/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bPBG.168168.Us.KG"}}}
-  - {"name":"💦+BPB+-+Domain_2+:+2087","type":"vless","server":"www.speedtest.net","port":2087,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPBG.168168.us.Kg","network":"ws","ws-opts":{"path":"/Dzb0XORhtPBO4mgx/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bPBG.168168.us.Kg"}}}
-  - {"name":"关注TG-@djkkdcxKR06","type":"vless","server":"140.99.233.156","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"💦+BPB+-+104.21.84.188","type":"vless","server":"104.21.84.188","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"cF.HUGHHAd.uS.KG","network":"ws","ws-opts":{"path":"/FsJ6DkIvHXUzwoF0?ed=2560","headers":{"host":"cF.HUGHHAd.uS.KG"}}}
-  - {"name":"关注TG-@djkkdcxJP08","type":"vless","server":"185.176.24.186","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"💦+BPB+-+bpb.sanmu.us.kg","type":"vless","server":"bpb.sanmu.us.kg","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpb.SaNmu.uS.kG","network":"ws","ws-opts":{"path":"/Ja3GtL67HQqK0zpp?ed=2560","headers":{"host":"bpb.SaNmu.uS.kG"}}}
-  - {"name":"💦+BPB+-+IPv6_2+:+2096","type":"vless","server":"2606:4700:3030::6815:cac","port":2096,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpbG.168168.Us.kG","network":"ws","ws-opts":{"path":"/lb2sPcLxnHMSlzZV/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bpbG.168168.Us.kG"}}}
-  - {"name":"💦+BPB+-+[2606:4700:3035::ac4...","type":"vless","server":"2606:4700:3035::ac43:c415","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"CF.hUGHhad.us.kG","network":"ws","ws-opts":{"path":"/KaZXkMuOEEYWSdDn?ed=2560","headers":{"host":"CF.hUGHhad.us.kG"}}}
-  - {"name":"💦+BPB+-+104.23.133.175","type":"vless","server":"104.23.133.175","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BpB.sANmU.us.KG","network":"ws","ws-opts":{"path":"/PDunObcyFPpxig3x?ed=2560","headers":{"host":"BpB.sANmU.us.KG"}}}
-  - {"name":"💦+BPB+-+IPv6_1+:+2087","type":"vless","server":"2606:4700:3030::ac43:98d5","port":2087,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BPbg.168168.US.Kg","network":"ws","ws-opts":{"path":"/oAZo5tVzwQxKJsSF/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BPbg.168168.US.Kg"}}}
-  - {"name":"关注TG-@djkkdcx🇭🇰+HK07","type":"vless","server":"167.68.11.106","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"关注TG-@djkkdcx🇭🇰+HK08","type":"vless","server":"185.148.107.47","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"💦+BPB+-+IPv4_1+:+2053","type":"vless","server":"172.67.152.213","port":2053,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BpBg.168168.US.KG","network":"ws","ws-opts":{"path":"/GAZExXlgHtXkvGN5/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BpBg.168168.US.KG"}}}
-  - {"name":"💦+BPB+-+IPv4_2+:+8443","type":"vless","server":"104.21.12.172","port":8443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BpbG.168168.us.kG","network":"ws","ws-opts":{"path":"/lfzH2wsrn0ygug6d/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BpbG.168168.us.kG"}}}
-  - {"name":"💦+BPB+-+Domain_2+:+8443","type":"vless","server":"www.speedtest.net","port":8443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BpbG.168168.Us.kg","network":"ws","ws-opts":{"path":"/7Z2JBjC9lktxkwHN/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BpbG.168168.Us.kg"}}}
-  - {"name":"💦+BPB+-+IPv4_2+:+443","type":"vless","server":"104.21.12.172","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BPBG.168168.us.kg","network":"ws","ws-opts":{"path":"/9mnkYJOnGkG6FIiw/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BPBG.168168.us.kg"}}}
+  - {"name":"TG@ZDYZ2+-JP-Tokyo","type":"vless","server":"116.206.92.12","port":8562,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"关注TG-@djkkdcxCMCC06","type":"vless","server":"199.181.197.39","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"💦+BPB+-+172.67.196.21","type":"vless","server":"172.67.196.21","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"CF.hugHhAD.US.kg","network":"ws","ws-opts":{"path":"/DQpczeDRf8WoK6Mz?ed=2560","headers":{"host":"CF.hugHhAD.US.kg"}}}
-  - {"name":"关注TG-@djkkdcx🇹🇼+TW02","type":"vless","server":"45.159.217.21","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"💦+BPB+-+IPv4_1+:+2096","type":"vless","server":"172.67.152.213","port":2096,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPBg.168168.uS.KG","network":"ws","ws-opts":{"path":"/Grxjur95WCsdUQCV/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bPBg.168168.uS.KG"}}}
-  - {"name":"🇸🇬新加坡砖线@MFJD666_3","type":"ss","server":"ydthree2.yb59.uk","port":36903,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"💦+BPB+-+IPv4_2+:+2087","type":"vless","server":"104.21.12.172","port":2087,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpbg.168168.Us.Kg","network":"ws","ws-opts":{"path":"/2pATRPGNzVDc7WPc/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bpbg.168168.Us.Kg"}}}
   - {"name":"💦+BPB+-+Domain_1+:+2083","type":"vless","server":"bpbg.168168.us.kg","port":2083,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BPbG.168168.us.kg","network":"ws","ws-opts":{"path":"/n7lXo7ZnN9GDUwoj/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BPbG.168168.us.kg"}}}
   - {"name":"💦+BPB+-+IPv6_2+:+2087","type":"vless","server":"2606:4700:3030::6815:cac","port":2087,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BpbG.168168.uS.kg","network":"ws","ws-opts":{"path":"/LtEpFvpJLAf1yQFV/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BpbG.168168.uS.kg"}}}
-  - {"name":"关注TG-@djkkdcx+RU01","type":"vless","server":"45.133.247.151","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
   - {"name":"💦+BPB+-+IPv6_1+:+443","type":"vless","server":"2606:4700:3030::ac43:98d5","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPBg.168168.us.Kg","network":"ws","ws-opts":{"path":"/iSB5EDHoePIAhztl/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bPBg.168168.us.Kg"}}}
-  - {"name":"💦+BPB+-+IPv4_1+:+2087","type":"vless","server":"172.67.152.213","port":2087,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPBg.168168.uS.Kg","network":"ws","ws-opts":{"path":"/6dWSXroVemZdPiCM/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bPBg.168168.uS.Kg"}}}
-  - {"name":"TG@ZDYZ2+-SG-Singapore","type":"vless","server":"47.238.52.240","port":80,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"关注TG-@djkkdcx🇹🇼+TW02","type":"vless","server":"45.159.217.21","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"关注TG-@djkkdcx🇭🇰+HK08","type":"vless","server":"185.148.107.47","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"💦+BPB+-+IPv6_1+:+8443","type":"vless","server":"2606:4700:3030::ac43:98d5","port":8443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BPbG.168168.Us.kG","network":"ws","ws-opts":{"path":"/l5f98yvytFVqUp0X/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BPbG.168168.Us.kG"}}}
+  - {"name":"💦+BPB+-+IPv6_1+:+2087","type":"vless","server":"2606:4700:3030::ac43:98d5","port":2087,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BPbg.168168.US.Kg","network":"ws","ws-opts":{"path":"/oAZo5tVzwQxKJsSF/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BPbg.168168.US.Kg"}}}
+  - {"name":"💦+BPB+-+IPv6_2+:+443","type":"vless","server":"2606:4700:3030::6815:cac","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BpBg.168168.US.kG","network":"ws","ws-opts":{"path":"/NPV3FiAWeZjgCQBA/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BpBg.168168.US.kG"}}}
+  - {"name":"💦+BPB+-+IPv6_1+:+2096","type":"vless","server":"2606:4700:3030::ac43:98d5","port":2096,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BPbg.168168.us.kg","network":"ws","ws-opts":{"path":"/1A60AXb3RSRsuA9v/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BPbg.168168.us.kg"}}}
+  - {"name":"💦+BPB+-+Domain_1+:+2096","type":"vless","server":"bpbg.168168.us.kg","port":2096,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpBg.168168.Us.KG","network":"ws","ws-opts":{"path":"/ifnb74j4dalzm20x/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bpBg.168168.Us.KG"}}}
+  - {"name":"💦+BPB+-+IPv6_1+:+2083","type":"vless","server":"2606:4700:3030::ac43:98d5","port":2083,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"Bpbg.168168.US.kG","network":"ws","ws-opts":{"path":"/x58YZovFXQzTrOjD/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"Bpbg.168168.US.kG"}}}
+  - {"name":"💦+BPB+-+IPv6_2+:+2083","type":"vless","server":"2606:4700:3030::6815:cac","port":2083,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"Bpbg.168168.US.Kg","network":"ws","ws-opts":{"path":"/NTbVoUHR4MY89hdY/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"Bpbg.168168.US.Kg"}}}
+  - {"name":"💦+BPB+-+IPv6_2+:+2053","type":"vless","server":"2606:4700:3030::6815:cac","port":2053,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPBg.168168.US.kG","network":"ws","ws-opts":{"path":"/wNbPvYjNj0zrYyK4/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bPBg.168168.US.kG"}}}
+  - {"name":"🏁ZZ_197 |75.51Mb","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws"}}
+  - {"name":"关注TG-@djkkdcxKR06","type":"vless","server":"140.99.233.156","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"关注TG-@djkkdcx🇭🇰+HK03","type":"vless","server":"130.250.137.196","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"💦+BPB+-+Domain_1+:+8443","type":"vless","server":"bpbg.168168.us.kg","port":8443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BPBG.168168.uS.Kg","network":"ws","ws-opts":{"path":"/qbFjtgHYW1CXj2EX/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BPBG.168168.uS.Kg"}}}
   - {"name":"💦+BPB+-+Domain_1+:+2087","type":"vless","server":"bpbg.168168.us.kg","port":2087,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BpBG.168168.US.Kg","network":"ws","ws-opts":{"path":"/ns47XFXtPKCnD383/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"BpBG.168168.US.Kg"}}}
+  - {"name":"关注TG-@djkkdcxJP08","type":"vless","server":"185.176.24.186","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"关注TG-@djkkdcxCT01","type":"vless","server":"185.18.250.131","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"💦+BPB+-+bpb.sanmu.us.kg","type":"vless","server":"bpb.sanmu.us.kg","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpb.SaNmu.uS.kG","network":"ws","ws-opts":{"path":"/Ja3GtL67HQqK0zpp?ed=2560","headers":{"host":"bpb.SaNmu.uS.kG"}}}
+  - {"name":"Relay_🇫🇷FR-🇫🇷FR_20","type":"vmess","server":"indiavideo.sbs","port":443,"cipher":"auto","uuid":"425c5e6e-30a0-4984-8a13-ee6f72053162","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"indiavideo.sbs"}}}
+  - {"name":"💦+BPB+-+IPv6_2+:+2096","type":"vless","server":"2606:4700:3030::6815:cac","port":2096,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpbG.168168.Us.kG","network":"ws","ws-opts":{"path":"/lb2sPcLxnHMSlzZV/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bpbG.168168.Us.kG"}}}
+  - {"name":"💦+BPB+-+[2606:4700:3035::ac4...","type":"vless","server":"2606:4700:3035::ac43:c415","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"CF.hUGHhad.us.kG","network":"ws","ws-opts":{"path":"/KaZXkMuOEEYWSdDn?ed=2560","headers":{"host":"CF.hUGHhad.us.kG"}}}
+  - {"name":"关注TG-@djkkdcx+US01","type":"vless","server":"94.247.142.245","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"关注TG-@djkkdcxCMCC03","type":"vless","server":"31.22.116.134","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"💦+BPB+-+Domain_1+:+443","type":"vless","server":"bpbg.168168.us.kg","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpBG.168168.US.KG","network":"ws","ws-opts":{"path":"/hdAvzvjpJdYpdI9Q/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bpBG.168168.US.KG"}}}
+  - {"name":"关注TG-@djkkdcxCMCC09","type":"vless","server":"103.184.44.62","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"🇨🇳 CN @ZDYZ2 20","type":"vmess","server":"jsm.ct.xiaomi-api.xyz","port":39521,"cipher":"auto","uuid":"b7175e08-62d8-3aba-b381-f331a24dfed1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇸🇬新加坡砖线@MFJD666","type":"ss","server":"ydthree2.yb59.uk","port":36903,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
   - {"name":"Relay_🇺🇸US-🇨🇦CA_223 |45.07Mb","type":"vmess","server":"russia.com","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
-  - {"name":"💦+BPB+-+IPv6_2+:+8443","type":"vless","server":"2606:4700:3030::6815:cac","port":8443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpbg.168168.uS.kg","network":"ws","ws-opts":{"path":"/brMhzIzaHAahE5OV/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bpbg.168168.uS.kg"}}}
-  - {"name":"关注TG-@djkkdcx+NL01","type":"vless","server":"205.233.181.242","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
   - {"name":"关注TG-@djkkdcxCMCC07","type":"vless","server":"185.176.26.61","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"关注TG-@djkkdcx+US03","type":"vless","server":"147.78.140.175","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇺🇸美国砖线@MFJD666_2","type":"ss","server":"yinji1.9sjd2dkesl2.shop","port":49171,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_410 |11.54Mb","type":"vmess","server":"fbi.gov","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"关注TG-@djkkdcx🇰🇷+KR04","type":"vless","server":"45.80.110.200","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"💦+BPB+-+[2606:4700:3033::ac4...","type":"vless","server":"2606:4700:3033::ac43:d00d","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BPb.sAnMu.us.KG","network":"ws","ws-opts":{"path":"/amJSLYXenmFROEiU?ed=2560","headers":{"host":"BPb.sAnMu.us.KG"}}}
+  - {"name":"关注TG-@djkkdcx+NL01","type":"vless","server":"205.233.181.242","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"🇨🇳 CN @ZDYZ2 22","type":"vmess","server":"jsm.cm.xiaomi-api.xyz","port":39612,"cipher":"auto","uuid":"b7175e08-62d8-3aba-b381-f331a24dfed1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"TG@ZDYZ2+-SG-Singapore","type":"vless","server":"47.238.52.240","port":80,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"💦+BPB+-+IPv6_2+:+8443","type":"vless","server":"2606:4700:3030::6815:cac","port":8443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpbg.168168.uS.kg","network":"ws","ws-opts":{"path":"/brMhzIzaHAahE5OV/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bpbg.168168.uS.kg"}}}
+  - {"name":"关注TG-@djkkdcx+ZA01","type":"vless","server":"45.159.217.220","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"🇨🇳 CN @ZDYZ2 19","type":"vmess","server":"jsm.cm.xiaomi-api.xyz","port":39511,"cipher":"auto","uuid":"b7175e08-62d8-3aba-b381-f331a24dfed1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"💦+BPB+-+IPv6_1+:+2053","type":"vless","server":"2606:4700:3030::ac43:98d5","port":2053,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPbg.168168.Us.kG","network":"ws","ws-opts":{"path":"/Gy0nWjGbNkdnohgt/cHJveHlpcC5oay5meHhrLmRlZHluLmlv?ed=2560","headers":{"host":"bPbg.168168.Us.kG"}}}
+  - {"name":"🇨🇳 CN @ZDYZ2 23","type":"vmess","server":"jsm.ct.xiaomi-api.xyz","port":39621,"cipher":"auto","uuid":"b7175e08-62d8-3aba-b381-f331a24dfed1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳 CN @ZDYZ2 32","type":"vmess","server":"jsm.cm.xiaomi-api.xyz","port":39911,"cipher":"auto","uuid":"b7175e08-62d8-3aba-b381-f331a24dfed1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳 CN @ZDYZ2 31","type":"vmess","server":"jsm.cm.xiaomi-api.xyz","port":39913,"cipher":"auto","uuid":"b7175e08-62d8-3aba-b381-f331a24dfed1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -170,322 +141,206 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇸🇬新加坡砖线@MFJD666_1
-      - 🇯🇵日本砖线@MFJD666_1
-      - 🇸🇬新加坡砖线@MFJD666_2
-      - 🇯🇵日本砖线@MFJD666_2
-      - 🇯🇵日本砖线@MFJD666_3
-      - 🇺🇸美国砖线@MFJD666_1
-      - 🇯🇵日本砖线@MFJD666_4
-      - 🇯🇵日本砖线@MFJD666_5
-      - Relay_🇺🇸US-🇺🇸US_254 |57.89Mb
-      - 💦+BPB+-+104.21.53.27
-      - 💦+BPB+-+Domain_2+:+2053
-      - 关注TG-@djkkdcxCMCC09
-      - 💦+BPB+-+Domain_1+:+443
-      - 关注TG-@djkkdcx+US01
-      - 关注TG-@djkkdcxCMCC03
-      - 💦+BPB+-+IPv4_1+:+443
-      - 关注TG-@djkkdcx🇭🇰+HK03
-      - 关注TG-@djkkdcxCT01
-      - 💦+BPB+-+Domain_2+:+2096
-      - 💦+BPB+-+IPv6_1+:+2053
-      - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcx🇰🇷+KR04
-      - 💦+BPB+-+[2606:4700:3033::ac4...
-      - 💦+BPB+-+www.speedtest.net
-      - 💦+BPB+-+IPv6_2+:+2053
-      - 💦+BPB+-+IPv6_1+:+2096
-      - 关注TG-@djkkdcxJP02
-      - 🏁ZZ_197 |75.51Mb
-      - 关注TG-@djkkdcx🇭🇰+HK06
-      - 💦+BPB+-+Domain_2+:+2083
-      - 💦+BPB+-+IPv4_2+:+2053
-      - 💦+BPB+-+IPv6_1+:+8443
-      - 💦+BPB+-+Domain_1+:+2096
-      - 关注TG-@djkkdcx🇹🇼+TW03
-      - 关注TG-@djkkdcxJP01
-      - 💦+BPB+-+IPv6_2+:+2083
-      - 💦+BPB+-+IPv6_2+:+443
-      - 💦+BPB+-+IPv6_1+:+2083
-      - 💦+BPB+-+Domain_1+:+8443
-      - 💦+BPB+-+IPv4_2+:+2096
-      - 💦+BPB+-+Domain_2+:+2087
-      - 关注TG-@djkkdcxKR06
-      - 💦+BPB+-+104.21.84.188
-      - 关注TG-@djkkdcxJP08
-      - 💦+BPB+-+bpb.sanmu.us.kg
-      - 💦+BPB+-+IPv6_2+:+2096
-      - 💦+BPB+-+[2606:4700:3035::ac4...
-      - 💦+BPB+-+104.23.133.175
-      - 💦+BPB+-+IPv6_1+:+2087
-      - 关注TG-@djkkdcx🇭🇰+HK07
-      - 关注TG-@djkkdcx🇭🇰+HK08
-      - 💦+BPB+-+IPv4_1+:+2053
-      - 💦+BPB+-+IPv4_2+:+8443
-      - 💦+BPB+-+Domain_2+:+8443
-      - 💦+BPB+-+IPv4_2+:+443
+      - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcxCMCC06
-      - 💦+BPB+-+172.67.196.21
-      - 关注TG-@djkkdcx🇹🇼+TW02
-      - 💦+BPB+-+IPv4_1+:+2096
-      - 🇸🇬新加坡砖线@MFJD666_3
-      - 💦+BPB+-+IPv4_2+:+2087
       - 💦+BPB+-+Domain_1+:+2083
       - 💦+BPB+-+IPv6_2+:+2087
-      - 关注TG-@djkkdcx+RU01
       - 💦+BPB+-+IPv6_1+:+443
-      - 💦+BPB+-+IPv4_1+:+2087
-      - TG@ZDYZ2+-SG-Singapore
+      - 关注TG-@djkkdcx🇹🇼+TW02
+      - 关注TG-@djkkdcx🇭🇰+HK08
+      - 💦+BPB+-+IPv6_1+:+8443
+      - 💦+BPB+-+IPv6_1+:+2087
+      - 💦+BPB+-+IPv6_2+:+443
+      - 💦+BPB+-+IPv6_1+:+2096
+      - 💦+BPB+-+Domain_1+:+2096
+      - 💦+BPB+-+IPv6_1+:+2083
+      - 💦+BPB+-+IPv6_2+:+2083
+      - 💦+BPB+-+IPv6_2+:+2053
+      - 🏁ZZ_197 |75.51Mb
+      - 关注TG-@djkkdcxKR06
+      - 关注TG-@djkkdcx🇭🇰+HK03
+      - 💦+BPB+-+Domain_1+:+8443
       - 💦+BPB+-+Domain_1+:+2087
+      - 关注TG-@djkkdcxJP08
+      - 关注TG-@djkkdcxCT01
+      - 💦+BPB+-+bpb.sanmu.us.kg
+      - Relay_🇫🇷FR-🇫🇷FR_20
+      - 💦+BPB+-+IPv6_2+:+2096
+      - 💦+BPB+-+[2606:4700:3035::ac4...
+      - 关注TG-@djkkdcx+US01
+      - 关注TG-@djkkdcxCMCC03
+      - 💦+BPB+-+Domain_1+:+443
+      - 关注TG-@djkkdcxCMCC09
+      - 🇨🇳 CN @ZDYZ2 20
+      - 🇸🇬新加坡砖线@MFJD666
       - Relay_🇺🇸US-🇨🇦CA_223 |45.07Mb
-      - 💦+BPB+-+IPv6_2+:+8443
-      - 关注TG-@djkkdcx+NL01
       - 关注TG-@djkkdcxCMCC07
-      - 关注TG-@djkkdcx+US03
-      - 🇺🇸美国砖线@MFJD666_2
-      - Relay_🏁ZZ-🇨🇦CA_410 |11.54Mb
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 💦+BPB+-+[2606:4700:3033::ac4...
+      - 关注TG-@djkkdcx+NL01
+      - 🇨🇳 CN @ZDYZ2 22
+      - TG@ZDYZ2+-SG-Singapore
+      - 💦+BPB+-+IPv6_2+:+8443
+      - 关注TG-@djkkdcx+ZA01
+      - 🇨🇳 CN @ZDYZ2 19
+      - 💦+BPB+-+IPv6_1+:+2053
+      - 🇨🇳 CN @ZDYZ2 23
+      - 🇨🇳 CN @ZDYZ2 32
+      - 🇨🇳 CN @ZDYZ2 31
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬新加坡砖线@MFJD666_1
-      - 🇯🇵日本砖线@MFJD666_1
-      - 🇸🇬新加坡砖线@MFJD666_2
-      - 🇯🇵日本砖线@MFJD666_2
-      - 🇯🇵日本砖线@MFJD666_3
-      - 🇺🇸美国砖线@MFJD666_1
-      - 🇯🇵日本砖线@MFJD666_4
-      - 🇯🇵日本砖线@MFJD666_5
-      - Relay_🇺🇸US-🇺🇸US_254 |57.89Mb
-      - 💦+BPB+-+104.21.53.27
-      - 💦+BPB+-+Domain_2+:+2053
-      - 关注TG-@djkkdcxCMCC09
-      - 💦+BPB+-+Domain_1+:+443
-      - 关注TG-@djkkdcx+US01
-      - 关注TG-@djkkdcxCMCC03
-      - 💦+BPB+-+IPv4_1+:+443
-      - 关注TG-@djkkdcx🇭🇰+HK03
-      - 关注TG-@djkkdcxCT01
-      - 💦+BPB+-+Domain_2+:+2096
-      - 💦+BPB+-+IPv6_1+:+2053
-      - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcx🇰🇷+KR04
-      - 💦+BPB+-+[2606:4700:3033::ac4...
-      - 💦+BPB+-+www.speedtest.net
-      - 💦+BPB+-+IPv6_2+:+2053
-      - 💦+BPB+-+IPv6_1+:+2096
-      - 关注TG-@djkkdcxJP02
-      - 🏁ZZ_197 |75.51Mb
-      - 关注TG-@djkkdcx🇭🇰+HK06
-      - 💦+BPB+-+Domain_2+:+2083
-      - 💦+BPB+-+IPv4_2+:+2053
-      - 💦+BPB+-+IPv6_1+:+8443
-      - 💦+BPB+-+Domain_1+:+2096
-      - 关注TG-@djkkdcx🇹🇼+TW03
-      - 关注TG-@djkkdcxJP01
-      - 💦+BPB+-+IPv6_2+:+2083
-      - 💦+BPB+-+IPv6_2+:+443
-      - 💦+BPB+-+IPv6_1+:+2083
-      - 💦+BPB+-+Domain_1+:+8443
-      - 💦+BPB+-+IPv4_2+:+2096
-      - 💦+BPB+-+Domain_2+:+2087
-      - 关注TG-@djkkdcxKR06
-      - 💦+BPB+-+104.21.84.188
-      - 关注TG-@djkkdcxJP08
-      - 💦+BPB+-+bpb.sanmu.us.kg
-      - 💦+BPB+-+IPv6_2+:+2096
-      - 💦+BPB+-+[2606:4700:3035::ac4...
-      - 💦+BPB+-+104.23.133.175
-      - 💦+BPB+-+IPv6_1+:+2087
-      - 关注TG-@djkkdcx🇭🇰+HK07
-      - 关注TG-@djkkdcx🇭🇰+HK08
-      - 💦+BPB+-+IPv4_1+:+2053
-      - 💦+BPB+-+IPv4_2+:+8443
-      - 💦+BPB+-+Domain_2+:+8443
-      - 💦+BPB+-+IPv4_2+:+443
+      - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcxCMCC06
-      - 💦+BPB+-+172.67.196.21
-      - 关注TG-@djkkdcx🇹🇼+TW02
-      - 💦+BPB+-+IPv4_1+:+2096
-      - 🇸🇬新加坡砖线@MFJD666_3
-      - 💦+BPB+-+IPv4_2+:+2087
       - 💦+BPB+-+Domain_1+:+2083
       - 💦+BPB+-+IPv6_2+:+2087
-      - 关注TG-@djkkdcx+RU01
       - 💦+BPB+-+IPv6_1+:+443
-      - 💦+BPB+-+IPv4_1+:+2087
-      - TG@ZDYZ2+-SG-Singapore
+      - 关注TG-@djkkdcx🇹🇼+TW02
+      - 关注TG-@djkkdcx🇭🇰+HK08
+      - 💦+BPB+-+IPv6_1+:+8443
+      - 💦+BPB+-+IPv6_1+:+2087
+      - 💦+BPB+-+IPv6_2+:+443
+      - 💦+BPB+-+IPv6_1+:+2096
+      - 💦+BPB+-+Domain_1+:+2096
+      - 💦+BPB+-+IPv6_1+:+2083
+      - 💦+BPB+-+IPv6_2+:+2083
+      - 💦+BPB+-+IPv6_2+:+2053
+      - 🏁ZZ_197 |75.51Mb
+      - 关注TG-@djkkdcxKR06
+      - 关注TG-@djkkdcx🇭🇰+HK03
+      - 💦+BPB+-+Domain_1+:+8443
       - 💦+BPB+-+Domain_1+:+2087
+      - 关注TG-@djkkdcxJP08
+      - 关注TG-@djkkdcxCT01
+      - 💦+BPB+-+bpb.sanmu.us.kg
+      - Relay_🇫🇷FR-🇫🇷FR_20
+      - 💦+BPB+-+IPv6_2+:+2096
+      - 💦+BPB+-+[2606:4700:3035::ac4...
+      - 关注TG-@djkkdcx+US01
+      - 关注TG-@djkkdcxCMCC03
+      - 💦+BPB+-+Domain_1+:+443
+      - 关注TG-@djkkdcxCMCC09
+      - 🇨🇳 CN @ZDYZ2 20
+      - 🇸🇬新加坡砖线@MFJD666
       - Relay_🇺🇸US-🇨🇦CA_223 |45.07Mb
-      - 💦+BPB+-+IPv6_2+:+8443
-      - 关注TG-@djkkdcx+NL01
       - 关注TG-@djkkdcxCMCC07
-      - 关注TG-@djkkdcx+US03
-      - 🇺🇸美国砖线@MFJD666_2
-      - Relay_🏁ZZ-🇨🇦CA_410 |11.54Mb
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 💦+BPB+-+[2606:4700:3033::ac4...
+      - 关注TG-@djkkdcx+NL01
+      - 🇨🇳 CN @ZDYZ2 22
+      - TG@ZDYZ2+-SG-Singapore
+      - 💦+BPB+-+IPv6_2+:+8443
+      - 关注TG-@djkkdcx+ZA01
+      - 🇨🇳 CN @ZDYZ2 19
+      - 💦+BPB+-+IPv6_1+:+2053
+      - 🇨🇳 CN @ZDYZ2 23
+      - 🇨🇳 CN @ZDYZ2 32
+      - 🇨🇳 CN @ZDYZ2 31
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇸🇬新加坡砖线@MFJD666_1
-      - 🇯🇵日本砖线@MFJD666_1
-      - 🇸🇬新加坡砖线@MFJD666_2
-      - 🇯🇵日本砖线@MFJD666_2
-      - 🇯🇵日本砖线@MFJD666_3
-      - 🇺🇸美国砖线@MFJD666_1
-      - 🇯🇵日本砖线@MFJD666_4
-      - 🇯🇵日本砖线@MFJD666_5
-      - Relay_🇺🇸US-🇺🇸US_254 |57.89Mb
-      - 💦+BPB+-+104.21.53.27
-      - 💦+BPB+-+Domain_2+:+2053
-      - 关注TG-@djkkdcxCMCC09
-      - 💦+BPB+-+Domain_1+:+443
-      - 关注TG-@djkkdcx+US01
-      - 关注TG-@djkkdcxCMCC03
-      - 💦+BPB+-+IPv4_1+:+443
-      - 关注TG-@djkkdcx🇭🇰+HK03
-      - 关注TG-@djkkdcxCT01
-      - 💦+BPB+-+Domain_2+:+2096
-      - 💦+BPB+-+IPv6_1+:+2053
-      - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcx🇰🇷+KR04
-      - 💦+BPB+-+[2606:4700:3033::ac4...
-      - 💦+BPB+-+www.speedtest.net
-      - 💦+BPB+-+IPv6_2+:+2053
-      - 💦+BPB+-+IPv6_1+:+2096
-      - 关注TG-@djkkdcxJP02
-      - 🏁ZZ_197 |75.51Mb
-      - 关注TG-@djkkdcx🇭🇰+HK06
-      - 💦+BPB+-+Domain_2+:+2083
-      - 💦+BPB+-+IPv4_2+:+2053
-      - 💦+BPB+-+IPv6_1+:+8443
-      - 💦+BPB+-+Domain_1+:+2096
-      - 关注TG-@djkkdcx🇹🇼+TW03
-      - 关注TG-@djkkdcxJP01
-      - 💦+BPB+-+IPv6_2+:+2083
-      - 💦+BPB+-+IPv6_2+:+443
-      - 💦+BPB+-+IPv6_1+:+2083
-      - 💦+BPB+-+Domain_1+:+8443
-      - 💦+BPB+-+IPv4_2+:+2096
-      - 💦+BPB+-+Domain_2+:+2087
-      - 关注TG-@djkkdcxKR06
-      - 💦+BPB+-+104.21.84.188
-      - 关注TG-@djkkdcxJP08
-      - 💦+BPB+-+bpb.sanmu.us.kg
-      - 💦+BPB+-+IPv6_2+:+2096
-      - 💦+BPB+-+[2606:4700:3035::ac4...
-      - 💦+BPB+-+104.23.133.175
-      - 💦+BPB+-+IPv6_1+:+2087
-      - 关注TG-@djkkdcx🇭🇰+HK07
-      - 关注TG-@djkkdcx🇭🇰+HK08
-      - 💦+BPB+-+IPv4_1+:+2053
-      - 💦+BPB+-+IPv4_2+:+8443
-      - 💦+BPB+-+Domain_2+:+8443
-      - 💦+BPB+-+IPv4_2+:+443
+      - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcxCMCC06
-      - 💦+BPB+-+172.67.196.21
-      - 关注TG-@djkkdcx🇹🇼+TW02
-      - 💦+BPB+-+IPv4_1+:+2096
-      - 🇸🇬新加坡砖线@MFJD666_3
-      - 💦+BPB+-+IPv4_2+:+2087
       - 💦+BPB+-+Domain_1+:+2083
       - 💦+BPB+-+IPv6_2+:+2087
-      - 关注TG-@djkkdcx+RU01
       - 💦+BPB+-+IPv6_1+:+443
-      - 💦+BPB+-+IPv4_1+:+2087
-      - TG@ZDYZ2+-SG-Singapore
+      - 关注TG-@djkkdcx🇹🇼+TW02
+      - 关注TG-@djkkdcx🇭🇰+HK08
+      - 💦+BPB+-+IPv6_1+:+8443
+      - 💦+BPB+-+IPv6_1+:+2087
+      - 💦+BPB+-+IPv6_2+:+443
+      - 💦+BPB+-+IPv6_1+:+2096
+      - 💦+BPB+-+Domain_1+:+2096
+      - 💦+BPB+-+IPv6_1+:+2083
+      - 💦+BPB+-+IPv6_2+:+2083
+      - 💦+BPB+-+IPv6_2+:+2053
+      - 🏁ZZ_197 |75.51Mb
+      - 关注TG-@djkkdcxKR06
+      - 关注TG-@djkkdcx🇭🇰+HK03
+      - 💦+BPB+-+Domain_1+:+8443
       - 💦+BPB+-+Domain_1+:+2087
+      - 关注TG-@djkkdcxJP08
+      - 关注TG-@djkkdcxCT01
+      - 💦+BPB+-+bpb.sanmu.us.kg
+      - Relay_🇫🇷FR-🇫🇷FR_20
+      - 💦+BPB+-+IPv6_2+:+2096
+      - 💦+BPB+-+[2606:4700:3035::ac4...
+      - 关注TG-@djkkdcx+US01
+      - 关注TG-@djkkdcxCMCC03
+      - 💦+BPB+-+Domain_1+:+443
+      - 关注TG-@djkkdcxCMCC09
+      - 🇨🇳 CN @ZDYZ2 20
+      - 🇸🇬新加坡砖线@MFJD666
       - Relay_🇺🇸US-🇨🇦CA_223 |45.07Mb
-      - 💦+BPB+-+IPv6_2+:+8443
-      - 关注TG-@djkkdcx+NL01
       - 关注TG-@djkkdcxCMCC07
-      - 关注TG-@djkkdcx+US03
-      - 🇺🇸美国砖线@MFJD666_2
-      - Relay_🏁ZZ-🇨🇦CA_410 |11.54Mb
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 💦+BPB+-+[2606:4700:3033::ac4...
+      - 关注TG-@djkkdcx+NL01
+      - 🇨🇳 CN @ZDYZ2 22
+      - TG@ZDYZ2+-SG-Singapore
+      - 💦+BPB+-+IPv6_2+:+8443
+      - 关注TG-@djkkdcx+ZA01
+      - 🇨🇳 CN @ZDYZ2 19
+      - 💦+BPB+-+IPv6_1+:+2053
+      - 🇨🇳 CN @ZDYZ2 23
+      - 🇨🇳 CN @ZDYZ2 32
+      - 🇨🇳 CN @ZDYZ2 31
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇸🇬新加坡砖线@MFJD666_1
-      - 🇯🇵日本砖线@MFJD666_1
-      - 🇸🇬新加坡砖线@MFJD666_2
-      - 🇯🇵日本砖线@MFJD666_2
-      - 🇯🇵日本砖线@MFJD666_3
-      - 🇺🇸美国砖线@MFJD666_1
-      - 🇯🇵日本砖线@MFJD666_4
-      - 🇯🇵日本砖线@MFJD666_5
-      - Relay_🇺🇸US-🇺🇸US_254 |57.89Mb
-      - 💦+BPB+-+104.21.53.27
-      - 💦+BPB+-+Domain_2+:+2053
-      - 关注TG-@djkkdcxCMCC09
-      - 💦+BPB+-+Domain_1+:+443
-      - 关注TG-@djkkdcx+US01
-      - 关注TG-@djkkdcxCMCC03
-      - 💦+BPB+-+IPv4_1+:+443
-      - 关注TG-@djkkdcx🇭🇰+HK03
-      - 关注TG-@djkkdcxCT01
-      - 💦+BPB+-+Domain_2+:+2096
-      - 💦+BPB+-+IPv6_1+:+2053
-      - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcx🇰🇷+KR04
-      - 💦+BPB+-+[2606:4700:3033::ac4...
-      - 💦+BPB+-+www.speedtest.net
-      - 💦+BPB+-+IPv6_2+:+2053
-      - 💦+BPB+-+IPv6_1+:+2096
-      - 关注TG-@djkkdcxJP02
-      - 🏁ZZ_197 |75.51Mb
-      - 关注TG-@djkkdcx🇭🇰+HK06
-      - 💦+BPB+-+Domain_2+:+2083
-      - 💦+BPB+-+IPv4_2+:+2053
-      - 💦+BPB+-+IPv6_1+:+8443
-      - 💦+BPB+-+Domain_1+:+2096
-      - 关注TG-@djkkdcx🇹🇼+TW03
-      - 关注TG-@djkkdcxJP01
-      - 💦+BPB+-+IPv6_2+:+2083
-      - 💦+BPB+-+IPv6_2+:+443
-      - 💦+BPB+-+IPv6_1+:+2083
-      - 💦+BPB+-+Domain_1+:+8443
-      - 💦+BPB+-+IPv4_2+:+2096
-      - 💦+BPB+-+Domain_2+:+2087
-      - 关注TG-@djkkdcxKR06
-      - 💦+BPB+-+104.21.84.188
-      - 关注TG-@djkkdcxJP08
-      - 💦+BPB+-+bpb.sanmu.us.kg
-      - 💦+BPB+-+IPv6_2+:+2096
-      - 💦+BPB+-+[2606:4700:3035::ac4...
-      - 💦+BPB+-+104.23.133.175
-      - 💦+BPB+-+IPv6_1+:+2087
-      - 关注TG-@djkkdcx🇭🇰+HK07
-      - 关注TG-@djkkdcx🇭🇰+HK08
-      - 💦+BPB+-+IPv4_1+:+2053
-      - 💦+BPB+-+IPv4_2+:+8443
-      - 💦+BPB+-+Domain_2+:+8443
-      - 💦+BPB+-+IPv4_2+:+443
+      - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcxCMCC06
-      - 💦+BPB+-+172.67.196.21
-      - 关注TG-@djkkdcx🇹🇼+TW02
-      - 💦+BPB+-+IPv4_1+:+2096
-      - 🇸🇬新加坡砖线@MFJD666_3
-      - 💦+BPB+-+IPv4_2+:+2087
       - 💦+BPB+-+Domain_1+:+2083
       - 💦+BPB+-+IPv6_2+:+2087
-      - 关注TG-@djkkdcx+RU01
       - 💦+BPB+-+IPv6_1+:+443
-      - 💦+BPB+-+IPv4_1+:+2087
-      - TG@ZDYZ2+-SG-Singapore
+      - 关注TG-@djkkdcx🇹🇼+TW02
+      - 关注TG-@djkkdcx🇭🇰+HK08
+      - 💦+BPB+-+IPv6_1+:+8443
+      - 💦+BPB+-+IPv6_1+:+2087
+      - 💦+BPB+-+IPv6_2+:+443
+      - 💦+BPB+-+IPv6_1+:+2096
+      - 💦+BPB+-+Domain_1+:+2096
+      - 💦+BPB+-+IPv6_1+:+2083
+      - 💦+BPB+-+IPv6_2+:+2083
+      - 💦+BPB+-+IPv6_2+:+2053
+      - 🏁ZZ_197 |75.51Mb
+      - 关注TG-@djkkdcxKR06
+      - 关注TG-@djkkdcx🇭🇰+HK03
+      - 💦+BPB+-+Domain_1+:+8443
       - 💦+BPB+-+Domain_1+:+2087
+      - 关注TG-@djkkdcxJP08
+      - 关注TG-@djkkdcxCT01
+      - 💦+BPB+-+bpb.sanmu.us.kg
+      - Relay_🇫🇷FR-🇫🇷FR_20
+      - 💦+BPB+-+IPv6_2+:+2096
+      - 💦+BPB+-+[2606:4700:3035::ac4...
+      - 关注TG-@djkkdcx+US01
+      - 关注TG-@djkkdcxCMCC03
+      - 💦+BPB+-+Domain_1+:+443
+      - 关注TG-@djkkdcxCMCC09
+      - 🇨🇳 CN @ZDYZ2 20
+      - 🇸🇬新加坡砖线@MFJD666
       - Relay_🇺🇸US-🇨🇦CA_223 |45.07Mb
-      - 💦+BPB+-+IPv6_2+:+8443
-      - 关注TG-@djkkdcx+NL01
       - 关注TG-@djkkdcxCMCC07
-      - 关注TG-@djkkdcx+US03
-      - 🇺🇸美国砖线@MFJD666_2
-      - Relay_🏁ZZ-🇨🇦CA_410 |11.54Mb
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 💦+BPB+-+[2606:4700:3033::ac4...
+      - 关注TG-@djkkdcx+NL01
+      - 🇨🇳 CN @ZDYZ2 22
+      - TG@ZDYZ2+-SG-Singapore
+      - 💦+BPB+-+IPv6_2+:+8443
+      - 关注TG-@djkkdcx+ZA01
+      - 🇨🇳 CN @ZDYZ2 19
+      - 💦+BPB+-+IPv6_1+:+2053
+      - 🇨🇳 CN @ZDYZ2 23
+      - 🇨🇳 CN @ZDYZ2 32
+      - 🇨🇳 CN @ZDYZ2 31
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -505,81 +360,52 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇸🇬新加坡砖线@MFJD666_1
-      - 🇯🇵日本砖线@MFJD666_1
-      - 🇸🇬新加坡砖线@MFJD666_2
-      - 🇯🇵日本砖线@MFJD666_2
-      - 🇯🇵日本砖线@MFJD666_3
-      - 🇺🇸美国砖线@MFJD666_1
-      - 🇯🇵日本砖线@MFJD666_4
-      - 🇯🇵日本砖线@MFJD666_5
-      - Relay_🇺🇸US-🇺🇸US_254 |57.89Mb
-      - 💦+BPB+-+104.21.53.27
-      - 💦+BPB+-+Domain_2+:+2053
-      - 关注TG-@djkkdcxCMCC09
-      - 💦+BPB+-+Domain_1+:+443
-      - 关注TG-@djkkdcx+US01
-      - 关注TG-@djkkdcxCMCC03
-      - 💦+BPB+-+IPv4_1+:+443
-      - 关注TG-@djkkdcx🇭🇰+HK03
-      - 关注TG-@djkkdcxCT01
-      - 💦+BPB+-+Domain_2+:+2096
-      - 💦+BPB+-+IPv6_1+:+2053
-      - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcx🇰🇷+KR04
-      - 💦+BPB+-+[2606:4700:3033::ac4...
-      - 💦+BPB+-+www.speedtest.net
-      - 💦+BPB+-+IPv6_2+:+2053
-      - 💦+BPB+-+IPv6_1+:+2096
-      - 关注TG-@djkkdcxJP02
-      - 🏁ZZ_197 |75.51Mb
-      - 关注TG-@djkkdcx🇭🇰+HK06
-      - 💦+BPB+-+Domain_2+:+2083
-      - 💦+BPB+-+IPv4_2+:+2053
-      - 💦+BPB+-+IPv6_1+:+8443
-      - 💦+BPB+-+Domain_1+:+2096
-      - 关注TG-@djkkdcx🇹🇼+TW03
-      - 关注TG-@djkkdcxJP01
-      - 💦+BPB+-+IPv6_2+:+2083
-      - 💦+BPB+-+IPv6_2+:+443
-      - 💦+BPB+-+IPv6_1+:+2083
-      - 💦+BPB+-+Domain_1+:+8443
-      - 💦+BPB+-+IPv4_2+:+2096
-      - 💦+BPB+-+Domain_2+:+2087
-      - 关注TG-@djkkdcxKR06
-      - 💦+BPB+-+104.21.84.188
-      - 关注TG-@djkkdcxJP08
-      - 💦+BPB+-+bpb.sanmu.us.kg
-      - 💦+BPB+-+IPv6_2+:+2096
-      - 💦+BPB+-+[2606:4700:3035::ac4...
-      - 💦+BPB+-+104.23.133.175
-      - 💦+BPB+-+IPv6_1+:+2087
-      - 关注TG-@djkkdcx🇭🇰+HK07
-      - 关注TG-@djkkdcx🇭🇰+HK08
-      - 💦+BPB+-+IPv4_1+:+2053
-      - 💦+BPB+-+IPv4_2+:+8443
-      - 💦+BPB+-+Domain_2+:+8443
-      - 💦+BPB+-+IPv4_2+:+443
+      - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcxCMCC06
-      - 💦+BPB+-+172.67.196.21
-      - 关注TG-@djkkdcx🇹🇼+TW02
-      - 💦+BPB+-+IPv4_1+:+2096
-      - 🇸🇬新加坡砖线@MFJD666_3
-      - 💦+BPB+-+IPv4_2+:+2087
       - 💦+BPB+-+Domain_1+:+2083
       - 💦+BPB+-+IPv6_2+:+2087
-      - 关注TG-@djkkdcx+RU01
       - 💦+BPB+-+IPv6_1+:+443
-      - 💦+BPB+-+IPv4_1+:+2087
-      - TG@ZDYZ2+-SG-Singapore
+      - 关注TG-@djkkdcx🇹🇼+TW02
+      - 关注TG-@djkkdcx🇭🇰+HK08
+      - 💦+BPB+-+IPv6_1+:+8443
+      - 💦+BPB+-+IPv6_1+:+2087
+      - 💦+BPB+-+IPv6_2+:+443
+      - 💦+BPB+-+IPv6_1+:+2096
+      - 💦+BPB+-+Domain_1+:+2096
+      - 💦+BPB+-+IPv6_1+:+2083
+      - 💦+BPB+-+IPv6_2+:+2083
+      - 💦+BPB+-+IPv6_2+:+2053
+      - 🏁ZZ_197 |75.51Mb
+      - 关注TG-@djkkdcxKR06
+      - 关注TG-@djkkdcx🇭🇰+HK03
+      - 💦+BPB+-+Domain_1+:+8443
       - 💦+BPB+-+Domain_1+:+2087
+      - 关注TG-@djkkdcxJP08
+      - 关注TG-@djkkdcxCT01
+      - 💦+BPB+-+bpb.sanmu.us.kg
+      - Relay_🇫🇷FR-🇫🇷FR_20
+      - 💦+BPB+-+IPv6_2+:+2096
+      - 💦+BPB+-+[2606:4700:3035::ac4...
+      - 关注TG-@djkkdcx+US01
+      - 关注TG-@djkkdcxCMCC03
+      - 💦+BPB+-+Domain_1+:+443
+      - 关注TG-@djkkdcxCMCC09
+      - 🇨🇳 CN @ZDYZ2 20
+      - 🇸🇬新加坡砖线@MFJD666
       - Relay_🇺🇸US-🇨🇦CA_223 |45.07Mb
-      - 💦+BPB+-+IPv6_2+:+8443
-      - 关注TG-@djkkdcx+NL01
       - 关注TG-@djkkdcxCMCC07
-      - 关注TG-@djkkdcx+US03
-      - 🇺🇸美国砖线@MFJD666_2
-      - Relay_🏁ZZ-🇨🇦CA_410 |11.54Mb
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 💦+BPB+-+[2606:4700:3033::ac4...
+      - 关注TG-@djkkdcx+NL01
+      - 🇨🇳 CN @ZDYZ2 22
+      - TG@ZDYZ2+-SG-Singapore
+      - 💦+BPB+-+IPv6_2+:+8443
+      - 关注TG-@djkkdcx+ZA01
+      - 🇨🇳 CN @ZDYZ2 19
+      - 💦+BPB+-+IPv6_1+:+2053
+      - 🇨🇳 CN @ZDYZ2 23
+      - 🇨🇳 CN @ZDYZ2 32
+      - 🇨🇳 CN @ZDYZ2 31
 
 rules:
 # 本地/局域网地址
