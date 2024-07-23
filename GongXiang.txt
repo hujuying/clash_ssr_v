@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-23 02:46:12
+# 创建时间：2024-07-24 03:51:33
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：122
-# 节点类型：ss, vless
+# 节点数量：105
+# 节点类型：ss, vless, trojan
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,128 +87,111 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+2","type":"ss","server":"52.78.200.155","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"日本+-+东京+-+Amazon.com,+Inc.+-+3","type":"ss","server":"57.180.39.104","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"美国+-+洛杉矶+-+Global+Communication+Network+Limited+-+277","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37041,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
   - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+41","type":"vless","server":"43.153.80.208","port":443,"uuid":"b9011be4-b7d5-428e-a4cc-be5cc8768ba4","tls":true,"servername":"go.jp980.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"go.jp980.cloudns.org"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_1","type":"vless","server":"45.133.247.14","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+338","type":"vless","server":"45.80.111.199","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+108","type":"vless","server":"185.176.24.120","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+116","type":"vless","server":"103.169.142.221","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+327","type":"vless","server":"140.99.233.156","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+198_1","type":"vless","server":"94.247.142.245","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇷🇺+俄罗斯+-+Domodedovo+-+1","type":"vless","server":"185.46.8.17","port":8000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+224","type":"vless","server":"217.163.76.75","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+176","type":"vless","server":"155.46.213.166","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+191","type":"vless","server":"43.153.103.203","port":443,"uuid":"b9011be4-b7d5-428e-a4cc-be5cc8768ba4","tls":true,"servername":"go.jp980.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"go.jp980.cloudns.org"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+123","type":"vless","server":"94.247.142.245","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+146","type":"vless","server":"38.59.244.77","port":28555,"uuid":"b9011be4-b7d5-428e-a4cc-be5cc8768ba4","tls":true,"servername":"go.jp980.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"go.jp980.cloudns.org"}}}
+  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+5","type":"vless","server":"142.171.220.62","port":16000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9","type":"vless","server":"5.75.204.154","port":2020,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_1","type":"vless","server":"94.247.142.245","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+20","type":"vless","server":"64.69.37.83","port":9999,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
   - {"name":"🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+10","type":"vless","server":"52.57.142.162","port":8087,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+326","type":"vless","server":"147.78.140.81","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+AS13335+Cloudflare,+Inc.+-+23","type":"vless","server":"173.242.125.91","port":9080,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+249","type":"vless","server":"31.43.179.87","port":2083,"uuid":"9af577f2-0a7a-4448-ae0b-6985c53ea634","tls":true,"servername":"t-netplus1.pages.dev","network":"ws","ws-opts":{"path":"/proxy_mtm?ed","headers":{"host":"t-netplus1.pages.dev"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+167","type":"vless","server":"94.140.0.157","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+183","type":"vless","server":"205.233.181.41","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+75","type":"vless","server":"199.181.197.39","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+19","type":"vless","server":"64.69.37.10","port":995,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"美国+2","type":"trojan","server":"e.eeeeeef998.buzz","port":15002,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
   - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_1","type":"vless","server":"31.22.116.238","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+198_2","type":"vless","server":"167.68.11.100","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_1","type":"vless","server":"147.78.140.193","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+99","type":"vless","server":"185.59.218.169","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇯🇵+日本+-+Fukuoka+-+31","type":"vless","server":"211.199.39.216","port":17988,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇳🇱+荷兰+-+Amsterdam+-+31","type":"vless","server":"5.45.95.42","port":20332,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇫🇮+芬兰+-+Vantaa+-+1","type":"vless","server":"65.109.202.7","port":8086,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+22","type":"vless","server":"74.48.186.122","port":7000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+175","type":"vless","server":"205.233.181.218","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇺🇸+美国+-+Flower+Mound+-+15","type":"vless","server":"23.95.44.75","port":5678,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇩🇪+德国+-+Dreieich+-+14","type":"vless","server":"91.107.249.164","port":8002,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+158","type":"vless","server":"155.46.213.32","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇳🇱+荷兰+-+Amsterdam+-+1","type":"vless","server":"104.255.65.75","port":5000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
   - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+178","type":"vless","server":"170.114.46.218","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+8","type":"vless","server":"5.75.192.41","port":4000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+15","type":"vless","server":"209.46.30.217","port":8443,"uuid":"775213ac-3976-439a-8977-3277c0e4735d","tls":true,"servername":"fq521.6789.cloudns.be","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"fq521.6789.cloudns.be"}}}
-  - {"name":"🇯🇵+日本+-+Narita+-+18","type":"vless","server":"152.70.101.24","port":16992,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+180_1","type":"vless","server":"45.159.216.195","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+92","type":"vless","server":"45.159.217.54","port":2087,"uuid":"775213ac-3976-439a-8977-3277c0e4735d","tls":true,"servername":"fq521.6789.cloudns.be","network":"ws","ws-opts":{"path":"Twitter苏小柠","headers":{"host":"fq521.6789.cloudns.be"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_2","type":"vless","server":"94.247.142.245","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+5","type":"vless","server":"142.171.220.62","port":16000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+159","type":"vless","server":"205.233.181.0","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9","type":"vless","server":"5.75.204.154","port":2020,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"日本+-+成田市+-+Cloudflare,+Inc.+-+5","type":"vless","server":"61.77.9.219","port":12487,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"日本+-+成田市+-+Cloudflare,+Inc.+-+3","type":"vless","server":"222.113.18.206","port":38961,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇩🇪+德国+-+Dreieich+-+7","type":"vless","server":"195.201.254.148","port":8882,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇺🇸+美国+-+San+Jose+-+AS13335+Cloudflare,+Inc.+-+24","type":"vless","server":"43.153.27.243","port":2020,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+146","type":"vless","server":"38.59.244.77","port":28555,"uuid":"b9011be4-b7d5-428e-a4cc-be5cc8768ba4","tls":true,"servername":"go.jp980.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"go.jp980.cloudns.org"}}}
-  - {"name":"🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+2","type":"vless","server":"152.70.101.24","port":16923,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇹🇷+土耳其+-+Bahçelievler+-+1","type":"vless","server":"62.3.12.211","port":8084,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+158","type":"vless","server":"155.46.213.32","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+156","type":"vless","server":"45.159.217.21","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+139","type":"vless","server":"188.42.89.60","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+180_2","type":"vless","server":"155.46.213.37","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇸🇪+瑞典+-+Steninge+-+1","type":"vless","server":"37.27.85.145","port":8081,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇯🇵+日本+-+Narita+-+4","type":"vless","server":"121.137.58.166","port":16000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_2","type":"vless","server":"216.116.134.43","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+89","type":"vless","server":"175.209.138.50","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+52","type":"vless","server":"121.161.29.69","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+5","type":"vless","server":"112.160.48.228","port":30080,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+1","type":"vless","server":"104.207.148.215","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+7","type":"vless","server":"43.153.175.181","port":12345,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+303","type":"vless","server":"192.9.246.112","port":8443,"uuid":"cab438c4-9c5a-43fd-a623-ce81cb93085c","tls":true,"servername":"hk.twittei.link","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"hk.twittei.link"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+138","type":"vless","server":"222.103.142.244","port":13013,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+273","type":"vless","server":"188.42.145.226","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+20","type":"vless","server":"64.69.37.83","port":9999,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+33","type":"vless","server":"121.151.14.14","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+29","type":"vless","server":"121.146.85.12","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇬🇧+英国+-+Hounslow+-+2","type":"vless","server":"94.131.122.162","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"新加坡+-+新加坡+-+Cloudflare,+Inc.+-+15","type":"vless","server":"47.236.10.182","port":2087,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"mositr.freenods.sbs"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+294","type":"vless","server":"216.116.134.244","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇯🇵+日本+-+Fukuoka+-+8","type":"vless","server":"121.167.41.142","port":14000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇯🇵+日本+-+Narita+-+28","type":"vless","server":"210.223.114.98","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+74","type":"vless","server":"121.175.39.73","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_2","type":"vless","server":"185.148.105.124","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇳🇱+荷兰+-+Amsterdam+-+1","type":"vless","server":"104.255.65.75","port":5000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+18","type":"vless","server":"59.4.43.136","port":10554,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+126","type":"vless","server":"211.114.182.209","port":10243,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇯🇵+日本+-+Fukuoka+-+42","type":"vless","server":"59.24.213.210","port":11000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+12","type":"vless","server":"183.104.115.129","port":13722,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+53","type":"vless","server":"121.162.208.57","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+27","type":"vless","server":"121.146.118.188","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+AS13335+Cloudflare,+Inc.+-+10","type":"vless","server":"203.228.38.219","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"新加坡+-+新加坡+-+Cloudflare,+Inc.+-+32","type":"vless","server":"47.236.10.182","port":2096,"uuid":"b9011be4-b7d5-428e-a4cc-be5cc8768ba4","tls":true,"servername":"go.jp980.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"go.jp980.cloudns.org"}}}
-  - {"name":"🇺🇸+美国+-+Wheaton+-+AS13335+Cloudflare,+Inc.+-+13","type":"vless","server":"172.245.34.242","port":54321,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+41","type":"vless","server":"121.154.45.167","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+92","type":"vless","server":"175.210.89.202","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+51","type":"vless","server":"121.161.254.102","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+19","type":"vless","server":"64.69.37.10","port":995,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+87","type":"vless","server":"175.207.251.150","port":10554,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇯🇵+日本+-+Narita+-+14","type":"vless","server":"125.139.185.48","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇯🇵+日本+-+Fukuoka+-+AS13335+Cloudflare,+Inc.+-+4","type":"vless","server":"220.122.192.34","port":28006,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+88","type":"vless","server":"175.208.250.214","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇳🇱+荷兰+-+Amsterdam+-+30","type":"vless","server":"5.42.77.246","port":5555,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+11","type":"vless","server":"175.192.211.171","port":34599,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇳🇱+荷兰+-+Amsterdam+-+AS13335+Cloudflare,+Inc.+-+1","type":"vless","server":"147.45.76.55","port":2095,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"新加坡+-+新加坡+-+Cloudflare,+Inc.+-+84","type":"vless","server":"47.236.232.148","port":2083,"uuid":"b9011be4-b7d5-428e-a4cc-be5cc8768ba4","tls":true,"servername":"go.jp980.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"go.jp980.cloudns.org"}}}
-  - {"name":"🇯🇵+日本+-+Fukuoka+-+2","type":"vless","server":"118.34.163.211","port":13013,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇯🇵+日本+-+Fukuoka+-+37","type":"vless","server":"221.153.97.3","port":10005,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+151","type":"vless","server":"185.148.104.178","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇩🇪+德国+-+Dreieich+-+15","type":"vless","server":"94.131.109.168","port":10000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
   - {"name":"🇯🇵+日本+-+Fukuoka+-+44","type":"vless","server":"61.73.123.4","port":32459,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇺🇸+美国+-+South+Fulton+-+14","type":"vless","server":"23.94.92.77","port":6969,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"奥地利+-+萊塔河畔布魯克+-+Cloudflare,+Inc.+-+1","type":"vless","server":"94.177.8.26","port":130,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+109","type":"vless","server":"175.214.81.22","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇩🇪+德国+-+Dreieich+-+10","type":"vless","server":"217.25.90.48","port":1025,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"日本+-+成田市+-+Cloudflare,+Inc.+-+8","type":"vless","server":"59.3.87.55","port":39109,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+66","type":"vless","server":"121.170.119.219","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+6","type":"vless","server":"194.26.229.81","port":5900,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇯🇵+日本+-+Fukuoka+-+43","type":"vless","server":"59.3.87.55","port":16601,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+130","type":"vless","server":"211.230.167.207","port":32773,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇯🇵+日本+-+Fukuoka+-+30","type":"vless","server":"211.114.223.18","port":10554,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇯🇵+日本+-+Fukuoka+-+19","type":"vless","server":"175.193.97.84","port":34599,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+151","type":"vless","server":"185.148.104.178","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+11","type":"vless","server":"175.192.211.171","port":34599,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+AS13335+Cloudflare,+Inc.+-+23","type":"vless","server":"173.242.125.91","port":9080,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇩🇪+德国+-+Dreieich+-+14","type":"vless","server":"91.107.249.164","port":8002,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+224","type":"vless","server":"217.163.76.75","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇯🇵+日本+-+Narita+-+18","type":"vless","server":"152.70.101.24","port":16992,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"加拿大","type":"trojan","server":"e.eeeeeef998.buzz","port":16301,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_2","type":"vless","server":"216.116.134.43","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
   - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+24","type":"vless","server":"89.213.164.80","port":8080,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"🇰🇷+韩国+-+Seolcheon+-+132","type":"vless","server":"220.123.176.252","port":30080,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+190","type":"vless","server":"159.112.235.101","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+324","type":"vless","server":"103.169.142.239","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇳🇱+荷兰+-+Amsterdam+-+27","type":"vless","server":"217.100.27.130","port":16993,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_2","type":"vless","server":"45.133.247.14","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
   - {"name":"🇰🇷+韩国+-+Seolcheon+-+13","type":"vless","server":"118.47.155.70","port":12000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
-  - {"name":"日本+-+成田市+-+Cloudflare,+Inc.+-+4","type":"vless","server":"222.113.18.214","port":37051,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🇯🇵+日本+-+Fukuoka+-+22","type":"vless","server":"175.212.114.239","port":32400,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+108","type":"vless","server":"185.176.24.120","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇷🇺+俄罗斯+-+Domodedovo+-+1","type":"vless","server":"185.46.8.17","port":8000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+191","type":"vless","server":"43.153.103.203","port":443,"uuid":"b9011be4-b7d5-428e-a4cc-be5cc8768ba4","tls":true,"servername":"go.jp980.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"go.jp980.cloudns.org"}}}
+  - {"name":"🇯🇵+日本+-+Fukuoka+-+37","type":"vless","server":"221.153.97.3","port":10005,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+190","type":"vless","server":"159.112.235.101","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇹🇷+土耳其+-+Bahçelievler+-+1","type":"vless","server":"62.3.12.211","port":8084,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇩🇪+德国+-+Dreieich+-+7","type":"vless","server":"195.201.254.148","port":8882,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇯🇵+日本+-+Fukuoka+-+42","type":"vless","server":"59.24.213.210","port":11000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"法国","type":"trojan","server":"n.eeeeeef998.buzz","port":16202,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+18","type":"vless","server":"59.4.43.136","port":10554,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+12","type":"vless","server":"183.104.115.129","port":13722,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇰🇷+韩国+-+Seolcheon+-+33","type":"vless","server":"121.151.14.14","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"美国+3","type":"trojan","server":"e.eeeeeef998.buzz","port":15003,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"阿联酋","type":"trojan","server":"s.eeeeeef998.buzz","port":16106,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸+美国+-+San+Jose+-+AS13335+Cloudflare,+Inc.+-+24","type":"vless","server":"43.153.27.243","port":2020,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇸🇪+瑞典+-+Steninge+-+1","type":"vless","server":"37.27.85.145","port":8081,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇫🇮+芬兰+-+Vantaa+-+1","type":"vless","server":"65.109.202.7","port":8086,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+249","type":"vless","server":"31.43.179.87","port":2083,"uuid":"9af577f2-0a7a-4448-ae0b-6985c53ea634","tls":true,"servername":"t-netplus1.pages.dev","network":"ws","ws-opts":{"path":"/proxy_mtm?ed","headers":{"host":"t-netplus1.pages.dev"}}}
+  - {"name":"🇳🇱+荷兰+-+Amsterdam+-+31","type":"vless","server":"5.45.95.42","port":20332,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+2","type":"vless","server":"152.70.101.24","port":16923,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇯🇵+日本+-+Fukuoka+-+8","type":"vless","server":"121.167.41.142","port":14000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"香港+6","type":"trojan","server":"s.eeeeeef998.buzz","port":11006,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国+5","type":"trojan","server":"e.eeeeeef998.buzz","port":15005,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷+韩国+-+Seolcheon+-+52","type":"vless","server":"121.161.29.69","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇬🇧+英国+-+Hounslow+-+2","type":"vless","server":"94.131.122.162","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇺🇸+美国+-+Flower+Mound+-+15","type":"vless","server":"23.95.44.75","port":5678,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇰🇷+韩国+-+Seolcheon+-+132","type":"vless","server":"220.123.176.252","port":30080,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+176","type":"vless","server":"155.46.213.166","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"美国+4","type":"trojan","server":"e.eeeeeef998.buzz","port":15004,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+99","type":"vless","server":"185.59.218.169","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇳🇱+荷兰+-+Amsterdam+-+30","type":"vless","server":"5.42.77.246","port":5555,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇰🇷+韩国+-+Seolcheon+-+74","type":"vless","server":"121.175.39.73","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"新加坡+-+新加坡+-+Cloudflare,+Inc.+-+84","type":"vless","server":"47.236.232.148","port":2083,"uuid":"b9011be4-b7d5-428e-a4cc-be5cc8768ba4","tls":true,"servername":"go.jp980.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"go.jp980.cloudns.org"}}}
+  - {"name":"🇩🇪+德国+-+Dreieich+-+15","type":"vless","server":"94.131.109.168","port":10000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"智利","type":"trojan","server":"e.eeeeeef998.buzz","port":16304,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"奥地利+-+萊塔河畔布魯克+-+Cloudflare,+Inc.+-+1","type":"vless","server":"94.177.8.26","port":130,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"德国","type":"trojan","server":"n.eeeeeef998.buzz","port":16203,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国+6","type":"trojan","server":"e.eeeeeef998.buzz","port":15006,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+338","type":"vless","server":"45.80.111.199","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+167","type":"vless","server":"94.140.0.157","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"新加坡+1","type":"trojan","server":"s.eeeeeef998.buzz","port":14001,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国+1","type":"trojan","server":"e.eeeeeef998.buzz","port":15001,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本+2","type":"trojan","server":"e.eeeeeef998.buzz","port":13002,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"马来西亚","type":"trojan","server":"s.eeeeeef998.buzz","port":16109,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡+2","type":"trojan","server":"s.eeeeeef998.buzz","port":14002,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+1","type":"vless","server":"104.207.148.215","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"日本+3","type":"trojan","server":"e.eeeeeef998.buzz","port":13003,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本+4","type":"trojan","server":"e.eeeeeef998.buzz","port":13004,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡+3","type":"trojan","server":"s.eeeeeef998.buzz","port":14003,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪+德国+-+Dreieich+-+10","type":"vless","server":"217.25.90.48","port":1025,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+294","type":"vless","server":"216.116.134.244","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"土耳其","type":"trojan","server":"n.eeeeeef998.buzz","port":16104,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"墨西哥","type":"trojan","server":"e.eeeeeef998.buzz","port":16302,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡+4","type":"trojan","server":"s.eeeeeef998.buzz","port":14004,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇰🇷+韩国+-+Seolcheon+-+98","type":"vless","server":"175.212.197.193","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+6","type":"vless","server":"194.26.229.81","port":5900,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"巴西","type":"trojan","server":"e.eeeeeef998.buzz","port":16303,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡+5","type":"trojan","server":"s.eeeeeef998.buzz","port":14005,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷+韩国+-+Seolcheon+-+5","type":"vless","server":"112.160.48.228","port":30080,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"新加坡+6","type":"trojan","server":"s.eeeeeef998.buzz","port":14006,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+303","type":"vless","server":"192.9.246.112","port":8443,"uuid":"cab438c4-9c5a-43fd-a623-ce81cb93085c","tls":true,"servername":"hk.twittei.link","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"hk.twittei.link"}}}
+  - {"name":"阿根廷","type":"trojan","server":"e.eeeeeef998.buzz","port":16305,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡+-+新加坡+-+Cloudflare,+Inc.+-+15","type":"vless","server":"47.236.10.182","port":2087,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"mositr.freenods.sbs"}}}
+  - {"name":"瑞士","type":"trojan","server":"n.eeeeeef998.buzz","port":16213,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+123","type":"vless","server":"94.247.142.245","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+7","type":"vless","server":"43.153.175.181","port":12345,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"香港+3","type":"trojan","server":"s.eeeeeef998.buzz","port":11003,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"剩余流量：51.3+GB","type":"trojan","server":"s.eeeeeef998.buzz","port":11001,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_2","type":"vless","server":"185.148.105.124","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"香港+2","type":"trojan","server":"s.eeeeeef998.buzz","port":11002,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"荷兰","type":"trojan","server":"n.eeeeeef998.buzz","port":16207,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港+4","type":"trojan","server":"s.eeeeeef998.buzz","port":11004,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港+5","type":"trojan","server":"s.eeeeeef998.buzz","port":11005,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡+-+新加坡+-+Cloudflare,+Inc.+-+32","type":"vless","server":"47.236.10.182","port":2096,"uuid":"b9011be4-b7d5-428e-a4cc-be5cc8768ba4","tls":true,"servername":"go.jp980.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"go.jp980.cloudns.org"}}}
+  - {"name":"🇳🇱+荷兰+-+Amsterdam+-+27","type":"vless","server":"217.100.27.130","port":16993,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"澳大利亚","type":"trojan","server":"s.eeeeeef998.buzz","port":16103,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷+韩国+-+Seolcheon+-+27","type":"vless","server":"121.146.118.188","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -217,510 +200,442 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+2
       - 日本+-+东京+-+Amazon.com,+Inc.+-+3
-      - 美国+-+洛杉矶+-+Global+Communication+Network+Limited+-+277
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
+      - 🇺🇸+美国+-+East+Los+Angeles+-+5
+      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+338
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+108
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+116
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+327
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+198_1
-      - 🇷🇺+俄罗斯+-+Domodedovo+-+1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+224
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+176
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+191
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+123
+      - 🇺🇸+美国+-+East+Los+Angeles+-+20
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+10
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+326
-      - 🇺🇸+美国+-+East+Los+Angeles+-+AS13335+Cloudflare,+Inc.+-+23
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+249
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+167
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+183
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+75
+      - 🇺🇸+美国+-+East+Los+Angeles+-+19
+      - 美国+2
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+198_2
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+99
-      - 🇯🇵+日本+-+Fukuoka+-+31
-      - 🇳🇱+荷兰+-+Amsterdam+-+31
-      - 🇫🇮+芬兰+-+Vantaa+-+1
-      - 🇺🇸+美国+-+East+Los+Angeles+-+22
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+175
-      - 🇺🇸+美国+-+Flower+Mound+-+15
-      - 🇩🇪+德国+-+Dreieich+-+14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+158
+      - 🇳🇱+荷兰+-+Amsterdam+-+1
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+178
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+8
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+15
-      - 🇯🇵+日本+-+Narita+-+18
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+180_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+92
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_2
-      - 🇺🇸+美国+-+East+Los+Angeles+-+5
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+159
-      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+5
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+3
-      - 🇩🇪+德国+-+Dreieich+-+7
-      - 🇺🇸+美国+-+San+Jose+-+AS13335+Cloudflare,+Inc.+-+24
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
-      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+2
-      - 🇹🇷+土耳其+-+Bahçelievler+-+1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+158
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+156
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+139
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+180_2
-      - 🇸🇪+瑞典+-+Steninge+-+1
-      - 🇯🇵+日本+-+Narita+-+4
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_2
-      - 🇰🇷+韩国+-+Seolcheon+-+89
-      - 🇰🇷+韩国+-+Seolcheon+-+52
-      - 🇰🇷+韩国+-+Seolcheon+-+5
-      - 🇺🇸+美国+-+East+Los+Angeles+-+1
-      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+7
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+303
-      - 🇰🇷+韩国+-+Seolcheon+-+138
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+273
-      - 🇺🇸+美国+-+East+Los+Angeles+-+20
-      - 🇰🇷+韩国+-+Seolcheon+-+33
-      - 🇰🇷+韩国+-+Seolcheon+-+29
-      - 🇬🇧+英国+-+Hounslow+-+2
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+15
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+294
-      - 🇯🇵+日本+-+Fukuoka+-+8
-      - 🇯🇵+日本+-+Narita+-+28
-      - 🇰🇷+韩国+-+Seolcheon+-+74
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_2
-      - 🇳🇱+荷兰+-+Amsterdam+-+1
-      - 🇺🇸+美国+-+East+Los+Angeles+-+18
-      - 🇰🇷+韩国+-+Seolcheon+-+126
-      - 🇯🇵+日本+-+Fukuoka+-+42
-      - 🇺🇸+美国+-+East+Los+Angeles+-+12
-      - 🇰🇷+韩国+-+Seolcheon+-+53
-      - 🇰🇷+韩国+-+Seolcheon+-+27
-      - 🇰🇷+韩国+-+Seolcheon+-+AS13335+Cloudflare,+Inc.+-+10
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+32
-      - 🇺🇸+美国+-+Wheaton+-+AS13335+Cloudflare,+Inc.+-+13
-      - 🇰🇷+韩国+-+Seolcheon+-+41
-      - 🇰🇷+韩国+-+Seolcheon+-+92
-      - 🇰🇷+韩国+-+Seolcheon+-+51
-      - 🇺🇸+美国+-+East+Los+Angeles+-+19
-      - 🇰🇷+韩国+-+Seolcheon+-+87
-      - 🇯🇵+日本+-+Narita+-+14
-      - 🇯🇵+日本+-+Fukuoka+-+AS13335+Cloudflare,+Inc.+-+4
-      - 🇰🇷+韩国+-+Seolcheon+-+88
-      - 🇳🇱+荷兰+-+Amsterdam+-+30
-      - 🇺🇸+美国+-+East+Los+Angeles+-+11
-      - 🇳🇱+荷兰+-+Amsterdam+-+AS13335+Cloudflare,+Inc.+-+1
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+84
-      - 🇯🇵+日本+-+Fukuoka+-+2
-      - 🇯🇵+日本+-+Fukuoka+-+37
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+151
-      - 🇩🇪+德国+-+Dreieich+-+15
       - 🇯🇵+日本+-+Fukuoka+-+44
-      - 🇺🇸+美国+-+South+Fulton+-+14
-      - 奥地利+-+萊塔河畔布魯克+-+Cloudflare,+Inc.+-+1
-      - 🇰🇷+韩国+-+Seolcheon+-+109
-      - 🇩🇪+德国+-+Dreieich+-+10
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+8
-      - 🇰🇷+韩国+-+Seolcheon+-+66
-      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+6
-      - 🇯🇵+日本+-+Fukuoka+-+43
-      - 🇰🇷+韩国+-+Seolcheon+-+130
-      - 🇯🇵+日本+-+Fukuoka+-+30
-      - 🇯🇵+日本+-+Fukuoka+-+19
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+151
+      - 🇺🇸+美国+-+East+Los+Angeles+-+11
+      - 🇺🇸+美国+-+East+Los+Angeles+-+AS13335+Cloudflare,+Inc.+-+23
+      - 🇩🇪+德国+-+Dreieich+-+14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+224
+      - 🇯🇵+日本+-+Narita+-+18
+      - 加拿大
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_2
       - 🇺🇸+美国+-+East+Los+Angeles+-+24
-      - 🇰🇷+韩国+-+Seolcheon+-+132
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+190
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+324
-      - 🇳🇱+荷兰+-+Amsterdam+-+27
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_2
       - 🇰🇷+韩国+-+Seolcheon+-+13
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+4
-      - 🇯🇵+日本+-+Fukuoka+-+22
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+108
+      - 🇷🇺+俄罗斯+-+Domodedovo+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+191
+      - 🇯🇵+日本+-+Fukuoka+-+37
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+190
+      - 🇹🇷+土耳其+-+Bahçelievler+-+1
+      - 🇩🇪+德国+-+Dreieich+-+7
+      - 🇯🇵+日本+-+Fukuoka+-+42
+      - 法国
+      - 🇺🇸+美国+-+East+Los+Angeles+-+18
+      - 🇺🇸+美国+-+East+Los+Angeles+-+12
+      - 🇰🇷+韩国+-+Seolcheon+-+33
+      - 美国+3
+      - 阿联酋
+      - 🇺🇸+美国+-+San+Jose+-+AS13335+Cloudflare,+Inc.+-+24
+      - 🇸🇪+瑞典+-+Steninge+-+1
+      - 🇫🇮+芬兰+-+Vantaa+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+249
+      - 🇳🇱+荷兰+-+Amsterdam+-+31
+      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+2
+      - 🇯🇵+日本+-+Fukuoka+-+8
+      - 香港+6
+      - 美国+5
+      - 🇰🇷+韩国+-+Seolcheon+-+52
+      - 🇬🇧+英国+-+Hounslow+-+2
+      - 🇺🇸+美国+-+Flower+Mound+-+15
+      - 🇰🇷+韩国+-+Seolcheon+-+132
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+176
+      - 美国+4
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+99
+      - 🇳🇱+荷兰+-+Amsterdam+-+30
+      - 🇰🇷+韩国+-+Seolcheon+-+74
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+84
+      - 🇩🇪+德国+-+Dreieich+-+15
+      - 智利
+      - 奥地利+-+萊塔河畔布魯克+-+Cloudflare,+Inc.+-+1
+      - 德国
+      - 美国+6
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+338
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+167
+      - 新加坡+1
+      - 美国+1
+      - 日本+2
+      - 马来西亚
+      - 新加坡+2
+      - 🇺🇸+美国+-+East+Los+Angeles+-+1
+      - 日本+3
+      - 日本+4
+      - 新加坡+3
+      - 🇩🇪+德国+-+Dreieich+-+10
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+294
+      - 土耳其
+      - 墨西哥
+      - 新加坡+4
       - 🇰🇷+韩国+-+Seolcheon+-+98
+      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+6
+      - 巴西
+      - 新加坡+5
+      - 🇰🇷+韩国+-+Seolcheon+-+5
+      - 新加坡+6
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+303
+      - 阿根廷
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+15
+      - 瑞士
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+123
+      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+7
+      - 香港+3
+      - 剩余流量：51.3+GB
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_2
+      - 香港+2
+      - 荷兰
+      - 香港+4
+      - 香港+5
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+32
+      - 🇳🇱+荷兰+-+Amsterdam+-+27
+      - 澳大利亚
+      - 🇰🇷+韩国+-+Seolcheon+-+27
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+2
       - 日本+-+东京+-+Amazon.com,+Inc.+-+3
-      - 美国+-+洛杉矶+-+Global+Communication+Network+Limited+-+277
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
+      - 🇺🇸+美国+-+East+Los+Angeles+-+5
+      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+338
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+108
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+116
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+327
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+198_1
-      - 🇷🇺+俄罗斯+-+Domodedovo+-+1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+224
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+176
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+191
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+123
+      - 🇺🇸+美国+-+East+Los+Angeles+-+20
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+10
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+326
-      - 🇺🇸+美国+-+East+Los+Angeles+-+AS13335+Cloudflare,+Inc.+-+23
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+249
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+167
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+183
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+75
+      - 🇺🇸+美国+-+East+Los+Angeles+-+19
+      - 美国+2
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+198_2
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+99
-      - 🇯🇵+日本+-+Fukuoka+-+31
-      - 🇳🇱+荷兰+-+Amsterdam+-+31
-      - 🇫🇮+芬兰+-+Vantaa+-+1
-      - 🇺🇸+美国+-+East+Los+Angeles+-+22
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+175
-      - 🇺🇸+美国+-+Flower+Mound+-+15
-      - 🇩🇪+德国+-+Dreieich+-+14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+158
+      - 🇳🇱+荷兰+-+Amsterdam+-+1
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+178
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+8
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+15
-      - 🇯🇵+日本+-+Narita+-+18
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+180_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+92
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_2
-      - 🇺🇸+美国+-+East+Los+Angeles+-+5
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+159
-      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+5
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+3
-      - 🇩🇪+德国+-+Dreieich+-+7
-      - 🇺🇸+美国+-+San+Jose+-+AS13335+Cloudflare,+Inc.+-+24
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
-      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+2
-      - 🇹🇷+土耳其+-+Bahçelievler+-+1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+158
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+156
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+139
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+180_2
-      - 🇸🇪+瑞典+-+Steninge+-+1
-      - 🇯🇵+日本+-+Narita+-+4
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_2
-      - 🇰🇷+韩国+-+Seolcheon+-+89
-      - 🇰🇷+韩国+-+Seolcheon+-+52
-      - 🇰🇷+韩国+-+Seolcheon+-+5
-      - 🇺🇸+美国+-+East+Los+Angeles+-+1
-      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+7
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+303
-      - 🇰🇷+韩国+-+Seolcheon+-+138
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+273
-      - 🇺🇸+美国+-+East+Los+Angeles+-+20
-      - 🇰🇷+韩国+-+Seolcheon+-+33
-      - 🇰🇷+韩国+-+Seolcheon+-+29
-      - 🇬🇧+英国+-+Hounslow+-+2
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+15
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+294
-      - 🇯🇵+日本+-+Fukuoka+-+8
-      - 🇯🇵+日本+-+Narita+-+28
-      - 🇰🇷+韩国+-+Seolcheon+-+74
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_2
-      - 🇳🇱+荷兰+-+Amsterdam+-+1
-      - 🇺🇸+美国+-+East+Los+Angeles+-+18
-      - 🇰🇷+韩国+-+Seolcheon+-+126
-      - 🇯🇵+日本+-+Fukuoka+-+42
-      - 🇺🇸+美国+-+East+Los+Angeles+-+12
-      - 🇰🇷+韩国+-+Seolcheon+-+53
-      - 🇰🇷+韩国+-+Seolcheon+-+27
-      - 🇰🇷+韩国+-+Seolcheon+-+AS13335+Cloudflare,+Inc.+-+10
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+32
-      - 🇺🇸+美国+-+Wheaton+-+AS13335+Cloudflare,+Inc.+-+13
-      - 🇰🇷+韩国+-+Seolcheon+-+41
-      - 🇰🇷+韩国+-+Seolcheon+-+92
-      - 🇰🇷+韩国+-+Seolcheon+-+51
-      - 🇺🇸+美国+-+East+Los+Angeles+-+19
-      - 🇰🇷+韩国+-+Seolcheon+-+87
-      - 🇯🇵+日本+-+Narita+-+14
-      - 🇯🇵+日本+-+Fukuoka+-+AS13335+Cloudflare,+Inc.+-+4
-      - 🇰🇷+韩国+-+Seolcheon+-+88
-      - 🇳🇱+荷兰+-+Amsterdam+-+30
-      - 🇺🇸+美国+-+East+Los+Angeles+-+11
-      - 🇳🇱+荷兰+-+Amsterdam+-+AS13335+Cloudflare,+Inc.+-+1
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+84
-      - 🇯🇵+日本+-+Fukuoka+-+2
-      - 🇯🇵+日本+-+Fukuoka+-+37
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+151
-      - 🇩🇪+德国+-+Dreieich+-+15
       - 🇯🇵+日本+-+Fukuoka+-+44
-      - 🇺🇸+美国+-+South+Fulton+-+14
-      - 奥地利+-+萊塔河畔布魯克+-+Cloudflare,+Inc.+-+1
-      - 🇰🇷+韩国+-+Seolcheon+-+109
-      - 🇩🇪+德国+-+Dreieich+-+10
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+8
-      - 🇰🇷+韩国+-+Seolcheon+-+66
-      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+6
-      - 🇯🇵+日本+-+Fukuoka+-+43
-      - 🇰🇷+韩国+-+Seolcheon+-+130
-      - 🇯🇵+日本+-+Fukuoka+-+30
-      - 🇯🇵+日本+-+Fukuoka+-+19
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+151
+      - 🇺🇸+美国+-+East+Los+Angeles+-+11
+      - 🇺🇸+美国+-+East+Los+Angeles+-+AS13335+Cloudflare,+Inc.+-+23
+      - 🇩🇪+德国+-+Dreieich+-+14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+224
+      - 🇯🇵+日本+-+Narita+-+18
+      - 加拿大
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_2
       - 🇺🇸+美国+-+East+Los+Angeles+-+24
-      - 🇰🇷+韩国+-+Seolcheon+-+132
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+190
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+324
-      - 🇳🇱+荷兰+-+Amsterdam+-+27
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_2
       - 🇰🇷+韩国+-+Seolcheon+-+13
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+4
-      - 🇯🇵+日本+-+Fukuoka+-+22
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+108
+      - 🇷🇺+俄罗斯+-+Domodedovo+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+191
+      - 🇯🇵+日本+-+Fukuoka+-+37
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+190
+      - 🇹🇷+土耳其+-+Bahçelievler+-+1
+      - 🇩🇪+德国+-+Dreieich+-+7
+      - 🇯🇵+日本+-+Fukuoka+-+42
+      - 法国
+      - 🇺🇸+美国+-+East+Los+Angeles+-+18
+      - 🇺🇸+美国+-+East+Los+Angeles+-+12
+      - 🇰🇷+韩国+-+Seolcheon+-+33
+      - 美国+3
+      - 阿联酋
+      - 🇺🇸+美国+-+San+Jose+-+AS13335+Cloudflare,+Inc.+-+24
+      - 🇸🇪+瑞典+-+Steninge+-+1
+      - 🇫🇮+芬兰+-+Vantaa+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+249
+      - 🇳🇱+荷兰+-+Amsterdam+-+31
+      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+2
+      - 🇯🇵+日本+-+Fukuoka+-+8
+      - 香港+6
+      - 美国+5
+      - 🇰🇷+韩国+-+Seolcheon+-+52
+      - 🇬🇧+英国+-+Hounslow+-+2
+      - 🇺🇸+美国+-+Flower+Mound+-+15
+      - 🇰🇷+韩国+-+Seolcheon+-+132
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+176
+      - 美国+4
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+99
+      - 🇳🇱+荷兰+-+Amsterdam+-+30
+      - 🇰🇷+韩国+-+Seolcheon+-+74
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+84
+      - 🇩🇪+德国+-+Dreieich+-+15
+      - 智利
+      - 奥地利+-+萊塔河畔布魯克+-+Cloudflare,+Inc.+-+1
+      - 德国
+      - 美国+6
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+338
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+167
+      - 新加坡+1
+      - 美国+1
+      - 日本+2
+      - 马来西亚
+      - 新加坡+2
+      - 🇺🇸+美国+-+East+Los+Angeles+-+1
+      - 日本+3
+      - 日本+4
+      - 新加坡+3
+      - 🇩🇪+德国+-+Dreieich+-+10
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+294
+      - 土耳其
+      - 墨西哥
+      - 新加坡+4
       - 🇰🇷+韩国+-+Seolcheon+-+98
+      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+6
+      - 巴西
+      - 新加坡+5
+      - 🇰🇷+韩国+-+Seolcheon+-+5
+      - 新加坡+6
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+303
+      - 阿根廷
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+15
+      - 瑞士
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+123
+      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+7
+      - 香港+3
+      - 剩余流量：51.3+GB
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_2
+      - 香港+2
+      - 荷兰
+      - 香港+4
+      - 香港+5
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+32
+      - 🇳🇱+荷兰+-+Amsterdam+-+27
+      - 澳大利亚
+      - 🇰🇷+韩国+-+Seolcheon+-+27
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+2
       - 日本+-+东京+-+Amazon.com,+Inc.+-+3
-      - 美国+-+洛杉矶+-+Global+Communication+Network+Limited+-+277
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
+      - 🇺🇸+美国+-+East+Los+Angeles+-+5
+      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+338
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+108
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+116
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+327
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+198_1
-      - 🇷🇺+俄罗斯+-+Domodedovo+-+1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+224
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+176
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+191
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+123
+      - 🇺🇸+美国+-+East+Los+Angeles+-+20
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+10
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+326
-      - 🇺🇸+美国+-+East+Los+Angeles+-+AS13335+Cloudflare,+Inc.+-+23
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+249
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+167
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+183
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+75
+      - 🇺🇸+美国+-+East+Los+Angeles+-+19
+      - 美国+2
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+198_2
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+99
-      - 🇯🇵+日本+-+Fukuoka+-+31
-      - 🇳🇱+荷兰+-+Amsterdam+-+31
-      - 🇫🇮+芬兰+-+Vantaa+-+1
-      - 🇺🇸+美国+-+East+Los+Angeles+-+22
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+175
-      - 🇺🇸+美国+-+Flower+Mound+-+15
-      - 🇩🇪+德国+-+Dreieich+-+14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+158
+      - 🇳🇱+荷兰+-+Amsterdam+-+1
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+178
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+8
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+15
-      - 🇯🇵+日本+-+Narita+-+18
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+180_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+92
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_2
-      - 🇺🇸+美国+-+East+Los+Angeles+-+5
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+159
-      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+5
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+3
-      - 🇩🇪+德国+-+Dreieich+-+7
-      - 🇺🇸+美国+-+San+Jose+-+AS13335+Cloudflare,+Inc.+-+24
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
-      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+2
-      - 🇹🇷+土耳其+-+Bahçelievler+-+1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+158
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+156
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+139
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+180_2
-      - 🇸🇪+瑞典+-+Steninge+-+1
-      - 🇯🇵+日本+-+Narita+-+4
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_2
-      - 🇰🇷+韩国+-+Seolcheon+-+89
-      - 🇰🇷+韩国+-+Seolcheon+-+52
-      - 🇰🇷+韩国+-+Seolcheon+-+5
-      - 🇺🇸+美国+-+East+Los+Angeles+-+1
-      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+7
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+303
-      - 🇰🇷+韩国+-+Seolcheon+-+138
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+273
-      - 🇺🇸+美国+-+East+Los+Angeles+-+20
-      - 🇰🇷+韩国+-+Seolcheon+-+33
-      - 🇰🇷+韩国+-+Seolcheon+-+29
-      - 🇬🇧+英国+-+Hounslow+-+2
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+15
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+294
-      - 🇯🇵+日本+-+Fukuoka+-+8
-      - 🇯🇵+日本+-+Narita+-+28
-      - 🇰🇷+韩国+-+Seolcheon+-+74
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_2
-      - 🇳🇱+荷兰+-+Amsterdam+-+1
-      - 🇺🇸+美国+-+East+Los+Angeles+-+18
-      - 🇰🇷+韩国+-+Seolcheon+-+126
-      - 🇯🇵+日本+-+Fukuoka+-+42
-      - 🇺🇸+美国+-+East+Los+Angeles+-+12
-      - 🇰🇷+韩国+-+Seolcheon+-+53
-      - 🇰🇷+韩国+-+Seolcheon+-+27
-      - 🇰🇷+韩国+-+Seolcheon+-+AS13335+Cloudflare,+Inc.+-+10
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+32
-      - 🇺🇸+美国+-+Wheaton+-+AS13335+Cloudflare,+Inc.+-+13
-      - 🇰🇷+韩国+-+Seolcheon+-+41
-      - 🇰🇷+韩国+-+Seolcheon+-+92
-      - 🇰🇷+韩国+-+Seolcheon+-+51
-      - 🇺🇸+美国+-+East+Los+Angeles+-+19
-      - 🇰🇷+韩国+-+Seolcheon+-+87
-      - 🇯🇵+日本+-+Narita+-+14
-      - 🇯🇵+日本+-+Fukuoka+-+AS13335+Cloudflare,+Inc.+-+4
-      - 🇰🇷+韩国+-+Seolcheon+-+88
-      - 🇳🇱+荷兰+-+Amsterdam+-+30
-      - 🇺🇸+美国+-+East+Los+Angeles+-+11
-      - 🇳🇱+荷兰+-+Amsterdam+-+AS13335+Cloudflare,+Inc.+-+1
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+84
-      - 🇯🇵+日本+-+Fukuoka+-+2
-      - 🇯🇵+日本+-+Fukuoka+-+37
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+151
-      - 🇩🇪+德国+-+Dreieich+-+15
       - 🇯🇵+日本+-+Fukuoka+-+44
-      - 🇺🇸+美国+-+South+Fulton+-+14
-      - 奥地利+-+萊塔河畔布魯克+-+Cloudflare,+Inc.+-+1
-      - 🇰🇷+韩国+-+Seolcheon+-+109
-      - 🇩🇪+德国+-+Dreieich+-+10
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+8
-      - 🇰🇷+韩国+-+Seolcheon+-+66
-      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+6
-      - 🇯🇵+日本+-+Fukuoka+-+43
-      - 🇰🇷+韩国+-+Seolcheon+-+130
-      - 🇯🇵+日本+-+Fukuoka+-+30
-      - 🇯🇵+日本+-+Fukuoka+-+19
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+151
+      - 🇺🇸+美国+-+East+Los+Angeles+-+11
+      - 🇺🇸+美国+-+East+Los+Angeles+-+AS13335+Cloudflare,+Inc.+-+23
+      - 🇩🇪+德国+-+Dreieich+-+14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+224
+      - 🇯🇵+日本+-+Narita+-+18
+      - 加拿大
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_2
       - 🇺🇸+美国+-+East+Los+Angeles+-+24
-      - 🇰🇷+韩国+-+Seolcheon+-+132
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+190
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+324
-      - 🇳🇱+荷兰+-+Amsterdam+-+27
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_2
       - 🇰🇷+韩国+-+Seolcheon+-+13
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+4
-      - 🇯🇵+日本+-+Fukuoka+-+22
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+108
+      - 🇷🇺+俄罗斯+-+Domodedovo+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+191
+      - 🇯🇵+日本+-+Fukuoka+-+37
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+190
+      - 🇹🇷+土耳其+-+Bahçelievler+-+1
+      - 🇩🇪+德国+-+Dreieich+-+7
+      - 🇯🇵+日本+-+Fukuoka+-+42
+      - 法国
+      - 🇺🇸+美国+-+East+Los+Angeles+-+18
+      - 🇺🇸+美国+-+East+Los+Angeles+-+12
+      - 🇰🇷+韩国+-+Seolcheon+-+33
+      - 美国+3
+      - 阿联酋
+      - 🇺🇸+美国+-+San+Jose+-+AS13335+Cloudflare,+Inc.+-+24
+      - 🇸🇪+瑞典+-+Steninge+-+1
+      - 🇫🇮+芬兰+-+Vantaa+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+249
+      - 🇳🇱+荷兰+-+Amsterdam+-+31
+      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+2
+      - 🇯🇵+日本+-+Fukuoka+-+8
+      - 香港+6
+      - 美国+5
+      - 🇰🇷+韩国+-+Seolcheon+-+52
+      - 🇬🇧+英国+-+Hounslow+-+2
+      - 🇺🇸+美国+-+Flower+Mound+-+15
+      - 🇰🇷+韩国+-+Seolcheon+-+132
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+176
+      - 美国+4
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+99
+      - 🇳🇱+荷兰+-+Amsterdam+-+30
+      - 🇰🇷+韩国+-+Seolcheon+-+74
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+84
+      - 🇩🇪+德国+-+Dreieich+-+15
+      - 智利
+      - 奥地利+-+萊塔河畔布魯克+-+Cloudflare,+Inc.+-+1
+      - 德国
+      - 美国+6
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+338
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+167
+      - 新加坡+1
+      - 美国+1
+      - 日本+2
+      - 马来西亚
+      - 新加坡+2
+      - 🇺🇸+美国+-+East+Los+Angeles+-+1
+      - 日本+3
+      - 日本+4
+      - 新加坡+3
+      - 🇩🇪+德国+-+Dreieich+-+10
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+294
+      - 土耳其
+      - 墨西哥
+      - 新加坡+4
       - 🇰🇷+韩国+-+Seolcheon+-+98
+      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+6
+      - 巴西
+      - 新加坡+5
+      - 🇰🇷+韩国+-+Seolcheon+-+5
+      - 新加坡+6
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+303
+      - 阿根廷
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+15
+      - 瑞士
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+123
+      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+7
+      - 香港+3
+      - 剩余流量：51.3+GB
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_2
+      - 香港+2
+      - 荷兰
+      - 香港+4
+      - 香港+5
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+32
+      - 🇳🇱+荷兰+-+Amsterdam+-+27
+      - 澳大利亚
+      - 🇰🇷+韩国+-+Seolcheon+-+27
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+2
       - 日本+-+东京+-+Amazon.com,+Inc.+-+3
-      - 美国+-+洛杉矶+-+Global+Communication+Network+Limited+-+277
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
+      - 🇺🇸+美国+-+East+Los+Angeles+-+5
+      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+338
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+108
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+116
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+327
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+198_1
-      - 🇷🇺+俄罗斯+-+Domodedovo+-+1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+224
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+176
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+191
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+123
+      - 🇺🇸+美国+-+East+Los+Angeles+-+20
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+10
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+326
-      - 🇺🇸+美国+-+East+Los+Angeles+-+AS13335+Cloudflare,+Inc.+-+23
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+249
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+167
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+183
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+75
+      - 🇺🇸+美国+-+East+Los+Angeles+-+19
+      - 美国+2
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+198_2
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+99
-      - 🇯🇵+日本+-+Fukuoka+-+31
-      - 🇳🇱+荷兰+-+Amsterdam+-+31
-      - 🇫🇮+芬兰+-+Vantaa+-+1
-      - 🇺🇸+美国+-+East+Los+Angeles+-+22
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+175
-      - 🇺🇸+美国+-+Flower+Mound+-+15
-      - 🇩🇪+德国+-+Dreieich+-+14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+158
+      - 🇳🇱+荷兰+-+Amsterdam+-+1
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+178
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+8
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+15
-      - 🇯🇵+日本+-+Narita+-+18
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+180_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+92
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_2
-      - 🇺🇸+美国+-+East+Los+Angeles+-+5
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+159
-      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+5
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+3
-      - 🇩🇪+德国+-+Dreieich+-+7
-      - 🇺🇸+美国+-+San+Jose+-+AS13335+Cloudflare,+Inc.+-+24
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
-      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+2
-      - 🇹🇷+土耳其+-+Bahçelievler+-+1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+158
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+156
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+139
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+180_2
-      - 🇸🇪+瑞典+-+Steninge+-+1
-      - 🇯🇵+日本+-+Narita+-+4
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_2
-      - 🇰🇷+韩国+-+Seolcheon+-+89
-      - 🇰🇷+韩国+-+Seolcheon+-+52
-      - 🇰🇷+韩国+-+Seolcheon+-+5
-      - 🇺🇸+美国+-+East+Los+Angeles+-+1
-      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+7
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+303
-      - 🇰🇷+韩国+-+Seolcheon+-+138
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+273
-      - 🇺🇸+美国+-+East+Los+Angeles+-+20
-      - 🇰🇷+韩国+-+Seolcheon+-+33
-      - 🇰🇷+韩国+-+Seolcheon+-+29
-      - 🇬🇧+英国+-+Hounslow+-+2
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+15
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+294
-      - 🇯🇵+日本+-+Fukuoka+-+8
-      - 🇯🇵+日本+-+Narita+-+28
-      - 🇰🇷+韩国+-+Seolcheon+-+74
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_2
-      - 🇳🇱+荷兰+-+Amsterdam+-+1
-      - 🇺🇸+美国+-+East+Los+Angeles+-+18
-      - 🇰🇷+韩国+-+Seolcheon+-+126
-      - 🇯🇵+日本+-+Fukuoka+-+42
-      - 🇺🇸+美国+-+East+Los+Angeles+-+12
-      - 🇰🇷+韩国+-+Seolcheon+-+53
-      - 🇰🇷+韩国+-+Seolcheon+-+27
-      - 🇰🇷+韩国+-+Seolcheon+-+AS13335+Cloudflare,+Inc.+-+10
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+32
-      - 🇺🇸+美国+-+Wheaton+-+AS13335+Cloudflare,+Inc.+-+13
-      - 🇰🇷+韩国+-+Seolcheon+-+41
-      - 🇰🇷+韩国+-+Seolcheon+-+92
-      - 🇰🇷+韩国+-+Seolcheon+-+51
-      - 🇺🇸+美国+-+East+Los+Angeles+-+19
-      - 🇰🇷+韩国+-+Seolcheon+-+87
-      - 🇯🇵+日本+-+Narita+-+14
-      - 🇯🇵+日本+-+Fukuoka+-+AS13335+Cloudflare,+Inc.+-+4
-      - 🇰🇷+韩国+-+Seolcheon+-+88
-      - 🇳🇱+荷兰+-+Amsterdam+-+30
-      - 🇺🇸+美国+-+East+Los+Angeles+-+11
-      - 🇳🇱+荷兰+-+Amsterdam+-+AS13335+Cloudflare,+Inc.+-+1
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+84
-      - 🇯🇵+日本+-+Fukuoka+-+2
-      - 🇯🇵+日本+-+Fukuoka+-+37
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+151
-      - 🇩🇪+德国+-+Dreieich+-+15
       - 🇯🇵+日本+-+Fukuoka+-+44
-      - 🇺🇸+美国+-+South+Fulton+-+14
-      - 奥地利+-+萊塔河畔布魯克+-+Cloudflare,+Inc.+-+1
-      - 🇰🇷+韩国+-+Seolcheon+-+109
-      - 🇩🇪+德国+-+Dreieich+-+10
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+8
-      - 🇰🇷+韩国+-+Seolcheon+-+66
-      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+6
-      - 🇯🇵+日本+-+Fukuoka+-+43
-      - 🇰🇷+韩国+-+Seolcheon+-+130
-      - 🇯🇵+日本+-+Fukuoka+-+30
-      - 🇯🇵+日本+-+Fukuoka+-+19
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+151
+      - 🇺🇸+美国+-+East+Los+Angeles+-+11
+      - 🇺🇸+美国+-+East+Los+Angeles+-+AS13335+Cloudflare,+Inc.+-+23
+      - 🇩🇪+德国+-+Dreieich+-+14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+224
+      - 🇯🇵+日本+-+Narita+-+18
+      - 加拿大
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_2
       - 🇺🇸+美国+-+East+Los+Angeles+-+24
-      - 🇰🇷+韩国+-+Seolcheon+-+132
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+190
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+324
-      - 🇳🇱+荷兰+-+Amsterdam+-+27
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_2
       - 🇰🇷+韩国+-+Seolcheon+-+13
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+4
-      - 🇯🇵+日本+-+Fukuoka+-+22
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+108
+      - 🇷🇺+俄罗斯+-+Domodedovo+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+191
+      - 🇯🇵+日本+-+Fukuoka+-+37
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+190
+      - 🇹🇷+土耳其+-+Bahçelievler+-+1
+      - 🇩🇪+德国+-+Dreieich+-+7
+      - 🇯🇵+日本+-+Fukuoka+-+42
+      - 法国
+      - 🇺🇸+美国+-+East+Los+Angeles+-+18
+      - 🇺🇸+美国+-+East+Los+Angeles+-+12
+      - 🇰🇷+韩国+-+Seolcheon+-+33
+      - 美国+3
+      - 阿联酋
+      - 🇺🇸+美国+-+San+Jose+-+AS13335+Cloudflare,+Inc.+-+24
+      - 🇸🇪+瑞典+-+Steninge+-+1
+      - 🇫🇮+芬兰+-+Vantaa+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+249
+      - 🇳🇱+荷兰+-+Amsterdam+-+31
+      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+2
+      - 🇯🇵+日本+-+Fukuoka+-+8
+      - 香港+6
+      - 美国+5
+      - 🇰🇷+韩国+-+Seolcheon+-+52
+      - 🇬🇧+英国+-+Hounslow+-+2
+      - 🇺🇸+美国+-+Flower+Mound+-+15
+      - 🇰🇷+韩国+-+Seolcheon+-+132
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+176
+      - 美国+4
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+99
+      - 🇳🇱+荷兰+-+Amsterdam+-+30
+      - 🇰🇷+韩国+-+Seolcheon+-+74
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+84
+      - 🇩🇪+德国+-+Dreieich+-+15
+      - 智利
+      - 奥地利+-+萊塔河畔布魯克+-+Cloudflare,+Inc.+-+1
+      - 德国
+      - 美国+6
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+338
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+167
+      - 新加坡+1
+      - 美国+1
+      - 日本+2
+      - 马来西亚
+      - 新加坡+2
+      - 🇺🇸+美国+-+East+Los+Angeles+-+1
+      - 日本+3
+      - 日本+4
+      - 新加坡+3
+      - 🇩🇪+德国+-+Dreieich+-+10
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+294
+      - 土耳其
+      - 墨西哥
+      - 新加坡+4
       - 🇰🇷+韩国+-+Seolcheon+-+98
+      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+6
+      - 巴西
+      - 新加坡+5
+      - 🇰🇷+韩国+-+Seolcheon+-+5
+      - 新加坡+6
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+303
+      - 阿根廷
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+15
+      - 瑞士
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+123
+      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+7
+      - 香港+3
+      - 剩余流量：51.3+GB
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_2
+      - 香港+2
+      - 荷兰
+      - 香港+4
+      - 香港+5
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+32
+      - 🇳🇱+荷兰+-+Amsterdam+-+27
+      - 澳大利亚
+      - 🇰🇷+韩国+-+Seolcheon+-+27
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -740,128 +655,111 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+2
       - 日本+-+东京+-+Amazon.com,+Inc.+-+3
-      - 美国+-+洛杉矶+-+Global+Communication+Network+Limited+-+277
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
+      - 🇺🇸+美国+-+East+Los+Angeles+-+5
+      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+338
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+108
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+116
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+327
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+198_1
-      - 🇷🇺+俄罗斯+-+Domodedovo+-+1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+224
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+176
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+191
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+123
+      - 🇺🇸+美国+-+East+Los+Angeles+-+20
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+10
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+326
-      - 🇺🇸+美国+-+East+Los+Angeles+-+AS13335+Cloudflare,+Inc.+-+23
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+249
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+167
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+183
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+75
+      - 🇺🇸+美国+-+East+Los+Angeles+-+19
+      - 美国+2
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+198_2
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+99
-      - 🇯🇵+日本+-+Fukuoka+-+31
-      - 🇳🇱+荷兰+-+Amsterdam+-+31
-      - 🇫🇮+芬兰+-+Vantaa+-+1
-      - 🇺🇸+美国+-+East+Los+Angeles+-+22
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+175
-      - 🇺🇸+美国+-+Flower+Mound+-+15
-      - 🇩🇪+德国+-+Dreieich+-+14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+158
+      - 🇳🇱+荷兰+-+Amsterdam+-+1
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+178
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+8
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+15
-      - 🇯🇵+日本+-+Narita+-+18
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+180_1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+92
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_2
-      - 🇺🇸+美国+-+East+Los+Angeles+-+5
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+159
-      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+5
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+3
-      - 🇩🇪+德国+-+Dreieich+-+7
-      - 🇺🇸+美国+-+San+Jose+-+AS13335+Cloudflare,+Inc.+-+24
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
-      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+2
-      - 🇹🇷+土耳其+-+Bahçelievler+-+1
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+158
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+156
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+139
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+180_2
-      - 🇸🇪+瑞典+-+Steninge+-+1
-      - 🇯🇵+日本+-+Narita+-+4
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_2
-      - 🇰🇷+韩国+-+Seolcheon+-+89
-      - 🇰🇷+韩国+-+Seolcheon+-+52
-      - 🇰🇷+韩国+-+Seolcheon+-+5
-      - 🇺🇸+美国+-+East+Los+Angeles+-+1
-      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+7
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+303
-      - 🇰🇷+韩国+-+Seolcheon+-+138
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+273
-      - 🇺🇸+美国+-+East+Los+Angeles+-+20
-      - 🇰🇷+韩国+-+Seolcheon+-+33
-      - 🇰🇷+韩国+-+Seolcheon+-+29
-      - 🇬🇧+英国+-+Hounslow+-+2
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+15
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+294
-      - 🇯🇵+日本+-+Fukuoka+-+8
-      - 🇯🇵+日本+-+Narita+-+28
-      - 🇰🇷+韩国+-+Seolcheon+-+74
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_2
-      - 🇳🇱+荷兰+-+Amsterdam+-+1
-      - 🇺🇸+美国+-+East+Los+Angeles+-+18
-      - 🇰🇷+韩国+-+Seolcheon+-+126
-      - 🇯🇵+日本+-+Fukuoka+-+42
-      - 🇺🇸+美国+-+East+Los+Angeles+-+12
-      - 🇰🇷+韩国+-+Seolcheon+-+53
-      - 🇰🇷+韩国+-+Seolcheon+-+27
-      - 🇰🇷+韩国+-+Seolcheon+-+AS13335+Cloudflare,+Inc.+-+10
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+32
-      - 🇺🇸+美国+-+Wheaton+-+AS13335+Cloudflare,+Inc.+-+13
-      - 🇰🇷+韩国+-+Seolcheon+-+41
-      - 🇰🇷+韩国+-+Seolcheon+-+92
-      - 🇰🇷+韩国+-+Seolcheon+-+51
-      - 🇺🇸+美国+-+East+Los+Angeles+-+19
-      - 🇰🇷+韩国+-+Seolcheon+-+87
-      - 🇯🇵+日本+-+Narita+-+14
-      - 🇯🇵+日本+-+Fukuoka+-+AS13335+Cloudflare,+Inc.+-+4
-      - 🇰🇷+韩国+-+Seolcheon+-+88
-      - 🇳🇱+荷兰+-+Amsterdam+-+30
-      - 🇺🇸+美国+-+East+Los+Angeles+-+11
-      - 🇳🇱+荷兰+-+Amsterdam+-+AS13335+Cloudflare,+Inc.+-+1
-      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+84
-      - 🇯🇵+日本+-+Fukuoka+-+2
-      - 🇯🇵+日本+-+Fukuoka+-+37
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+151
-      - 🇩🇪+德国+-+Dreieich+-+15
       - 🇯🇵+日本+-+Fukuoka+-+44
-      - 🇺🇸+美国+-+South+Fulton+-+14
-      - 奥地利+-+萊塔河畔布魯克+-+Cloudflare,+Inc.+-+1
-      - 🇰🇷+韩国+-+Seolcheon+-+109
-      - 🇩🇪+德国+-+Dreieich+-+10
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+8
-      - 🇰🇷+韩国+-+Seolcheon+-+66
-      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+6
-      - 🇯🇵+日本+-+Fukuoka+-+43
-      - 🇰🇷+韩国+-+Seolcheon+-+130
-      - 🇯🇵+日本+-+Fukuoka+-+30
-      - 🇯🇵+日本+-+Fukuoka+-+19
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+151
+      - 🇺🇸+美国+-+East+Los+Angeles+-+11
+      - 🇺🇸+美国+-+East+Los+Angeles+-+AS13335+Cloudflare,+Inc.+-+23
+      - 🇩🇪+德国+-+Dreieich+-+14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+224
+      - 🇯🇵+日本+-+Narita+-+18
+      - 加拿大
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+184_2
       - 🇺🇸+美国+-+East+Los+Angeles+-+24
-      - 🇰🇷+韩国+-+Seolcheon+-+132
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+190
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+324
-      - 🇳🇱+荷兰+-+Amsterdam+-+27
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+119_2
       - 🇰🇷+韩国+-+Seolcheon+-+13
-      - 日本+-+成田市+-+Cloudflare,+Inc.+-+4
-      - 🇯🇵+日本+-+Fukuoka+-+22
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+108
+      - 🇷🇺+俄罗斯+-+Domodedovo+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+191
+      - 🇯🇵+日本+-+Fukuoka+-+37
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+190
+      - 🇹🇷+土耳其+-+Bahçelievler+-+1
+      - 🇩🇪+德国+-+Dreieich+-+7
+      - 🇯🇵+日本+-+Fukuoka+-+42
+      - 法国
+      - 🇺🇸+美国+-+East+Los+Angeles+-+18
+      - 🇺🇸+美国+-+East+Los+Angeles+-+12
+      - 🇰🇷+韩国+-+Seolcheon+-+33
+      - 美国+3
+      - 阿联酋
+      - 🇺🇸+美国+-+San+Jose+-+AS13335+Cloudflare,+Inc.+-+24
+      - 🇸🇪+瑞典+-+Steninge+-+1
+      - 🇫🇮+芬兰+-+Vantaa+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+249
+      - 🇳🇱+荷兰+-+Amsterdam+-+31
+      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+2
+      - 🇯🇵+日本+-+Fukuoka+-+8
+      - 香港+6
+      - 美国+5
+      - 🇰🇷+韩国+-+Seolcheon+-+52
+      - 🇬🇧+英国+-+Hounslow+-+2
+      - 🇺🇸+美国+-+Flower+Mound+-+15
+      - 🇰🇷+韩国+-+Seolcheon+-+132
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+176
+      - 美国+4
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+99
+      - 🇳🇱+荷兰+-+Amsterdam+-+30
+      - 🇰🇷+韩国+-+Seolcheon+-+74
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+84
+      - 🇩🇪+德国+-+Dreieich+-+15
+      - 智利
+      - 奥地利+-+萊塔河畔布魯克+-+Cloudflare,+Inc.+-+1
+      - 德国
+      - 美国+6
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+338
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+167
+      - 新加坡+1
+      - 美国+1
+      - 日本+2
+      - 马来西亚
+      - 新加坡+2
+      - 🇺🇸+美国+-+East+Los+Angeles+-+1
+      - 日本+3
+      - 日本+4
+      - 新加坡+3
+      - 🇩🇪+德国+-+Dreieich+-+10
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+294
+      - 土耳其
+      - 墨西哥
+      - 新加坡+4
       - 🇰🇷+韩国+-+Seolcheon+-+98
+      - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+6
+      - 巴西
+      - 新加坡+5
+      - 🇰🇷+韩国+-+Seolcheon+-+5
+      - 新加坡+6
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+303
+      - 阿根廷
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+15
+      - 瑞士
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+123
+      - 🇯🇵+日本+-+Narita+-+AS13335+Cloudflare,+Inc.+-+7
+      - 香港+3
+      - 剩余流量：51.3+GB
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+155_2
+      - 香港+2
+      - 荷兰
+      - 香港+4
+      - 香港+5
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+32
+      - 🇳🇱+荷兰+-+Amsterdam+-+27
+      - 澳大利亚
+      - 🇰🇷+韩国+-+Seolcheon+-+27
 
 rules:
 # 本地/局域网地址
