@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-24 03:51:33
+# 创建时间：2024-07-24 05:01:03
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：105
-# 节点类型：ss, vless, trojan
+# 节点数量：189
+# 节点类型：ss, vless, trojan, vmess
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -88,7 +88,7 @@ dns:
 
 proxies:
   - {"name":"日本+-+东京+-+Amazon.com,+Inc.+-+3","type":"ss","server":"57.180.39.104","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+41","type":"vless","server":"43.153.80.208","port":443,"uuid":"b9011be4-b7d5-428e-a4cc-be5cc8768ba4","tls":true,"servername":"go.jp980.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"go.jp980.cloudns.org"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+41_1","type":"vless","server":"43.153.80.208","port":443,"uuid":"b9011be4-b7d5-428e-a4cc-be5cc8768ba4","tls":true,"servername":"go.jp980.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"go.jp980.cloudns.org"}}}
   - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+146","type":"vless","server":"38.59.244.77","port":28555,"uuid":"b9011be4-b7d5-428e-a4cc-be5cc8768ba4","tls":true,"servername":"go.jp980.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"go.jp980.cloudns.org"}}}
   - {"name":"🇺🇸+美国+-+East+Los+Angeles+-+5","type":"vless","server":"142.171.220.62","port":16000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
   - {"name":"🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9","type":"vless","server":"5.75.204.154","port":2020,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
@@ -192,6 +192,90 @@ proxies:
   - {"name":"🇳🇱+荷兰+-+Amsterdam+-+27","type":"vless","server":"217.100.27.130","port":16993,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
   - {"name":"澳大利亚","type":"trojan","server":"s.eeeeeef998.buzz","port":16103,"udp":true,"password":"da943169-663f-4a15-a4e3-9195ba78e70c","sni":"data.steamdownload.top","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇰🇷+韩国+-+Seolcheon+-+27","type":"vless","server":"121.146.118.188","port":50000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.googlegle.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.googlegle.us.kg"}}}
+  - {"name":"荷兰+-+Rozendaal+-+NForce+Entertainment+B.V.+-+2","type":"ss","server":"sha.majidcttls.ggff.net","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
+  - {"name":"美国+-+洛杉矶+-+Global+Communication+Network+Limited+-+382","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37041,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"日本+-+东京+-+Amazon.com,+Inc.+-+10","type":"ss","server":"43.207.118.251","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"美国+-+凤凰城+-+Performive+LLC+-+5","type":"ss","server":"184.170.241.194","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
+  - {"name":"日本+-+东京+-+Amazon+Technologies+Inc.+-+9","type":"ss","server":"18.183.77.249","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"日本+-+东京+-+Amazon+Technologies+Inc.+-+13","type":"ss","server":"13.231.36.179","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"韩国+-+首尔特别市+-+Amazon.com,+Inc.+-+8","type":"ss","server":"43.201.254.74","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+18","type":"ss","server":"13.212.34.140","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+23","type":"ss","server":"54.255.211.19","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"澳大利亚+-+悉尼+-+DataCamp+Limited+-+1","type":"ss","server":"143.244.62.106","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+7","type":"ss","server":"52.78.200.155","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"俄罗斯+-+莫斯科+-+CLOUD-NETWORK+-+1","type":"ss","server":"59.56.77.178","port":15614,"password":"hGkQ6915tD","cipher":"aes-256-cfb"}
+  - {"name":"荷兰+-+Rozendaal+-+NForce+Entertainment+B.V.+-+1","type":"ss","server":"109.201.152.181","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
+  - {"name":"日本+-+东京+-+Amazon+Technologies+Inc.+-+12","type":"ss","server":"18.183.186.14","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+17","type":"ss","server":"18.139.110.249","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+20","type":"ss","server":"13.229.87.253","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"日本+-+东京+-+Amazon+Technologies+Inc.+-+11","type":"ss","server":"52.194.223.127","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"加拿大+-+Beauharnois+-+OVH+SAS+-+5","type":"ss","server":"198.245.49.22","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 336","type":"vmess","server":"104.19.58.185","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"cdn3.freegradely.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 360","type":"vmess","server":"104.19.46.103","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 338","type":"vmess","server":"162.159.140.89","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"ip1.1789034.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+280","type":"vless","server":"204.93.210.226","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 339","type":"vmess","server":"162.159.140.77","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"ip1.1789034.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 325","type":"vmess","server":"104.26.5.90","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"ip1.1789034.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 343","type":"vmess","server":"104.26.5.113","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"ip1.1789034.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 342","type":"vmess","server":"162.159.140.19","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"ip1.1789034.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 314","type":"vmess","server":"104.26.5.88","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"ip1.1789034.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 352","type":"vmess","server":"104.19.32.226","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"cdn3.freegradely.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 321","type":"vmess","server":"104.26.5.123","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"ip1.1789034.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 356","type":"vmess","server":"104.19.59.99","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"cdn3.freegradely.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 322","type":"vmess","server":"104.17.106.171","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"cdn3.freegradely.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 331","type":"vmess","server":"104.26.5.112","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"ip1.1789034.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 296","type":"vmess","server":"172.64.99.32","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"cdn3.freegradely.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 357","type":"vmess","server":"104.19.38.18","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"cdn3.freegradely.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 364","type":"vmess","server":"104.19.38.22","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"cdn3.freegradely.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
+  - {"name":"爱尔兰+-+都柏林+-+Microsoft+Corporation+-+1","type":"ss","server":"13.79.226.247","port":55070,"password":"8EqkMKgXcNN0eCwiCKizhc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+229","type":"vless","server":"185.148.104.199","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 370","type":"vmess","server":"104.26.5.66","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"ip1.1789034.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+33","type":"vless","server":"45.80.110.161","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 312","type":"vmess","server":"104.19.46.123","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"cdn3.freegradely.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+44","type":"vless","server":"45.80.110.175","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 327","type":"vmess","server":"104.19.38.8","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn1.freegradely.xyz"}}}
+  - {"name":"中国 - Shizishan - Baxet Group Inc. - 6","type":"vmess","server":"in06.dns2024.org","port":63051,"cipher":"auto","uuid":"e8e6f618-842c-33d4-9a9f-7827614a6bf9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 366","type":"vmess","server":"162.159.140.56","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"ip1.1789034.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"新加坡 - 新加坡 - Akari Networks - 1","type":"vmess","server":"in06.dns2024.org","port":63008,"cipher":"auto","uuid":"e8e6f618-842c-33d4-9a9f-7827614a6bf9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 6","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws"}}
+  - {"name":"🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 136","type":"vmess","server":"in06.dns2024.org","port":63097,"cipher":"auto","uuid":"e8e6f618-842c-33d4-9a9f-7827614a6bf9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+43","type":"vless","server":"45.80.110.13","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"美国 - 芝加哥 - G-Core Labs S.A. - 6","type":"vmess","server":"in06.dns2024.org","port":63014,"cipher":"auto","uuid":"e8e6f618-842c-33d4-9a9f-7827614a6bf9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国 - 洛杉矶 - Akari Networks - 7","type":"vmess","server":"in06.dns2024.org","port":63004,"cipher":"auto","uuid":"e8e6f618-842c-33d4-9a9f-7827614a6bf9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇸🇬 美国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 31","type":"vmess","server":"104.19.45.11","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+255","type":"vless","server":"45.159.216.99","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"美国+-+德雷珀+-+FiberState,+LLC+-+383","type":"trojan","server":"183.232.139.24","port":40081,"udp":true,"password":"MfqALmAJ","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8","type":"vmess","server":"in06.dns2024.org","port":63019,"cipher":"auto","uuid":"e8e6f618-842c-33d4-9a9f-7827614a6bf9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+41_2","type":"vless","server":"45.80.110.46","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+48","type":"vless","server":"45.80.110.19","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"加拿大+-+Beauharnois+-+OVH+SAS+-+1","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+49","type":"vless","server":"45.80.110.130","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 7","type":"vmess","server":"in06.dns2024.org","port":63012,"cipher":"auto","uuid":"e8e6f618-842c-33d4-9a9f-7827614a6bf9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 17","type":"vmess","server":"in06.dns2024.org","port":63003,"cipher":"auto","uuid":"e8e6f618-842c-33d4-9a9f-7827614a6bf9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"日本 - 东京 - Akari Networks - 14","type":"vmess","server":"in06.dns2024.org","port":63011,"cipher":"auto","uuid":"e8e6f618-842c-33d4-9a9f-7827614a6bf9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"jp-a-mugua.weibo-cdn.best"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+263","type":"vless","server":"185.18.250.138","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"美国 - 洛杉矶 - Psychz Networks - 286","type":"vmess","server":"23.227.38.13","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"cdn3.freegradely.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+36","type":"vless","server":"45.80.110.201","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"日本+-+东京+-+Amazon.com,+Inc.+-+8","type":"ss","server":"cshtgsh1.fuckcdn.top","port":38348,"password":"c3545201-eb32-4f21-9940-a5f1db5f7e9d","cipher":"aes-256-gcm"}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+35","type":"vless","server":"45.80.110.238","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"韩国+-+春川市+-+Oracle+Corporation+-+5","type":"ss","server":"36.155.110.108","port":10279,"password":"ad2114ca-1c75-4607-ad14-1a1824a6dde9","cipher":"aes-256-gcm"}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+40","type":"vless","server":"45.80.110.209","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+75","type":"vless","server":"204.93.210.218","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+52","type":"vless","server":"45.80.110.41","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"🇸🇬+阿拉伯联合酋长国+-+新加坡+-+Singapore+-+AS13335+Cloudflare,+Inc.+-+38","type":"vless","server":"94.140.0.0","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"日本+-+成田市+-+Cloudflare,+Inc.+-+7","type":"vless","server":"222.113.18.206","port":38961,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+53","type":"vless","server":"45.80.110.245","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"土耳其 - 伊兹密尔 - Stark Industries Solutions LTD - 1","type":"vmess","server":"in06.dns2024.org","port":63015,"cipher":"auto","uuid":"e8e6f618-842c-33d4-9a9f-7827614a6bf9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇸🇬+德国+-+新加坡+-+Singapore+-+AS13335+Cloudflare,+Inc.+-+6","type":"vless","server":"162.19.228.119","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":true,"network":"ws","ws-opts":{"path":"/http"}}
+  - {"name":"中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 7","type":"vmess","server":"in06.dns2024.org","port":63018,"cipher":"auto","uuid":"e8e6f618-842c-33d4-9a9f-7827614a6bf9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 3","type":"vmess","server":"in06.dns2024.org","port":63009,"cipher":"auto","uuid":"e8e6f618-842c-33d4-9a9f-7827614a6bf9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+68","type":"vless","server":"204.93.210.208","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+51","type":"vless","server":"45.80.110.231","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"美国+-+聖荷西+-+Cloudflare,+Inc.+-+69","type":"vless","server":"45.80.110.173","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"新加坡+-+新加坡+-+Cloudflare,+Inc.+-+2","type":"vless","server":"43.156.143.198","port":40809,"uuid":"d7dd3a35-b68b-4992-b319-a85b8a1fc8e5","tls":true,"servername":"dns68.putata.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"dns68.putata.eu.org"}}}
+  - {"name":"新加坡 - 新加坡 - Amazon Technologies Inc. - 15","type":"vmess","server":"13.228.184.244","port":8443,"cipher":"auto","uuid":"4ca4e724-dd49-40a3-962d-1fa57369d705","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/helloword"}}
+  - {"name":"新加坡 - 新加坡 - Amazon.com, Inc. - 14","type":"vmess","server":"54.179.130.50","port":8443,"cipher":"auto","uuid":"4ca4e724-dd49-40a3-962d-1fa57369d705","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/helloword"}}
+  - {"name":"加拿大 - 多伦多 - Baxet Group Inc. - 7","type":"vmess","server":"in06.dns2024.org","port":63013,"cipher":"auto","uuid":"e8e6f618-842c-33d4-9a9f-7827614a6bf9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -201,7 +285,7 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - 日本+-+东京+-+Amazon.com,+Inc.+-+3
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41_1
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
       - 🇺🇸+美国+-+East+Los+Angeles+-+5
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
@@ -305,6 +389,90 @@ proxy-groups:
       - 🇳🇱+荷兰+-+Amsterdam+-+27
       - 澳大利亚
       - 🇰🇷+韩国+-+Seolcheon+-+27
+      - 荷兰+-+Rozendaal+-+NForce+Entertainment+B.V.+-+2
+      - 美国+-+洛杉矶+-+Global+Communication+Network+Limited+-+382
+      - 日本+-+东京+-+Amazon.com,+Inc.+-+10
+      - 美国+-+凤凰城+-+Performive+LLC+-+5
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+9
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+13
+      - 韩国+-+首尔特别市+-+Amazon.com,+Inc.+-+8
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+18
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+23
+      - 澳大利亚+-+悉尼+-+DataCamp+Limited+-+1
+      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+7
+      - 俄罗斯+-+莫斯科+-+CLOUD-NETWORK+-+1
+      - 荷兰+-+Rozendaal+-+NForce+Entertainment+B.V.+-+1
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+12
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+17
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+20
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+11
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+5
+      - 美国 - 洛杉矶 - Psychz Networks - 336
+      - 美国 - 洛杉矶 - Psychz Networks - 360
+      - 美国 - 洛杉矶 - Psychz Networks - 338
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+280
+      - 美国 - 洛杉矶 - Psychz Networks - 339
+      - 美国 - 洛杉矶 - Psychz Networks - 325
+      - 美国 - 洛杉矶 - Psychz Networks - 343
+      - 美国 - 洛杉矶 - Psychz Networks - 342
+      - 美国 - 洛杉矶 - Psychz Networks - 314
+      - 美国 - 洛杉矶 - Psychz Networks - 352
+      - 美国 - 洛杉矶 - Psychz Networks - 321
+      - 美国 - 洛杉矶 - Psychz Networks - 356
+      - 美国 - 洛杉矶 - Psychz Networks - 322
+      - 美国 - 洛杉矶 - Psychz Networks - 331
+      - 美国 - 洛杉矶 - Psychz Networks - 296
+      - 美国 - 洛杉矶 - Psychz Networks - 357
+      - 美国 - 洛杉矶 - Psychz Networks - 364
+      - 爱尔兰+-+都柏林+-+Microsoft+Corporation+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+229
+      - 美国 - 洛杉矶 - Psychz Networks - 370
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+33
+      - 美国 - 洛杉矶 - Psychz Networks - 312
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+44
+      - 美国 - 洛杉矶 - Psychz Networks - 327
+      - 中国 - Shizishan - Baxet Group Inc. - 6
+      - 美国 - 洛杉矶 - Psychz Networks - 366
+      - 新加坡 - 新加坡 - Akari Networks - 1
+      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 6
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 136
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+43
+      - 美国 - 芝加哥 - G-Core Labs S.A. - 6
+      - 美国 - 洛杉矶 - Akari Networks - 7
+      - 🇸🇬 美国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 31
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+255
+      - 美国+-+德雷珀+-+FiberState,+LLC+-+383
+      - 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41_2
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+48
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+49
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 7
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 17
+      - 日本 - 东京 - Akari Networks - 14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+263
+      - 美国 - 洛杉矶 - Psychz Networks - 286
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+36
+      - 日本+-+东京+-+Amazon.com,+Inc.+-+8
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+35
+      - 韩国+-+春川市+-+Oracle+Corporation+-+5
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+40
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+75
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+52
+      - 🇸🇬+阿拉伯联合酋长国+-+新加坡+-+Singapore+-+AS13335+Cloudflare,+Inc.+-+38
+      - 日本+-+成田市+-+Cloudflare,+Inc.+-+7
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+53
+      - 土耳其 - 伊兹密尔 - Stark Industries Solutions LTD - 1
+      - 🇸🇬+德国+-+新加坡+-+Singapore+-+AS13335+Cloudflare,+Inc.+-+6
+      - 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 7
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 3
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+68
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+51
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+69
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+2
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 15
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 14
+      - 加拿大 - 多伦多 - Baxet Group Inc. - 7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -312,7 +480,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 日本+-+东京+-+Amazon.com,+Inc.+-+3
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41_1
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
       - 🇺🇸+美国+-+East+Los+Angeles+-+5
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
@@ -416,13 +584,97 @@ proxy-groups:
       - 🇳🇱+荷兰+-+Amsterdam+-+27
       - 澳大利亚
       - 🇰🇷+韩国+-+Seolcheon+-+27
+      - 荷兰+-+Rozendaal+-+NForce+Entertainment+B.V.+-+2
+      - 美国+-+洛杉矶+-+Global+Communication+Network+Limited+-+382
+      - 日本+-+东京+-+Amazon.com,+Inc.+-+10
+      - 美国+-+凤凰城+-+Performive+LLC+-+5
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+9
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+13
+      - 韩国+-+首尔特别市+-+Amazon.com,+Inc.+-+8
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+18
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+23
+      - 澳大利亚+-+悉尼+-+DataCamp+Limited+-+1
+      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+7
+      - 俄罗斯+-+莫斯科+-+CLOUD-NETWORK+-+1
+      - 荷兰+-+Rozendaal+-+NForce+Entertainment+B.V.+-+1
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+12
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+17
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+20
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+11
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+5
+      - 美国 - 洛杉矶 - Psychz Networks - 336
+      - 美国 - 洛杉矶 - Psychz Networks - 360
+      - 美国 - 洛杉矶 - Psychz Networks - 338
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+280
+      - 美国 - 洛杉矶 - Psychz Networks - 339
+      - 美国 - 洛杉矶 - Psychz Networks - 325
+      - 美国 - 洛杉矶 - Psychz Networks - 343
+      - 美国 - 洛杉矶 - Psychz Networks - 342
+      - 美国 - 洛杉矶 - Psychz Networks - 314
+      - 美国 - 洛杉矶 - Psychz Networks - 352
+      - 美国 - 洛杉矶 - Psychz Networks - 321
+      - 美国 - 洛杉矶 - Psychz Networks - 356
+      - 美国 - 洛杉矶 - Psychz Networks - 322
+      - 美国 - 洛杉矶 - Psychz Networks - 331
+      - 美国 - 洛杉矶 - Psychz Networks - 296
+      - 美国 - 洛杉矶 - Psychz Networks - 357
+      - 美国 - 洛杉矶 - Psychz Networks - 364
+      - 爱尔兰+-+都柏林+-+Microsoft+Corporation+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+229
+      - 美国 - 洛杉矶 - Psychz Networks - 370
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+33
+      - 美国 - 洛杉矶 - Psychz Networks - 312
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+44
+      - 美国 - 洛杉矶 - Psychz Networks - 327
+      - 中国 - Shizishan - Baxet Group Inc. - 6
+      - 美国 - 洛杉矶 - Psychz Networks - 366
+      - 新加坡 - 新加坡 - Akari Networks - 1
+      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 6
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 136
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+43
+      - 美国 - 芝加哥 - G-Core Labs S.A. - 6
+      - 美国 - 洛杉矶 - Akari Networks - 7
+      - 🇸🇬 美国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 31
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+255
+      - 美国+-+德雷珀+-+FiberState,+LLC+-+383
+      - 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41_2
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+48
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+49
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 7
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 17
+      - 日本 - 东京 - Akari Networks - 14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+263
+      - 美国 - 洛杉矶 - Psychz Networks - 286
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+36
+      - 日本+-+东京+-+Amazon.com,+Inc.+-+8
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+35
+      - 韩国+-+春川市+-+Oracle+Corporation+-+5
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+40
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+75
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+52
+      - 🇸🇬+阿拉伯联合酋长国+-+新加坡+-+Singapore+-+AS13335+Cloudflare,+Inc.+-+38
+      - 日本+-+成田市+-+Cloudflare,+Inc.+-+7
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+53
+      - 土耳其 - 伊兹密尔 - Stark Industries Solutions LTD - 1
+      - 🇸🇬+德国+-+新加坡+-+Singapore+-+AS13335+Cloudflare,+Inc.+-+6
+      - 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 7
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 3
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+68
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+51
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+69
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+2
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 15
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 14
+      - 加拿大 - 多伦多 - Baxet Group Inc. - 7
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - 日本+-+东京+-+Amazon.com,+Inc.+-+3
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41_1
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
       - 🇺🇸+美国+-+East+Los+Angeles+-+5
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
@@ -526,13 +778,97 @@ proxy-groups:
       - 🇳🇱+荷兰+-+Amsterdam+-+27
       - 澳大利亚
       - 🇰🇷+韩国+-+Seolcheon+-+27
+      - 荷兰+-+Rozendaal+-+NForce+Entertainment+B.V.+-+2
+      - 美国+-+洛杉矶+-+Global+Communication+Network+Limited+-+382
+      - 日本+-+东京+-+Amazon.com,+Inc.+-+10
+      - 美国+-+凤凰城+-+Performive+LLC+-+5
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+9
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+13
+      - 韩国+-+首尔特别市+-+Amazon.com,+Inc.+-+8
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+18
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+23
+      - 澳大利亚+-+悉尼+-+DataCamp+Limited+-+1
+      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+7
+      - 俄罗斯+-+莫斯科+-+CLOUD-NETWORK+-+1
+      - 荷兰+-+Rozendaal+-+NForce+Entertainment+B.V.+-+1
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+12
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+17
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+20
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+11
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+5
+      - 美国 - 洛杉矶 - Psychz Networks - 336
+      - 美国 - 洛杉矶 - Psychz Networks - 360
+      - 美国 - 洛杉矶 - Psychz Networks - 338
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+280
+      - 美国 - 洛杉矶 - Psychz Networks - 339
+      - 美国 - 洛杉矶 - Psychz Networks - 325
+      - 美国 - 洛杉矶 - Psychz Networks - 343
+      - 美国 - 洛杉矶 - Psychz Networks - 342
+      - 美国 - 洛杉矶 - Psychz Networks - 314
+      - 美国 - 洛杉矶 - Psychz Networks - 352
+      - 美国 - 洛杉矶 - Psychz Networks - 321
+      - 美国 - 洛杉矶 - Psychz Networks - 356
+      - 美国 - 洛杉矶 - Psychz Networks - 322
+      - 美国 - 洛杉矶 - Psychz Networks - 331
+      - 美国 - 洛杉矶 - Psychz Networks - 296
+      - 美国 - 洛杉矶 - Psychz Networks - 357
+      - 美国 - 洛杉矶 - Psychz Networks - 364
+      - 爱尔兰+-+都柏林+-+Microsoft+Corporation+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+229
+      - 美国 - 洛杉矶 - Psychz Networks - 370
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+33
+      - 美国 - 洛杉矶 - Psychz Networks - 312
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+44
+      - 美国 - 洛杉矶 - Psychz Networks - 327
+      - 中国 - Shizishan - Baxet Group Inc. - 6
+      - 美国 - 洛杉矶 - Psychz Networks - 366
+      - 新加坡 - 新加坡 - Akari Networks - 1
+      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 6
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 136
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+43
+      - 美国 - 芝加哥 - G-Core Labs S.A. - 6
+      - 美国 - 洛杉矶 - Akari Networks - 7
+      - 🇸🇬 美国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 31
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+255
+      - 美国+-+德雷珀+-+FiberState,+LLC+-+383
+      - 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41_2
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+48
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+49
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 7
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 17
+      - 日本 - 东京 - Akari Networks - 14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+263
+      - 美国 - 洛杉矶 - Psychz Networks - 286
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+36
+      - 日本+-+东京+-+Amazon.com,+Inc.+-+8
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+35
+      - 韩国+-+春川市+-+Oracle+Corporation+-+5
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+40
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+75
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+52
+      - 🇸🇬+阿拉伯联合酋长国+-+新加坡+-+Singapore+-+AS13335+Cloudflare,+Inc.+-+38
+      - 日本+-+成田市+-+Cloudflare,+Inc.+-+7
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+53
+      - 土耳其 - 伊兹密尔 - Stark Industries Solutions LTD - 1
+      - 🇸🇬+德国+-+新加坡+-+Singapore+-+AS13335+Cloudflare,+Inc.+-+6
+      - 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 7
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 3
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+68
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+51
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+69
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+2
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 15
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 14
+      - 加拿大 - 多伦多 - Baxet Group Inc. - 7
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - 日本+-+东京+-+Amazon.com,+Inc.+-+3
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41_1
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
       - 🇺🇸+美国+-+East+Los+Angeles+-+5
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
@@ -636,6 +972,90 @@ proxy-groups:
       - 🇳🇱+荷兰+-+Amsterdam+-+27
       - 澳大利亚
       - 🇰🇷+韩国+-+Seolcheon+-+27
+      - 荷兰+-+Rozendaal+-+NForce+Entertainment+B.V.+-+2
+      - 美国+-+洛杉矶+-+Global+Communication+Network+Limited+-+382
+      - 日本+-+东京+-+Amazon.com,+Inc.+-+10
+      - 美国+-+凤凰城+-+Performive+LLC+-+5
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+9
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+13
+      - 韩国+-+首尔特别市+-+Amazon.com,+Inc.+-+8
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+18
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+23
+      - 澳大利亚+-+悉尼+-+DataCamp+Limited+-+1
+      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+7
+      - 俄罗斯+-+莫斯科+-+CLOUD-NETWORK+-+1
+      - 荷兰+-+Rozendaal+-+NForce+Entertainment+B.V.+-+1
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+12
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+17
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+20
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+11
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+5
+      - 美国 - 洛杉矶 - Psychz Networks - 336
+      - 美国 - 洛杉矶 - Psychz Networks - 360
+      - 美国 - 洛杉矶 - Psychz Networks - 338
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+280
+      - 美国 - 洛杉矶 - Psychz Networks - 339
+      - 美国 - 洛杉矶 - Psychz Networks - 325
+      - 美国 - 洛杉矶 - Psychz Networks - 343
+      - 美国 - 洛杉矶 - Psychz Networks - 342
+      - 美国 - 洛杉矶 - Psychz Networks - 314
+      - 美国 - 洛杉矶 - Psychz Networks - 352
+      - 美国 - 洛杉矶 - Psychz Networks - 321
+      - 美国 - 洛杉矶 - Psychz Networks - 356
+      - 美国 - 洛杉矶 - Psychz Networks - 322
+      - 美国 - 洛杉矶 - Psychz Networks - 331
+      - 美国 - 洛杉矶 - Psychz Networks - 296
+      - 美国 - 洛杉矶 - Psychz Networks - 357
+      - 美国 - 洛杉矶 - Psychz Networks - 364
+      - 爱尔兰+-+都柏林+-+Microsoft+Corporation+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+229
+      - 美国 - 洛杉矶 - Psychz Networks - 370
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+33
+      - 美国 - 洛杉矶 - Psychz Networks - 312
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+44
+      - 美国 - 洛杉矶 - Psychz Networks - 327
+      - 中国 - Shizishan - Baxet Group Inc. - 6
+      - 美国 - 洛杉矶 - Psychz Networks - 366
+      - 新加坡 - 新加坡 - Akari Networks - 1
+      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 6
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 136
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+43
+      - 美国 - 芝加哥 - G-Core Labs S.A. - 6
+      - 美国 - 洛杉矶 - Akari Networks - 7
+      - 🇸🇬 美国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 31
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+255
+      - 美国+-+德雷珀+-+FiberState,+LLC+-+383
+      - 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41_2
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+48
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+49
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 7
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 17
+      - 日本 - 东京 - Akari Networks - 14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+263
+      - 美国 - 洛杉矶 - Psychz Networks - 286
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+36
+      - 日本+-+东京+-+Amazon.com,+Inc.+-+8
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+35
+      - 韩国+-+春川市+-+Oracle+Corporation+-+5
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+40
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+75
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+52
+      - 🇸🇬+阿拉伯联合酋长国+-+新加坡+-+Singapore+-+AS13335+Cloudflare,+Inc.+-+38
+      - 日本+-+成田市+-+Cloudflare,+Inc.+-+7
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+53
+      - 土耳其 - 伊兹密尔 - Stark Industries Solutions LTD - 1
+      - 🇸🇬+德国+-+新加坡+-+Singapore+-+AS13335+Cloudflare,+Inc.+-+6
+      - 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 7
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 3
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+68
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+51
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+69
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+2
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 15
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 14
+      - 加拿大 - 多伦多 - Baxet Group Inc. - 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -656,7 +1076,7 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - 日本+-+东京+-+Amazon.com,+Inc.+-+3
-      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41_1
       - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+146
       - 🇺🇸+美国+-+East+Los+Angeles+-+5
       - 🇩🇪+德国+-+Dreieich+-+AS13335+Cloudflare,+Inc.+-+9
@@ -760,6 +1180,90 @@ proxy-groups:
       - 🇳🇱+荷兰+-+Amsterdam+-+27
       - 澳大利亚
       - 🇰🇷+韩国+-+Seolcheon+-+27
+      - 荷兰+-+Rozendaal+-+NForce+Entertainment+B.V.+-+2
+      - 美国+-+洛杉矶+-+Global+Communication+Network+Limited+-+382
+      - 日本+-+东京+-+Amazon.com,+Inc.+-+10
+      - 美国+-+凤凰城+-+Performive+LLC+-+5
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+9
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+13
+      - 韩国+-+首尔特别市+-+Amazon.com,+Inc.+-+8
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+18
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+23
+      - 澳大利亚+-+悉尼+-+DataCamp+Limited+-+1
+      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+7
+      - 俄罗斯+-+莫斯科+-+CLOUD-NETWORK+-+1
+      - 荷兰+-+Rozendaal+-+NForce+Entertainment+B.V.+-+1
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+12
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+17
+      - 新加坡+-+新加坡+-+Amazon+Technologies+Inc.+-+20
+      - 日本+-+东京+-+Amazon+Technologies+Inc.+-+11
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+5
+      - 美国 - 洛杉矶 - Psychz Networks - 336
+      - 美国 - 洛杉矶 - Psychz Networks - 360
+      - 美国 - 洛杉矶 - Psychz Networks - 338
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+280
+      - 美国 - 洛杉矶 - Psychz Networks - 339
+      - 美国 - 洛杉矶 - Psychz Networks - 325
+      - 美国 - 洛杉矶 - Psychz Networks - 343
+      - 美国 - 洛杉矶 - Psychz Networks - 342
+      - 美国 - 洛杉矶 - Psychz Networks - 314
+      - 美国 - 洛杉矶 - Psychz Networks - 352
+      - 美国 - 洛杉矶 - Psychz Networks - 321
+      - 美国 - 洛杉矶 - Psychz Networks - 356
+      - 美国 - 洛杉矶 - Psychz Networks - 322
+      - 美国 - 洛杉矶 - Psychz Networks - 331
+      - 美国 - 洛杉矶 - Psychz Networks - 296
+      - 美国 - 洛杉矶 - Psychz Networks - 357
+      - 美国 - 洛杉矶 - Psychz Networks - 364
+      - 爱尔兰+-+都柏林+-+Microsoft+Corporation+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+229
+      - 美国 - 洛杉矶 - Psychz Networks - 370
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+33
+      - 美国 - 洛杉矶 - Psychz Networks - 312
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+44
+      - 美国 - 洛杉矶 - Psychz Networks - 327
+      - 中国 - Shizishan - Baxet Group Inc. - 6
+      - 美国 - 洛杉矶 - Psychz Networks - 366
+      - 新加坡 - 新加坡 - Akari Networks - 1
+      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 6
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 136
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+43
+      - 美国 - 芝加哥 - G-Core Labs S.A. - 6
+      - 美国 - 洛杉矶 - Akari Networks - 7
+      - 🇸🇬 美国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 31
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+255
+      - 美国+-+德雷珀+-+FiberState,+LLC+-+383
+      - 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 8
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+41_2
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+48
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+1
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+49
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 7
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 17
+      - 日本 - 东京 - Akari Networks - 14
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+263
+      - 美国 - 洛杉矶 - Psychz Networks - 286
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+36
+      - 日本+-+东京+-+Amazon.com,+Inc.+-+8
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+35
+      - 韩国+-+春川市+-+Oracle+Corporation+-+5
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+40
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+75
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+52
+      - 🇸🇬+阿拉伯联合酋长国+-+新加坡+-+Singapore+-+AS13335+Cloudflare,+Inc.+-+38
+      - 日本+-+成田市+-+Cloudflare,+Inc.+-+7
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+53
+      - 土耳其 - 伊兹密尔 - Stark Industries Solutions LTD - 1
+      - 🇸🇬+德国+-+新加坡+-+Singapore+-+AS13335+Cloudflare,+Inc.+-+6
+      - 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 7
+      - 🇸🇬 中国 - 新加坡 - Singapore - AS13335 Cloudflare, Inc. - 3
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+68
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+51
+      - 美国+-+聖荷西+-+Cloudflare,+Inc.+-+69
+      - 新加坡+-+新加坡+-+Cloudflare,+Inc.+-+2
+      - 新加坡 - 新加坡 - Amazon Technologies Inc. - 15
+      - 新加坡 - 新加坡 - Amazon.com, Inc. - 14
+      - 加拿大 - 多伦多 - Baxet Group Inc. - 7
 
 rules:
 # 本地/局域网地址
