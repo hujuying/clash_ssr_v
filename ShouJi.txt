@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-25 04:54:39
+# 创建时间：2024-07-26 04:45:59
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：15
-# 节点类型：vless
+# 节点数量：11
+# 节点类型：vmess, vless
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,21 +87,17 @@ dns:
       - 0.0.0.0/32
 
 proxies:
+  - {"name":"🏁ZZ_99 |75.48Mb","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws"}}
+  - {"name":"关注TG-@djkkdcx🇰🇷+KR04","type":"vless","server":"45.80.110.200","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"关注TG-@djkkdcx+US01","type":"vless","server":"94.247.142.245","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
   - {"name":"美国+(204)","type":"vless","server":"130.250.137.200","port":2082,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","servername":"hkk.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"hkk.ylks.xyz"}}}
+  - {"name":"关注TG-@djkkdcx🇹🇼+TW02","type":"vless","server":"45.159.217.21","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"TG@ZDYZ2+-JP-Tokyo","type":"vless","server":"116.206.92.12","port":8562,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"关注TG-@djkkdcxCT01","type":"vless","server":"185.18.250.131","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
   - {"name":"关注TG-@djkkdcx+ZA01","type":"vless","server":"45.159.217.220","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"关注TG-@djkkdcxCMCC07","type":"vless","server":"185.176.26.61","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
   - {"name":"澳大利亚+(1)","type":"vless","server":"43.153.181.217","port":443,"uuid":"48198295-b7ba-4b5c-8d85-085d55a6c869","tls":true,"servername":"xink.ylks.xyz","network":"ws","ws-opts":{"path":"/?proxyip=proxyip.jp.fxxk.dedyn.io","headers":{"host":"xink.ylks.xyz"}}}
-  - {"name":"英国+(13)","type":"vless","server":"217.163.76.97","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"vk.ylks.xyz","network":"ws","ws-opts":{"path":"/3b2dg5zv2kftsfko?ed=2560","headers":{"host":"vk.ylks.xyz"}}}
-  - {"name":"TG@ZDYZ2+-JP-Tokyo","type":"vless","server":"116.206.92.12","port":8562,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"韩国+(5)","type":"vless","server":"125.184.103.217","port":11001,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"vk.ylks.xyz","network":"ws","ws-opts":{"path":"/3b2dg5zv2kftsfko?ed=2560","headers":{"host":"vk.ylks.xyz"}}}
-  - {"name":"关注TG-@djkkdcx🇰🇷+KR04","type":"vless","server":"45.80.110.200","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"日本","type":"vless","server":"138.2.18.184","port":80,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","servername":"hkk.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"hkk.ylks.xyz"}}}
-  - {"name":"关注TG-@djkkdcx+US01","type":"vless","server":"94.247.142.245","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🇺🇸_US_美国","type":"vless","server":"104.26.14.16","port":80,"uuid":"518bd7b3-f67c-4fce-f601-54506be8969c","servername":"Tgju.orG.BaZar.ir.visAa.CoM.SairKop.WebSitE.","network":"ws","ws-opts":{"path":"/Telegram:@Client_Proo-Telegram:@Client_Proo-Telegram:@Client_Proo-Telegram:@Client_Proo-Telegram:@Client_Proo","headers":{"host":"Tgju.orG.BaZar.ir.visAa.CoM.SairKop.WebSitE."}}}
-  - {"name":"关注TG-@djkkdcx🇹🇼+TW02","type":"vless","server":"45.159.217.21","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"关注TG-@djkkdcxCMCC07","type":"vless","server":"185.176.26.61","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
   - {"name":"TG@ZDYZ2+-SG-Singapore","type":"vless","server":"47.238.52.240","port":80,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国+(317)","type":"vless","server":"47.76.178.146","port":8443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"jpk.ylks01.eu.org","network":"ws","ws-opts":{"path":"/","headers":{"host":"jpk.ylks01.eu.org"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -110,82 +106,66 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
+      - 🏁ZZ_99 |75.48Mb
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 关注TG-@djkkdcx+US01
       - 美国+(204)
+      - 关注TG-@djkkdcx🇹🇼+TW02
+      - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcxCT01
       - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcxCMCC07
       - 澳大利亚+(1)
-      - 英国+(13)
-      - TG@ZDYZ2+-JP-Tokyo
-      - 韩国+(5)
-      - 关注TG-@djkkdcx🇰🇷+KR04
-      - 日本
-      - 关注TG-@djkkdcx+US01
-      - 🇺🇸_US_美国
-      - 关注TG-@djkkdcx🇹🇼+TW02
+      - 关注TG-@djkkdcxCMCC07
       - TG@ZDYZ2+-SG-Singapore
-      - 美国+(317)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🏁ZZ_99 |75.48Mb
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 关注TG-@djkkdcx+US01
       - 美国+(204)
+      - 关注TG-@djkkdcx🇹🇼+TW02
+      - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcxCT01
       - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcxCMCC07
       - 澳大利亚+(1)
-      - 英国+(13)
-      - TG@ZDYZ2+-JP-Tokyo
-      - 韩国+(5)
-      - 关注TG-@djkkdcx🇰🇷+KR04
-      - 日本
-      - 关注TG-@djkkdcx+US01
-      - 🇺🇸_US_美国
-      - 关注TG-@djkkdcx🇹🇼+TW02
+      - 关注TG-@djkkdcxCMCC07
       - TG@ZDYZ2+-SG-Singapore
-      - 美国+(317)
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 🏁ZZ_99 |75.48Mb
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 关注TG-@djkkdcx+US01
       - 美国+(204)
+      - 关注TG-@djkkdcx🇹🇼+TW02
+      - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcxCT01
       - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcxCMCC07
       - 澳大利亚+(1)
-      - 英国+(13)
-      - TG@ZDYZ2+-JP-Tokyo
-      - 韩国+(5)
-      - 关注TG-@djkkdcx🇰🇷+KR04
-      - 日本
-      - 关注TG-@djkkdcx+US01
-      - 🇺🇸_US_美国
-      - 关注TG-@djkkdcx🇹🇼+TW02
+      - 关注TG-@djkkdcxCMCC07
       - TG@ZDYZ2+-SG-Singapore
-      - 美国+(317)
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 🏁ZZ_99 |75.48Mb
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 关注TG-@djkkdcx+US01
       - 美国+(204)
+      - 关注TG-@djkkdcx🇹🇼+TW02
+      - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcxCT01
       - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcxCMCC07
       - 澳大利亚+(1)
-      - 英国+(13)
-      - TG@ZDYZ2+-JP-Tokyo
-      - 韩国+(5)
-      - 关注TG-@djkkdcx🇰🇷+KR04
-      - 日本
-      - 关注TG-@djkkdcx+US01
-      - 🇺🇸_US_美国
-      - 关注TG-@djkkdcx🇹🇼+TW02
+      - 关注TG-@djkkdcxCMCC07
       - TG@ZDYZ2+-SG-Singapore
-      - 美国+(317)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -205,21 +185,17 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - 🏁ZZ_99 |75.48Mb
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 关注TG-@djkkdcx+US01
       - 美国+(204)
+      - 关注TG-@djkkdcx🇹🇼+TW02
+      - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcxCT01
       - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcxCMCC07
       - 澳大利亚+(1)
-      - 英国+(13)
-      - TG@ZDYZ2+-JP-Tokyo
-      - 韩国+(5)
-      - 关注TG-@djkkdcx🇰🇷+KR04
-      - 日本
-      - 关注TG-@djkkdcx+US01
-      - 🇺🇸_US_美国
-      - 关注TG-@djkkdcx🇹🇼+TW02
+      - 关注TG-@djkkdcxCMCC07
       - TG@ZDYZ2+-SG-Singapore
-      - 美国+(317)
 
 rules:
 # 本地/局域网地址
