@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2024-07-16 04:07:59
+# 客户端：Clash
+# 创建时间：2024-07-27 02:49:01
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
 # 节点数量：1
-# 节点类型：hysteria2
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
+# 节点类型：vmess
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -87,7 +86,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"高速澳大利亚悉尼","type":"hysteria2","server":"au.sydney.tg-bplink.xyz","port":20000,"password":"8bfddec0-001a-44c9-a13f-d8d76c1353f4","sni":"au.sydney.tg-bplink.xyz"}
+  - {"name":"🇨🇳 中国 中山移动","type":"vmess","server":"120.237.79.157","port":32998,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -96,26 +95,26 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 高速澳大利亚悉尼
+      - 🇨🇳 中国 中山移动
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 高速澳大利亚悉尼
+      - 🇨🇳 中国 中山移动
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 高速澳大利亚悉尼
+      - 🇨🇳 中国 中山移动
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 高速澳大利亚悉尼
+      - 🇨🇳 中国 中山移动
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -135,7 +134,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 高速澳大利亚悉尼
+      - 🇨🇳 中国 中山移动
 
 rules:
 # 本地/局域网地址
