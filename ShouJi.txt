@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-27 02:48:30
+# 创建时间：2024-07-28 03:46:42
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：12
-# 节点类型：trojan, vless, vmess, ss
+# 节点数量：11
+# 节点类型：hysteria2, vless, vmess
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,18 +87,17 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇭🇰+|+Coal+3R+0x","type":"trojan","server":"coal.zichuanlan.top","port":443,"udp":true,"password":"865bc912-0b17-4bd1-b711-958d77232689","sni":"coal.zichuanlan.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"关注TG-@djkkdcxCT01","type":"vless","server":"185.18.250.131","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"关注TG-@djkkdcx+ZA01","type":"vless","server":"45.159.217.220","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"关注TG-@djkkdcxCMCC07","type":"vless","server":"185.176.26.61","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"关注电报https://t.me/aifenxiang2020","type":"vmess","server":"www.zula.ir","port":80,"cipher":"auto","uuid":"3e5cda0a-6122-4f54-9e3c-3f49e7a526f9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"nlch.blueberrynetwork.store"}}}
-  - {"name":"🇭🇰+香港1-None","type":"ss","server":"zf-11423341.fly64jfgwhale.xyz","port":54876,"password":"419265b5-2eb0-4fc0-a3b2-3ce1bc5adc9a","cipher":"aes-128-gcm"}
-  - {"name":"关注TG-@djkkdcx🇰🇷+KR04","type":"vless","server":"45.80.110.200","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"🇯🇵日本01","type":"hysteria2","server":"mf-s1-jp.playddt.com","port":22206,"password":"a541ae2f-480c-45e2-9a67-8425633bf4ac","sni":"mf-s1-jp.playddt.com","skip-cert-verify":true}
   - {"name":"关注TG-@djkkdcx🇹🇼+TW02","type":"vless","server":"45.159.217.21","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"🏁ZZ_99 |75.48Mb","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws"}}
   - {"name":"TG@ZDYZ2+-JP-Tokyo","type":"vless","server":"116.206.92.12","port":8562,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"关注TG-@djkkdcx+US01","type":"vless","server":"94.247.142.245","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"关注TG-@djkkdcx+ZA01","type":"vless","server":"45.159.217.220","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"关注TG-@djkkdcxCT01","type":"vless","server":"185.18.250.131","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
   - {"name":"TG@ZDYZ2+-SG-Singapore","type":"vless","server":"47.238.52.240","port":80,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🏁ZZ_99 |75.48Mb","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws"}}
+  - {"name":"关注TG-@djkkdcxCMCC07","type":"vless","server":"185.176.26.61","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"关注TG-@djkkdcx🇰🇷+KR04","type":"vless","server":"45.80.110.200","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"关注电报https://t.me/aifenxiang2020","type":"vmess","server":"6.724064.xyz","port":443,"cipher":"auto","uuid":"e7290e7b-8650-423a-8701-f718850620b0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xglsvws","headers":{"host":"6.724064.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -107,70 +106,66 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇭🇰+|+Coal+3R+0x
-      - 关注TG-@djkkdcxCT01
-      - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcxCMCC07
-      - 关注电报https://t.me/aifenxiang2020
-      - 🇭🇰+香港1-None
-      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 🇯🇵日本01
       - 关注TG-@djkkdcx🇹🇼+TW02
+      - 🏁ZZ_99 |75.48Mb
       - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcx+US01
+      - 关注TG-@djkkdcx+ZA01
+      - 关注TG-@djkkdcxCT01
       - TG@ZDYZ2+-SG-Singapore
-      - 🏁ZZ_99 |75.48Mb
+      - 关注TG-@djkkdcxCMCC07
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 关注电报https://t.me/aifenxiang2020
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰+|+Coal+3R+0x
-      - 关注TG-@djkkdcxCT01
-      - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcxCMCC07
-      - 关注电报https://t.me/aifenxiang2020
-      - 🇭🇰+香港1-None
-      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 🇯🇵日本01
       - 关注TG-@djkkdcx🇹🇼+TW02
+      - 🏁ZZ_99 |75.48Mb
       - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcx+US01
+      - 关注TG-@djkkdcx+ZA01
+      - 关注TG-@djkkdcxCT01
       - TG@ZDYZ2+-SG-Singapore
-      - 🏁ZZ_99 |75.48Mb
+      - 关注TG-@djkkdcxCMCC07
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 关注电报https://t.me/aifenxiang2020
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰+|+Coal+3R+0x
-      - 关注TG-@djkkdcxCT01
-      - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcxCMCC07
-      - 关注电报https://t.me/aifenxiang2020
-      - 🇭🇰+香港1-None
-      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 🇯🇵日本01
       - 关注TG-@djkkdcx🇹🇼+TW02
+      - 🏁ZZ_99 |75.48Mb
       - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcx+US01
+      - 关注TG-@djkkdcx+ZA01
+      - 关注TG-@djkkdcxCT01
       - TG@ZDYZ2+-SG-Singapore
-      - 🏁ZZ_99 |75.48Mb
+      - 关注TG-@djkkdcxCMCC07
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 关注电报https://t.me/aifenxiang2020
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰+|+Coal+3R+0x
-      - 关注TG-@djkkdcxCT01
-      - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcxCMCC07
-      - 关注电报https://t.me/aifenxiang2020
-      - 🇭🇰+香港1-None
-      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 🇯🇵日本01
       - 关注TG-@djkkdcx🇹🇼+TW02
+      - 🏁ZZ_99 |75.48Mb
       - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcx+US01
+      - 关注TG-@djkkdcx+ZA01
+      - 关注TG-@djkkdcxCT01
       - TG@ZDYZ2+-SG-Singapore
-      - 🏁ZZ_99 |75.48Mb
+      - 关注TG-@djkkdcxCMCC07
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 关注电报https://t.me/aifenxiang2020
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -190,18 +185,17 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇭🇰+|+Coal+3R+0x
-      - 关注TG-@djkkdcxCT01
-      - 关注TG-@djkkdcx+ZA01
-      - 关注TG-@djkkdcxCMCC07
-      - 关注电报https://t.me/aifenxiang2020
-      - 🇭🇰+香港1-None
-      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 🇯🇵日本01
       - 关注TG-@djkkdcx🇹🇼+TW02
+      - 🏁ZZ_99 |75.48Mb
       - TG@ZDYZ2+-JP-Tokyo
       - 关注TG-@djkkdcx+US01
+      - 关注TG-@djkkdcx+ZA01
+      - 关注TG-@djkkdcxCT01
       - TG@ZDYZ2+-SG-Singapore
-      - 🏁ZZ_99 |75.48Mb
+      - 关注TG-@djkkdcxCMCC07
+      - 关注TG-@djkkdcx🇰🇷+KR04
+      - 关注电报https://t.me/aifenxiang2020
 
 rules:
 # 本地/局域网地址
