@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-29 03:52:25
+# 创建时间：2024-07-30 03:08:41
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：36
-# 节点类型：ss, vless, trojan
+# 节点数量：29
+# 节点类型：vless, trojan, vmess
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,42 +87,35 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"香港_Telegram@kxswa_1","type":"ss","server":"twacq10.top","port":27918,"password":"NUeBvQHox0BmnHpu","cipher":"aes-128-gcm"}
-  - {"name":"香港_Telegram@kxswa+3","type":"ss","server":"59.56.77.178","port":15614,"password":"hGkQ6915tD","cipher":"aes-256-cfb"}
-  - {"name":"香港_Telegram@kxswa_2","type":"ss","server":"dudu02.ddnsguru.com","port":50029,"password":"NUeBvQHox0BmnHpu","cipher":"aes-128-gcm"}
   - {"name":"阿联酋_Telegram@kxswa","type":"vless","server":"94.140.0.157","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"法国_Telegram@kxswa+8","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12065,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本_Telegram@kxswa+9","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12034,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_Telegram@kxswa+10","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12003,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"韩国_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12041,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"瑞典_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12071,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram@kxswa+8","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12021,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram@kxswa+306","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12051,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_Telegram@kxswa+9","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12002,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"乌克兰_Telegram@kxswa","type":"vless","server":"45.80.111.38","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"新加坡_Telegram@kxswa+10","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12023,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"荷兰_Telegram@kxswa+3","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12074,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"英国_Telegram@kxswa+6","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12069,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本_Telegram@kxswa+8","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12033,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"德国_Telegram@kxswa+2","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12070,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾_Telegram@kxswa+2","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12012,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"日本_Telegram@kxswa+10","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12035,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram@kxswa+9","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12022,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"日本_Telegram@kxswa+7","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12032,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本_Telegram@kxswa+6","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12031,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"澳大利亚_Telegram@kxswa+3","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12068,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_Telegram@kxswa+11","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12024,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"印尼_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12061,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_Telegram@kxswa+11","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12004,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_Telegram@kxswa+12","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12005,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_Telegram@kxswa+8","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12001,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"土耳其_Telegram@kxswa+2","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12064,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"美国_Telegram@kxswa+308","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12053,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_Telegram@kxswa+11","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12004,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国_Telegram@kxswa+306","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12051,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"韩国_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12041,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram@kxswa+10","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12023,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram@kxswa+11","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12024,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram@kxswa 9","type":"vmess","server":"digital.rayzellstore.tech","port":443,"cipher":"auto","uuid":"f8c58753-8eda-4f19-aa17-59781ebe7e65","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"digital.rayzellstore.tech"}}}
+  - {"name":"台湾_Telegram@kxswa+2","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12012,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_Telegram@kxswa+12","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12005,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"美国_Telegram@kxswa+307","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12052,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"俄罗斯_Telegram@kxswa+3","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12075,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"印度_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12072,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本_Telegram@kxswa+6","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12031,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_Telegram@kxswa+10","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12003,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram@kxswa+9","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12022,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_Telegram@kxswa+9","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12002,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"新加坡_Telegram@kxswa+12","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12025,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本_Telegram@kxswa+9","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12034,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram@kxswa+8","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12021,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"马来西亚_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12067,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"香港_Telegram@kxswa+13","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12006,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"荷兰_Telegram@kxswa+3","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12074,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡_Telegram@kxswa 10","type":"vmess","server":"digital.rayzellstore.tech","port":80,"cipher":"auto","uuid":"f8c58753-8eda-4f19-aa17-59781ebe7e65","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"digital.rayzellstore.tech"}}}
   - {"name":"香港_Telegram@kxswa+2","type":"trojan","server":"36.151.195.77","port":31666,"udp":true,"password":"MfqALmAJ","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"俄罗斯_Telegram@kxswa+3","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12075,"udp":true,"password":"20a2c1c7-b87f-4c4e-95fe-7795784729f4","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国_Telegram@kxswa 263","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"23.162.200.227","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"23.162.200.227"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -131,166 +124,138 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 香港_Telegram@kxswa_1
-      - 香港_Telegram@kxswa+3
-      - 香港_Telegram@kxswa_2
       - 阿联酋_Telegram@kxswa
-      - 法国_Telegram@kxswa+8
-      - 日本_Telegram@kxswa+9
-      - 香港_Telegram@kxswa+10
-      - 韩国_Telegram@kxswa
-      - 瑞典_Telegram@kxswa
-      - 新加坡_Telegram@kxswa+8
-      - 美国_Telegram@kxswa+306
-      - 香港_Telegram@kxswa+9
       - 乌克兰_Telegram@kxswa
-      - 新加坡_Telegram@kxswa+10
-      - 荷兰_Telegram@kxswa+3
-      - 英国_Telegram@kxswa+6
-      - 日本_Telegram@kxswa+8
-      - 德国_Telegram@kxswa+2
-      - 台湾_Telegram@kxswa+2
       - 日本_Telegram@kxswa+10
-      - 新加坡_Telegram@kxswa+9
       - 日本_Telegram@kxswa+7
-      - 日本_Telegram@kxswa+6
-      - 澳大利亚_Telegram@kxswa+3
-      - 新加坡_Telegram@kxswa+11
-      - 印尼_Telegram@kxswa
-      - 香港_Telegram@kxswa+11
-      - 香港_Telegram@kxswa+12
-      - 香港_Telegram@kxswa+8
+      - 土耳其_Telegram@kxswa+2
       - 美国_Telegram@kxswa+308
+      - 香港_Telegram@kxswa+11
+      - 美国_Telegram@kxswa+306
+      - 韩国_Telegram@kxswa
+      - 新加坡_Telegram@kxswa+10
+      - 新加坡_Telegram@kxswa+11
+      - 新加坡_Telegram@kxswa 9
+      - 台湾_Telegram@kxswa+2
+      - 香港_Telegram@kxswa+12
       - 美国_Telegram@kxswa+307
-      - 俄罗斯_Telegram@kxswa+3
-      - 印度_Telegram@kxswa
+      - 日本_Telegram@kxswa+6
+      - 香港_Telegram@kxswa+10
+      - 新加坡_Telegram@kxswa+9
+      - 香港_Telegram@kxswa+9
       - 新加坡_Telegram@kxswa+12
+      - 日本_Telegram@kxswa+9
+      - 新加坡_Telegram@kxswa+8
+      - 马来西亚_Telegram@kxswa
       - 香港_Telegram@kxswa+13
+      - 荷兰_Telegram@kxswa+3
+      - 新加坡_Telegram@kxswa 10
       - 香港_Telegram@kxswa+2
+      - 俄罗斯_Telegram@kxswa+3
+      - 美国_Telegram@kxswa 263
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 香港_Telegram@kxswa_1
-      - 香港_Telegram@kxswa+3
-      - 香港_Telegram@kxswa_2
       - 阿联酋_Telegram@kxswa
-      - 法国_Telegram@kxswa+8
-      - 日本_Telegram@kxswa+9
-      - 香港_Telegram@kxswa+10
-      - 韩国_Telegram@kxswa
-      - 瑞典_Telegram@kxswa
-      - 新加坡_Telegram@kxswa+8
-      - 美国_Telegram@kxswa+306
-      - 香港_Telegram@kxswa+9
       - 乌克兰_Telegram@kxswa
-      - 新加坡_Telegram@kxswa+10
-      - 荷兰_Telegram@kxswa+3
-      - 英国_Telegram@kxswa+6
-      - 日本_Telegram@kxswa+8
-      - 德国_Telegram@kxswa+2
-      - 台湾_Telegram@kxswa+2
       - 日本_Telegram@kxswa+10
-      - 新加坡_Telegram@kxswa+9
       - 日本_Telegram@kxswa+7
-      - 日本_Telegram@kxswa+6
-      - 澳大利亚_Telegram@kxswa+3
-      - 新加坡_Telegram@kxswa+11
-      - 印尼_Telegram@kxswa
-      - 香港_Telegram@kxswa+11
-      - 香港_Telegram@kxswa+12
-      - 香港_Telegram@kxswa+8
+      - 土耳其_Telegram@kxswa+2
       - 美国_Telegram@kxswa+308
+      - 香港_Telegram@kxswa+11
+      - 美国_Telegram@kxswa+306
+      - 韩国_Telegram@kxswa
+      - 新加坡_Telegram@kxswa+10
+      - 新加坡_Telegram@kxswa+11
+      - 新加坡_Telegram@kxswa 9
+      - 台湾_Telegram@kxswa+2
+      - 香港_Telegram@kxswa+12
       - 美国_Telegram@kxswa+307
-      - 俄罗斯_Telegram@kxswa+3
-      - 印度_Telegram@kxswa
+      - 日本_Telegram@kxswa+6
+      - 香港_Telegram@kxswa+10
+      - 新加坡_Telegram@kxswa+9
+      - 香港_Telegram@kxswa+9
       - 新加坡_Telegram@kxswa+12
+      - 日本_Telegram@kxswa+9
+      - 新加坡_Telegram@kxswa+8
+      - 马来西亚_Telegram@kxswa
       - 香港_Telegram@kxswa+13
+      - 荷兰_Telegram@kxswa+3
+      - 新加坡_Telegram@kxswa 10
       - 香港_Telegram@kxswa+2
+      - 俄罗斯_Telegram@kxswa+3
+      - 美国_Telegram@kxswa 263
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 香港_Telegram@kxswa_1
-      - 香港_Telegram@kxswa+3
-      - 香港_Telegram@kxswa_2
       - 阿联酋_Telegram@kxswa
-      - 法国_Telegram@kxswa+8
-      - 日本_Telegram@kxswa+9
-      - 香港_Telegram@kxswa+10
-      - 韩国_Telegram@kxswa
-      - 瑞典_Telegram@kxswa
-      - 新加坡_Telegram@kxswa+8
-      - 美国_Telegram@kxswa+306
-      - 香港_Telegram@kxswa+9
       - 乌克兰_Telegram@kxswa
-      - 新加坡_Telegram@kxswa+10
-      - 荷兰_Telegram@kxswa+3
-      - 英国_Telegram@kxswa+6
-      - 日本_Telegram@kxswa+8
-      - 德国_Telegram@kxswa+2
-      - 台湾_Telegram@kxswa+2
       - 日本_Telegram@kxswa+10
-      - 新加坡_Telegram@kxswa+9
       - 日本_Telegram@kxswa+7
-      - 日本_Telegram@kxswa+6
-      - 澳大利亚_Telegram@kxswa+3
-      - 新加坡_Telegram@kxswa+11
-      - 印尼_Telegram@kxswa
-      - 香港_Telegram@kxswa+11
-      - 香港_Telegram@kxswa+12
-      - 香港_Telegram@kxswa+8
+      - 土耳其_Telegram@kxswa+2
       - 美国_Telegram@kxswa+308
+      - 香港_Telegram@kxswa+11
+      - 美国_Telegram@kxswa+306
+      - 韩国_Telegram@kxswa
+      - 新加坡_Telegram@kxswa+10
+      - 新加坡_Telegram@kxswa+11
+      - 新加坡_Telegram@kxswa 9
+      - 台湾_Telegram@kxswa+2
+      - 香港_Telegram@kxswa+12
       - 美国_Telegram@kxswa+307
-      - 俄罗斯_Telegram@kxswa+3
-      - 印度_Telegram@kxswa
+      - 日本_Telegram@kxswa+6
+      - 香港_Telegram@kxswa+10
+      - 新加坡_Telegram@kxswa+9
+      - 香港_Telegram@kxswa+9
       - 新加坡_Telegram@kxswa+12
+      - 日本_Telegram@kxswa+9
+      - 新加坡_Telegram@kxswa+8
+      - 马来西亚_Telegram@kxswa
       - 香港_Telegram@kxswa+13
+      - 荷兰_Telegram@kxswa+3
+      - 新加坡_Telegram@kxswa 10
       - 香港_Telegram@kxswa+2
+      - 俄罗斯_Telegram@kxswa+3
+      - 美国_Telegram@kxswa 263
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 香港_Telegram@kxswa_1
-      - 香港_Telegram@kxswa+3
-      - 香港_Telegram@kxswa_2
       - 阿联酋_Telegram@kxswa
-      - 法国_Telegram@kxswa+8
-      - 日本_Telegram@kxswa+9
-      - 香港_Telegram@kxswa+10
-      - 韩国_Telegram@kxswa
-      - 瑞典_Telegram@kxswa
-      - 新加坡_Telegram@kxswa+8
-      - 美国_Telegram@kxswa+306
-      - 香港_Telegram@kxswa+9
       - 乌克兰_Telegram@kxswa
-      - 新加坡_Telegram@kxswa+10
-      - 荷兰_Telegram@kxswa+3
-      - 英国_Telegram@kxswa+6
-      - 日本_Telegram@kxswa+8
-      - 德国_Telegram@kxswa+2
-      - 台湾_Telegram@kxswa+2
       - 日本_Telegram@kxswa+10
-      - 新加坡_Telegram@kxswa+9
       - 日本_Telegram@kxswa+7
-      - 日本_Telegram@kxswa+6
-      - 澳大利亚_Telegram@kxswa+3
-      - 新加坡_Telegram@kxswa+11
-      - 印尼_Telegram@kxswa
-      - 香港_Telegram@kxswa+11
-      - 香港_Telegram@kxswa+12
-      - 香港_Telegram@kxswa+8
+      - 土耳其_Telegram@kxswa+2
       - 美国_Telegram@kxswa+308
+      - 香港_Telegram@kxswa+11
+      - 美国_Telegram@kxswa+306
+      - 韩国_Telegram@kxswa
+      - 新加坡_Telegram@kxswa+10
+      - 新加坡_Telegram@kxswa+11
+      - 新加坡_Telegram@kxswa 9
+      - 台湾_Telegram@kxswa+2
+      - 香港_Telegram@kxswa+12
       - 美国_Telegram@kxswa+307
-      - 俄罗斯_Telegram@kxswa+3
-      - 印度_Telegram@kxswa
+      - 日本_Telegram@kxswa+6
+      - 香港_Telegram@kxswa+10
+      - 新加坡_Telegram@kxswa+9
+      - 香港_Telegram@kxswa+9
       - 新加坡_Telegram@kxswa+12
+      - 日本_Telegram@kxswa+9
+      - 新加坡_Telegram@kxswa+8
+      - 马来西亚_Telegram@kxswa
       - 香港_Telegram@kxswa+13
+      - 荷兰_Telegram@kxswa+3
+      - 新加坡_Telegram@kxswa 10
       - 香港_Telegram@kxswa+2
+      - 俄罗斯_Telegram@kxswa+3
+      - 美国_Telegram@kxswa 263
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -310,42 +275,35 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 香港_Telegram@kxswa_1
-      - 香港_Telegram@kxswa+3
-      - 香港_Telegram@kxswa_2
       - 阿联酋_Telegram@kxswa
-      - 法国_Telegram@kxswa+8
-      - 日本_Telegram@kxswa+9
-      - 香港_Telegram@kxswa+10
-      - 韩国_Telegram@kxswa
-      - 瑞典_Telegram@kxswa
-      - 新加坡_Telegram@kxswa+8
-      - 美国_Telegram@kxswa+306
-      - 香港_Telegram@kxswa+9
       - 乌克兰_Telegram@kxswa
-      - 新加坡_Telegram@kxswa+10
-      - 荷兰_Telegram@kxswa+3
-      - 英国_Telegram@kxswa+6
-      - 日本_Telegram@kxswa+8
-      - 德国_Telegram@kxswa+2
-      - 台湾_Telegram@kxswa+2
       - 日本_Telegram@kxswa+10
-      - 新加坡_Telegram@kxswa+9
       - 日本_Telegram@kxswa+7
-      - 日本_Telegram@kxswa+6
-      - 澳大利亚_Telegram@kxswa+3
-      - 新加坡_Telegram@kxswa+11
-      - 印尼_Telegram@kxswa
-      - 香港_Telegram@kxswa+11
-      - 香港_Telegram@kxswa+12
-      - 香港_Telegram@kxswa+8
+      - 土耳其_Telegram@kxswa+2
       - 美国_Telegram@kxswa+308
+      - 香港_Telegram@kxswa+11
+      - 美国_Telegram@kxswa+306
+      - 韩国_Telegram@kxswa
+      - 新加坡_Telegram@kxswa+10
+      - 新加坡_Telegram@kxswa+11
+      - 新加坡_Telegram@kxswa 9
+      - 台湾_Telegram@kxswa+2
+      - 香港_Telegram@kxswa+12
       - 美国_Telegram@kxswa+307
-      - 俄罗斯_Telegram@kxswa+3
-      - 印度_Telegram@kxswa
+      - 日本_Telegram@kxswa+6
+      - 香港_Telegram@kxswa+10
+      - 新加坡_Telegram@kxswa+9
+      - 香港_Telegram@kxswa+9
       - 新加坡_Telegram@kxswa+12
+      - 日本_Telegram@kxswa+9
+      - 新加坡_Telegram@kxswa+8
+      - 马来西亚_Telegram@kxswa
       - 香港_Telegram@kxswa+13
+      - 荷兰_Telegram@kxswa+3
+      - 新加坡_Telegram@kxswa 10
       - 香港_Telegram@kxswa+2
+      - 俄罗斯_Telegram@kxswa+3
+      - 美国_Telegram@kxswa 263
 
 rules:
 # 本地/局域网地址
