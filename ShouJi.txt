@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-31 04:58:24
+# 创建时间：2024-08-01 04:47:55
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：42
-# 节点类型：vmess, ss, vless
+# 节点数量：9
+# 节点类型：vless, vmess
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,48 +87,15 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Relay_🇺🇸US-🇺🇸US_109 |481.88Mb","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":2052,"cipher":"auto","uuid":"e093ca94-9890-4b06-8384-08572c5d3215","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/DDC4btA8wc/","headers":{"host":"us2jdgv5GC7.fzbqfrse.xyz"}}}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_149 |16.04Mb","type":"vmess","server":"104.17.106.151","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_137 | 8.17Mb","type":"vmess","server":"104.19.47.45","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
-  - {"name":"Relay_🇺🇸US-🇨🇦CA_107 | 2.42Mb","type":"vmess","server":"172.64.167.22","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"Relay_🇷🇺RU-🇷🇺RU_46 |25.85Mb","type":"vmess","server":"22.lwdh.us","port":12910,"cipher":"auto","uuid":"8259cb1c-dd6c-4739-9c88-af550d977525","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"Relay_🇺🇸US-🇨🇦CA_100 |13.66Mb","type":"vmess","server":"172.64.166.22","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"台湾2-wap","type":"ss","server":"cm2.akaochangnode.xyz","port":45379,"password":"2b92ff00-2550-411e-b76d-29778b8f4655","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国1-wap","type":"ss","server":"cm1.akaochangnode.xyz","port":48003,"password":"2b92ff00-2550-411e-b76d-29778b8f4655","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_142 | 3.96Mb","type":"vmess","server":"104.19.38.8","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
-  - {"name":"Relay_🇺🇸US-🇨🇦CA_94 |20.68Mb","type":"vmess","server":"172.64.175.88","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
-  - {"name":"香港1-wap","type":"ss","server":"cm1.akaochangnode.xyz","port":28039,"password":"2b92ff00-2550-411e-b76d-29778b8f4655","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"剩余流量：663.45+GB","type":"ss","server":"cm1.akaochangnode.xyz","port":45379,"password":"2b92ff00-2550-411e-b76d-29778b8f4655","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🇺🇸US-🇨🇦CA_96 | 4.90Mb","type":"vmess","server":"104.26.5.90","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_135 | 6.48Mb","type":"vmess","server":"104.19.46.17","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
-  - {"name":"TG@ZDYZ2+-HK-Hong+Kong","type":"vless","server":"47.57.12.238","port":34237,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国2-wap","type":"ss","server":"cm2.akaochangnode.xyz","port":48003,"password":"2b92ff00-2550-411e-b76d-29778b8f4655","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🇺🇸US-🇨🇦CA_92 |11.87Mb","type":"vmess","server":"172.64.233.17","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_159 | 7.01Mb","type":"vmess","server":"104.19.21.63","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
-  - {"name":"香港2-wap","type":"ss","server":"cm2.akaochangnode.xyz","port":28039,"password":"2b92ff00-2550-411e-b76d-29778b8f4655","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🇺🇸US-🇨🇦CA_93 | 4.17Mb","type":"vmess","server":"172.64.167.19","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_148 |25.32Mb","type":"vmess","server":"104.19.47.80","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"Relay_🏁ZZ-🇸🇬SG_153 |24.99Mb","type":"vmess","server":"cfcdn2.sanfencdn9.com","port":2052,"cipher":"auto","uuid":"e093ca94-9890-4b06-8384-08572c5d3215","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/3YKfzGw4","headers":{"host":"rpmlybgzsg2.yofnhkfc.xyz"}}}
-  - {"name":"澳大利亚1-linode","type":"ss","server":"cm1.akaochangnode.xyz","port":42142,"password":"2b92ff00-2550-411e-b76d-29778b8f4655","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_150 | 7.56Mb","type":"vmess","server":"104.19.45.50","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
-  - {"name":"澳大利亚2-linode","type":"ss","server":"cm2.akaochangnode.xyz","port":42142,"password":"2b92ff00-2550-411e-b76d-29778b8f4655","cipher":"chacha20-ietf-poly1305"}
   - {"name":"TG@ZDYZ2+-JP-Tokyo","type":"vless","server":"116.206.92.12","port":8562,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Relay_🇨🇦CA-🇨🇦CA_03 | 4.89Mb","type":"vmess","server":"23.227.38.3","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
-  - {"name":"关注TG-@djkkdcxCT01","type":"vless","server":"185.18.250.131","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"TG@ZDYZ2+-SG-Singapore","type":"vless","server":"47.238.50.221","port":80,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"关注TG-@djkkdcx🇰🇷+KR04","type":"vless","server":"45.80.110.200","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"新加坡2-wap","type":"ss","server":"cm2.akaochangnode.xyz","port":42213,"password":"2b92ff00-2550-411e-b76d-29778b8f4655","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"关注TG-@djkkdcx+US01","type":"vless","server":"94.247.142.245","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"TG@ZDYZ2+-HK-Hong+Kong","type":"vless","server":"47.57.12.238","port":34237,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"关注TG-@djkkdcx🇹🇼+TW02","type":"vless","server":"45.159.217.21","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"🏁ZZ_99 |75.48Mb","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws"}}
-  - {"name":"Relay_🇺🇸US-🇨🇦CA_103 |10.78Mb","type":"vmess","server":"172.64.233.15","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"新加坡1-wap","type":"ss","server":"cm1.akaochangnode.xyz","port":42213,"password":"2b92ff00-2550-411e-b76d-29778b8f4655","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_140 |18.39Mb","type":"vmess","server":"104.19.45.35","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"德国2-linode","type":"ss","server":"cm2.akaochangnode.xyz","port":40172,"password":"2b92ff00-2550-411e-b76d-29778b8f4655","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_152 | 2.97Mb","type":"vmess","server":"104.19.123.11","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
+  - {"name":"关注TG-@djkkdcx+US01","type":"vless","server":"94.247.142.245","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"TG@ZDYZ2+-SG-Singapore","type":"vless","server":"47.238.50.221","port":80,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/TG@ZDYZ2?ed=2560","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"Relay_🇺🇸US-🇨🇦CA_110 |13.38Mb","type":"vmess","server":"russia.com","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
-  - {"name":"英国1-linode","type":"ss","server":"cm1.akaochangnode.xyz","port":36521,"password":"2b92ff00-2550-411e-b76d-29778b8f4655","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🏁ZZ-🇨🇦CA_138 |187.49Mb","type":"vmess","server":"104.19.47.32","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
+  - {"name":"🏁ZZ_99 |75.48Mb","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws"}}
+  - {"name":"Relay_🇷🇺RU-🇷🇺RU_66 | 4.75Mb","type":"vmess","server":"22.lwdh.us","port":12910,"cipher":"auto","uuid":"8259cb1c-dd6c-4739-9c88-af550d977525","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -137,190 +104,58 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - Relay_🇺🇸US-🇺🇸US_109 |481.88Mb
-      - Relay_🏁ZZ-🇨🇦CA_149 |16.04Mb
-      - Relay_🏁ZZ-🇨🇦CA_137 | 8.17Mb
-      - Relay_🇺🇸US-🇨🇦CA_107 | 2.42Mb
-      - Relay_🇷🇺RU-🇷🇺RU_46 |25.85Mb
-      - Relay_🇺🇸US-🇨🇦CA_100 |13.66Mb
-      - 台湾2-wap
-      - 美国1-wap
-      - Relay_🏁ZZ-🇨🇦CA_142 | 3.96Mb
-      - Relay_🇺🇸US-🇨🇦CA_94 |20.68Mb
-      - 香港1-wap
-      - 剩余流量：663.45+GB
-      - Relay_🇺🇸US-🇨🇦CA_96 | 4.90Mb
-      - Relay_🏁ZZ-🇨🇦CA_135 | 6.48Mb
-      - TG@ZDYZ2+-HK-Hong+Kong
-      - 美国2-wap
-      - Relay_🇺🇸US-🇨🇦CA_92 |11.87Mb
-      - Relay_🏁ZZ-🇨🇦CA_159 | 7.01Mb
-      - 香港2-wap
-      - Relay_🇺🇸US-🇨🇦CA_93 | 4.17Mb
-      - Relay_🏁ZZ-🇨🇦CA_148 |25.32Mb
-      - Relay_🏁ZZ-🇸🇬SG_153 |24.99Mb
-      - 澳大利亚1-linode
-      - Relay_🏁ZZ-🇨🇦CA_150 | 7.56Mb
-      - 澳大利亚2-linode
       - TG@ZDYZ2+-JP-Tokyo
-      - Relay_🇨🇦CA-🇨🇦CA_03 | 4.89Mb
-      - 关注TG-@djkkdcxCT01
-      - TG@ZDYZ2+-SG-Singapore
       - 关注TG-@djkkdcx🇰🇷+KR04
-      - 新加坡2-wap
-      - 关注TG-@djkkdcx+US01
+      - TG@ZDYZ2+-HK-Hong+Kong
       - 关注TG-@djkkdcx🇹🇼+TW02
-      - 🏁ZZ_99 |75.48Mb
-      - Relay_🇺🇸US-🇨🇦CA_103 |10.78Mb
-      - 新加坡1-wap
-      - Relay_🏁ZZ-🇨🇦CA_140 |18.39Mb
-      - 德国2-linode
-      - Relay_🏁ZZ-🇨🇦CA_152 | 2.97Mb
+      - 关注TG-@djkkdcx+US01
+      - TG@ZDYZ2+-SG-Singapore
       - Relay_🇺🇸US-🇨🇦CA_110 |13.38Mb
-      - 英国1-linode
-      - Relay_🏁ZZ-🇨🇦CA_138 |187.49Mb
+      - 🏁ZZ_99 |75.48Mb
+      - Relay_🇷🇺RU-🇷🇺RU_66 | 4.75Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇺🇸US-🇺🇸US_109 |481.88Mb
-      - Relay_🏁ZZ-🇨🇦CA_149 |16.04Mb
-      - Relay_🏁ZZ-🇨🇦CA_137 | 8.17Mb
-      - Relay_🇺🇸US-🇨🇦CA_107 | 2.42Mb
-      - Relay_🇷🇺RU-🇷🇺RU_46 |25.85Mb
-      - Relay_🇺🇸US-🇨🇦CA_100 |13.66Mb
-      - 台湾2-wap
-      - 美国1-wap
-      - Relay_🏁ZZ-🇨🇦CA_142 | 3.96Mb
-      - Relay_🇺🇸US-🇨🇦CA_94 |20.68Mb
-      - 香港1-wap
-      - 剩余流量：663.45+GB
-      - Relay_🇺🇸US-🇨🇦CA_96 | 4.90Mb
-      - Relay_🏁ZZ-🇨🇦CA_135 | 6.48Mb
-      - TG@ZDYZ2+-HK-Hong+Kong
-      - 美国2-wap
-      - Relay_🇺🇸US-🇨🇦CA_92 |11.87Mb
-      - Relay_🏁ZZ-🇨🇦CA_159 | 7.01Mb
-      - 香港2-wap
-      - Relay_🇺🇸US-🇨🇦CA_93 | 4.17Mb
-      - Relay_🏁ZZ-🇨🇦CA_148 |25.32Mb
-      - Relay_🏁ZZ-🇸🇬SG_153 |24.99Mb
-      - 澳大利亚1-linode
-      - Relay_🏁ZZ-🇨🇦CA_150 | 7.56Mb
-      - 澳大利亚2-linode
       - TG@ZDYZ2+-JP-Tokyo
-      - Relay_🇨🇦CA-🇨🇦CA_03 | 4.89Mb
-      - 关注TG-@djkkdcxCT01
-      - TG@ZDYZ2+-SG-Singapore
       - 关注TG-@djkkdcx🇰🇷+KR04
-      - 新加坡2-wap
-      - 关注TG-@djkkdcx+US01
+      - TG@ZDYZ2+-HK-Hong+Kong
       - 关注TG-@djkkdcx🇹🇼+TW02
-      - 🏁ZZ_99 |75.48Mb
-      - Relay_🇺🇸US-🇨🇦CA_103 |10.78Mb
-      - 新加坡1-wap
-      - Relay_🏁ZZ-🇨🇦CA_140 |18.39Mb
-      - 德国2-linode
-      - Relay_🏁ZZ-🇨🇦CA_152 | 2.97Mb
+      - 关注TG-@djkkdcx+US01
+      - TG@ZDYZ2+-SG-Singapore
       - Relay_🇺🇸US-🇨🇦CA_110 |13.38Mb
-      - 英国1-linode
-      - Relay_🏁ZZ-🇨🇦CA_138 |187.49Mb
+      - 🏁ZZ_99 |75.48Mb
+      - Relay_🇷🇺RU-🇷🇺RU_66 | 4.75Mb
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Relay_🇺🇸US-🇺🇸US_109 |481.88Mb
-      - Relay_🏁ZZ-🇨🇦CA_149 |16.04Mb
-      - Relay_🏁ZZ-🇨🇦CA_137 | 8.17Mb
-      - Relay_🇺🇸US-🇨🇦CA_107 | 2.42Mb
-      - Relay_🇷🇺RU-🇷🇺RU_46 |25.85Mb
-      - Relay_🇺🇸US-🇨🇦CA_100 |13.66Mb
-      - 台湾2-wap
-      - 美国1-wap
-      - Relay_🏁ZZ-🇨🇦CA_142 | 3.96Mb
-      - Relay_🇺🇸US-🇨🇦CA_94 |20.68Mb
-      - 香港1-wap
-      - 剩余流量：663.45+GB
-      - Relay_🇺🇸US-🇨🇦CA_96 | 4.90Mb
-      - Relay_🏁ZZ-🇨🇦CA_135 | 6.48Mb
-      - TG@ZDYZ2+-HK-Hong+Kong
-      - 美国2-wap
-      - Relay_🇺🇸US-🇨🇦CA_92 |11.87Mb
-      - Relay_🏁ZZ-🇨🇦CA_159 | 7.01Mb
-      - 香港2-wap
-      - Relay_🇺🇸US-🇨🇦CA_93 | 4.17Mb
-      - Relay_🏁ZZ-🇨🇦CA_148 |25.32Mb
-      - Relay_🏁ZZ-🇸🇬SG_153 |24.99Mb
-      - 澳大利亚1-linode
-      - Relay_🏁ZZ-🇨🇦CA_150 | 7.56Mb
-      - 澳大利亚2-linode
       - TG@ZDYZ2+-JP-Tokyo
-      - Relay_🇨🇦CA-🇨🇦CA_03 | 4.89Mb
-      - 关注TG-@djkkdcxCT01
-      - TG@ZDYZ2+-SG-Singapore
       - 关注TG-@djkkdcx🇰🇷+KR04
-      - 新加坡2-wap
-      - 关注TG-@djkkdcx+US01
+      - TG@ZDYZ2+-HK-Hong+Kong
       - 关注TG-@djkkdcx🇹🇼+TW02
-      - 🏁ZZ_99 |75.48Mb
-      - Relay_🇺🇸US-🇨🇦CA_103 |10.78Mb
-      - 新加坡1-wap
-      - Relay_🏁ZZ-🇨🇦CA_140 |18.39Mb
-      - 德国2-linode
-      - Relay_🏁ZZ-🇨🇦CA_152 | 2.97Mb
+      - 关注TG-@djkkdcx+US01
+      - TG@ZDYZ2+-SG-Singapore
       - Relay_🇺🇸US-🇨🇦CA_110 |13.38Mb
-      - 英国1-linode
-      - Relay_🏁ZZ-🇨🇦CA_138 |187.49Mb
+      - 🏁ZZ_99 |75.48Mb
+      - Relay_🇷🇺RU-🇷🇺RU_66 | 4.75Mb
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Relay_🇺🇸US-🇺🇸US_109 |481.88Mb
-      - Relay_🏁ZZ-🇨🇦CA_149 |16.04Mb
-      - Relay_🏁ZZ-🇨🇦CA_137 | 8.17Mb
-      - Relay_🇺🇸US-🇨🇦CA_107 | 2.42Mb
-      - Relay_🇷🇺RU-🇷🇺RU_46 |25.85Mb
-      - Relay_🇺🇸US-🇨🇦CA_100 |13.66Mb
-      - 台湾2-wap
-      - 美国1-wap
-      - Relay_🏁ZZ-🇨🇦CA_142 | 3.96Mb
-      - Relay_🇺🇸US-🇨🇦CA_94 |20.68Mb
-      - 香港1-wap
-      - 剩余流量：663.45+GB
-      - Relay_🇺🇸US-🇨🇦CA_96 | 4.90Mb
-      - Relay_🏁ZZ-🇨🇦CA_135 | 6.48Mb
-      - TG@ZDYZ2+-HK-Hong+Kong
-      - 美国2-wap
-      - Relay_🇺🇸US-🇨🇦CA_92 |11.87Mb
-      - Relay_🏁ZZ-🇨🇦CA_159 | 7.01Mb
-      - 香港2-wap
-      - Relay_🇺🇸US-🇨🇦CA_93 | 4.17Mb
-      - Relay_🏁ZZ-🇨🇦CA_148 |25.32Mb
-      - Relay_🏁ZZ-🇸🇬SG_153 |24.99Mb
-      - 澳大利亚1-linode
-      - Relay_🏁ZZ-🇨🇦CA_150 | 7.56Mb
-      - 澳大利亚2-linode
       - TG@ZDYZ2+-JP-Tokyo
-      - Relay_🇨🇦CA-🇨🇦CA_03 | 4.89Mb
-      - 关注TG-@djkkdcxCT01
-      - TG@ZDYZ2+-SG-Singapore
       - 关注TG-@djkkdcx🇰🇷+KR04
-      - 新加坡2-wap
-      - 关注TG-@djkkdcx+US01
+      - TG@ZDYZ2+-HK-Hong+Kong
       - 关注TG-@djkkdcx🇹🇼+TW02
-      - 🏁ZZ_99 |75.48Mb
-      - Relay_🇺🇸US-🇨🇦CA_103 |10.78Mb
-      - 新加坡1-wap
-      - Relay_🏁ZZ-🇨🇦CA_140 |18.39Mb
-      - 德国2-linode
-      - Relay_🏁ZZ-🇨🇦CA_152 | 2.97Mb
+      - 关注TG-@djkkdcx+US01
+      - TG@ZDYZ2+-SG-Singapore
       - Relay_🇺🇸US-🇨🇦CA_110 |13.38Mb
-      - 英国1-linode
-      - Relay_🏁ZZ-🇨🇦CA_138 |187.49Mb
+      - 🏁ZZ_99 |75.48Mb
+      - Relay_🇷🇺RU-🇷🇺RU_66 | 4.75Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -340,48 +175,15 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - Relay_🇺🇸US-🇺🇸US_109 |481.88Mb
-      - Relay_🏁ZZ-🇨🇦CA_149 |16.04Mb
-      - Relay_🏁ZZ-🇨🇦CA_137 | 8.17Mb
-      - Relay_🇺🇸US-🇨🇦CA_107 | 2.42Mb
-      - Relay_🇷🇺RU-🇷🇺RU_46 |25.85Mb
-      - Relay_🇺🇸US-🇨🇦CA_100 |13.66Mb
-      - 台湾2-wap
-      - 美国1-wap
-      - Relay_🏁ZZ-🇨🇦CA_142 | 3.96Mb
-      - Relay_🇺🇸US-🇨🇦CA_94 |20.68Mb
-      - 香港1-wap
-      - 剩余流量：663.45+GB
-      - Relay_🇺🇸US-🇨🇦CA_96 | 4.90Mb
-      - Relay_🏁ZZ-🇨🇦CA_135 | 6.48Mb
-      - TG@ZDYZ2+-HK-Hong+Kong
-      - 美国2-wap
-      - Relay_🇺🇸US-🇨🇦CA_92 |11.87Mb
-      - Relay_🏁ZZ-🇨🇦CA_159 | 7.01Mb
-      - 香港2-wap
-      - Relay_🇺🇸US-🇨🇦CA_93 | 4.17Mb
-      - Relay_🏁ZZ-🇨🇦CA_148 |25.32Mb
-      - Relay_🏁ZZ-🇸🇬SG_153 |24.99Mb
-      - 澳大利亚1-linode
-      - Relay_🏁ZZ-🇨🇦CA_150 | 7.56Mb
-      - 澳大利亚2-linode
       - TG@ZDYZ2+-JP-Tokyo
-      - Relay_🇨🇦CA-🇨🇦CA_03 | 4.89Mb
-      - 关注TG-@djkkdcxCT01
-      - TG@ZDYZ2+-SG-Singapore
       - 关注TG-@djkkdcx🇰🇷+KR04
-      - 新加坡2-wap
-      - 关注TG-@djkkdcx+US01
+      - TG@ZDYZ2+-HK-Hong+Kong
       - 关注TG-@djkkdcx🇹🇼+TW02
-      - 🏁ZZ_99 |75.48Mb
-      - Relay_🇺🇸US-🇨🇦CA_103 |10.78Mb
-      - 新加坡1-wap
-      - Relay_🏁ZZ-🇨🇦CA_140 |18.39Mb
-      - 德国2-linode
-      - Relay_🏁ZZ-🇨🇦CA_152 | 2.97Mb
+      - 关注TG-@djkkdcx+US01
+      - TG@ZDYZ2+-SG-Singapore
       - Relay_🇺🇸US-🇨🇦CA_110 |13.38Mb
-      - 英国1-linode
-      - Relay_🏁ZZ-🇨🇦CA_138 |187.49Mb
+      - 🏁ZZ_99 |75.48Mb
+      - Relay_🇷🇺RU-🇷🇺RU_66 | 4.75Mb
 
 rules:
 # 本地/局域网地址
