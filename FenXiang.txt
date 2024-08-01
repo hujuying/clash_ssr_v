@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-31 04:58:54
+# 创建时间：2024-08-02 06:33:46
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：4
-# 节点类型：vmess, trojan
+# 节点数量：2
+# 节点类型：vmess
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -86,10 +86,8 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"加拿大 01 高速（0.1倍消耗）","type":"vmess","server":"cdncdncdncdn.784654.xyz","port":2052,"cipher":"auto","uuid":"acc2c630-37d8-437d-94cc-4896fcd845f9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/index?ed=2048","headers":{"host":"ca-cfcdn.aikunapp.com"}}}
-  - {"name":"荷兰 01","type":"vmess","server":"cdncdncdncdn.784654.xyz","port":2052,"cipher":"auto","uuid":"acc2c630-37d8-437d-94cc-4896fcd845f9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/index?ed=2048","headers":{"host":"cfhlamstd.981545.xyz"}}}
-  - {"name":"巴西 圣地亚哥 01","type":"vmess","server":"cdncdncdncdn.784654.xyz","port":2052,"cipher":"auto","uuid":"acc2c630-37d8-437d-94cc-4896fcd845f9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/index?ed=2048","headers":{"host":"cfbxsdyg.981545.xyz"}}}
-  - {"name":"香港+01（HKT）","type":"trojan","server":"tj-hk.aikunapp.com","port":5100,"udp":true,"password":"acc2c630-37d8-437d-94cc-4896fcd845f9","sni":"s0.awsstatic.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"HK TG@GM888SVIP","type":"vmess","server":"36.139.183.164","port":10184,"cipher":"auto","uuid":"273a61f5-03b5-4449-9d18-7e914d3808c4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"HK TG@GM888SVⅠP","type":"vmess","server":"hkt1.hkg.hypernat.com","port":50185,"cipher":"auto","uuid":"273a61f5-03b5-4449-9d18-7e914d3808c4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"hkt1.hkg.hypernat.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -98,38 +96,30 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 加拿大 01 高速（0.1倍消耗）
-      - 荷兰 01
-      - 巴西 圣地亚哥 01
-      - 香港+01（HKT）
+      - HK TG@GM888SVIP
+      - HK TG@GM888SVⅠP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 加拿大 01 高速（0.1倍消耗）
-      - 荷兰 01
-      - 巴西 圣地亚哥 01
-      - 香港+01（HKT）
+      - HK TG@GM888SVIP
+      - HK TG@GM888SVⅠP
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 加拿大 01 高速（0.1倍消耗）
-      - 荷兰 01
-      - 巴西 圣地亚哥 01
-      - 香港+01（HKT）
+      - HK TG@GM888SVIP
+      - HK TG@GM888SVⅠP
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 加拿大 01 高速（0.1倍消耗）
-      - 荷兰 01
-      - 巴西 圣地亚哥 01
-      - 香港+01（HKT）
+      - HK TG@GM888SVIP
+      - HK TG@GM888SVⅠP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -149,10 +139,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 加拿大 01 高速（0.1倍消耗）
-      - 荷兰 01
-      - 巴西 圣地亚哥 01
-      - 香港+01（HKT）
+      - HK TG@GM888SVIP
+      - HK TG@GM888SVⅠP
 
 rules:
 # 本地/局域网地址
