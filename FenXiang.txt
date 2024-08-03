@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-08-03 04:51:34
+# 创建时间：2024-08-04 05:28:19
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：2
-# 节点类型：vmess
+# 节点数量：6
+# 节点类型：trojan
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -86,8 +86,12 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"HK TG@GM888SVIP","type":"vmess","server":"36.139.183.164","port":10184,"cipher":"auto","uuid":"273a61f5-03b5-4449-9d18-7e914d3808c4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"HK TG@GM888SVⅠP","type":"vmess","server":"hkt1.hkg.hypernat.com","port":50185,"cipher":"auto","uuid":"273a61f5-03b5-4449-9d18-7e914d3808c4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"hkt1.hkg.hypernat.com"}}}
+  - {"name":"🇯🇵 Japan Native 02","type":"trojan","server":"jp1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen","port":443,"udp":true,"password":"3f02bd7f-3bfb-418f-9e02-56fafe33c890","sni":"13-231-155-134.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 香港核心 IEPL 02","type":"trojan","server":"hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen","port":443,"udp":true,"password":"3f02bd7f-3bfb-418f-9e02-56fafe33c890","sni":"13-231-155-134.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 香港核心 IEPL 04","type":"trojan","server":"hk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen","port":443,"udp":true,"password":"3f02bd7f-3bfb-418f-9e02-56fafe33c890","sni":"13-231-155-134.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 香港核心 IEPL 01","type":"trojan","server":"hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen","port":443,"udp":true,"password":"3f02bd7f-3bfb-418f-9e02-56fafe33c890","sni":"13-231-155-134.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"无法使用更新订阅","type":"trojan","server":"hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen","port":443,"udp":true,"password":"3f02bd7f-3bfb-418f-9e02-56fafe33c890","sni":"13-231-155-134.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Traffic Reset：30 Days Left","type":"trojan","server":"hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen","port":443,"udp":true,"password":"3f02bd7f-3bfb-418f-9e02-56fafe33c890","sni":"13-231-155-134.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -96,30 +100,46 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - HK TG@GM888SVIP
-      - HK TG@GM888SVⅠP
+      - 🇯🇵 Japan Native 02
+      - 🇭🇰 香港核心 IEPL 02
+      - 🇭🇰 香港核心 IEPL 04
+      - 🇭🇰 香港核心 IEPL 01
+      - 无法使用更新订阅
+      - Traffic Reset：30 Days Left
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - HK TG@GM888SVIP
-      - HK TG@GM888SVⅠP
+      - 🇯🇵 Japan Native 02
+      - 🇭🇰 香港核心 IEPL 02
+      - 🇭🇰 香港核心 IEPL 04
+      - 🇭🇰 香港核心 IEPL 01
+      - 无法使用更新订阅
+      - Traffic Reset：30 Days Left
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - HK TG@GM888SVIP
-      - HK TG@GM888SVⅠP
+      - 🇯🇵 Japan Native 02
+      - 🇭🇰 香港核心 IEPL 02
+      - 🇭🇰 香港核心 IEPL 04
+      - 🇭🇰 香港核心 IEPL 01
+      - 无法使用更新订阅
+      - Traffic Reset：30 Days Left
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - HK TG@GM888SVIP
-      - HK TG@GM888SVⅠP
+      - 🇯🇵 Japan Native 02
+      - 🇭🇰 香港核心 IEPL 02
+      - 🇭🇰 香港核心 IEPL 04
+      - 🇭🇰 香港核心 IEPL 01
+      - 无法使用更新订阅
+      - Traffic Reset：30 Days Left
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -139,8 +159,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - HK TG@GM888SVIP
-      - HK TG@GM888SVⅠP
+      - 🇯🇵 Japan Native 02
+      - 🇭🇰 香港核心 IEPL 02
+      - 🇭🇰 香港核心 IEPL 04
+      - 🇭🇰 香港核心 IEPL 01
+      - 无法使用更新订阅
+      - Traffic Reset：30 Days Left
 
 rules:
 # 本地/局域网地址
