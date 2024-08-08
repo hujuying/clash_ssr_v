@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-08-08 03:58:29
+# 创建时间：2024-08-09 05:26:11
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：95
+# 节点数量：54
 # 节点类型：trojan
 ####################################
 mixed-port: 7890
@@ -86,100 +86,59 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"LAX🐲™️【请勿测速】 59","type":"trojan","server":"154.21.85.152","port":13277,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 27","type":"trojan","server":"154.21.91.92","port":10001,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 52","type":"trojan","server":"154.21.87.157","port":18294,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 29","type":"trojan","server":"154.21.80.44","port":8081,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 35","type":"trojan","server":"154.17.23.14","port":17288,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"NRT🐲™️【请勿测速】 6","type":"trojan","server":"20.243.104.80","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 8","type":"trojan","server":"154.17.9.70","port":882,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 33","type":"trojan","server":"154.17.229.171","port":55110,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 38","type":"trojan","server":"154.17.4.191","port":35378,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 53","type":"trojan","server":"154.17.10.111","port":58475,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 16","type":"trojan","server":"154.17.27.8","port":19525,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"NRT🐲™️【请勿测速】","type":"trojan","server":"46.3.103.170","port":56856,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 19","type":"trojan","server":"154.21.85.93","port":55479,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"FUK🐲™️【请勿测速】 6","type":"trojan","server":"211.225.156.77","port":26470,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"NRT🐲™️【请勿测速】 21","type":"trojan","server":"46.3.102.71","port":36000,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 43","type":"trojan","server":"47.76.146.1","port":2083,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"NRT🐲™️【请勿测速】 4","type":"trojan","server":"46.3.102.71","port":38000,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 9","type":"trojan","server":"59.30.19.182","port":10333,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 6","type":"trojan","server":"222.108.18.150","port":19013,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 29","type":"trojan","server":"211.57.172.160","port":25007,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 32","type":"trojan","server":"218.158.87.155","port":11423,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 17","type":"trojan","server":"118.131.41.202","port":16072,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 16","type":"trojan","server":"121.165.36.130","port":27017,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】","type":"trojan","server":"45.87.103.80","port":28619,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 24","type":"trojan","server":"119.206.2.42","port":10933,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 9","type":"trojan","server":"154.17.28.36","port":37097,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"NRT🐲™️【请勿测速】 15","type":"trojan","server":"106.251.50.133","port":30037,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 58","type":"trojan","server":"38.147.186.75","port":50330,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 61","type":"trojan","server":"38.207.171.169","port":46174,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 50","type":"trojan","server":"154.17.26.209","port":37556,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 4","type":"trojan","server":"211.230.167.207","port":32773,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 21","type":"trojan","server":"119.200.0.16","port":30001,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 49","type":"trojan","server":"154.21.93.95","port":13939,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 40","type":"trojan","server":"154.21.95.60","port":20881,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 28","type":"trojan","server":"154.21.95.60","port":30341,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 67","type":"trojan","server":"154.17.231.85","port":24002,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 41","type":"trojan","server":"154.21.84.88","port":51525,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 54","type":"trojan","server":"154.17.20.7","port":34967,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 5","type":"trojan","server":"154.17.5.18","port":38680,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 11","type":"trojan","server":"154.17.9.71","port":882,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 15","type":"trojan","server":"154.17.19.18","port":28479,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 32","type":"trojan","server":"154.17.9.35","port":882,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 5","type":"trojan","server":"38.147.188.25","port":59449,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 44","type":"trojan","server":"154.17.19.18","port":30545,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 66","type":"trojan","server":"154.21.93.124","port":14280,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 34","type":"trojan","server":"154.17.25.65","port":1443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 37","type":"trojan","server":"154.21.85.62","port":22353,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"TPE🐲™️【请勿测速】 2","type":"trojan","server":"61.220.128.226","port":23555,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 26","type":"trojan","server":"154.21.89.12","port":12446,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 12","type":"trojan","server":"38.207.187.156","port":44017,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 13","type":"trojan","server":"154.17.231.85","port":30816,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 3","type":"trojan","server":"154.17.225.63","port":45697,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 18","type":"trojan","server":"118.40.129.200","port":27017,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"NRT🐲™️【请勿测速】 20","type":"trojan","server":"125.141.125.11","port":10049,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 73","type":"trojan","server":"47.76.33.40","port":2096,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 25","type":"trojan","server":"154.17.230.139","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 55","type":"trojan","server":"154.9.241.153","port":31082,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 14","type":"trojan","server":"121.164.146.175","port":20002,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"NRT🐲™️【请勿测速】 8","type":"trojan","server":"52.193.4.149","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 72","type":"trojan","server":"8.218.201.73","port":2053,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LHR🐲™️【请勿测速】","type":"trojan","server":"18.171.209.142","port":8080,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"SIN🐲™️【请勿测速】 30","type":"trojan","server":"47.236.117.48","port":2053,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"FUK🐲™️【请勿测速】 4","type":"trojan","server":"222.97.95.239","port":10443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 45","type":"trojan","server":"46.3.105.181","port":38050,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 16","type":"trojan","server":"8.218.173.78","port":2083,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"SJC🐲™️【请勿测速】 5","type":"trojan","server":"43.153.80.208","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"NRT🐲™️【请勿测速】 9","type":"trojan","server":"103.117.102.7","port":45459,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"SJC🐲™️【请勿测速】 4","type":"trojan","server":"185.148.15.121","port":37015,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 57","type":"trojan","server":"149.104.31.90","port":51023,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 31","type":"trojan","server":"103.30.78.41","port":555,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 19","type":"trojan","server":"38.147.190.245","port":55330,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 20","type":"trojan","server":"211.54.163.29","port":29876,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 15","type":"trojan","server":"222.99.156.159","port":11101,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"NRT🐲™️【请勿测速】 19","type":"trojan","server":"193.32.149.235","port":47519,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"NRT🐲™️【请勿测速】 18","type":"trojan","server":"183.97.160.179","port":11481,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 11","type":"trojan","server":"118.41.119.123","port":12000,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 28","type":"trojan","server":"154.21.95.60","port":30341,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 40","type":"trojan","server":"154.21.95.60","port":20881,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 15","type":"trojan","server":"154.17.19.18","port":28479,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 54","type":"trojan","server":"154.17.20.7","port":34967,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 11","type":"trojan","server":"154.17.9.71","port":882,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 61","type":"trojan","server":"38.207.171.169","port":46174,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 34","type":"trojan","server":"154.17.25.65","port":1443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 52","type":"trojan","server":"154.21.87.157","port":18294,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 37","type":"trojan","server":"154.21.85.62","port":22353,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 5","type":"trojan","server":"154.17.5.18","port":38680,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"ICN🐲™️【请勿测速】 6","type":"trojan","server":"222.108.18.150","port":19013,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 35","type":"trojan","server":"154.17.23.14","port":17288,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"ICN🐲™️【请勿测速】 31","type":"trojan","server":"222.103.193.226","port":18080,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"KIX🐲™️【请勿测速】 4","type":"trojan","server":"195.245.229.69","port":8080,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 12","type":"trojan","server":"118.130.241.44","port":34599,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 19","type":"trojan","server":"220.87.19.152","port":10010,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"SIN🐲™️【请勿测速】 15","type":"trojan","server":"47.237.8.82","port":2087,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"NRT🐲™️【请勿测速】 17","type":"trojan","server":"185.184.223.19","port":59775,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 7","type":"trojan","server":"14.56.54.62","port":15443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"SIN🐲™️【请勿测速】 22","type":"trojan","server":"47.236.232.148","port":2087,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 26","type":"trojan","server":"61.32.133.149","port":23023,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 76","type":"trojan","server":"45.92.158.126","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"ICN🐲™️【请勿测速】 9","type":"trojan","server":"59.30.19.182","port":10333,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 13","type":"trojan","server":"154.17.231.85","port":30816,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 29","type":"trojan","server":"154.21.80.44","port":8081,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"ICN🐲™️【请勿测速】 11","type":"trojan","server":"118.41.119.123","port":12000,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"ICN🐲™️【请勿测速】 12","type":"trojan","server":"118.130.241.44","port":34599,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"NRT🐲™️【请勿测速】 15","type":"trojan","server":"106.251.50.133","port":30037,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】","type":"trojan","server":"45.87.103.80","port":28619,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 55","type":"trojan","server":"154.9.241.153","port":31082,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"ICN🐲™️【请勿测速】 16","type":"trojan","server":"121.165.36.130","port":27017,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"ICN🐲™️【请勿测速】 4","type":"trojan","server":"211.230.167.207","port":32773,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"NRT🐲™️【请勿测速】 19","type":"trojan","server":"193.32.149.235","port":47519,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 33","type":"trojan","server":"154.17.229.171","port":55110,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 50","type":"trojan","server":"154.17.26.209","port":37556,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"FUK🐲™️【请勿测速】 4","type":"trojan","server":"222.97.95.239","port":10443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 5","type":"trojan","server":"38.147.188.25","port":59449,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"NRT🐲™️【请勿测速】 6","type":"trojan","server":"20.243.104.80","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 27","type":"trojan","server":"154.21.91.92","port":10001,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"SJC🐲™️【请勿测速】 4","type":"trojan","server":"185.148.15.121","port":37015,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 3","type":"trojan","server":"154.17.225.63","port":45697,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 72","type":"trojan","server":"8.218.201.73","port":2053,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 58","type":"trojan","server":"38.147.186.75","port":50330,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"NRT🐲™️【请勿测速】 20","type":"trojan","server":"125.141.125.11","port":10049,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"NRT🐲™️【请勿测速】 4","type":"trojan","server":"46.3.102.71","port":38000,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 9","type":"trojan","server":"154.17.28.36","port":37097,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"SIN🐲™️【请勿测速】 15","type":"trojan","server":"47.237.8.82","port":2087,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 31","type":"trojan","server":"103.30.78.41","port":555,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"SIN🐲™️【请勿测速】 10","type":"trojan","server":"47.236.170.225","port":2096,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"CDG🐲™️【请勿测速】","type":"trojan","server":"199.247.14.153","port":9223,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 8","type":"trojan","server":"154.17.9.70","port":882,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"SIN🐲™️【请勿测速】 22","type":"trojan","server":"47.236.232.148","port":2087,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 57","type":"trojan","server":"149.104.31.90","port":51023,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"ICN🐲™️【请勿测速】 24","type":"trojan","server":"119.206.2.42","port":10933,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"NRT🐲™️【请勿测速】 18","type":"trojan","server":"183.97.160.179","port":11481,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"TPE🐲™️【请勿测速】","type":"trojan","server":"38.147.189.94","port":8001,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"🇫🇷 FRA🐲™️【请勿测速】","type":"trojan","server":"185.225.201.211","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"TLV🐲™️【请勿测速】","type":"trojan","server":"64.176.167.241","port":8443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"ICN🐲™️【请勿测速】 19","type":"trojan","server":"220.87.19.152","port":10010,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"🇫🇷 FRA🐲™️【请勿测速】 2","type":"trojan","server":"185.225.201.226","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ARN🐲™️【请勿测速】 2","type":"trojan","server":"13.48.245.19","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"SIN🐲™️【请勿测速】 39","type":"trojan","server":"38.147.186.126","port":23581,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"TLV🐲™️【请勿测速】","type":"trojan","server":"64.176.167.241","port":8443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"LAX🐲™️【请勿测速】 16","type":"trojan","server":"154.17.27.8","port":19525,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"CDG🐲™️【请勿测速】","type":"trojan","server":"199.247.14.153","port":9223,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"SIN🐲™️【请勿测速】 36","type":"trojan","server":"210.186.12.244","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
 proxy-groups:
   - name: 🚀 节点选择
@@ -189,100 +148,59 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - LAX🐲™️【请勿测速】 59
-      - LAX🐲™️【请勿测速】 27
-      - LAX🐲™️【请勿测速】 52
-      - LAX🐲™️【请勿测速】 29
-      - LAX🐲™️【请勿测速】 35
-      - NRT🐲™️【请勿测速】 6
-      - LAX🐲™️【请勿测速】 8
-      - LAX🐲™️【请勿测速】 33
-      - LAX🐲™️【请勿测速】 38
-      - LAX🐲™️【请勿测速】 53
-      - LAX🐲™️【请勿测速】 16
-      - NRT🐲™️【请勿测速】
-      - LAX🐲™️【请勿测速】 19
-      - FUK🐲™️【请勿测速】 6
-      - NRT🐲™️【请勿测速】 21
-      - 🇭🇰 HKG🐲™️【请勿测速】 43
-      - NRT🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 9
-      - ICN🐲™️【请勿测速】 6
-      - ICN🐲™️【请勿测速】 29
-      - ICN🐲™️【请勿测速】 32
-      - ICN🐲™️【请勿测速】 17
-      - ICN🐲™️【请勿测速】 16
-      - LAX🐲™️【请勿测速】
-      - ICN🐲™️【请勿测速】 24
-      - LAX🐲™️【请勿测速】 9
-      - NRT🐲™️【请勿测速】 15
-      - 🇭🇰 HKG🐲™️【请勿测速】 58
-      - LAX🐲™️【请勿测速】 61
-      - LAX🐲™️【请勿测速】 50
-      - ICN🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 21
-      - LAX🐲™️【请勿测速】 49
-      - LAX🐲™️【请勿测速】 40
-      - LAX🐲™️【请勿测速】 28
-      - LAX🐲™️【请勿测速】 67
-      - LAX🐲™️【请勿测速】 41
-      - LAX🐲™️【请勿测速】 54
-      - LAX🐲™️【请勿测速】 5
-      - LAX🐲™️【请勿测速】 11
-      - LAX🐲™️【请勿测速】 15
-      - LAX🐲™️【请勿测速】 32
-      - 🇭🇰 HKG🐲™️【请勿测速】 5
-      - LAX🐲™️【请勿测速】 44
-      - LAX🐲™️【请勿测速】 66
-      - LAX🐲™️【请勿测速】 34
-      - LAX🐲™️【请勿测速】 37
-      - TPE🐲™️【请勿测速】 2
-      - LAX🐲™️【请勿测速】 26
-      - LAX🐲™️【请勿测速】 12
-      - LAX🐲™️【请勿测速】 13
-      - LAX🐲™️【请勿测速】 3
-      - ICN🐲™️【请勿测速】 18
-      - NRT🐲™️【请勿测速】 20
-      - 🇭🇰 HKG🐲™️【请勿测速】 73
-      - LAX🐲™️【请勿测速】 25
-      - LAX🐲™️【请勿测速】 55
-      - ICN🐲™️【请勿测速】 14
-      - NRT🐲™️【请勿测速】 8
-      - 🇭🇰 HKG🐲™️【请勿测速】 72
-      - LHR🐲™️【请勿测速】
-      - SIN🐲™️【请勿测速】 30
-      - FUK🐲™️【请勿测速】 4
-      - 🇭🇰 HKG🐲™️【请勿测速】 45
-      - 🇭🇰 HKG🐲™️【请勿测速】 16
       - SJC🐲™️【请勿测速】 5
-      - NRT🐲™️【请勿测速】 9
-      - SJC🐲™️【请勿测速】 4
-      - 🇭🇰 HKG🐲™️【请勿测速】 57
-      - 🇭🇰 HKG🐲™️【请勿测速】 31
-      - 🇭🇰 HKG🐲™️【请勿测速】 19
-      - ICN🐲™️【请勿测速】 20
-      - ICN🐲™️【请勿测速】 15
-      - NRT🐲™️【请勿测速】 19
-      - NRT🐲™️【请勿测速】 18
-      - ICN🐲™️【请勿测速】 11
+      - LAX🐲™️【请勿测速】 28
+      - LAX🐲™️【请勿测速】 40
+      - LAX🐲™️【请勿测速】 15
+      - LAX🐲™️【请勿测速】 54
+      - LAX🐲™️【请勿测速】 11
+      - LAX🐲™️【请勿测速】 61
+      - LAX🐲™️【请勿测速】 34
+      - LAX🐲™️【请勿测速】 52
+      - LAX🐲™️【请勿测速】 37
+      - LAX🐲™️【请勿测速】 5
+      - ICN🐲™️【请勿测速】 6
+      - LAX🐲™️【请勿测速】 35
       - ICN🐲™️【请勿测速】 31
-      - KIX🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 12
-      - ICN🐲™️【请勿测速】 19
-      - SIN🐲™️【请勿测速】 15
       - NRT🐲™️【请勿测速】 17
-      - ICN🐲™️【请勿测速】 7
-      - SIN🐲™️【请勿测速】 22
-      - ICN🐲™️【请勿测速】 26
-      - 🇭🇰 HKG🐲™️【请勿测速】 76
+      - ICN🐲™️【请勿测速】 9
+      - LAX🐲™️【请勿测速】 13
+      - LAX🐲™️【请勿测速】 29
+      - ICN🐲™️【请勿测速】 11
+      - ICN🐲™️【请勿测速】 12
+      - NRT🐲™️【请勿测速】 15
+      - LAX🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 55
+      - ICN🐲™️【请勿测速】 16
+      - ICN🐲™️【请勿测速】 4
+      - NRT🐲™️【请勿测速】 19
+      - LAX🐲™️【请勿测速】 33
+      - LAX🐲™️【请勿测速】 50
+      - FUK🐲™️【请勿测速】 4
+      - 🇭🇰 HKG🐲™️【请勿测速】 5
+      - NRT🐲™️【请勿测速】 6
+      - LAX🐲™️【请勿测速】 27
+      - SJC🐲™️【请勿测速】 4
+      - LAX🐲™️【请勿测速】 3
+      - 🇭🇰 HKG🐲™️【请勿测速】 72
+      - 🇭🇰 HKG🐲™️【请勿测速】 58
+      - NRT🐲™️【请勿测速】 20
+      - NRT🐲™️【请勿测速】 4
+      - LAX🐲™️【请勿测速】 9
+      - SIN🐲™️【请勿测速】 15
+      - 🇭🇰 HKG🐲™️【请勿测速】 31
       - SIN🐲™️【请勿测速】 10
-      - CDG🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 8
+      - SIN🐲™️【请勿测速】 22
+      - 🇭🇰 HKG🐲™️【请勿测速】 57
+      - ICN🐲™️【请勿测速】 24
+      - NRT🐲™️【请勿测速】 18
       - TPE🐲™️【请勿测速】
-      - 🇫🇷 FRA🐲™️【请勿测速】
-      - TLV🐲™️【请勿测速】
+      - ICN🐲™️【请勿测速】 19
       - 🇫🇷 FRA🐲™️【请勿测速】 2
-      - ARN🐲™️【请勿测速】 2
-      - SIN🐲™️【请勿测速】 39
+      - TLV🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 16
+      - CDG🐲™️【请勿测速】
       - SIN🐲™️【请勿测速】 36
   - name: ♻️ 自动选择
     type: url-test
@@ -290,300 +208,177 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - LAX🐲™️【请勿测速】 59
-      - LAX🐲™️【请勿测速】 27
-      - LAX🐲™️【请勿测速】 52
-      - LAX🐲™️【请勿测速】 29
-      - LAX🐲™️【请勿测速】 35
-      - NRT🐲™️【请勿测速】 6
-      - LAX🐲™️【请勿测速】 8
-      - LAX🐲™️【请勿测速】 33
-      - LAX🐲™️【请勿测速】 38
-      - LAX🐲™️【请勿测速】 53
-      - LAX🐲™️【请勿测速】 16
-      - NRT🐲™️【请勿测速】
-      - LAX🐲™️【请勿测速】 19
-      - FUK🐲™️【请勿测速】 6
-      - NRT🐲™️【请勿测速】 21
-      - 🇭🇰 HKG🐲™️【请勿测速】 43
-      - NRT🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 9
-      - ICN🐲™️【请勿测速】 6
-      - ICN🐲™️【请勿测速】 29
-      - ICN🐲™️【请勿测速】 32
-      - ICN🐲™️【请勿测速】 17
-      - ICN🐲™️【请勿测速】 16
-      - LAX🐲™️【请勿测速】
-      - ICN🐲™️【请勿测速】 24
-      - LAX🐲™️【请勿测速】 9
-      - NRT🐲™️【请勿测速】 15
-      - 🇭🇰 HKG🐲™️【请勿测速】 58
-      - LAX🐲™️【请勿测速】 61
-      - LAX🐲™️【请勿测速】 50
-      - ICN🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 21
-      - LAX🐲™️【请勿测速】 49
-      - LAX🐲™️【请勿测速】 40
-      - LAX🐲™️【请勿测速】 28
-      - LAX🐲™️【请勿测速】 67
-      - LAX🐲™️【请勿测速】 41
-      - LAX🐲™️【请勿测速】 54
-      - LAX🐲™️【请勿测速】 5
-      - LAX🐲™️【请勿测速】 11
-      - LAX🐲™️【请勿测速】 15
-      - LAX🐲™️【请勿测速】 32
-      - 🇭🇰 HKG🐲™️【请勿测速】 5
-      - LAX🐲™️【请勿测速】 44
-      - LAX🐲™️【请勿测速】 66
-      - LAX🐲™️【请勿测速】 34
-      - LAX🐲™️【请勿测速】 37
-      - TPE🐲™️【请勿测速】 2
-      - LAX🐲™️【请勿测速】 26
-      - LAX🐲™️【请勿测速】 12
-      - LAX🐲™️【请勿测速】 13
-      - LAX🐲™️【请勿测速】 3
-      - ICN🐲™️【请勿测速】 18
-      - NRT🐲™️【请勿测速】 20
-      - 🇭🇰 HKG🐲™️【请勿测速】 73
-      - LAX🐲™️【请勿测速】 25
-      - LAX🐲™️【请勿测速】 55
-      - ICN🐲™️【请勿测速】 14
-      - NRT🐲™️【请勿测速】 8
-      - 🇭🇰 HKG🐲™️【请勿测速】 72
-      - LHR🐲™️【请勿测速】
-      - SIN🐲™️【请勿测速】 30
-      - FUK🐲™️【请勿测速】 4
-      - 🇭🇰 HKG🐲™️【请勿测速】 45
-      - 🇭🇰 HKG🐲™️【请勿测速】 16
       - SJC🐲™️【请勿测速】 5
-      - NRT🐲™️【请勿测速】 9
-      - SJC🐲™️【请勿测速】 4
-      - 🇭🇰 HKG🐲™️【请勿测速】 57
-      - 🇭🇰 HKG🐲™️【请勿测速】 31
-      - 🇭🇰 HKG🐲™️【请勿测速】 19
-      - ICN🐲™️【请勿测速】 20
-      - ICN🐲™️【请勿测速】 15
-      - NRT🐲™️【请勿测速】 19
-      - NRT🐲™️【请勿测速】 18
-      - ICN🐲™️【请勿测速】 11
+      - LAX🐲™️【请勿测速】 28
+      - LAX🐲™️【请勿测速】 40
+      - LAX🐲™️【请勿测速】 15
+      - LAX🐲™️【请勿测速】 54
+      - LAX🐲™️【请勿测速】 11
+      - LAX🐲™️【请勿测速】 61
+      - LAX🐲™️【请勿测速】 34
+      - LAX🐲™️【请勿测速】 52
+      - LAX🐲™️【请勿测速】 37
+      - LAX🐲™️【请勿测速】 5
+      - ICN🐲™️【请勿测速】 6
+      - LAX🐲™️【请勿测速】 35
       - ICN🐲™️【请勿测速】 31
-      - KIX🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 12
-      - ICN🐲™️【请勿测速】 19
-      - SIN🐲™️【请勿测速】 15
       - NRT🐲™️【请勿测速】 17
-      - ICN🐲™️【请勿测速】 7
-      - SIN🐲™️【请勿测速】 22
-      - ICN🐲™️【请勿测速】 26
-      - 🇭🇰 HKG🐲™️【请勿测速】 76
+      - ICN🐲™️【请勿测速】 9
+      - LAX🐲™️【请勿测速】 13
+      - LAX🐲™️【请勿测速】 29
+      - ICN🐲™️【请勿测速】 11
+      - ICN🐲™️【请勿测速】 12
+      - NRT🐲™️【请勿测速】 15
+      - LAX🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 55
+      - ICN🐲™️【请勿测速】 16
+      - ICN🐲™️【请勿测速】 4
+      - NRT🐲™️【请勿测速】 19
+      - LAX🐲™️【请勿测速】 33
+      - LAX🐲™️【请勿测速】 50
+      - FUK🐲™️【请勿测速】 4
+      - 🇭🇰 HKG🐲™️【请勿测速】 5
+      - NRT🐲™️【请勿测速】 6
+      - LAX🐲™️【请勿测速】 27
+      - SJC🐲™️【请勿测速】 4
+      - LAX🐲™️【请勿测速】 3
+      - 🇭🇰 HKG🐲™️【请勿测速】 72
+      - 🇭🇰 HKG🐲™️【请勿测速】 58
+      - NRT🐲™️【请勿测速】 20
+      - NRT🐲™️【请勿测速】 4
+      - LAX🐲™️【请勿测速】 9
+      - SIN🐲™️【请勿测速】 15
+      - 🇭🇰 HKG🐲™️【请勿测速】 31
       - SIN🐲™️【请勿测速】 10
-      - CDG🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 8
+      - SIN🐲™️【请勿测速】 22
+      - 🇭🇰 HKG🐲™️【请勿测速】 57
+      - ICN🐲™️【请勿测速】 24
+      - NRT🐲™️【请勿测速】 18
       - TPE🐲™️【请勿测速】
-      - 🇫🇷 FRA🐲™️【请勿测速】
-      - TLV🐲™️【请勿测速】
+      - ICN🐲™️【请勿测速】 19
       - 🇫🇷 FRA🐲™️【请勿测速】 2
-      - ARN🐲™️【请勿测速】 2
-      - SIN🐲™️【请勿测速】 39
+      - TLV🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 16
+      - CDG🐲™️【请勿测速】
       - SIN🐲™️【请勿测速】 36
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - LAX🐲™️【请勿测速】 59
-      - LAX🐲™️【请勿测速】 27
-      - LAX🐲™️【请勿测速】 52
-      - LAX🐲™️【请勿测速】 29
-      - LAX🐲™️【请勿测速】 35
-      - NRT🐲™️【请勿测速】 6
-      - LAX🐲™️【请勿测速】 8
-      - LAX🐲™️【请勿测速】 33
-      - LAX🐲™️【请勿测速】 38
-      - LAX🐲™️【请勿测速】 53
-      - LAX🐲™️【请勿测速】 16
-      - NRT🐲™️【请勿测速】
-      - LAX🐲™️【请勿测速】 19
-      - FUK🐲™️【请勿测速】 6
-      - NRT🐲™️【请勿测速】 21
-      - 🇭🇰 HKG🐲™️【请勿测速】 43
-      - NRT🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 9
-      - ICN🐲™️【请勿测速】 6
-      - ICN🐲™️【请勿测速】 29
-      - ICN🐲™️【请勿测速】 32
-      - ICN🐲™️【请勿测速】 17
-      - ICN🐲™️【请勿测速】 16
-      - LAX🐲™️【请勿测速】
-      - ICN🐲™️【请勿测速】 24
-      - LAX🐲™️【请勿测速】 9
-      - NRT🐲™️【请勿测速】 15
-      - 🇭🇰 HKG🐲™️【请勿测速】 58
-      - LAX🐲™️【请勿测速】 61
-      - LAX🐲™️【请勿测速】 50
-      - ICN🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 21
-      - LAX🐲™️【请勿测速】 49
-      - LAX🐲™️【请勿测速】 40
-      - LAX🐲™️【请勿测速】 28
-      - LAX🐲™️【请勿测速】 67
-      - LAX🐲™️【请勿测速】 41
-      - LAX🐲™️【请勿测速】 54
-      - LAX🐲™️【请勿测速】 5
-      - LAX🐲™️【请勿测速】 11
-      - LAX🐲™️【请勿测速】 15
-      - LAX🐲™️【请勿测速】 32
-      - 🇭🇰 HKG🐲™️【请勿测速】 5
-      - LAX🐲™️【请勿测速】 44
-      - LAX🐲™️【请勿测速】 66
-      - LAX🐲™️【请勿测速】 34
-      - LAX🐲™️【请勿测速】 37
-      - TPE🐲™️【请勿测速】 2
-      - LAX🐲™️【请勿测速】 26
-      - LAX🐲™️【请勿测速】 12
-      - LAX🐲™️【请勿测速】 13
-      - LAX🐲™️【请勿测速】 3
-      - ICN🐲™️【请勿测速】 18
-      - NRT🐲™️【请勿测速】 20
-      - 🇭🇰 HKG🐲™️【请勿测速】 73
-      - LAX🐲™️【请勿测速】 25
-      - LAX🐲™️【请勿测速】 55
-      - ICN🐲™️【请勿测速】 14
-      - NRT🐲™️【请勿测速】 8
-      - 🇭🇰 HKG🐲™️【请勿测速】 72
-      - LHR🐲™️【请勿测速】
-      - SIN🐲™️【请勿测速】 30
-      - FUK🐲™️【请勿测速】 4
-      - 🇭🇰 HKG🐲™️【请勿测速】 45
-      - 🇭🇰 HKG🐲™️【请勿测速】 16
       - SJC🐲™️【请勿测速】 5
-      - NRT🐲™️【请勿测速】 9
-      - SJC🐲™️【请勿测速】 4
-      - 🇭🇰 HKG🐲™️【请勿测速】 57
-      - 🇭🇰 HKG🐲™️【请勿测速】 31
-      - 🇭🇰 HKG🐲™️【请勿测速】 19
-      - ICN🐲™️【请勿测速】 20
-      - ICN🐲™️【请勿测速】 15
-      - NRT🐲™️【请勿测速】 19
-      - NRT🐲™️【请勿测速】 18
-      - ICN🐲™️【请勿测速】 11
+      - LAX🐲™️【请勿测速】 28
+      - LAX🐲™️【请勿测速】 40
+      - LAX🐲™️【请勿测速】 15
+      - LAX🐲™️【请勿测速】 54
+      - LAX🐲™️【请勿测速】 11
+      - LAX🐲™️【请勿测速】 61
+      - LAX🐲™️【请勿测速】 34
+      - LAX🐲™️【请勿测速】 52
+      - LAX🐲™️【请勿测速】 37
+      - LAX🐲™️【请勿测速】 5
+      - ICN🐲™️【请勿测速】 6
+      - LAX🐲™️【请勿测速】 35
       - ICN🐲™️【请勿测速】 31
-      - KIX🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 12
-      - ICN🐲™️【请勿测速】 19
-      - SIN🐲™️【请勿测速】 15
       - NRT🐲™️【请勿测速】 17
-      - ICN🐲™️【请勿测速】 7
-      - SIN🐲™️【请勿测速】 22
-      - ICN🐲™️【请勿测速】 26
-      - 🇭🇰 HKG🐲™️【请勿测速】 76
+      - ICN🐲™️【请勿测速】 9
+      - LAX🐲™️【请勿测速】 13
+      - LAX🐲™️【请勿测速】 29
+      - ICN🐲™️【请勿测速】 11
+      - ICN🐲™️【请勿测速】 12
+      - NRT🐲™️【请勿测速】 15
+      - LAX🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 55
+      - ICN🐲™️【请勿测速】 16
+      - ICN🐲™️【请勿测速】 4
+      - NRT🐲™️【请勿测速】 19
+      - LAX🐲™️【请勿测速】 33
+      - LAX🐲™️【请勿测速】 50
+      - FUK🐲™️【请勿测速】 4
+      - 🇭🇰 HKG🐲™️【请勿测速】 5
+      - NRT🐲™️【请勿测速】 6
+      - LAX🐲™️【请勿测速】 27
+      - SJC🐲™️【请勿测速】 4
+      - LAX🐲™️【请勿测速】 3
+      - 🇭🇰 HKG🐲™️【请勿测速】 72
+      - 🇭🇰 HKG🐲™️【请勿测速】 58
+      - NRT🐲™️【请勿测速】 20
+      - NRT🐲™️【请勿测速】 4
+      - LAX🐲™️【请勿测速】 9
+      - SIN🐲™️【请勿测速】 15
+      - 🇭🇰 HKG🐲™️【请勿测速】 31
       - SIN🐲™️【请勿测速】 10
-      - CDG🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 8
+      - SIN🐲™️【请勿测速】 22
+      - 🇭🇰 HKG🐲™️【请勿测速】 57
+      - ICN🐲™️【请勿测速】 24
+      - NRT🐲™️【请勿测速】 18
       - TPE🐲™️【请勿测速】
-      - 🇫🇷 FRA🐲™️【请勿测速】
-      - TLV🐲™️【请勿测速】
+      - ICN🐲™️【请勿测速】 19
       - 🇫🇷 FRA🐲™️【请勿测速】 2
-      - ARN🐲™️【请勿测速】 2
-      - SIN🐲™️【请勿测速】 39
+      - TLV🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 16
+      - CDG🐲™️【请勿测速】
       - SIN🐲™️【请勿测速】 36
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - LAX🐲™️【请勿测速】 59
-      - LAX🐲™️【请勿测速】 27
-      - LAX🐲™️【请勿测速】 52
-      - LAX🐲™️【请勿测速】 29
-      - LAX🐲™️【请勿测速】 35
-      - NRT🐲™️【请勿测速】 6
-      - LAX🐲™️【请勿测速】 8
-      - LAX🐲™️【请勿测速】 33
-      - LAX🐲™️【请勿测速】 38
-      - LAX🐲™️【请勿测速】 53
-      - LAX🐲™️【请勿测速】 16
-      - NRT🐲™️【请勿测速】
-      - LAX🐲™️【请勿测速】 19
-      - FUK🐲™️【请勿测速】 6
-      - NRT🐲™️【请勿测速】 21
-      - 🇭🇰 HKG🐲™️【请勿测速】 43
-      - NRT🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 9
-      - ICN🐲™️【请勿测速】 6
-      - ICN🐲™️【请勿测速】 29
-      - ICN🐲™️【请勿测速】 32
-      - ICN🐲™️【请勿测速】 17
-      - ICN🐲™️【请勿测速】 16
-      - LAX🐲™️【请勿测速】
-      - ICN🐲™️【请勿测速】 24
-      - LAX🐲™️【请勿测速】 9
-      - NRT🐲™️【请勿测速】 15
-      - 🇭🇰 HKG🐲™️【请勿测速】 58
-      - LAX🐲™️【请勿测速】 61
-      - LAX🐲™️【请勿测速】 50
-      - ICN🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 21
-      - LAX🐲™️【请勿测速】 49
-      - LAX🐲™️【请勿测速】 40
-      - LAX🐲™️【请勿测速】 28
-      - LAX🐲™️【请勿测速】 67
-      - LAX🐲™️【请勿测速】 41
-      - LAX🐲™️【请勿测速】 54
-      - LAX🐲™️【请勿测速】 5
-      - LAX🐲™️【请勿测速】 11
-      - LAX🐲™️【请勿测速】 15
-      - LAX🐲™️【请勿测速】 32
-      - 🇭🇰 HKG🐲™️【请勿测速】 5
-      - LAX🐲™️【请勿测速】 44
-      - LAX🐲™️【请勿测速】 66
-      - LAX🐲™️【请勿测速】 34
-      - LAX🐲™️【请勿测速】 37
-      - TPE🐲™️【请勿测速】 2
-      - LAX🐲™️【请勿测速】 26
-      - LAX🐲™️【请勿测速】 12
-      - LAX🐲™️【请勿测速】 13
-      - LAX🐲™️【请勿测速】 3
-      - ICN🐲™️【请勿测速】 18
-      - NRT🐲™️【请勿测速】 20
-      - 🇭🇰 HKG🐲™️【请勿测速】 73
-      - LAX🐲™️【请勿测速】 25
-      - LAX🐲™️【请勿测速】 55
-      - ICN🐲™️【请勿测速】 14
-      - NRT🐲™️【请勿测速】 8
-      - 🇭🇰 HKG🐲™️【请勿测速】 72
-      - LHR🐲™️【请勿测速】
-      - SIN🐲™️【请勿测速】 30
-      - FUK🐲™️【请勿测速】 4
-      - 🇭🇰 HKG🐲™️【请勿测速】 45
-      - 🇭🇰 HKG🐲™️【请勿测速】 16
       - SJC🐲™️【请勿测速】 5
-      - NRT🐲™️【请勿测速】 9
-      - SJC🐲™️【请勿测速】 4
-      - 🇭🇰 HKG🐲™️【请勿测速】 57
-      - 🇭🇰 HKG🐲™️【请勿测速】 31
-      - 🇭🇰 HKG🐲™️【请勿测速】 19
-      - ICN🐲™️【请勿测速】 20
-      - ICN🐲™️【请勿测速】 15
-      - NRT🐲™️【请勿测速】 19
-      - NRT🐲™️【请勿测速】 18
-      - ICN🐲™️【请勿测速】 11
+      - LAX🐲™️【请勿测速】 28
+      - LAX🐲™️【请勿测速】 40
+      - LAX🐲™️【请勿测速】 15
+      - LAX🐲™️【请勿测速】 54
+      - LAX🐲™️【请勿测速】 11
+      - LAX🐲™️【请勿测速】 61
+      - LAX🐲™️【请勿测速】 34
+      - LAX🐲™️【请勿测速】 52
+      - LAX🐲™️【请勿测速】 37
+      - LAX🐲™️【请勿测速】 5
+      - ICN🐲™️【请勿测速】 6
+      - LAX🐲™️【请勿测速】 35
       - ICN🐲™️【请勿测速】 31
-      - KIX🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 12
-      - ICN🐲™️【请勿测速】 19
-      - SIN🐲™️【请勿测速】 15
       - NRT🐲™️【请勿测速】 17
-      - ICN🐲™️【请勿测速】 7
-      - SIN🐲™️【请勿测速】 22
-      - ICN🐲™️【请勿测速】 26
-      - 🇭🇰 HKG🐲™️【请勿测速】 76
+      - ICN🐲™️【请勿测速】 9
+      - LAX🐲™️【请勿测速】 13
+      - LAX🐲™️【请勿测速】 29
+      - ICN🐲™️【请勿测速】 11
+      - ICN🐲™️【请勿测速】 12
+      - NRT🐲™️【请勿测速】 15
+      - LAX🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 55
+      - ICN🐲™️【请勿测速】 16
+      - ICN🐲™️【请勿测速】 4
+      - NRT🐲™️【请勿测速】 19
+      - LAX🐲™️【请勿测速】 33
+      - LAX🐲™️【请勿测速】 50
+      - FUK🐲™️【请勿测速】 4
+      - 🇭🇰 HKG🐲™️【请勿测速】 5
+      - NRT🐲™️【请勿测速】 6
+      - LAX🐲™️【请勿测速】 27
+      - SJC🐲™️【请勿测速】 4
+      - LAX🐲™️【请勿测速】 3
+      - 🇭🇰 HKG🐲™️【请勿测速】 72
+      - 🇭🇰 HKG🐲™️【请勿测速】 58
+      - NRT🐲™️【请勿测速】 20
+      - NRT🐲™️【请勿测速】 4
+      - LAX🐲™️【请勿测速】 9
+      - SIN🐲™️【请勿测速】 15
+      - 🇭🇰 HKG🐲™️【请勿测速】 31
       - SIN🐲™️【请勿测速】 10
-      - CDG🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 8
+      - SIN🐲™️【请勿测速】 22
+      - 🇭🇰 HKG🐲™️【请勿测速】 57
+      - ICN🐲™️【请勿测速】 24
+      - NRT🐲™️【请勿测速】 18
       - TPE🐲™️【请勿测速】
-      - 🇫🇷 FRA🐲™️【请勿测速】
-      - TLV🐲™️【请勿测速】
+      - ICN🐲™️【请勿测速】 19
       - 🇫🇷 FRA🐲™️【请勿测速】 2
-      - ARN🐲™️【请勿测速】 2
-      - SIN🐲™️【请勿测速】 39
+      - TLV🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 16
+      - CDG🐲™️【请勿测速】
       - SIN🐲™️【请勿测速】 36
   - name: 🎯 全球直连
     type: select
@@ -604,100 +399,59 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - LAX🐲™️【请勿测速】 59
-      - LAX🐲™️【请勿测速】 27
-      - LAX🐲™️【请勿测速】 52
-      - LAX🐲™️【请勿测速】 29
-      - LAX🐲™️【请勿测速】 35
-      - NRT🐲™️【请勿测速】 6
-      - LAX🐲™️【请勿测速】 8
-      - LAX🐲™️【请勿测速】 33
-      - LAX🐲™️【请勿测速】 38
-      - LAX🐲™️【请勿测速】 53
-      - LAX🐲™️【请勿测速】 16
-      - NRT🐲™️【请勿测速】
-      - LAX🐲™️【请勿测速】 19
-      - FUK🐲™️【请勿测速】 6
-      - NRT🐲™️【请勿测速】 21
-      - 🇭🇰 HKG🐲™️【请勿测速】 43
-      - NRT🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 9
-      - ICN🐲™️【请勿测速】 6
-      - ICN🐲™️【请勿测速】 29
-      - ICN🐲™️【请勿测速】 32
-      - ICN🐲™️【请勿测速】 17
-      - ICN🐲™️【请勿测速】 16
-      - LAX🐲™️【请勿测速】
-      - ICN🐲™️【请勿测速】 24
-      - LAX🐲™️【请勿测速】 9
-      - NRT🐲™️【请勿测速】 15
-      - 🇭🇰 HKG🐲™️【请勿测速】 58
-      - LAX🐲™️【请勿测速】 61
-      - LAX🐲™️【请勿测速】 50
-      - ICN🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 21
-      - LAX🐲™️【请勿测速】 49
-      - LAX🐲™️【请勿测速】 40
-      - LAX🐲™️【请勿测速】 28
-      - LAX🐲™️【请勿测速】 67
-      - LAX🐲™️【请勿测速】 41
-      - LAX🐲™️【请勿测速】 54
-      - LAX🐲™️【请勿测速】 5
-      - LAX🐲™️【请勿测速】 11
-      - LAX🐲™️【请勿测速】 15
-      - LAX🐲™️【请勿测速】 32
-      - 🇭🇰 HKG🐲™️【请勿测速】 5
-      - LAX🐲™️【请勿测速】 44
-      - LAX🐲™️【请勿测速】 66
-      - LAX🐲™️【请勿测速】 34
-      - LAX🐲™️【请勿测速】 37
-      - TPE🐲™️【请勿测速】 2
-      - LAX🐲™️【请勿测速】 26
-      - LAX🐲™️【请勿测速】 12
-      - LAX🐲™️【请勿测速】 13
-      - LAX🐲™️【请勿测速】 3
-      - ICN🐲™️【请勿测速】 18
-      - NRT🐲™️【请勿测速】 20
-      - 🇭🇰 HKG🐲™️【请勿测速】 73
-      - LAX🐲™️【请勿测速】 25
-      - LAX🐲™️【请勿测速】 55
-      - ICN🐲™️【请勿测速】 14
-      - NRT🐲™️【请勿测速】 8
-      - 🇭🇰 HKG🐲™️【请勿测速】 72
-      - LHR🐲™️【请勿测速】
-      - SIN🐲™️【请勿测速】 30
-      - FUK🐲™️【请勿测速】 4
-      - 🇭🇰 HKG🐲™️【请勿测速】 45
-      - 🇭🇰 HKG🐲™️【请勿测速】 16
       - SJC🐲™️【请勿测速】 5
-      - NRT🐲™️【请勿测速】 9
-      - SJC🐲™️【请勿测速】 4
-      - 🇭🇰 HKG🐲™️【请勿测速】 57
-      - 🇭🇰 HKG🐲™️【请勿测速】 31
-      - 🇭🇰 HKG🐲™️【请勿测速】 19
-      - ICN🐲™️【请勿测速】 20
-      - ICN🐲™️【请勿测速】 15
-      - NRT🐲™️【请勿测速】 19
-      - NRT🐲™️【请勿测速】 18
-      - ICN🐲™️【请勿测速】 11
+      - LAX🐲™️【请勿测速】 28
+      - LAX🐲™️【请勿测速】 40
+      - LAX🐲™️【请勿测速】 15
+      - LAX🐲™️【请勿测速】 54
+      - LAX🐲™️【请勿测速】 11
+      - LAX🐲™️【请勿测速】 61
+      - LAX🐲™️【请勿测速】 34
+      - LAX🐲™️【请勿测速】 52
+      - LAX🐲™️【请勿测速】 37
+      - LAX🐲™️【请勿测速】 5
+      - ICN🐲™️【请勿测速】 6
+      - LAX🐲™️【请勿测速】 35
       - ICN🐲™️【请勿测速】 31
-      - KIX🐲™️【请勿测速】 4
-      - ICN🐲™️【请勿测速】 12
-      - ICN🐲™️【请勿测速】 19
-      - SIN🐲™️【请勿测速】 15
       - NRT🐲™️【请勿测速】 17
-      - ICN🐲™️【请勿测速】 7
-      - SIN🐲™️【请勿测速】 22
-      - ICN🐲™️【请勿测速】 26
-      - 🇭🇰 HKG🐲™️【请勿测速】 76
+      - ICN🐲™️【请勿测速】 9
+      - LAX🐲™️【请勿测速】 13
+      - LAX🐲™️【请勿测速】 29
+      - ICN🐲™️【请勿测速】 11
+      - ICN🐲™️【请勿测速】 12
+      - NRT🐲™️【请勿测速】 15
+      - LAX🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 55
+      - ICN🐲™️【请勿测速】 16
+      - ICN🐲™️【请勿测速】 4
+      - NRT🐲™️【请勿测速】 19
+      - LAX🐲™️【请勿测速】 33
+      - LAX🐲™️【请勿测速】 50
+      - FUK🐲™️【请勿测速】 4
+      - 🇭🇰 HKG🐲™️【请勿测速】 5
+      - NRT🐲™️【请勿测速】 6
+      - LAX🐲™️【请勿测速】 27
+      - SJC🐲™️【请勿测速】 4
+      - LAX🐲™️【请勿测速】 3
+      - 🇭🇰 HKG🐲™️【请勿测速】 72
+      - 🇭🇰 HKG🐲™️【请勿测速】 58
+      - NRT🐲™️【请勿测速】 20
+      - NRT🐲™️【请勿测速】 4
+      - LAX🐲™️【请勿测速】 9
+      - SIN🐲™️【请勿测速】 15
+      - 🇭🇰 HKG🐲™️【请勿测速】 31
       - SIN🐲™️【请勿测速】 10
-      - CDG🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 8
+      - SIN🐲™️【请勿测速】 22
+      - 🇭🇰 HKG🐲™️【请勿测速】 57
+      - ICN🐲™️【请勿测速】 24
+      - NRT🐲™️【请勿测速】 18
       - TPE🐲™️【请勿测速】
-      - 🇫🇷 FRA🐲™️【请勿测速】
-      - TLV🐲™️【请勿测速】
+      - ICN🐲™️【请勿测速】 19
       - 🇫🇷 FRA🐲™️【请勿测速】 2
-      - ARN🐲™️【请勿测速】 2
-      - SIN🐲™️【请勿测速】 39
+      - TLV🐲™️【请勿测速】
+      - LAX🐲™️【请勿测速】 16
+      - CDG🐲™️【请勿测速】
       - SIN🐲™️【请勿测速】 36
 
 rules:
