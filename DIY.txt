@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-12 03:00:48
+# 创建时间：2024-08-13 03:40:34
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：40
-# 节点类型：vless, vmess
+# 节点数量：43
+# 节点类型：ss, vless, vmess
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,46 +87,49 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Telegram+@djkkdcx+-US-New+York","type":"vless","server":"43.153.103.203","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"WK香港+电信优选","type":"vless","server":"www.udemy.com","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.yzcjd.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.yzcjd.workers.dev"}}}
-  - {"name":"Telegram+@djkkdcx+-JP-Tokyo12","type":"vless","server":"149.28.22.198","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"俄罗斯联邦_Telegram+@djkkdcx_1","type":"vless","server":"185.59.218.139","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CT_1","type":"vless","server":"154.85.99.188","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Telegram+@djkkdcx+-TW-Taipei9","type":"vless","server":"43.153.181.217","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"塞舌尔_Telegram+@djkkdcx","type":"vless","server":"45.133.247.151","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"Telegram+@djkkdcx+-JP-Tokyo16","type":"vless","server":"140.238.8.194","port":15800,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Telegram+@djkkdcx+-KR2","type":"vless","server":"146.56.166.59","port":46060,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"英国_Telegram+@djkkdcx_1","type":"vless","server":"94.247.142.245","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"CT_2","type":"vless","server":"185.176.24.108","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"西班牙_Telegram+@djkkdcx","type":"vless","server":"185.18.250.131","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CT_3","type":"vless","server":"192.65.217.86","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Telegram+@djkkdcx+-JP-Tokyo11","type":"vless","server":"66.42.32.115","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"伯力|联通|v6","type":"vmess","server":"2a11:27c0:195::7c8","port":24444,"cipher":"auto","uuid":"86973cc4-764d-4695-bca1-ff73c8de42de","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5e60be5f/"}}
-  - {"name":"CT_4","type":"vless","server":"45.159.217.145","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"英国_Telegram+@djkkdcx_2","type":"vless","server":"94.247.142.245","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"英国_Telegram+@djkkdcx_3","type":"vless","server":"94.247.142.245","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"俄罗斯联邦_Telegram+@djkkdcx_2","type":"vless","server":"185.176.24.140","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"阿联酋_Telegram+@djkkdcx","type":"vless","server":"94.140.0.157","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"日本_Telegram+@djkkdcx","type":"vless","server":"31.12.75.140","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"Telegram+@djkkdcx+-SG-Singapore1","type":"vless","server":"140.99.233.156","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CT_5","type":"vless","server":"31.12.75.179","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CT_6","type":"vless","server":"199.212.90.53","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"乌克兰_Telegram+@djkkdcx","type":"vless","server":"45.80.111.38","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"美国_Telegram+@djkkdcx","type":"vless","server":"216.116.134.43","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"卢森堡_Telegram+@djkkdcx","type":"vless","server":"94.242.231.244","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+2","type":"ss","server":"52.78.200.155","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"英国_Telegram+@djkkdcx_1","type":"vless","server":"94.247.142.245","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
   - {"name":"香港_Telegram+@djkkdcx","type":"vless","server":"103.184.44.62","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"Telegram+@djkkdcx+-南非🇿🇦","type":"vless","server":"185.238.228.212","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx+-TW-Taipei9","type":"vless","server":"43.153.181.217","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT_1","type":"vless","server":"45.159.217.145","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"哈萨克斯坦_Telegram+@djkkdcx","type":"vless","server":"185.176.26.61","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"12|US_speednode_0208","type":"vless","server":"bpb-aol.pages.dev","port":2096,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BpB-AOL.PAGEs.DEv","network":"ws","ws-opts":{"path":"/TrkOwL396551jSFM?ed=2560fp=randomized","headers":{"host":"BpB-AOL.PAGEs.DEv"}}}
-  - {"name":"CT_7","type":"vless","server":"170.114.45.216","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CT_8","type":"vless","server":"45.133.247.84","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"新加坡_Telegram+@djkkdcx","type":"vless","server":"27.50.49.232","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"日本_Telegram+@djkkdcx","type":"vless","server":"31.12.75.140","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"俄罗斯联邦_Telegram+@djkkdcx","type":"vless","server":"185.59.218.139","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"塞舌尔_Telegram+@djkkdcx","type":"vless","server":"45.133.247.151","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
   - {"name":"Telegram+@djkkdcx+-JP-Tokyo20","type":"vless","server":"45.133.247.14","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Telegram+@djkkdcx+-TW-Taipei3","type":"vless","server":"61.220.41.143","port":36633,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Telegram+@djkkdcx+-澳大利亚🇦🇺","type":"vless","server":"192.9.165.253","port":47580,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx+-JP-Tokyo12","type":"vless","server":"149.28.22.198","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx+-US-New+York","type":"vless","server":"43.153.103.203","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx+-KR2","type":"vless","server":"146.56.166.59","port":46060,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx+-JP-Tokyo21","type":"vless","server":"193.122.110.164","port":25800,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx+-JP-Tokyo11","type":"vless","server":"66.42.32.115","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT_2","type":"vless","server":"31.12.75.179","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"伯力|联通|v6","type":"vmess","server":"2a11:27c0:195::7c8","port":24444,"cipher":"auto","uuid":"86973cc4-764d-4695-bca1-ff73c8de42de","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5e60be5f/"}}
+  - {"name":"CT_3","type":"vless","server":"170.114.45.216","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"英国_Telegram+@djkkdcx_2","type":"vless","server":"94.247.142.245","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"CT_4","type":"vless","server":"192.65.217.86","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT_5","type":"vless","server":"188.42.89.18","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT_6","type":"vless","server":"185.176.24.108","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"卢森堡_Telegram+@djkkdcx_1","type":"vless","server":"188.42.89.60","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx+-JP-Tokyo1","type":"vless","server":"193.122.126.64","port":53777,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx+-SG-Singapore1","type":"vless","server":"140.99.233.156","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"美国_Telegram+@djkkdcx","type":"vless","server":"216.116.134.43","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"英国_Telegram+@djkkdcx_3","type":"vless","server":"94.247.142.245","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"乌克兰_Telegram+@djkkdcx","type":"vless","server":"45.80.111.38","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"阿联酋_Telegram+@djkkdcx","type":"vless","server":"94.140.0.157","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"新加坡_Telegram+@djkkdcx","type":"vless","server":"27.50.49.232","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"Telegram+@djkkdcx+-KR6","type":"vless","server":"132.226.21.116","port":6056,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"卢森堡_Telegram+@djkkdcx_2","type":"vless","server":"94.242.231.244","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"西班牙_Telegram+@djkkdcx","type":"vless","server":"185.18.250.131","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 2","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkvws"}}
+  - {"name":"Telegram+@djkkdcx+-澳大利亚🇦🇺","type":"vless","server":"192.9.165.253","port":47580,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx+-奥地利🇦🇹","type":"vless","server":"94.177.8.26","port":130,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx+-南非🇿🇦","type":"vless","server":"185.238.228.212","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT_7","type":"vless","server":"199.212.90.53","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CT_8","type":"vless","server":"45.133.247.84","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Telegram+@djkkdcx+-TW-Taipei1","type":"vless","server":"61.220.65.189","port":26832,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"澳洲4|v6","type":"vmess","server":"2406:3400:388:300::3a","port":24444,"cipher":"auto","uuid":"86973cc4-764d-4695-bca1-ff73c8de42de","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5e60be5f/"}}
-  - {"name":"🇩🇪|DE|德国|@wxgqlfx|61","type":"vless","server":"51.75.90.198","port":2096,"uuid":"8daf8455-c3cc-4717-8e5a-f36c82a9eb2a","tls":true,"servername":"moon.norwaylovers.com","network":"ws","ws-opts":{"path":"/moon"}}
+  - {"name":"Telegram+@djkkdcx+-JP-Tokyo16","type":"vless","server":"140.238.8.194","port":15800,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"加拿大+-+Beauharnois+-+OVH+SAS+-+1","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -135,182 +138,194 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - Telegram+@djkkdcx+-US-New+York
-      - WK香港+电信优选
-      - Telegram+@djkkdcx+-JP-Tokyo12
-      - 俄罗斯联邦_Telegram+@djkkdcx_1
-      - CT_1
-      - Telegram+@djkkdcx+-TW-Taipei9
-      - 塞舌尔_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-JP-Tokyo16
-      - Telegram+@djkkdcx+-KR2
+      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+2
       - 英国_Telegram+@djkkdcx_1
-      - CT_2
-      - 西班牙_Telegram+@djkkdcx
-      - CT_3
-      - Telegram+@djkkdcx+-JP-Tokyo11
-      - 伯力|联通|v6
-      - CT_4
-      - 英国_Telegram+@djkkdcx_2
-      - 英国_Telegram+@djkkdcx_3
-      - 俄罗斯联邦_Telegram+@djkkdcx_2
-      - 阿联酋_Telegram+@djkkdcx
+      - 香港_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-TW-Taipei9
+      - CT_1
+      - 哈萨克斯坦_Telegram+@djkkdcx
       - 日本_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-SG-Singapore1
+      - 俄罗斯联邦_Telegram+@djkkdcx
+      - 塞舌尔_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-JP-Tokyo20
+      - Telegram+@djkkdcx+-JP-Tokyo12
+      - Telegram+@djkkdcx+-US-New+York
+      - Telegram+@djkkdcx+-KR2
+      - Telegram+@djkkdcx+-JP-Tokyo21
+      - Telegram+@djkkdcx+-JP-Tokyo11
+      - CT_2
+      - 伯力|联通|v6
+      - CT_3
+      - 英国_Telegram+@djkkdcx_2
+      - CT_4
       - CT_5
       - CT_6
-      - 乌克兰_Telegram+@djkkdcx
+      - 卢森堡_Telegram+@djkkdcx_1
+      - Telegram+@djkkdcx+-JP-Tokyo1
+      - Telegram+@djkkdcx+-SG-Singapore1
       - 美国_Telegram+@djkkdcx
-      - 卢森堡_Telegram+@djkkdcx
-      - 香港_Telegram+@djkkdcx
+      - 英国_Telegram+@djkkdcx_3
+      - 乌克兰_Telegram+@djkkdcx
+      - 阿联酋_Telegram+@djkkdcx
+      - 新加坡_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-KR6
+      - 卢森堡_Telegram+@djkkdcx_2
+      - 西班牙_Telegram+@djkkdcx
+      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 2
+      - Telegram+@djkkdcx+-澳大利亚🇦🇺
+      - Telegram+@djkkdcx+-奥地利🇦🇹
       - Telegram+@djkkdcx+-南非🇿🇦
-      - 哈萨克斯坦_Telegram+@djkkdcx
-      - 12|US_speednode_0208
       - CT_7
       - CT_8
-      - 新加坡_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-JP-Tokyo20
-      - Telegram+@djkkdcx+-TW-Taipei3
-      - Telegram+@djkkdcx+-澳大利亚🇦🇺
-      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 2
+      - Telegram+@djkkdcx+-TW-Taipei1
       - 澳洲4|v6
-      - 🇩🇪|DE|德国|@wxgqlfx|61
+      - Telegram+@djkkdcx+-JP-Tokyo16
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Telegram+@djkkdcx+-US-New+York
-      - WK香港+电信优选
-      - Telegram+@djkkdcx+-JP-Tokyo12
-      - 俄罗斯联邦_Telegram+@djkkdcx_1
-      - CT_1
-      - Telegram+@djkkdcx+-TW-Taipei9
-      - 塞舌尔_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-JP-Tokyo16
-      - Telegram+@djkkdcx+-KR2
+      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+2
       - 英国_Telegram+@djkkdcx_1
-      - CT_2
-      - 西班牙_Telegram+@djkkdcx
-      - CT_3
-      - Telegram+@djkkdcx+-JP-Tokyo11
-      - 伯力|联通|v6
-      - CT_4
-      - 英国_Telegram+@djkkdcx_2
-      - 英国_Telegram+@djkkdcx_3
-      - 俄罗斯联邦_Telegram+@djkkdcx_2
-      - 阿联酋_Telegram+@djkkdcx
+      - 香港_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-TW-Taipei9
+      - CT_1
+      - 哈萨克斯坦_Telegram+@djkkdcx
       - 日本_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-SG-Singapore1
+      - 俄罗斯联邦_Telegram+@djkkdcx
+      - 塞舌尔_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-JP-Tokyo20
+      - Telegram+@djkkdcx+-JP-Tokyo12
+      - Telegram+@djkkdcx+-US-New+York
+      - Telegram+@djkkdcx+-KR2
+      - Telegram+@djkkdcx+-JP-Tokyo21
+      - Telegram+@djkkdcx+-JP-Tokyo11
+      - CT_2
+      - 伯力|联通|v6
+      - CT_3
+      - 英国_Telegram+@djkkdcx_2
+      - CT_4
       - CT_5
       - CT_6
-      - 乌克兰_Telegram+@djkkdcx
+      - 卢森堡_Telegram+@djkkdcx_1
+      - Telegram+@djkkdcx+-JP-Tokyo1
+      - Telegram+@djkkdcx+-SG-Singapore1
       - 美国_Telegram+@djkkdcx
-      - 卢森堡_Telegram+@djkkdcx
-      - 香港_Telegram+@djkkdcx
+      - 英国_Telegram+@djkkdcx_3
+      - 乌克兰_Telegram+@djkkdcx
+      - 阿联酋_Telegram+@djkkdcx
+      - 新加坡_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-KR6
+      - 卢森堡_Telegram+@djkkdcx_2
+      - 西班牙_Telegram+@djkkdcx
+      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 2
+      - Telegram+@djkkdcx+-澳大利亚🇦🇺
+      - Telegram+@djkkdcx+-奥地利🇦🇹
       - Telegram+@djkkdcx+-南非🇿🇦
-      - 哈萨克斯坦_Telegram+@djkkdcx
-      - 12|US_speednode_0208
       - CT_7
       - CT_8
-      - 新加坡_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-JP-Tokyo20
-      - Telegram+@djkkdcx+-TW-Taipei3
-      - Telegram+@djkkdcx+-澳大利亚🇦🇺
-      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 2
+      - Telegram+@djkkdcx+-TW-Taipei1
       - 澳洲4|v6
-      - 🇩🇪|DE|德国|@wxgqlfx|61
+      - Telegram+@djkkdcx+-JP-Tokyo16
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+1
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Telegram+@djkkdcx+-US-New+York
-      - WK香港+电信优选
-      - Telegram+@djkkdcx+-JP-Tokyo12
-      - 俄罗斯联邦_Telegram+@djkkdcx_1
-      - CT_1
-      - Telegram+@djkkdcx+-TW-Taipei9
-      - 塞舌尔_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-JP-Tokyo16
-      - Telegram+@djkkdcx+-KR2
+      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+2
       - 英国_Telegram+@djkkdcx_1
-      - CT_2
-      - 西班牙_Telegram+@djkkdcx
-      - CT_3
-      - Telegram+@djkkdcx+-JP-Tokyo11
-      - 伯力|联通|v6
-      - CT_4
-      - 英国_Telegram+@djkkdcx_2
-      - 英国_Telegram+@djkkdcx_3
-      - 俄罗斯联邦_Telegram+@djkkdcx_2
-      - 阿联酋_Telegram+@djkkdcx
+      - 香港_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-TW-Taipei9
+      - CT_1
+      - 哈萨克斯坦_Telegram+@djkkdcx
       - 日本_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-SG-Singapore1
+      - 俄罗斯联邦_Telegram+@djkkdcx
+      - 塞舌尔_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-JP-Tokyo20
+      - Telegram+@djkkdcx+-JP-Tokyo12
+      - Telegram+@djkkdcx+-US-New+York
+      - Telegram+@djkkdcx+-KR2
+      - Telegram+@djkkdcx+-JP-Tokyo21
+      - Telegram+@djkkdcx+-JP-Tokyo11
+      - CT_2
+      - 伯力|联通|v6
+      - CT_3
+      - 英国_Telegram+@djkkdcx_2
+      - CT_4
       - CT_5
       - CT_6
-      - 乌克兰_Telegram+@djkkdcx
+      - 卢森堡_Telegram+@djkkdcx_1
+      - Telegram+@djkkdcx+-JP-Tokyo1
+      - Telegram+@djkkdcx+-SG-Singapore1
       - 美国_Telegram+@djkkdcx
-      - 卢森堡_Telegram+@djkkdcx
-      - 香港_Telegram+@djkkdcx
+      - 英国_Telegram+@djkkdcx_3
+      - 乌克兰_Telegram+@djkkdcx
+      - 阿联酋_Telegram+@djkkdcx
+      - 新加坡_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-KR6
+      - 卢森堡_Telegram+@djkkdcx_2
+      - 西班牙_Telegram+@djkkdcx
+      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 2
+      - Telegram+@djkkdcx+-澳大利亚🇦🇺
+      - Telegram+@djkkdcx+-奥地利🇦🇹
       - Telegram+@djkkdcx+-南非🇿🇦
-      - 哈萨克斯坦_Telegram+@djkkdcx
-      - 12|US_speednode_0208
       - CT_7
       - CT_8
-      - 新加坡_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-JP-Tokyo20
-      - Telegram+@djkkdcx+-TW-Taipei3
-      - Telegram+@djkkdcx+-澳大利亚🇦🇺
-      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 2
+      - Telegram+@djkkdcx+-TW-Taipei1
       - 澳洲4|v6
-      - 🇩🇪|DE|德国|@wxgqlfx|61
+      - Telegram+@djkkdcx+-JP-Tokyo16
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+1
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Telegram+@djkkdcx+-US-New+York
-      - WK香港+电信优选
-      - Telegram+@djkkdcx+-JP-Tokyo12
-      - 俄罗斯联邦_Telegram+@djkkdcx_1
-      - CT_1
-      - Telegram+@djkkdcx+-TW-Taipei9
-      - 塞舌尔_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-JP-Tokyo16
-      - Telegram+@djkkdcx+-KR2
+      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+2
       - 英国_Telegram+@djkkdcx_1
-      - CT_2
-      - 西班牙_Telegram+@djkkdcx
-      - CT_3
-      - Telegram+@djkkdcx+-JP-Tokyo11
-      - 伯力|联通|v6
-      - CT_4
-      - 英国_Telegram+@djkkdcx_2
-      - 英国_Telegram+@djkkdcx_3
-      - 俄罗斯联邦_Telegram+@djkkdcx_2
-      - 阿联酋_Telegram+@djkkdcx
+      - 香港_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-TW-Taipei9
+      - CT_1
+      - 哈萨克斯坦_Telegram+@djkkdcx
       - 日本_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-SG-Singapore1
+      - 俄罗斯联邦_Telegram+@djkkdcx
+      - 塞舌尔_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-JP-Tokyo20
+      - Telegram+@djkkdcx+-JP-Tokyo12
+      - Telegram+@djkkdcx+-US-New+York
+      - Telegram+@djkkdcx+-KR2
+      - Telegram+@djkkdcx+-JP-Tokyo21
+      - Telegram+@djkkdcx+-JP-Tokyo11
+      - CT_2
+      - 伯力|联通|v6
+      - CT_3
+      - 英国_Telegram+@djkkdcx_2
+      - CT_4
       - CT_5
       - CT_6
-      - 乌克兰_Telegram+@djkkdcx
+      - 卢森堡_Telegram+@djkkdcx_1
+      - Telegram+@djkkdcx+-JP-Tokyo1
+      - Telegram+@djkkdcx+-SG-Singapore1
       - 美国_Telegram+@djkkdcx
-      - 卢森堡_Telegram+@djkkdcx
-      - 香港_Telegram+@djkkdcx
+      - 英国_Telegram+@djkkdcx_3
+      - 乌克兰_Telegram+@djkkdcx
+      - 阿联酋_Telegram+@djkkdcx
+      - 新加坡_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-KR6
+      - 卢森堡_Telegram+@djkkdcx_2
+      - 西班牙_Telegram+@djkkdcx
+      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 2
+      - Telegram+@djkkdcx+-澳大利亚🇦🇺
+      - Telegram+@djkkdcx+-奥地利🇦🇹
       - Telegram+@djkkdcx+-南非🇿🇦
-      - 哈萨克斯坦_Telegram+@djkkdcx
-      - 12|US_speednode_0208
       - CT_7
       - CT_8
-      - 新加坡_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-JP-Tokyo20
-      - Telegram+@djkkdcx+-TW-Taipei3
-      - Telegram+@djkkdcx+-澳大利亚🇦🇺
-      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 2
+      - Telegram+@djkkdcx+-TW-Taipei1
       - 澳洲4|v6
-      - 🇩🇪|DE|德国|@wxgqlfx|61
+      - Telegram+@djkkdcx+-JP-Tokyo16
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -330,46 +345,49 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - Telegram+@djkkdcx+-US-New+York
-      - WK香港+电信优选
-      - Telegram+@djkkdcx+-JP-Tokyo12
-      - 俄罗斯联邦_Telegram+@djkkdcx_1
-      - CT_1
-      - Telegram+@djkkdcx+-TW-Taipei9
-      - 塞舌尔_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-JP-Tokyo16
-      - Telegram+@djkkdcx+-KR2
+      - 韩国+-+首尔特别市+-+Amazon+Technologies+Inc.+-+2
       - 英国_Telegram+@djkkdcx_1
-      - CT_2
-      - 西班牙_Telegram+@djkkdcx
-      - CT_3
-      - Telegram+@djkkdcx+-JP-Tokyo11
-      - 伯力|联通|v6
-      - CT_4
-      - 英国_Telegram+@djkkdcx_2
-      - 英国_Telegram+@djkkdcx_3
-      - 俄罗斯联邦_Telegram+@djkkdcx_2
-      - 阿联酋_Telegram+@djkkdcx
+      - 香港_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-TW-Taipei9
+      - CT_1
+      - 哈萨克斯坦_Telegram+@djkkdcx
       - 日本_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-SG-Singapore1
+      - 俄罗斯联邦_Telegram+@djkkdcx
+      - 塞舌尔_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-JP-Tokyo20
+      - Telegram+@djkkdcx+-JP-Tokyo12
+      - Telegram+@djkkdcx+-US-New+York
+      - Telegram+@djkkdcx+-KR2
+      - Telegram+@djkkdcx+-JP-Tokyo21
+      - Telegram+@djkkdcx+-JP-Tokyo11
+      - CT_2
+      - 伯力|联通|v6
+      - CT_3
+      - 英国_Telegram+@djkkdcx_2
+      - CT_4
       - CT_5
       - CT_6
-      - 乌克兰_Telegram+@djkkdcx
+      - 卢森堡_Telegram+@djkkdcx_1
+      - Telegram+@djkkdcx+-JP-Tokyo1
+      - Telegram+@djkkdcx+-SG-Singapore1
       - 美国_Telegram+@djkkdcx
-      - 卢森堡_Telegram+@djkkdcx
-      - 香港_Telegram+@djkkdcx
+      - 英国_Telegram+@djkkdcx_3
+      - 乌克兰_Telegram+@djkkdcx
+      - 阿联酋_Telegram+@djkkdcx
+      - 新加坡_Telegram+@djkkdcx
+      - Telegram+@djkkdcx+-KR6
+      - 卢森堡_Telegram+@djkkdcx_2
+      - 西班牙_Telegram+@djkkdcx
+      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 2
+      - Telegram+@djkkdcx+-澳大利亚🇦🇺
+      - Telegram+@djkkdcx+-奥地利🇦🇹
       - Telegram+@djkkdcx+-南非🇿🇦
-      - 哈萨克斯坦_Telegram+@djkkdcx
-      - 12|US_speednode_0208
       - CT_7
       - CT_8
-      - 新加坡_Telegram+@djkkdcx
-      - Telegram+@djkkdcx+-JP-Tokyo20
-      - Telegram+@djkkdcx+-TW-Taipei3
-      - Telegram+@djkkdcx+-澳大利亚🇦🇺
-      - 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 2
+      - Telegram+@djkkdcx+-TW-Taipei1
       - 澳洲4|v6
-      - 🇩🇪|DE|德国|@wxgqlfx|61
+      - Telegram+@djkkdcx+-JP-Tokyo16
+      - 加拿大+-+Beauharnois+-+OVH+SAS+-+1
 
 rules:
 # 本地/局域网地址
