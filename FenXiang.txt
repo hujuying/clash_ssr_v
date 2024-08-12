@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-08-12 03:02:16
+# 创建时间：2024-08-13 03:41:57
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：32
-# 节点类型：trojan, vmess
+# 节点数量：29
+# 节点类型：trojan
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -111,11 +111,8 @@ proxies:
   - {"name":"🇭🇰 HKG🐲™️【请勿测速】 57","type":"trojan","server":"149.104.31.90","port":51023,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"ICN🐲™️【请勿测速】 6","type":"trojan","server":"222.108.18.150","port":19013,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"LAX🐲™️【请勿测速】 11","type":"trojan","server":"154.17.9.71","port":882,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"⭐台湾2⭐","type":"vmess","server":"netstartwin1.netstar.vip","port":45513,"cipher":"auto","uuid":"abbb7cb2-6a8c-4807-9154-f8709d8a83dd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"thai.netstar.vip","network":"ws","ws-opts":{"path":"/","headers":{"host":"bing.com"}}}
-  - {"name":"⭐台湾⭐","type":"vmess","server":"netstartwin.netstar.vip","port":1800,"cipher":"auto","uuid":"abbb7cb2-6a8c-4807-9154-f8709d8a83dd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"thai.netstar.vip","network":"ws","ws-opts":{"path":"/","headers":{"host":"bing.com"}}}
   - {"name":"SIN🐲™️【请勿测速】 22","type":"trojan","server":"47.236.232.148","port":2087,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"ICN🐲™️【请勿测速】 24","type":"trojan","server":"119.206.2.42","port":10933,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 5","type":"trojan","server":"38.147.188.25","port":59449,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"TLV🐲™️【请勿测速】","type":"trojan","server":"64.176.167.241","port":8443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"CDG🐲™️【请勿测速】","type":"trojan","server":"199.247.14.153","port":9223,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
 proxy-groups:
@@ -151,11 +148,8 @@ proxy-groups:
       - 🇭🇰 HKG🐲™️【请勿测速】 57
       - ICN🐲™️【请勿测速】 6
       - LAX🐲™️【请勿测速】 11
-      - ⭐台湾2⭐
-      - ⭐台湾⭐
       - SIN🐲™️【请勿测速】 22
       - ICN🐲™️【请勿测速】 24
-      - 🇭🇰 HKG🐲™️【请勿测速】 5
       - TLV🐲™️【请勿测速】
       - CDG🐲™️【请勿测速】
   - name: ♻️ 自动选择
@@ -189,11 +183,8 @@ proxy-groups:
       - 🇭🇰 HKG🐲™️【请勿测速】 57
       - ICN🐲™️【请勿测速】 6
       - LAX🐲™️【请勿测速】 11
-      - ⭐台湾2⭐
-      - ⭐台湾⭐
       - SIN🐲™️【请勿测速】 22
       - ICN🐲™️【请勿测速】 24
-      - 🇭🇰 HKG🐲™️【请勿测速】 5
       - TLV🐲™️【请勿测速】
       - CDG🐲™️【请勿测速】
   - name: 🔯 故障转移
@@ -226,11 +217,8 @@ proxy-groups:
       - 🇭🇰 HKG🐲™️【请勿测速】 57
       - ICN🐲™️【请勿测速】 6
       - LAX🐲™️【请勿测速】 11
-      - ⭐台湾2⭐
-      - ⭐台湾⭐
       - SIN🐲™️【请勿测速】 22
       - ICN🐲™️【请勿测速】 24
-      - 🇭🇰 HKG🐲™️【请勿测速】 5
       - TLV🐲™️【请勿测速】
       - CDG🐲™️【请勿测速】
   - name: 🔮 负载均衡
@@ -263,11 +251,8 @@ proxy-groups:
       - 🇭🇰 HKG🐲™️【请勿测速】 57
       - ICN🐲™️【请勿测速】 6
       - LAX🐲™️【请勿测速】 11
-      - ⭐台湾2⭐
-      - ⭐台湾⭐
       - SIN🐲™️【请勿测速】 22
       - ICN🐲™️【请勿测速】 24
-      - 🇭🇰 HKG🐲™️【请勿测速】 5
       - TLV🐲™️【请勿测速】
       - CDG🐲™️【请勿测速】
   - name: 🎯 全球直连
@@ -314,11 +299,8 @@ proxy-groups:
       - 🇭🇰 HKG🐲™️【请勿测速】 57
       - ICN🐲™️【请勿测速】 6
       - LAX🐲™️【请勿测速】 11
-      - ⭐台湾2⭐
-      - ⭐台湾⭐
       - SIN🐲™️【请勿测速】 22
       - ICN🐲™️【请勿测速】 24
-      - 🇭🇰 HKG🐲™️【请勿测速】 5
       - TLV🐲™️【请勿测速】
       - CDG🐲™️【请勿测速】
 
