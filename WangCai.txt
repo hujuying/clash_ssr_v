@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2024-08-15 04:54:50
+# 客户端：Clash
+# 创建时间：2024-08-16 04:01:21
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：17
-# 节点类型：hysteria2, vless
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
+# 节点数量：4
+# 节点类型：trojan, ss
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -87,23 +86,10 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"[Hy2]🇩🇪德国-法兰克福-2500M","type":"hysteria2","server":"frankfurt1-2500m.yljc.online","port":24294,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"1.nodes.yljc.online"}
-  - {"name":"[Hy2]🇩🇪德国-法兰克福-500M 1","type":"hysteria2","server":"frankfurt2-500m.yljc.online","port":22249,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"199.nodes.yljc.online"}
-  - {"name":"[Hy2]🇯🇵日本-东京-500M-2","type":"hysteria2","server":"tokyo3-500m.yljc.online","port":22942,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"2.nodes.yljc.online"}
-  - {"name":"[Hy2]🇯🇵日本-东京-500M-1","type":"hysteria2","server":"tokyo2-500m.yljc.online","port":23163,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"2.nodes.yljc.online"}
-  - {"name":"[Hy2]🇯🇵日本-东京-2500M","type":"hysteria2","server":"tokyo1-2500m.yljc.online","port":22375,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"2.nodes.yljc.online"}
-  - {"name":"[Hy2]套餐到期：2024-09-15","type":"hysteria2","server":"seoul1-2500m.yljc.online","port":23607,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"1.nodes.yljc.online","skip-cert-verify":true}
-  - {"name":"[Hy2]🇭🇰台湾1-流媒体","type":"hysteria2","server":"seoul1-2500m.yljc.online","port":30024,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"2.nodes.yljc.online"}
-  - {"name":"[Hy2]🇰🇷韩国-首尔3-500M","type":"hysteria2","server":"seoul3-500m.yljc.online","port":21176,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"1.nodes.yljc.online"}
-  - {"name":"[Hy2]🇨🇳台湾-2-流媒体","type":"hysteria2","server":"seoul1-2500m.yljc.online","port":30023,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"1.nodes.yljc.online"}
-  - {"name":"[Hy2]🇺🇸美国-阿什本-1","type":"hysteria2","server":"ashburn1.yljc.online","port":24814,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"1.nodes.yljc.online"}
-  - {"name":"[Hy2]🇰🇷韩国-首尔1-2500M","type":"hysteria2","server":"seoul1-2500m.yljc.online","port":23607,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"1.nodes.yljc.online","skip-cert-verify":true}
-  - {"name":"[Hy2]剩余流量：981.82 GB","type":"hysteria2","server":"seoul1-2500m.yljc.online","port":23607,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"1.nodes.yljc.online","skip-cert-verify":true}
-  - {"name":"[vless]🇰🇷韩国-首尔-2500M-1","type":"vless","server":"seoul1-2500m.yljc.online","port":443,"uuid":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","tls":true,"servername":"kor1.nodes.yljc.online","network":"grpc","grpc-opts":{"grpc-service-name":"aabbcc"}}
-  - {"name":"[Hy2]🇰🇷韩国-首尔2-2500M","type":"hysteria2","server":"seoul2-2500m.yljc.online","port":22279,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"1.nodes.yljc.online","skip-cert-verify":true}
-  - {"name":"[Hy2]🇰🇷韩国-首尔4-500M","type":"hysteria2","server":"seoul4-500m.yljc.online","port":24984,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"1.nodes.yljc.online"}
-  - {"name":"[Hy2]🇺🇸美国-旧金山-1","type":"hysteria2","server":"24.199.76.112","port":23812,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"1.nodes.yljc.online"}
-  - {"name":"[Hy2]🇸🇬新加坡-2500M x2","type":"hysteria2","server":"seoul1-2500m.yljc.online","port":30018,"password":"c43d01ee-f31e-4d3e-a7a0-c440ce5276e6","sni":"1.nodes.yljc.online"}
+  - {"name":"🇯🇵JP_0cc6 @WangCai_8","type":"trojan","server":"139.162.84.183","port":3306,"udp":true,"password":"0cc6b4268dea0ba8","sni":"n2.gladns.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/gateway/connect","headers":{"host":"TG.WangCai_1"}}}
+  - {"name":"🇺🇸+美国+纽约01-1A","type":"ss","server":"gy.666666222.shop","port":20013,"password":"ed0c8485-e8e7-49c1-8e86-d4875b1acfd9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸+美国+纽约2-1A","type":"ss","server":"gy.666666222.shop","port":20016,"password":"ed0c8485-e8e7-49c1-8e86-d4875b1acfd9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼+台湾01-1B","type":"ss","server":"gd.xueyejiasu.com","port":47564,"password":"ed0c8485-e8e7-49c1-8e86-d4875b1acfd9","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,90 +98,38 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - '[Hy2]🇩🇪德国-法兰克福-2500M'
-      - '[Hy2]🇩🇪德国-法兰克福-500M 1'
-      - '[Hy2]🇯🇵日本-东京-500M-2'
-      - '[Hy2]🇯🇵日本-东京-500M-1'
-      - '[Hy2]🇯🇵日本-东京-2500M'
-      - '[Hy2]套餐到期：2024-09-15'
-      - '[Hy2]🇭🇰台湾1-流媒体'
-      - '[Hy2]🇰🇷韩国-首尔3-500M'
-      - '[Hy2]🇨🇳台湾-2-流媒体'
-      - '[Hy2]🇺🇸美国-阿什本-1'
-      - '[Hy2]🇰🇷韩国-首尔1-2500M'
-      - '[Hy2]剩余流量：981.82 GB'
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
-      - '[Hy2]🇰🇷韩国-首尔2-2500M'
-      - '[Hy2]🇰🇷韩国-首尔4-500M'
-      - '[Hy2]🇺🇸美国-旧金山-1'
-      - '[Hy2]🇸🇬新加坡-2500M x2'
+      - 🇯🇵JP_0cc6 @WangCai_8
+      - 🇺🇸+美国+纽约01-1A
+      - 🇺🇸+美国+纽约2-1A
+      - 🇹🇼+台湾01-1B
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - '[Hy2]🇩🇪德国-法兰克福-2500M'
-      - '[Hy2]🇩🇪德国-法兰克福-500M 1'
-      - '[Hy2]🇯🇵日本-东京-500M-2'
-      - '[Hy2]🇯🇵日本-东京-500M-1'
-      - '[Hy2]🇯🇵日本-东京-2500M'
-      - '[Hy2]套餐到期：2024-09-15'
-      - '[Hy2]🇭🇰台湾1-流媒体'
-      - '[Hy2]🇰🇷韩国-首尔3-500M'
-      - '[Hy2]🇨🇳台湾-2-流媒体'
-      - '[Hy2]🇺🇸美国-阿什本-1'
-      - '[Hy2]🇰🇷韩国-首尔1-2500M'
-      - '[Hy2]剩余流量：981.82 GB'
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
-      - '[Hy2]🇰🇷韩国-首尔2-2500M'
-      - '[Hy2]🇰🇷韩国-首尔4-500M'
-      - '[Hy2]🇺🇸美国-旧金山-1'
-      - '[Hy2]🇸🇬新加坡-2500M x2'
+      - 🇯🇵JP_0cc6 @WangCai_8
+      - 🇺🇸+美国+纽约01-1A
+      - 🇺🇸+美国+纽约2-1A
+      - 🇹🇼+台湾01-1B
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - '[Hy2]🇩🇪德国-法兰克福-2500M'
-      - '[Hy2]🇩🇪德国-法兰克福-500M 1'
-      - '[Hy2]🇯🇵日本-东京-500M-2'
-      - '[Hy2]🇯🇵日本-东京-500M-1'
-      - '[Hy2]🇯🇵日本-东京-2500M'
-      - '[Hy2]套餐到期：2024-09-15'
-      - '[Hy2]🇭🇰台湾1-流媒体'
-      - '[Hy2]🇰🇷韩国-首尔3-500M'
-      - '[Hy2]🇨🇳台湾-2-流媒体'
-      - '[Hy2]🇺🇸美国-阿什本-1'
-      - '[Hy2]🇰🇷韩国-首尔1-2500M'
-      - '[Hy2]剩余流量：981.82 GB'
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
-      - '[Hy2]🇰🇷韩国-首尔2-2500M'
-      - '[Hy2]🇰🇷韩国-首尔4-500M'
-      - '[Hy2]🇺🇸美国-旧金山-1'
-      - '[Hy2]🇸🇬新加坡-2500M x2'
+      - 🇯🇵JP_0cc6 @WangCai_8
+      - 🇺🇸+美国+纽约01-1A
+      - 🇺🇸+美国+纽约2-1A
+      - 🇹🇼+台湾01-1B
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - '[Hy2]🇩🇪德国-法兰克福-2500M'
-      - '[Hy2]🇩🇪德国-法兰克福-500M 1'
-      - '[Hy2]🇯🇵日本-东京-500M-2'
-      - '[Hy2]🇯🇵日本-东京-500M-1'
-      - '[Hy2]🇯🇵日本-东京-2500M'
-      - '[Hy2]套餐到期：2024-09-15'
-      - '[Hy2]🇭🇰台湾1-流媒体'
-      - '[Hy2]🇰🇷韩国-首尔3-500M'
-      - '[Hy2]🇨🇳台湾-2-流媒体'
-      - '[Hy2]🇺🇸美国-阿什本-1'
-      - '[Hy2]🇰🇷韩国-首尔1-2500M'
-      - '[Hy2]剩余流量：981.82 GB'
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
-      - '[Hy2]🇰🇷韩国-首尔2-2500M'
-      - '[Hy2]🇰🇷韩国-首尔4-500M'
-      - '[Hy2]🇺🇸美国-旧金山-1'
-      - '[Hy2]🇸🇬新加坡-2500M x2'
+      - 🇯🇵JP_0cc6 @WangCai_8
+      - 🇺🇸+美国+纽约01-1A
+      - 🇺🇸+美国+纽约2-1A
+      - 🇹🇼+台湾01-1B
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -215,23 +149,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - '[Hy2]🇩🇪德国-法兰克福-2500M'
-      - '[Hy2]🇩🇪德国-法兰克福-500M 1'
-      - '[Hy2]🇯🇵日本-东京-500M-2'
-      - '[Hy2]🇯🇵日本-东京-500M-1'
-      - '[Hy2]🇯🇵日本-东京-2500M'
-      - '[Hy2]套餐到期：2024-09-15'
-      - '[Hy2]🇭🇰台湾1-流媒体'
-      - '[Hy2]🇰🇷韩国-首尔3-500M'
-      - '[Hy2]🇨🇳台湾-2-流媒体'
-      - '[Hy2]🇺🇸美国-阿什本-1'
-      - '[Hy2]🇰🇷韩国-首尔1-2500M'
-      - '[Hy2]剩余流量：981.82 GB'
-      - '[vless]🇰🇷韩国-首尔-2500M-1'
-      - '[Hy2]🇰🇷韩国-首尔2-2500M'
-      - '[Hy2]🇰🇷韩国-首尔4-500M'
-      - '[Hy2]🇺🇸美国-旧金山-1'
-      - '[Hy2]🇸🇬新加坡-2500M x2'
+      - 🇯🇵JP_0cc6 @WangCai_8
+      - 🇺🇸+美国+纽约01-1A
+      - 🇺🇸+美国+纽约2-1A
+      - 🇹🇼+台湾01-1B
 
 rules:
 # 本地/局域网地址
