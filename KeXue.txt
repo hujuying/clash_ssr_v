@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-08-15 04:53:26
+# 创建时间：2024-08-16 03:59:48
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：61
-# 节点类型：ss, trojan, vmess
+# 节点数量：41
+# 节点类型：ss, vmess, trojan
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -86,67 +86,47 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇯🇵+日本_Telegram@kxswa+7","type":"ss","server":"52.194.250.138","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸+美国_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12051,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇫🇷+法国_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12065,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"阿尔巴尼亚_Telegram@kxswa","type":"ss","server":"31.171.153.178","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
   - {"name":"美国_Telegram@kxswa_1","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":8880,"cipher":"auto","uuid":"7e1d0a3d-8d0d-46b9-83bf-0eac8cf895c6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/bYdJ7Vc2We","headers":{"host":"us6gzxQRrE4.fzbqfrse.xyz"}}}
-  - {"name":"🇯🇵+日本_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12031,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram@kxswa_2","type":"vmess","server":"104.19.45.83","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"onea.flha.ru"}}}
-  - {"name":"🇯🇵+日本_Telegram@kxswa+2","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12032,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰+香港_Telegram@kxswa+2","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12002,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸+美国_Telegram@kxswa+3","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12053,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪+德国_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12070,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇷+土耳其_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12064,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰+香港_Telegram@kxswa+8","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12006,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳+台湾_Telegram@kxswa+2","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12012,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰+香港_Telegram@kxswa+7","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12005,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇷🇺+俄罗斯_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12075,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇭🇰+香港_Telegram@kxswa+3","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12003,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸+美国_Telegram@kxswa+2","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12052,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇰🇷+韩国_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12041,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵+日本_Telegram@kxswa+8","type":"trojan","server":"xjjp.zf.edu.ge","port":443,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"xjjp.zf.edu.ge","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇳+印度_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12072,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵+尼日利亚_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12073,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬+新加坡_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12021,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵+日本_Telegram@kxswa+4","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12034,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇦🇺+澳大利亚_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12068,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵+日本_Telegram@kxswa+5","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12035,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵+日本_Telegram@kxswa+3","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12033,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"俄罗斯_Telegram@kxswa","type":"ss","server":"81.19.140.31","port":65305,"password":"WQC0BtSUQnhuBUkm0meQES","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇷+阿根廷_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12066,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram@kxswa_3","type":"vmess","server":"104.19.46.22","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
-  - {"name":"🇮🇩+印尼_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12061,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧+英国_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12069,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram@kxswa_4","type":"vmess","server":"104.26.0.50","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip5-4.freegradely.xyz"}}}
-  - {"name":"🇳🇱+荷兰_Telegram@kxswa+2","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12074,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram@kxswa_5","type":"vmess","server":"104.19.45.35","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_6","type":"vmess","server":"104.19.45.11","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_7","type":"vmess","server":"172.64.167.8","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_8","type":"vmess","server":"104.17.106.151","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_9","type":"vmess","server":"104.26.7.132","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
-  - {"name":"🇭🇰+香港_Telegram@kxswa+6","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12004,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram@kxswa_10","type":"vmess","server":"104.19.47.88","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
-  - {"name":"🇺🇸 美国_Telegram@kxswa 68","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"23.162.200.227","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"23.162.200.227"}}}
-  - {"name":"美国_Telegram@kxswa_11","type":"vmess","server":"104.19.47.77","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_12","type":"vmess","server":"104.20.17.186","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
-  - {"name":"瑞典_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12071,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram@kxswa_13","type":"vmess","server":"104.19.57.4","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_14","type":"vmess","server":"172.64.233.43","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_15","type":"vmess","server":"104.19.47.22","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_16","type":"vmess","server":"172.64.166.22","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_17","type":"vmess","server":"104.19.42.49","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_18","type":"vmess","server":"172.67.74.112","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_19","type":"vmess","server":"104.20.25.146","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
+  - {"name":"🇯🇵+日本_Telegram@kxswa+4","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12034,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸+美国_Telegram@kxswa+2","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12052,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇷+土耳其_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12064,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷+法国_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12065,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰+香港_Telegram@kxswa+8","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12006,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇳+印度_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12072,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵+日本_Telegram@kxswa+5","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12035,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳+台湾_Telegram@kxswa+2","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12012,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬+新加坡_Telegram@kxswa+5","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12025,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国_Telegram@kxswa_20","type":"vmess","server":"172.64.233.35","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_21","type":"vmess","server":"104.19.59.89","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_22","type":"vmess","server":"172.64.233.15","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_23","type":"vmess","server":"104.19.47.36","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_24","type":"vmess","server":"172.64.167.44","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_25","type":"vmess","server":"172.64.167.5","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"美国_Telegram@kxswa_26","type":"vmess","server":"104.19.45.241","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"onea.flha.ru"}}}
-  - {"name":"香港_Telegram@kxswa","type":"vmess","server":"mmhk01.micloud.buzz","port":46001,"cipher":"auto","uuid":"638501f6-0ba0-47cb-bcfe-200cc1169e81","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"mmhk01.micloud.buzz"}}}
+  - {"name":"🇯🇵+日本_Telegram@kxswa+3","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12033,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇸🇬+新加坡_Telegram@kxswa+3","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12023,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇩+印尼_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12061,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 美国_Telegram@kxswa 68","type":"vmess","server":"23.162.200.227","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"23.162.200.227","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"23.162.200.227"}}}
+  - {"name":"🇺🇸+美国_Telegram@kxswa+3","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12053,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬+新加坡_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12021,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵+尼日利亚_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12073,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰+香港_Telegram@kxswa+3","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12003,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷+韩国_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12041,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇦🇺+澳大利亚_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12068,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国_Telegram@kxswa_2","type":"vmess","server":"104.19.47.36","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
+  - {"name":"🇦🇷+阿根廷_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12066,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸+美国_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12051,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰+香港_Telegram@kxswa+7","type":"trojan","server":"cn1.cdn.xfltd-cdn.top","port":12005,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵+日本_Telegram@kxswa+2","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12032,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇳🇱+荷兰_Telegram@kxswa+2","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12074,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵+日本_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12031,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国_Telegram@kxswa_3","type":"vmess","server":"104.19.46.63","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
+  - {"name":"美国_Telegram@kxswa_4","type":"vmess","server":"104.19.45.50","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"美国_Telegram@kxswa_5","type":"vmess","server":"104.19.123.11","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip11.freegradely.xyz"}}}
+  - {"name":"美国_Telegram@kxswa_6","type":"vmess","server":"104.19.46.22","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"美国_Telegram@kxswa_7","type":"vmess","server":"104.19.45.161","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"onea.flha.ru"}}}
+  - {"name":"🇷🇺+俄罗斯_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12075,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"瑞典_Telegram@kxswa","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12071,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国_Telegram@kxswa_8","type":"vmess","server":"104.19.45.90","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"美国_Telegram@kxswa_9","type":"vmess","server":"104.19.45.220","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"onea.flha.ru"}}}
+  - {"name":"美国_Telegram@kxswa_10","type":"vmess","server":"104.19.45.19","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"美国_Telegram@kxswa_11","type":"vmess","server":"104.19.45.42","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -155,266 +135,186 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇯🇵+日本_Telegram@kxswa+7
-      - 🇺🇸+美国_Telegram@kxswa
-      - 🇫🇷+法国_Telegram@kxswa
+      - 阿尔巴尼亚_Telegram@kxswa
       - 美国_Telegram@kxswa_1
-      - 🇯🇵+日本_Telegram@kxswa
-      - 美国_Telegram@kxswa_2
-      - 🇯🇵+日本_Telegram@kxswa+2
-      - 🇭🇰+香港_Telegram@kxswa+2
-      - 🇺🇸+美国_Telegram@kxswa+3
       - 🇩🇪+德国_Telegram@kxswa
-      - 🇹🇷+土耳其_Telegram@kxswa
-      - 🇭🇰+香港_Telegram@kxswa+8
-      - 🇨🇳+台湾_Telegram@kxswa+2
-      - 🇭🇰+香港_Telegram@kxswa+7
-      - 🇷🇺+俄罗斯_Telegram@kxswa
-      - 🇭🇰+香港_Telegram@kxswa+3
-      - 🇺🇸+美国_Telegram@kxswa+2
-      - 🇰🇷+韩国_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+8
-      - 🇮🇳+印度_Telegram@kxswa
-      - 🇯🇵+尼日利亚_Telegram@kxswa
-      - 🇸🇬+新加坡_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+4
-      - 🇦🇺+澳大利亚_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+5
-      - 🇯🇵+日本_Telegram@kxswa+3
-      - 俄罗斯_Telegram@kxswa
-      - 🇦🇷+阿根廷_Telegram@kxswa
-      - 美国_Telegram@kxswa_3
-      - 🇮🇩+印尼_Telegram@kxswa
       - 🇬🇧+英国_Telegram@kxswa
-      - 美国_Telegram@kxswa_4
+      - 🇯🇵+日本_Telegram@kxswa+4
+      - 🇺🇸+美国_Telegram@kxswa+2
+      - 🇹🇷+土耳其_Telegram@kxswa
+      - 🇫🇷+法国_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+8
+      - 🇮🇳+印度_Telegram@kxswa
+      - 🇯🇵+日本_Telegram@kxswa+5
+      - 🇨🇳+台湾_Telegram@kxswa+2
+      - 🇸🇬+新加坡_Telegram@kxswa+5
+      - 🇯🇵+日本_Telegram@kxswa+3
+      - 🇸🇬+新加坡_Telegram@kxswa+3
+      - 🇮🇩+印尼_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 68
+      - 🇺🇸+美国_Telegram@kxswa+3
+      - 🇸🇬+新加坡_Telegram@kxswa
+      - 🇯🇵+尼日利亚_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+3
+      - 🇰🇷+韩国_Telegram@kxswa
+      - 🇦🇺+澳大利亚_Telegram@kxswa
+      - 美国_Telegram@kxswa_2
+      - 🇦🇷+阿根廷_Telegram@kxswa
+      - 🇺🇸+美国_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+7
+      - 🇯🇵+日本_Telegram@kxswa+2
       - 🇳🇱+荷兰_Telegram@kxswa+2
+      - 🇯🇵+日本_Telegram@kxswa
+      - 美国_Telegram@kxswa_3
+      - 美国_Telegram@kxswa_4
       - 美国_Telegram@kxswa_5
       - 美国_Telegram@kxswa_6
       - 美国_Telegram@kxswa_7
+      - 🇷🇺+俄罗斯_Telegram@kxswa
+      - 瑞典_Telegram@kxswa
       - 美国_Telegram@kxswa_8
       - 美国_Telegram@kxswa_9
-      - 🇭🇰+香港_Telegram@kxswa+6
       - 美国_Telegram@kxswa_10
-      - 🇺🇸 美国_Telegram@kxswa 68
       - 美国_Telegram@kxswa_11
-      - 美国_Telegram@kxswa_12
-      - 瑞典_Telegram@kxswa
-      - 美国_Telegram@kxswa_13
-      - 美国_Telegram@kxswa_14
-      - 美国_Telegram@kxswa_15
-      - 美国_Telegram@kxswa_16
-      - 美国_Telegram@kxswa_17
-      - 美国_Telegram@kxswa_18
-      - 美国_Telegram@kxswa_19
-      - 🇸🇬+新加坡_Telegram@kxswa+5
-      - 美国_Telegram@kxswa_20
-      - 美国_Telegram@kxswa_21
-      - 美国_Telegram@kxswa_22
-      - 美国_Telegram@kxswa_23
-      - 美国_Telegram@kxswa_24
-      - 美国_Telegram@kxswa_25
-      - 美国_Telegram@kxswa_26
-      - 香港_Telegram@kxswa
-      - 🇸🇬+新加坡_Telegram@kxswa+3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵+日本_Telegram@kxswa+7
-      - 🇺🇸+美国_Telegram@kxswa
-      - 🇫🇷+法国_Telegram@kxswa
+      - 阿尔巴尼亚_Telegram@kxswa
       - 美国_Telegram@kxswa_1
-      - 🇯🇵+日本_Telegram@kxswa
-      - 美国_Telegram@kxswa_2
-      - 🇯🇵+日本_Telegram@kxswa+2
-      - 🇭🇰+香港_Telegram@kxswa+2
-      - 🇺🇸+美国_Telegram@kxswa+3
       - 🇩🇪+德国_Telegram@kxswa
-      - 🇹🇷+土耳其_Telegram@kxswa
-      - 🇭🇰+香港_Telegram@kxswa+8
-      - 🇨🇳+台湾_Telegram@kxswa+2
-      - 🇭🇰+香港_Telegram@kxswa+7
-      - 🇷🇺+俄罗斯_Telegram@kxswa
-      - 🇭🇰+香港_Telegram@kxswa+3
-      - 🇺🇸+美国_Telegram@kxswa+2
-      - 🇰🇷+韩国_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+8
-      - 🇮🇳+印度_Telegram@kxswa
-      - 🇯🇵+尼日利亚_Telegram@kxswa
-      - 🇸🇬+新加坡_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+4
-      - 🇦🇺+澳大利亚_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+5
-      - 🇯🇵+日本_Telegram@kxswa+3
-      - 俄罗斯_Telegram@kxswa
-      - 🇦🇷+阿根廷_Telegram@kxswa
-      - 美国_Telegram@kxswa_3
-      - 🇮🇩+印尼_Telegram@kxswa
       - 🇬🇧+英国_Telegram@kxswa
-      - 美国_Telegram@kxswa_4
+      - 🇯🇵+日本_Telegram@kxswa+4
+      - 🇺🇸+美国_Telegram@kxswa+2
+      - 🇹🇷+土耳其_Telegram@kxswa
+      - 🇫🇷+法国_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+8
+      - 🇮🇳+印度_Telegram@kxswa
+      - 🇯🇵+日本_Telegram@kxswa+5
+      - 🇨🇳+台湾_Telegram@kxswa+2
+      - 🇸🇬+新加坡_Telegram@kxswa+5
+      - 🇯🇵+日本_Telegram@kxswa+3
+      - 🇸🇬+新加坡_Telegram@kxswa+3
+      - 🇮🇩+印尼_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 68
+      - 🇺🇸+美国_Telegram@kxswa+3
+      - 🇸🇬+新加坡_Telegram@kxswa
+      - 🇯🇵+尼日利亚_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+3
+      - 🇰🇷+韩国_Telegram@kxswa
+      - 🇦🇺+澳大利亚_Telegram@kxswa
+      - 美国_Telegram@kxswa_2
+      - 🇦🇷+阿根廷_Telegram@kxswa
+      - 🇺🇸+美国_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+7
+      - 🇯🇵+日本_Telegram@kxswa+2
       - 🇳🇱+荷兰_Telegram@kxswa+2
+      - 🇯🇵+日本_Telegram@kxswa
+      - 美国_Telegram@kxswa_3
+      - 美国_Telegram@kxswa_4
       - 美国_Telegram@kxswa_5
       - 美国_Telegram@kxswa_6
       - 美国_Telegram@kxswa_7
+      - 🇷🇺+俄罗斯_Telegram@kxswa
+      - 瑞典_Telegram@kxswa
       - 美国_Telegram@kxswa_8
       - 美国_Telegram@kxswa_9
-      - 🇭🇰+香港_Telegram@kxswa+6
       - 美国_Telegram@kxswa_10
-      - 🇺🇸 美国_Telegram@kxswa 68
       - 美国_Telegram@kxswa_11
-      - 美国_Telegram@kxswa_12
-      - 瑞典_Telegram@kxswa
-      - 美国_Telegram@kxswa_13
-      - 美国_Telegram@kxswa_14
-      - 美国_Telegram@kxswa_15
-      - 美国_Telegram@kxswa_16
-      - 美国_Telegram@kxswa_17
-      - 美国_Telegram@kxswa_18
-      - 美国_Telegram@kxswa_19
-      - 🇸🇬+新加坡_Telegram@kxswa+5
-      - 美国_Telegram@kxswa_20
-      - 美国_Telegram@kxswa_21
-      - 美国_Telegram@kxswa_22
-      - 美国_Telegram@kxswa_23
-      - 美国_Telegram@kxswa_24
-      - 美国_Telegram@kxswa_25
-      - 美国_Telegram@kxswa_26
-      - 香港_Telegram@kxswa
-      - 🇸🇬+新加坡_Telegram@kxswa+3
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇯🇵+日本_Telegram@kxswa+7
-      - 🇺🇸+美国_Telegram@kxswa
-      - 🇫🇷+法国_Telegram@kxswa
+      - 阿尔巴尼亚_Telegram@kxswa
       - 美国_Telegram@kxswa_1
-      - 🇯🇵+日本_Telegram@kxswa
-      - 美国_Telegram@kxswa_2
-      - 🇯🇵+日本_Telegram@kxswa+2
-      - 🇭🇰+香港_Telegram@kxswa+2
-      - 🇺🇸+美国_Telegram@kxswa+3
       - 🇩🇪+德国_Telegram@kxswa
-      - 🇹🇷+土耳其_Telegram@kxswa
-      - 🇭🇰+香港_Telegram@kxswa+8
-      - 🇨🇳+台湾_Telegram@kxswa+2
-      - 🇭🇰+香港_Telegram@kxswa+7
-      - 🇷🇺+俄罗斯_Telegram@kxswa
-      - 🇭🇰+香港_Telegram@kxswa+3
-      - 🇺🇸+美国_Telegram@kxswa+2
-      - 🇰🇷+韩国_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+8
-      - 🇮🇳+印度_Telegram@kxswa
-      - 🇯🇵+尼日利亚_Telegram@kxswa
-      - 🇸🇬+新加坡_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+4
-      - 🇦🇺+澳大利亚_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+5
-      - 🇯🇵+日本_Telegram@kxswa+3
-      - 俄罗斯_Telegram@kxswa
-      - 🇦🇷+阿根廷_Telegram@kxswa
-      - 美国_Telegram@kxswa_3
-      - 🇮🇩+印尼_Telegram@kxswa
       - 🇬🇧+英国_Telegram@kxswa
-      - 美国_Telegram@kxswa_4
+      - 🇯🇵+日本_Telegram@kxswa+4
+      - 🇺🇸+美国_Telegram@kxswa+2
+      - 🇹🇷+土耳其_Telegram@kxswa
+      - 🇫🇷+法国_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+8
+      - 🇮🇳+印度_Telegram@kxswa
+      - 🇯🇵+日本_Telegram@kxswa+5
+      - 🇨🇳+台湾_Telegram@kxswa+2
+      - 🇸🇬+新加坡_Telegram@kxswa+5
+      - 🇯🇵+日本_Telegram@kxswa+3
+      - 🇸🇬+新加坡_Telegram@kxswa+3
+      - 🇮🇩+印尼_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 68
+      - 🇺🇸+美国_Telegram@kxswa+3
+      - 🇸🇬+新加坡_Telegram@kxswa
+      - 🇯🇵+尼日利亚_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+3
+      - 🇰🇷+韩国_Telegram@kxswa
+      - 🇦🇺+澳大利亚_Telegram@kxswa
+      - 美国_Telegram@kxswa_2
+      - 🇦🇷+阿根廷_Telegram@kxswa
+      - 🇺🇸+美国_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+7
+      - 🇯🇵+日本_Telegram@kxswa+2
       - 🇳🇱+荷兰_Telegram@kxswa+2
+      - 🇯🇵+日本_Telegram@kxswa
+      - 美国_Telegram@kxswa_3
+      - 美国_Telegram@kxswa_4
       - 美国_Telegram@kxswa_5
       - 美国_Telegram@kxswa_6
       - 美国_Telegram@kxswa_7
+      - 🇷🇺+俄罗斯_Telegram@kxswa
+      - 瑞典_Telegram@kxswa
       - 美国_Telegram@kxswa_8
       - 美国_Telegram@kxswa_9
-      - 🇭🇰+香港_Telegram@kxswa+6
       - 美国_Telegram@kxswa_10
-      - 🇺🇸 美国_Telegram@kxswa 68
       - 美国_Telegram@kxswa_11
-      - 美国_Telegram@kxswa_12
-      - 瑞典_Telegram@kxswa
-      - 美国_Telegram@kxswa_13
-      - 美国_Telegram@kxswa_14
-      - 美国_Telegram@kxswa_15
-      - 美国_Telegram@kxswa_16
-      - 美国_Telegram@kxswa_17
-      - 美国_Telegram@kxswa_18
-      - 美国_Telegram@kxswa_19
-      - 🇸🇬+新加坡_Telegram@kxswa+5
-      - 美国_Telegram@kxswa_20
-      - 美国_Telegram@kxswa_21
-      - 美国_Telegram@kxswa_22
-      - 美国_Telegram@kxswa_23
-      - 美国_Telegram@kxswa_24
-      - 美国_Telegram@kxswa_25
-      - 美国_Telegram@kxswa_26
-      - 香港_Telegram@kxswa
-      - 🇸🇬+新加坡_Telegram@kxswa+3
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇯🇵+日本_Telegram@kxswa+7
-      - 🇺🇸+美国_Telegram@kxswa
-      - 🇫🇷+法国_Telegram@kxswa
+      - 阿尔巴尼亚_Telegram@kxswa
       - 美国_Telegram@kxswa_1
-      - 🇯🇵+日本_Telegram@kxswa
-      - 美国_Telegram@kxswa_2
-      - 🇯🇵+日本_Telegram@kxswa+2
-      - 🇭🇰+香港_Telegram@kxswa+2
-      - 🇺🇸+美国_Telegram@kxswa+3
       - 🇩🇪+德国_Telegram@kxswa
-      - 🇹🇷+土耳其_Telegram@kxswa
-      - 🇭🇰+香港_Telegram@kxswa+8
-      - 🇨🇳+台湾_Telegram@kxswa+2
-      - 🇭🇰+香港_Telegram@kxswa+7
-      - 🇷🇺+俄罗斯_Telegram@kxswa
-      - 🇭🇰+香港_Telegram@kxswa+3
-      - 🇺🇸+美国_Telegram@kxswa+2
-      - 🇰🇷+韩国_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+8
-      - 🇮🇳+印度_Telegram@kxswa
-      - 🇯🇵+尼日利亚_Telegram@kxswa
-      - 🇸🇬+新加坡_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+4
-      - 🇦🇺+澳大利亚_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+5
-      - 🇯🇵+日本_Telegram@kxswa+3
-      - 俄罗斯_Telegram@kxswa
-      - 🇦🇷+阿根廷_Telegram@kxswa
-      - 美国_Telegram@kxswa_3
-      - 🇮🇩+印尼_Telegram@kxswa
       - 🇬🇧+英国_Telegram@kxswa
-      - 美国_Telegram@kxswa_4
+      - 🇯🇵+日本_Telegram@kxswa+4
+      - 🇺🇸+美国_Telegram@kxswa+2
+      - 🇹🇷+土耳其_Telegram@kxswa
+      - 🇫🇷+法国_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+8
+      - 🇮🇳+印度_Telegram@kxswa
+      - 🇯🇵+日本_Telegram@kxswa+5
+      - 🇨🇳+台湾_Telegram@kxswa+2
+      - 🇸🇬+新加坡_Telegram@kxswa+5
+      - 🇯🇵+日本_Telegram@kxswa+3
+      - 🇸🇬+新加坡_Telegram@kxswa+3
+      - 🇮🇩+印尼_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 68
+      - 🇺🇸+美国_Telegram@kxswa+3
+      - 🇸🇬+新加坡_Telegram@kxswa
+      - 🇯🇵+尼日利亚_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+3
+      - 🇰🇷+韩国_Telegram@kxswa
+      - 🇦🇺+澳大利亚_Telegram@kxswa
+      - 美国_Telegram@kxswa_2
+      - 🇦🇷+阿根廷_Telegram@kxswa
+      - 🇺🇸+美国_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+7
+      - 🇯🇵+日本_Telegram@kxswa+2
       - 🇳🇱+荷兰_Telegram@kxswa+2
+      - 🇯🇵+日本_Telegram@kxswa
+      - 美国_Telegram@kxswa_3
+      - 美国_Telegram@kxswa_4
       - 美国_Telegram@kxswa_5
       - 美国_Telegram@kxswa_6
       - 美国_Telegram@kxswa_7
+      - 🇷🇺+俄罗斯_Telegram@kxswa
+      - 瑞典_Telegram@kxswa
       - 美国_Telegram@kxswa_8
       - 美国_Telegram@kxswa_9
-      - 🇭🇰+香港_Telegram@kxswa+6
       - 美国_Telegram@kxswa_10
-      - 🇺🇸 美国_Telegram@kxswa 68
       - 美国_Telegram@kxswa_11
-      - 美国_Telegram@kxswa_12
-      - 瑞典_Telegram@kxswa
-      - 美国_Telegram@kxswa_13
-      - 美国_Telegram@kxswa_14
-      - 美国_Telegram@kxswa_15
-      - 美国_Telegram@kxswa_16
-      - 美国_Telegram@kxswa_17
-      - 美国_Telegram@kxswa_18
-      - 美国_Telegram@kxswa_19
-      - 🇸🇬+新加坡_Telegram@kxswa+5
-      - 美国_Telegram@kxswa_20
-      - 美国_Telegram@kxswa_21
-      - 美国_Telegram@kxswa_22
-      - 美国_Telegram@kxswa_23
-      - 美国_Telegram@kxswa_24
-      - 美国_Telegram@kxswa_25
-      - 美国_Telegram@kxswa_26
-      - 香港_Telegram@kxswa
-      - 🇸🇬+新加坡_Telegram@kxswa+3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -434,67 +334,47 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇯🇵+日本_Telegram@kxswa+7
-      - 🇺🇸+美国_Telegram@kxswa
-      - 🇫🇷+法国_Telegram@kxswa
+      - 阿尔巴尼亚_Telegram@kxswa
       - 美国_Telegram@kxswa_1
-      - 🇯🇵+日本_Telegram@kxswa
-      - 美国_Telegram@kxswa_2
-      - 🇯🇵+日本_Telegram@kxswa+2
-      - 🇭🇰+香港_Telegram@kxswa+2
-      - 🇺🇸+美国_Telegram@kxswa+3
       - 🇩🇪+德国_Telegram@kxswa
-      - 🇹🇷+土耳其_Telegram@kxswa
-      - 🇭🇰+香港_Telegram@kxswa+8
-      - 🇨🇳+台湾_Telegram@kxswa+2
-      - 🇭🇰+香港_Telegram@kxswa+7
-      - 🇷🇺+俄罗斯_Telegram@kxswa
-      - 🇭🇰+香港_Telegram@kxswa+3
-      - 🇺🇸+美国_Telegram@kxswa+2
-      - 🇰🇷+韩国_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+8
-      - 🇮🇳+印度_Telegram@kxswa
-      - 🇯🇵+尼日利亚_Telegram@kxswa
-      - 🇸🇬+新加坡_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+4
-      - 🇦🇺+澳大利亚_Telegram@kxswa
-      - 🇯🇵+日本_Telegram@kxswa+5
-      - 🇯🇵+日本_Telegram@kxswa+3
-      - 俄罗斯_Telegram@kxswa
-      - 🇦🇷+阿根廷_Telegram@kxswa
-      - 美国_Telegram@kxswa_3
-      - 🇮🇩+印尼_Telegram@kxswa
       - 🇬🇧+英国_Telegram@kxswa
-      - 美国_Telegram@kxswa_4
+      - 🇯🇵+日本_Telegram@kxswa+4
+      - 🇺🇸+美国_Telegram@kxswa+2
+      - 🇹🇷+土耳其_Telegram@kxswa
+      - 🇫🇷+法国_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+8
+      - 🇮🇳+印度_Telegram@kxswa
+      - 🇯🇵+日本_Telegram@kxswa+5
+      - 🇨🇳+台湾_Telegram@kxswa+2
+      - 🇸🇬+新加坡_Telegram@kxswa+5
+      - 🇯🇵+日本_Telegram@kxswa+3
+      - 🇸🇬+新加坡_Telegram@kxswa+3
+      - 🇮🇩+印尼_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 68
+      - 🇺🇸+美国_Telegram@kxswa+3
+      - 🇸🇬+新加坡_Telegram@kxswa
+      - 🇯🇵+尼日利亚_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+3
+      - 🇰🇷+韩国_Telegram@kxswa
+      - 🇦🇺+澳大利亚_Telegram@kxswa
+      - 美国_Telegram@kxswa_2
+      - 🇦🇷+阿根廷_Telegram@kxswa
+      - 🇺🇸+美国_Telegram@kxswa
+      - 🇭🇰+香港_Telegram@kxswa+7
+      - 🇯🇵+日本_Telegram@kxswa+2
       - 🇳🇱+荷兰_Telegram@kxswa+2
+      - 🇯🇵+日本_Telegram@kxswa
+      - 美国_Telegram@kxswa_3
+      - 美国_Telegram@kxswa_4
       - 美国_Telegram@kxswa_5
       - 美国_Telegram@kxswa_6
       - 美国_Telegram@kxswa_7
+      - 🇷🇺+俄罗斯_Telegram@kxswa
+      - 瑞典_Telegram@kxswa
       - 美国_Telegram@kxswa_8
       - 美国_Telegram@kxswa_9
-      - 🇭🇰+香港_Telegram@kxswa+6
       - 美国_Telegram@kxswa_10
-      - 🇺🇸 美国_Telegram@kxswa 68
       - 美国_Telegram@kxswa_11
-      - 美国_Telegram@kxswa_12
-      - 瑞典_Telegram@kxswa
-      - 美国_Telegram@kxswa_13
-      - 美国_Telegram@kxswa_14
-      - 美国_Telegram@kxswa_15
-      - 美国_Telegram@kxswa_16
-      - 美国_Telegram@kxswa_17
-      - 美国_Telegram@kxswa_18
-      - 美国_Telegram@kxswa_19
-      - 🇸🇬+新加坡_Telegram@kxswa+5
-      - 美国_Telegram@kxswa_20
-      - 美国_Telegram@kxswa_21
-      - 美国_Telegram@kxswa_22
-      - 美国_Telegram@kxswa_23
-      - 美国_Telegram@kxswa_24
-      - 美国_Telegram@kxswa_25
-      - 美国_Telegram@kxswa_26
-      - 香港_Telegram@kxswa
-      - 🇸🇬+新加坡_Telegram@kxswa+3
 
 rules:
 # 本地/局域网地址
