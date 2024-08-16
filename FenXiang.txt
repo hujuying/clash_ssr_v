@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-08-16 04:00:51
+# 创建时间：2024-08-17 03:58:28
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：11
+# 节点数量：7
 # 节点类型：trojan
 ####################################
 mixed-port: 7890
@@ -93,10 +93,6 @@ proxies:
   - {"name":"SJC🐲™️【请勿测速】 4","type":"trojan","server":"185.148.15.121","port":37015,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"LAX🐲™️【请勿测速】 27","type":"trojan","server":"154.21.91.92","port":10001,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"LAX🐲™️【请勿测速】 54","type":"trojan","server":"154.17.20.7","port":34967,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"LAX🐲™️【请勿测速】 29","type":"trojan","server":"154.21.80.44","port":8081,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"ICN🐲™️【请勿测速】 19","type":"trojan","server":"220.87.19.152","port":10010,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"🇭🇰 HKG🐲™️【请勿测速】 57","type":"trojan","server":"149.104.31.90","port":51023,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"CDG🐲™️【请勿测速】","type":"trojan","server":"199.247.14.153","port":9223,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,10 +108,6 @@ proxy-groups:
       - SJC🐲™️【请勿测速】 4
       - LAX🐲™️【请勿测速】 27
       - LAX🐲™️【请勿测速】 54
-      - LAX🐲™️【请勿测速】 29
-      - ICN🐲™️【请勿测速】 19
-      - 🇭🇰 HKG🐲™️【请勿测速】 57
-      - CDG🐲™️【请勿测速】
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -129,10 +121,6 @@ proxy-groups:
       - SJC🐲™️【请勿测速】 4
       - LAX🐲™️【请勿测速】 27
       - LAX🐲™️【请勿测速】 54
-      - LAX🐲™️【请勿测速】 29
-      - ICN🐲™️【请勿测速】 19
-      - 🇭🇰 HKG🐲™️【请勿测速】 57
-      - CDG🐲™️【请勿测速】
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -145,10 +133,6 @@ proxy-groups:
       - SJC🐲™️【请勿测速】 4
       - LAX🐲™️【请勿测速】 27
       - LAX🐲™️【请勿测速】 54
-      - LAX🐲™️【请勿测速】 29
-      - ICN🐲™️【请勿测速】 19
-      - 🇭🇰 HKG🐲™️【请勿测速】 57
-      - CDG🐲™️【请勿测速】
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -161,10 +145,6 @@ proxy-groups:
       - SJC🐲™️【请勿测速】 4
       - LAX🐲™️【请勿测速】 27
       - LAX🐲™️【请勿测速】 54
-      - LAX🐲™️【请勿测速】 29
-      - ICN🐲™️【请勿测速】 19
-      - 🇭🇰 HKG🐲™️【请勿测速】 57
-      - CDG🐲™️【请勿测速】
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -191,10 +171,6 @@ proxy-groups:
       - SJC🐲™️【请勿测速】 4
       - LAX🐲™️【请勿测速】 27
       - LAX🐲™️【请勿测速】 54
-      - LAX🐲™️【请勿测速】 29
-      - ICN🐲™️【请勿测速】 19
-      - 🇭🇰 HKG🐲™️【请勿测速】 57
-      - CDG🐲™️【请勿测速】
 
 rules:
 # 本地/局域网地址
