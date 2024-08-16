@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-08-16 04:01:21
+# 创建时间：2024-08-17 03:58:57
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：4
-# 节点类型：trojan, ss
+# 节点数量：1
+# 节点类型：trojan
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -87,9 +87,6 @@ dns:
 
 proxies:
   - {"name":"🇯🇵JP_0cc6 @WangCai_8","type":"trojan","server":"139.162.84.183","port":3306,"udp":true,"password":"0cc6b4268dea0ba8","sni":"n2.gladns.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/gateway/connect","headers":{"host":"TG.WangCai_1"}}}
-  - {"name":"🇺🇸+美国+纽约01-1A","type":"ss","server":"gy.666666222.shop","port":20013,"password":"ed0c8485-e8e7-49c1-8e86-d4875b1acfd9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸+美国+纽约2-1A","type":"ss","server":"gy.666666222.shop","port":20016,"password":"ed0c8485-e8e7-49c1-8e86-d4875b1acfd9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇼+台湾01-1B","type":"ss","server":"gd.xueyejiasu.com","port":47564,"password":"ed0c8485-e8e7-49c1-8e86-d4875b1acfd9","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -99,9 +96,6 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - 🇯🇵JP_0cc6 @WangCai_8
-      - 🇺🇸+美国+纽约01-1A
-      - 🇺🇸+美国+纽约2-1A
-      - 🇹🇼+台湾01-1B
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -109,27 +103,18 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇯🇵JP_0cc6 @WangCai_8
-      - 🇺🇸+美国+纽约01-1A
-      - 🇺🇸+美国+纽约2-1A
-      - 🇹🇼+台湾01-1B
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - 🇯🇵JP_0cc6 @WangCai_8
-      - 🇺🇸+美国+纽约01-1A
-      - 🇺🇸+美国+纽约2-1A
-      - 🇹🇼+台湾01-1B
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - 🇯🇵JP_0cc6 @WangCai_8
-      - 🇺🇸+美国+纽约01-1A
-      - 🇺🇸+美国+纽约2-1A
-      - 🇹🇼+台湾01-1B
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -150,9 +135,6 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - 🇯🇵JP_0cc6 @WangCai_8
-      - 🇺🇸+美国+纽约01-1A
-      - 🇺🇸+美国+纽约2-1A
-      - 🇹🇼+台湾01-1B
 
 rules:
 # 本地/局域网地址
