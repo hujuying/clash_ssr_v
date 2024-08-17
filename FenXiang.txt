@@ -1,10 +1,11 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash
-# 创建时间：2024-08-17 03:58:28
+# 客户端：Clash.Meta
+# 创建时间：2024-08-18 03:56:11
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：7
-# 节点类型：trojan
+# 节点数量：8
+# 节点类型：trojan, vless
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -93,6 +94,7 @@ proxies:
   - {"name":"SJC🐲™️【请勿测速】 4","type":"trojan","server":"185.148.15.121","port":37015,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"LAX🐲™️【请勿测速】 27","type":"trojan","server":"154.21.91.92","port":10001,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"LAX🐲™️【请勿测速】 54","type":"trojan","server":"154.17.20.7","port":34967,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"香港-1","type":"vless","server":"47.238.115.89","port":443,"uuid":"7efad88e-ad31-4f50-acf8-4b3395b5e55e","tls":true,"servername":"hk-al-1.wymv.top","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -108,6 +110,7 @@ proxy-groups:
       - SJC🐲™️【请勿测速】 4
       - LAX🐲™️【请勿测速】 27
       - LAX🐲™️【请勿测速】 54
+      - 香港-1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -121,6 +124,7 @@ proxy-groups:
       - SJC🐲™️【请勿测速】 4
       - LAX🐲™️【请勿测速】 27
       - LAX🐲™️【请勿测速】 54
+      - 香港-1
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -133,6 +137,7 @@ proxy-groups:
       - SJC🐲™️【请勿测速】 4
       - LAX🐲™️【请勿测速】 27
       - LAX🐲™️【请勿测速】 54
+      - 香港-1
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -145,6 +150,7 @@ proxy-groups:
       - SJC🐲™️【请勿测速】 4
       - LAX🐲™️【请勿测速】 27
       - LAX🐲™️【请勿测速】 54
+      - 香港-1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -171,6 +177,7 @@ proxy-groups:
       - SJC🐲™️【请勿测速】 4
       - LAX🐲™️【请勿测速】 27
       - LAX🐲™️【请勿测速】 54
+      - 香港-1
 
 rules:
 # 本地/局域网地址
