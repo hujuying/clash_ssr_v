@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-26 04:35:50
+# 创建时间：2024-08-27 05:16:36
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
 # 节点数量：10
 # 节点类型：hysteria2, vmess
@@ -88,14 +88,14 @@ dns:
 
 proxies:
   - {"name":"LosAngeles-GetAFreeNode","type":"hysteria2","server":"107.172.235.75","port":47443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
-  - {"name":"Frankfurt-GetAFreeNode","type":"hysteria2","server":"45.142.113.238","port":32443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
   - {"name":"Amsterdam-GetAFreeNode","type":"hysteria2","server":"45.142.113.238","port":32443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
-  - {"name":"LosAngeles-GetAFreeNode.com","type":"vmess","server":"107.172.235.75","port":37213,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
-  - {"name":"Frankfurt-GetAFreeNode.com","type":"vmess","server":"45.142.113.238","port":63183,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
+  - {"name":"Frankfurt-GetAFreeNode","type":"hysteria2","server":"45.142.113.238","port":32443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
   - {"name":"Prague-GetAFreeNode","type":"hysteria2","server":"151.249.104.35","port":34623,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
+  - {"name":"LosAngeles-GetAFreeNode.com","type":"vmess","server":"107.172.235.75","port":22169,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
   - {"name":"Wien-GetAFreeNode","type":"hysteria2","server":"152.53.0.187","port":52443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
   - {"name":"Amsterdam-GetAFreeNode.com","type":"vmess","server":"37.114.60.196","port":40160,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
-  - {"name":"Prague-GetAFreeNode.com","type":"vmess","server":"151.249.104.35","port":34771,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
+  - {"name":"Prague-GetAFreeNode.com","type":"vmess","server":"151.249.104.35","port":34671,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
+  - {"name":"Frankfurt-GetAFreeNode.com","type":"vmess","server":"45.142.113.238","port":63183,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
   - {"name":"Wien-GetAFreeNode.com","type":"vmess","server":"152.53.0.187","port":37330,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
 proxy-groups:
   - name: 🚀 节点选择
@@ -106,14 +106,14 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - LosAngeles-GetAFreeNode
-      - Frankfurt-GetAFreeNode
       - Amsterdam-GetAFreeNode
-      - LosAngeles-GetAFreeNode.com
-      - Frankfurt-GetAFreeNode.com
+      - Frankfurt-GetAFreeNode
       - Prague-GetAFreeNode
+      - LosAngeles-GetAFreeNode.com
       - Wien-GetAFreeNode
       - Amsterdam-GetAFreeNode.com
       - Prague-GetAFreeNode.com
+      - Frankfurt-GetAFreeNode.com
       - Wien-GetAFreeNode.com
   - name: ♻️ 自动选择
     type: url-test
@@ -122,14 +122,14 @@ proxy-groups:
     tolerance: 50
     proxies:
       - LosAngeles-GetAFreeNode
-      - Frankfurt-GetAFreeNode
       - Amsterdam-GetAFreeNode
-      - LosAngeles-GetAFreeNode.com
-      - Frankfurt-GetAFreeNode.com
+      - Frankfurt-GetAFreeNode
       - Prague-GetAFreeNode
+      - LosAngeles-GetAFreeNode.com
       - Wien-GetAFreeNode
       - Amsterdam-GetAFreeNode.com
       - Prague-GetAFreeNode.com
+      - Frankfurt-GetAFreeNode.com
       - Wien-GetAFreeNode.com
   - name: 🔯 故障转移
     type: fallback
@@ -137,14 +137,14 @@ proxy-groups:
     interval: 180
     proxies:
       - LosAngeles-GetAFreeNode
-      - Frankfurt-GetAFreeNode
       - Amsterdam-GetAFreeNode
-      - LosAngeles-GetAFreeNode.com
-      - Frankfurt-GetAFreeNode.com
+      - Frankfurt-GetAFreeNode
       - Prague-GetAFreeNode
+      - LosAngeles-GetAFreeNode.com
       - Wien-GetAFreeNode
       - Amsterdam-GetAFreeNode.com
       - Prague-GetAFreeNode.com
+      - Frankfurt-GetAFreeNode.com
       - Wien-GetAFreeNode.com
   - name: 🔮 负载均衡
     type: load-balance
@@ -152,14 +152,14 @@ proxy-groups:
     interval: 180
     proxies:
       - LosAngeles-GetAFreeNode
-      - Frankfurt-GetAFreeNode
       - Amsterdam-GetAFreeNode
-      - LosAngeles-GetAFreeNode.com
-      - Frankfurt-GetAFreeNode.com
+      - Frankfurt-GetAFreeNode
       - Prague-GetAFreeNode
+      - LosAngeles-GetAFreeNode.com
       - Wien-GetAFreeNode
       - Amsterdam-GetAFreeNode.com
       - Prague-GetAFreeNode.com
+      - Frankfurt-GetAFreeNode.com
       - Wien-GetAFreeNode.com
   - name: 🎯 全球直连
     type: select
@@ -181,14 +181,14 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - LosAngeles-GetAFreeNode
-      - Frankfurt-GetAFreeNode
       - Amsterdam-GetAFreeNode
-      - LosAngeles-GetAFreeNode.com
-      - Frankfurt-GetAFreeNode.com
+      - Frankfurt-GetAFreeNode
       - Prague-GetAFreeNode
+      - LosAngeles-GetAFreeNode.com
       - Wien-GetAFreeNode
       - Amsterdam-GetAFreeNode.com
       - Prague-GetAFreeNode.com
+      - Frankfurt-GetAFreeNode.com
       - Wien-GetAFreeNode.com
 
 rules:
