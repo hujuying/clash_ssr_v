@@ -1,5 +1,3 @@
-trojan://CMLiu@154.17.20.7:34967?security=tls&sni=aliorg.filegear-sg.me&type=ws&path=/?ed%3D2048&host=aliorg.filegear-sg.me#LAX%F0%9F%90%B2%E2%84%A2%EF%B8%8F%E3%80%90%E8%AF%B7%E5%8B%BF%E6%B5%8B%E9%80%9F%E3%80%91%2054
-trojan://CMLiu@185.148.15.121:37015?security=tls&sni=aliorg.filegear-sg.me&type=ws&path=/?ed%3D2048&host=aliorg.filegear-sg.me#SJC%F0%9F%90%B2%E2%84%A2%EF%B8%8F%E3%80%90%E8%AF%B7%E5%8B%BF%E6%B5%8B%E9%80%9F%E3%80%91%204
 trojan://CMLiu@119.206.2.42:10933?security=tls&sni=aliorg.filegear-sg.me&type=ws&path=/?ed%3D2048&host=aliorg.filegear-sg.me#ICN%F0%9F%90%B2%E2%84%A2%EF%B8%8F%E3%80%90%E8%AF%B7%E5%8B%BF%E6%B5%8B%E9%80%9F%E3%80%91%2024
 trojan://CMLiu@121.165.36.130:27017?security=tls&sni=aliorg.filegear-sg.me&type=ws&path=/?ed%3D2048&host=aliorg.filegear-sg.me#ICN%F0%9F%90%B2%E2%84%A2%EF%B8%8F%E3%80%90%E8%AF%B7%E5%8B%BF%E6%B5%8B%E9%80%9F%E3%80%91%2016
 trojan://CMLiu@154.17.23.14:17288?security=tls&sni=aliorg.filegear-sg.me&type=ws&path=/?ed%3D2048&host=aliorg.filegear-sg.me#LAX%F0%9F%90%B2%E2%84%A2%EF%B8%8F%E3%80%90%E8%AF%B7%E5%8B%BF%E6%B5%8B%E9%80%9F%E3%80%91%2035
