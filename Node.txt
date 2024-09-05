@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-09-05 06:52:34
+# 创建时间：2024-09-06 04:39:31
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：10
-# 节点类型：vmess, hysteria2
+# 节点数量：7
+# 节点类型：hysteria2, vmess
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
 mixed-port: 7890
@@ -87,15 +87,12 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Frankfurt-GetAFreeNode.com","type":"vmess","server":"45.142.113.238","port":51315,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
-  - {"name":"LosAngeles-GetAFreeNode.com","type":"vmess","server":"107.172.235.75","port":51106,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
-  - {"name":"Amsterdam-GetAFreeNode.com","type":"vmess","server":"37.114.60.196","port":35085,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
+  - {"name":"Amsterdam-GetAFreeNode","type":"hysteria2","server":"45.142.113.238","port":32443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
   - {"name":"LosAngeles-GetAFreeNode","type":"hysteria2","server":"107.172.235.75","port":47443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
   - {"name":"Frankfurt-GetAFreeNode","type":"hysteria2","server":"45.142.113.238","port":32443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
-  - {"name":"Amsterdam-GetAFreeNode","type":"hysteria2","server":"45.142.113.238","port":32443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
-  - {"name":"Prague-GetAFreeNode","type":"hysteria2","server":"151.249.104.35","port":34623,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
-  - {"name":"Wien-GetAFreeNode.com","type":"vmess","server":"152.53.0.187","port":22269,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
   - {"name":"Prague-GetAFreeNode.com","type":"vmess","server":"151.249.104.35","port":34671,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
+  - {"name":"Wien-GetAFreeNode.com","type":"vmess","server":"152.53.0.187","port":22269,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
+  - {"name":"Prague-GetAFreeNode","type":"hysteria2","server":"151.249.104.35","port":34623,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
   - {"name":"Wien-GetAFreeNode","type":"hysteria2","server":"152.53.0.187","port":52443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
 proxy-groups:
   - name: 🚀 节点选择
@@ -105,15 +102,12 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - Frankfurt-GetAFreeNode.com
-      - LosAngeles-GetAFreeNode.com
-      - Amsterdam-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
       - LosAngeles-GetAFreeNode
       - Frankfurt-GetAFreeNode
-      - Amsterdam-GetAFreeNode
-      - Prague-GetAFreeNode
-      - Wien-GetAFreeNode.com
       - Prague-GetAFreeNode.com
+      - Wien-GetAFreeNode.com
+      - Prague-GetAFreeNode
       - Wien-GetAFreeNode
   - name: ♻️ 自动选择
     type: url-test
@@ -121,45 +115,36 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - Frankfurt-GetAFreeNode.com
-      - LosAngeles-GetAFreeNode.com
-      - Amsterdam-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
       - LosAngeles-GetAFreeNode
       - Frankfurt-GetAFreeNode
-      - Amsterdam-GetAFreeNode
-      - Prague-GetAFreeNode
-      - Wien-GetAFreeNode.com
       - Prague-GetAFreeNode.com
+      - Wien-GetAFreeNode.com
+      - Prague-GetAFreeNode
       - Wien-GetAFreeNode
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Frankfurt-GetAFreeNode.com
-      - LosAngeles-GetAFreeNode.com
-      - Amsterdam-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
       - LosAngeles-GetAFreeNode
       - Frankfurt-GetAFreeNode
-      - Amsterdam-GetAFreeNode
-      - Prague-GetAFreeNode
-      - Wien-GetAFreeNode.com
       - Prague-GetAFreeNode.com
+      - Wien-GetAFreeNode.com
+      - Prague-GetAFreeNode
       - Wien-GetAFreeNode
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Frankfurt-GetAFreeNode.com
-      - LosAngeles-GetAFreeNode.com
-      - Amsterdam-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
       - LosAngeles-GetAFreeNode
       - Frankfurt-GetAFreeNode
-      - Amsterdam-GetAFreeNode
-      - Prague-GetAFreeNode
-      - Wien-GetAFreeNode.com
       - Prague-GetAFreeNode.com
+      - Wien-GetAFreeNode.com
+      - Prague-GetAFreeNode
       - Wien-GetAFreeNode
   - name: 🎯 全球直连
     type: select
@@ -180,15 +165,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - Frankfurt-GetAFreeNode.com
-      - LosAngeles-GetAFreeNode.com
-      - Amsterdam-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
       - LosAngeles-GetAFreeNode
       - Frankfurt-GetAFreeNode
-      - Amsterdam-GetAFreeNode
-      - Prague-GetAFreeNode
-      - Wien-GetAFreeNode.com
       - Prague-GetAFreeNode.com
+      - Wien-GetAFreeNode.com
+      - Prague-GetAFreeNode
       - Wien-GetAFreeNode
 
 rules:
@@ -555,7 +537,6 @@ rules:
   - DOMAIN-SUFFIX,rtbasia.com,🛑 全球拦截
   - DOMAIN-SUFFIX,sanya1.com,🛑 全球拦截
   - DOMAIN-SUFFIX,scupio.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,serving-sys.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuiguo.com,🛑 全球拦截
   - DOMAIN-SUFFIX,shuzilm.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,similarweb.com,🛑 全球拦截
@@ -623,6 +604,7 @@ rules:
   - DOMAIN-SUFFIX,wqmobile.com,🛑 全球拦截
   - DOMAIN-SUFFIX,wrating.com,🛑 全球拦截
   - DOMAIN-SUFFIX,wumii.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,wwads.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,xcy8.com,🛑 全球拦截
   - DOMAIN-SUFFIX,xdrig.com,🛑 全球拦截
   - DOMAIN-SUFFIX,xiaozhen.com,🛑 全球拦截
@@ -656,7 +638,6 @@ rules:
   - DOMAIN-SUFFIX,zhjfad.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zqzxz.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zzsx8.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,wwads.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,acuityplatform.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-stir.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-survey.com,🛑 全球拦截
@@ -1982,8 +1963,8 @@ rules:
   - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
 # 内容：国外媒体列表
-# 更新：2024-05-07 08:06:39
-# 数量：370条
+# 更新：2024-08-27 13:51:18
+# 数量：367条
 # ABC
 # AbemaTV
 # All4
@@ -2004,6 +1985,7 @@ rules:
 # Hulu
 # HuluJapan
 # ITV
+# Iwara
 # JOOX
 # Japonx
 # KKBOX
@@ -2034,13 +2016,10 @@ rules:
   - DOMAIN-SUFFIX,go.com,🚀 节点选择
 #   - USER-AGENT,AbemaTV*,🚀 节点选择
   - DOMAIN-KEYWORD,abematv.akamaized.net,🚀 节点选择
-  - DOMAIN,api-abematv.bucketeer.jp,🚀 节点选择
-  - DOMAIN-SUFFIX,abema-tv.com,🚀 节点选择
   - DOMAIN-SUFFIX,abema.io,🚀 节点选择
   - DOMAIN-SUFFIX,abema.tv,🚀 节点选择
   - DOMAIN-SUFFIX,ameba.jp,🚀 节点选择
   - DOMAIN-SUFFIX,hayabusa.io,🚀 节点选择
-  - DOMAIN-SUFFIX,hayabusa.media,🚀 节点选择
 #   - USER-AGENT,All4*,🚀 节点选择
   - DOMAIN-SUFFIX,c4assets.com,🚀 节点选择
   - DOMAIN-SUFFIX,channel4.com,🚀 节点选择
@@ -2191,6 +2170,7 @@ rules:
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🚀 节点选择
   - DOMAIN-SUFFIX,itv.com,🚀 节点选择
   - DOMAIN-SUFFIX,itvstatic.com,🚀 节点选择
+  - DOMAIN-SUFFIX,iwara.tv,🚀 节点选择
 #   - USER-AGENT,JOOX*,🚀 节点选择
 #   - USER-AGENT,WeMusic*,🚀 节点选择
   - DOMAIN-KEYWORD,jooxweb-api,🚀 节点选择
@@ -2299,7 +2279,6 @@ rules:
   - DOMAIN-SUFFIX,olevod.tv,🚀 节点选择
   - DOMAIN-SUFFIX,olevodtv.com,🚀 节点选择
   - DOMAIN-KEYWORD,openai,🚀 节点选择
-  - DOMAIN,gemini.google.com,🚀 节点选择
   - DOMAIN-SUFFIX,auth0.com,🚀 节点选择
   - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
   - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
@@ -2409,12 +2388,14 @@ rules:
 # BBC
 # Claude
 # Developer 开发者常用国外网站、镜像和论坛
+# Docker
 # Discord
 # Facebook
 # Github
 # Google
 # GoogleCNProxyIP 谷歌中国服务 services.googleapis.cn
 # Instagram
+# Iwara
 # Kakao Talk
 # Line
 # OpenAi
@@ -2617,6 +2598,7 @@ rules:
   - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
   - DOMAIN-SUFFIX,apache.org,🚀 节点选择
   - DOMAIN-SUFFIX,docker.com,🚀 节点选择
+  - DOMAIN-SUFFIX,docker.io,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.com,🚀 节点选择
   - DOMAIN-SUFFIX,gcr.io,🚀 节点选择
@@ -2634,6 +2616,13 @@ rules:
   - DOMAIN-SUFFIX,spring.io,🚀 节点选择
   - DOMAIN-SUFFIX,spring.net,🚀 节点选择
   - DOMAIN-SUFFIX,stackoverflow.com,🚀 节点选择
+  - DOMAIN,d1q6f0aelx0por.cloudfront.net,🚀 节点选择
+  - DOMAIN,d2wy8f7a9ursnm.cloudfront.net,🚀 节点选择
+  - DOMAIN,d36jcksde1wxzq.cloudfront.net,🚀 节点选择
+  - DOMAIN-SUFFIX,compose-spec.io,🚀 节点选择
+  - DOMAIN-SUFFIX,docker.com,🚀 节点选择
+  - DOMAIN-SUFFIX,docker.io,🚀 节点选择
+  - DOMAIN-SUFFIX,dockerhub.com,🚀 节点选择
   - DOMAIN-SUFFIX,discord.co,🚀 节点选择
   - DOMAIN-SUFFIX,discord.com,🚀 节点选择
   - DOMAIN-SUFFIX,discord.gg,🚀 节点选择
@@ -2707,6 +2696,7 @@ rules:
   - DOMAIN-SUFFIX,cdninstagram.com,🚀 节点选择
   - DOMAIN-SUFFIX,instagram.com,🚀 节点选择
   - DOMAIN-SUFFIX,instagr.am,🚀 节点选择
+  - DOMAIN-SUFFIX,iwara.tv,🚀 节点选择
   - DOMAIN-SUFFIX,kakao.com,🚀 节点选择
   - DOMAIN-SUFFIX,kakao.co.kr,🚀 节点选择
   - DOMAIN-SUFFIX,kakaocdn.net,🚀 节点选择
@@ -3067,6 +3057,8 @@ rules:
   - DOMAIN-SUFFIX,didialift.com,🎯 全球直连
   - DOMAIN-SUFFIX,didiglobal.com,🎯 全球直连
   - DOMAIN-SUFFIX,udache.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bytefcdnrd.com,🎯 全球直连
+  - DOMAIN-SUFFIX,edgesrv.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyu.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyu.tv,🎯 全球直连
   - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
@@ -3376,6 +3368,7 @@ rules:
   - DOMAIN-SUFFIX,kaola.com,🎯 全球直连
   - DOMAIN-SUFFIX,knewone.com,🎯 全球直连
   - DOMAIN-SUFFIX,koowo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,koyso.com,🎯 全球直连
   - DOMAIN-SUFFIX,ksyungslb.com,🎯 全球直连
   - DOMAIN-SUFFIX,kuaidi100.com,🎯 全球直连
   - DOMAIN-SUFFIX,kugou.com,🎯 全球直连
