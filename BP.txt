@@ -1,8 +1,8 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-09-06 04:38:30
-# 使用模版：ACL4SSR_Mini.ini
+# 创建时间：2024-09-06 04:39:59
+# 使用模版：ACL4SSR_Mini_MultiMode.ini
 # 节点数量：31
 # 节点类型：vless
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
@@ -123,6 +123,8 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🔯 故障转移
+      - 🔮 负载均衡
       - DIRECT
       - 🇬🇧+TG@ZDYZ2+-英国🇬🇧
       - 🇯🇵+TG@ZDYZ2+-JP-Tokyo1
@@ -192,6 +194,78 @@ proxy-groups:
       - 🇳🇴+TG@ZDYZ2+-挪威🇳🇴
       - 🇹🇷+TG@ZDYZ2+-土耳其🇹🇷
       - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10
+  - name: 🔯 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    proxies:
+      - 🇬🇧+TG@ZDYZ2+-英国🇬🇧
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo1
+      - TG@ZDYZ2+-KR7
+      - TG@ZDYZ2+-KR9
+      - 🇩🇪+TG@ZDYZ2+-德国🇩🇪3
+      - 🇸🇪+TG@ZDYZ2+-瑞典🇸🇪3
+      - 🇫🇮+TG@ZDYZ2+-芬兰🇫🇮2
+      - 🇫🇷+TG@ZDYZ2+-法国🇫🇷
+      - 🇦🇹+TG@ZDYZ2+-奥地利🇦🇹
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo2
+      - TG@ZDYZ2+2
+      - TG@ZDYZ2+-KR5
+      - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪
+      - TG@ZDYZ2+-KR2
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong8
+      - TG@ZDYZ2
+      - 🇸🇪+TG@ZDYZ2+-瑞典🇸🇪2
+      - 🇨🇦+TG@ZDYZ2+-加拿大🇨🇦
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong4
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo4
+      - 🇹🇷+TG@ZDYZ2+-土耳其🇹🇷2
+      - 🇵🇱+TG@ZDYZ2+-波兰🇵🇱
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong6
+      - TG@ZDYZ2+-KR11
+      - TG@ZDYZ2+-KR10
+      - TG@ZDYZ2+-KR12
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo13
+      - TG@ZDYZ2+-KR13
+      - 🇳🇴+TG@ZDYZ2+-挪威🇳🇴
+      - 🇹🇷+TG@ZDYZ2+-土耳其🇹🇷
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10
+  - name: 🔮 负载均衡
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    proxies:
+      - 🇬🇧+TG@ZDYZ2+-英国🇬🇧
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo1
+      - TG@ZDYZ2+-KR7
+      - TG@ZDYZ2+-KR9
+      - 🇩🇪+TG@ZDYZ2+-德国🇩🇪3
+      - 🇸🇪+TG@ZDYZ2+-瑞典🇸🇪3
+      - 🇫🇮+TG@ZDYZ2+-芬兰🇫🇮2
+      - 🇫🇷+TG@ZDYZ2+-法国🇫🇷
+      - 🇦🇹+TG@ZDYZ2+-奥地利🇦🇹
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo2
+      - TG@ZDYZ2+2
+      - TG@ZDYZ2+-KR5
+      - 🇪🇪+TG@ZDYZ2+-爱沙尼亚🇪🇪
+      - TG@ZDYZ2+-KR2
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong8
+      - TG@ZDYZ2
+      - 🇸🇪+TG@ZDYZ2+-瑞典🇸🇪2
+      - 🇨🇦+TG@ZDYZ2+-加拿大🇨🇦
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong4
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo4
+      - 🇹🇷+TG@ZDYZ2+-土耳其🇹🇷2
+      - 🇵🇱+TG@ZDYZ2+-波兰🇵🇱
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong6
+      - TG@ZDYZ2+-KR11
+      - TG@ZDYZ2+-KR10
+      - TG@ZDYZ2+-KR12
+      - 🇯🇵+TG@ZDYZ2+-JP-Tokyo13
+      - TG@ZDYZ2+-KR13
+      - 🇳🇴+TG@ZDYZ2+-挪威🇳🇴
+      - 🇹🇷+TG@ZDYZ2+-土耳其🇹🇷
+      - 🇭🇰+TG@ZDYZ2+-HK-Hong+Kong10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -209,6 +283,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🔯 故障转移
+      - 🔮 负载均衡
       - 🇬🇧+TG@ZDYZ2+-英国🇬🇧
       - 🇯🇵+TG@ZDYZ2+-JP-Tokyo1
       - TG@ZDYZ2+-KR7
