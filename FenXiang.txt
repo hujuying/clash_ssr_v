@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-09-08 05:17:09
+# 创建时间：2024-09-09 04:52:18
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：5
+# 节点数量：4
 # 节点类型：trojan, hysteria2
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
@@ -91,7 +91,6 @@ proxies:
   - {"name":"ICN🐲™️【请勿测速】 16","type":"trojan","server":"121.165.36.130","port":27017,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"Oracle-圣何塞2-50Mbps","type":"hysteria2","server":"shs223.yjy.lol","port":25116,"password":"b235d89c-0e3a-4003-ba7d-887aabf335e7"}
   - {"name":"ICN🐲™️【请勿测速】 24","type":"trojan","server":"119.206.2.42","port":10933,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
-  - {"name":"Oracle-圣何塞1-50Mbps","type":"hysteria2","server":"shs11.yjy.lol","port":26295,"password":"b235d89c-0e3a-4003-ba7d-887aabf335e7"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -104,7 +103,6 @@ proxy-groups:
       - ICN🐲™️【请勿测速】 16
       - Oracle-圣何塞2-50Mbps
       - ICN🐲™️【请勿测速】 24
-      - Oracle-圣何塞1-50Mbps
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -115,7 +113,6 @@ proxy-groups:
       - ICN🐲™️【请勿测速】 16
       - Oracle-圣何塞2-50Mbps
       - ICN🐲™️【请勿测速】 24
-      - Oracle-圣何塞1-50Mbps
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -125,7 +122,6 @@ proxy-groups:
       - ICN🐲™️【请勿测速】 16
       - Oracle-圣何塞2-50Mbps
       - ICN🐲™️【请勿测速】 24
-      - Oracle-圣何塞1-50Mbps
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -135,7 +131,6 @@ proxy-groups:
       - ICN🐲™️【请勿测速】 16
       - Oracle-圣何塞2-50Mbps
       - ICN🐲™️【请勿测速】 24
-      - Oracle-圣何塞1-50Mbps
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -159,7 +154,6 @@ proxy-groups:
       - ICN🐲™️【请勿测速】 16
       - Oracle-圣何塞2-50Mbps
       - ICN🐲™️【请勿测速】 24
-      - Oracle-圣何塞1-50Mbps
 
 rules:
 # 本地/局域网地址
