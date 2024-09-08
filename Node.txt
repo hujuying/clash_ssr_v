@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-09-08 05:16:39
+# 创建时间：2024-09-09 04:52:51
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
 # 节点数量：7
 # 节点类型：hysteria2, vmess
@@ -87,13 +87,13 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Wien-GetAFreeNode","type":"hysteria2","server":"152.53.0.187","port":52443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
-  - {"name":"Prague-GetAFreeNode","type":"hysteria2","server":"151.249.104.35","port":34623,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
   - {"name":"Frankfurt-GetAFreeNode","type":"hysteria2","server":"45.142.113.238","port":32443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
   - {"name":"LosAngeles-GetAFreeNode","type":"hysteria2","server":"107.172.235.75","port":47443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
-  - {"name":"Prague-GetAFreeNode.com","type":"vmess","server":"151.249.104.35","port":34671,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
-  - {"name":"Amsterdam-GetAFreeNode","type":"hysteria2","server":"45.142.113.238","port":32443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
+  - {"name":"Prague-GetAFreeNode","type":"hysteria2","server":"151.249.104.35","port":34623,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
   - {"name":"Wien-GetAFreeNode.com","type":"vmess","server":"152.53.0.187","port":22269,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
+  - {"name":"Amsterdam-GetAFreeNode","type":"hysteria2","server":"45.142.113.238","port":32443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
+  - {"name":"Prague-GetAFreeNode.com","type":"vmess","server":"151.249.104.35","port":34671,"cipher":"auto","uuid":"7c482f36-e04d-4610-b615-670fc642efd5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dxobG4aZmk.gafnode.sbs","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"dxobG4aZmk.gafnode.sbs"}}}
+  - {"name":"Wien-GetAFreeNode","type":"hysteria2","server":"152.53.0.187","port":52443,"password":"7c482f36-e04d-4610-b615-670fc642efd5","sni":"dxobg4azmk.gafnode.sbs"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -102,50 +102,50 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - Wien-GetAFreeNode
-      - Prague-GetAFreeNode
       - Frankfurt-GetAFreeNode
       - LosAngeles-GetAFreeNode
-      - Prague-GetAFreeNode.com
-      - Amsterdam-GetAFreeNode
+      - Prague-GetAFreeNode
       - Wien-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
+      - Prague-GetAFreeNode.com
+      - Wien-GetAFreeNode
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Wien-GetAFreeNode
-      - Prague-GetAFreeNode
       - Frankfurt-GetAFreeNode
       - LosAngeles-GetAFreeNode
-      - Prague-GetAFreeNode.com
-      - Amsterdam-GetAFreeNode
+      - Prague-GetAFreeNode
       - Wien-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
+      - Prague-GetAFreeNode.com
+      - Wien-GetAFreeNode
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Wien-GetAFreeNode
-      - Prague-GetAFreeNode
       - Frankfurt-GetAFreeNode
       - LosAngeles-GetAFreeNode
-      - Prague-GetAFreeNode.com
-      - Amsterdam-GetAFreeNode
+      - Prague-GetAFreeNode
       - Wien-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
+      - Prague-GetAFreeNode.com
+      - Wien-GetAFreeNode
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Wien-GetAFreeNode
-      - Prague-GetAFreeNode
       - Frankfurt-GetAFreeNode
       - LosAngeles-GetAFreeNode
-      - Prague-GetAFreeNode.com
-      - Amsterdam-GetAFreeNode
+      - Prague-GetAFreeNode
       - Wien-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
+      - Prague-GetAFreeNode.com
+      - Wien-GetAFreeNode
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,13 +165,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - Wien-GetAFreeNode
-      - Prague-GetAFreeNode
       - Frankfurt-GetAFreeNode
       - LosAngeles-GetAFreeNode
-      - Prague-GetAFreeNode.com
-      - Amsterdam-GetAFreeNode
+      - Prague-GetAFreeNode
       - Wien-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
+      - Prague-GetAFreeNode.com
+      - Wien-GetAFreeNode
 
 rules:
 # 本地/局域网地址
