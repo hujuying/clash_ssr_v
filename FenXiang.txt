@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-09-09 04:52:18
+# 创建时间：2024-09-10 05:07:43
 # 使用模版：ACL4SSR_Mini_MultiMode.ini
-# 节点数量：4
+# 节点数量：5
 # 节点类型：trojan, hysteria2
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
@@ -87,10 +87,11 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"LAX🐲™️【请勿测速】 35","type":"trojan","server":"154.17.23.14","port":17288,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"ICN🐲™️【请勿测速】 16","type":"trojan","server":"121.165.36.130","port":27017,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
   - {"name":"Oracle-圣何塞2-50Mbps","type":"hysteria2","server":"shs223.yjy.lol","port":25116,"password":"b235d89c-0e3a-4003-ba7d-887aabf335e7"}
   - {"name":"ICN🐲™️【请勿测速】 24","type":"trojan","server":"119.206.2.42","port":10933,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"aliorg.filegear-sg.me"}}}
+  - {"name":"韩国10Gbps\nTG@dingyue_Center","type":"hysteria2","server":"cc.sux.lol","port":443,"password":"416a73a2-ca52-4cb7-bc15-40a4dbf90e53"}
+  - {"name":"瑞典10Gbps\nTG@dingyue_Center","type":"hysteria2","server":"ruidian.tiktokcn.xyz","port":443,"password":"416a73a2-ca52-4cb7-bc15-40a4dbf90e53"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -99,38 +100,58 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - LAX🐲™️【请勿测速】 35
       - ICN🐲™️【请勿测速】 16
       - Oracle-圣何塞2-50Mbps
       - ICN🐲™️【请勿测速】 24
+      - |-
+        韩国10Gbps
+        TG@dingyue_Center
+      - |-
+        瑞典10Gbps
+        TG@dingyue_Center
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - LAX🐲™️【请勿测速】 35
       - ICN🐲™️【请勿测速】 16
       - Oracle-圣何塞2-50Mbps
       - ICN🐲™️【请勿测速】 24
+      - |-
+        韩国10Gbps
+        TG@dingyue_Center
+      - |-
+        瑞典10Gbps
+        TG@dingyue_Center
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - LAX🐲™️【请勿测速】 35
       - ICN🐲™️【请勿测速】 16
       - Oracle-圣何塞2-50Mbps
       - ICN🐲™️【请勿测速】 24
+      - |-
+        韩国10Gbps
+        TG@dingyue_Center
+      - |-
+        瑞典10Gbps
+        TG@dingyue_Center
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - LAX🐲™️【请勿测速】 35
       - ICN🐲™️【请勿测速】 16
       - Oracle-圣何塞2-50Mbps
       - ICN🐲™️【请勿测速】 24
+      - |-
+        韩国10Gbps
+        TG@dingyue_Center
+      - |-
+        瑞典10Gbps
+        TG@dingyue_Center
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -150,10 +171,15 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - LAX🐲™️【请勿测速】 35
       - ICN🐲™️【请勿测速】 16
       - Oracle-圣何塞2-50Mbps
       - ICN🐲™️【请勿测速】 24
+      - |-
+        韩国10Gbps
+        TG@dingyue_Center
+      - |-
+        瑞典10Gbps
+        TG@dingyue_Center
 
 rules:
 # 本地/局域网地址
