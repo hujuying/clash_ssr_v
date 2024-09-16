@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：ACL4SSR_Mini_MultiMode.ini
-# 生成时间：2024-09-16 03:47:42
+# 生成时间：2024-09-17 05:44:22
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,13 +58,30 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: Amsterdam-GetAFreeNode
-    port: 32443
-    server: 45.142.113.238
+  - name: LosAngeles-GetAFreeNode
+    port: 47443
+    server: 107.172.235.75
     type: hysteria2
     udp: true
     sni: dxobg4azmk.gafnode.sbs
     password: 7c482f36-e04d-4610-b615-670fc642efd5
+  - name: LosAngeles-GetAFreeNode.com
+    port: 41904
+    server: 107.172.235.75
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: dxobG4aZmk.gafnode.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /speedtest
+      headers:
+        host: dxobG4aZmk.gafnode.sbs
+    cipher: auto
+    uuid: 7c482f36-e04d-4610-b615-670fc642efd5
+    alterId: 0
   - name: Wien-GetAFreeNode.com
     port: 22269
     server: 152.53.0.187
@@ -82,9 +99,9 @@ proxies:
     cipher: auto
     uuid: 7c482f36-e04d-4610-b615-670fc642efd5
     alterId: 0
-  - name: LosAngeles-GetAFreeNode
-    port: 47443
-    server: 107.172.235.75
+  - name: Amsterdam-GetAFreeNode
+    port: 32443
+    server: 45.142.113.238
     type: hysteria2
     udp: true
     sni: dxobg4azmk.gafnode.sbs
@@ -92,13 +109,6 @@ proxies:
   - name: Frankfurt-GetAFreeNode
     port: 32443
     server: 45.142.113.238
-    type: hysteria2
-    udp: true
-    sni: dxobg4azmk.gafnode.sbs
-    password: 7c482f36-e04d-4610-b615-670fc642efd5
-  - name: Wien-GetAFreeNode
-    port: 52443
-    server: 152.53.0.187
     type: hysteria2
     udp: true
     sni: dxobg4azmk.gafnode.sbs
@@ -127,104 +137,94 @@ proxies:
     cipher: auto
     uuid: 7c482f36-e04d-4610-b615-670fc642efd5
     alterId: 0
-  - name: LosAngeles-GetAFreeNode.com
-    port: 25445
-    server: 107.172.235.75
-    type: vmess
-    network: ws
-    tls: true
+  - name: Wien-GetAFreeNode
+    port: 52443
+    server: 152.53.0.187
+    type: hysteria2
     udp: true
-    version: "2"
-    servername: dxobG4aZmk.gafnode.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /speedtest
-      headers:
-        host: dxobG4aZmk.gafnode.sbs
-    cipher: auto
-    uuid: 7c482f36-e04d-4610-b615-670fc642efd5
-    alterId: 0
+    sni: dxobg4azmk.gafnode.sbs
+    password: 7c482f36-e04d-4610-b615-670fc642efd5
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Amsterdam-GetAFreeNode
-      - Wien-GetAFreeNode.com
       - LosAngeles-GetAFreeNode
+      - LosAngeles-GetAFreeNode.com
+      - Wien-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
       - Frankfurt-GetAFreeNode
-      - Wien-GetAFreeNode
       - Prague-GetAFreeNode
       - Prague-GetAFreeNode.com
-      - LosAngeles-GetAFreeNode.com
+      - Wien-GetAFreeNode
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Amsterdam-GetAFreeNode
-      - Wien-GetAFreeNode.com
       - LosAngeles-GetAFreeNode
+      - LosAngeles-GetAFreeNode.com
+      - Wien-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
       - Frankfurt-GetAFreeNode
-      - Wien-GetAFreeNode
       - Prague-GetAFreeNode
       - Prague-GetAFreeNode.com
-      - LosAngeles-GetAFreeNode.com
+      - Wien-GetAFreeNode
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Amsterdam-GetAFreeNode
-      - Wien-GetAFreeNode.com
       - LosAngeles-GetAFreeNode
+      - LosAngeles-GetAFreeNode.com
+      - Wien-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
       - Frankfurt-GetAFreeNode
-      - Wien-GetAFreeNode
       - Prague-GetAFreeNode
       - Prague-GetAFreeNode.com
-      - LosAngeles-GetAFreeNode.com
+      - Wien-GetAFreeNode
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Amsterdam-GetAFreeNode
-      - Wien-GetAFreeNode.com
       - LosAngeles-GetAFreeNode
+      - LosAngeles-GetAFreeNode.com
+      - Wien-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
       - Frankfurt-GetAFreeNode
-      - Wien-GetAFreeNode
       - Prague-GetAFreeNode
       - Prague-GetAFreeNode.com
-      - LosAngeles-GetAFreeNode.com
+      - Wien-GetAFreeNode
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Amsterdam-GetAFreeNode
-      - Wien-GetAFreeNode.com
       - LosAngeles-GetAFreeNode
+      - LosAngeles-GetAFreeNode.com
+      - Wien-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
       - Frankfurt-GetAFreeNode
-      - Wien-GetAFreeNode
       - Prague-GetAFreeNode
       - Prague-GetAFreeNode.com
-      - LosAngeles-GetAFreeNode.com
+      - Wien-GetAFreeNode
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Amsterdam-GetAFreeNode
-      - Wien-GetAFreeNode.com
       - LosAngeles-GetAFreeNode
+      - LosAngeles-GetAFreeNode.com
+      - Wien-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
       - Frankfurt-GetAFreeNode
-      - Wien-GetAFreeNode
       - Prague-GetAFreeNode
       - Prague-GetAFreeNode.com
-      - LosAngeles-GetAFreeNode.com
+      - Wien-GetAFreeNode
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -247,14 +247,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Amsterdam-GetAFreeNode
-      - Wien-GetAFreeNode.com
       - LosAngeles-GetAFreeNode
+      - LosAngeles-GetAFreeNode.com
+      - Wien-GetAFreeNode.com
+      - Amsterdam-GetAFreeNode
       - Frankfurt-GetAFreeNode
-      - Wien-GetAFreeNode
       - Prague-GetAFreeNode
       - Prague-GetAFreeNode.com
-      - LosAngeles-GetAFreeNode.com
+      - Wien-GetAFreeNode
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
